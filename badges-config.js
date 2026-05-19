@@ -1,1 +1,1 @@
-window.BADGES_CONFIG = [{"ids_url": "https://arielbentivoglio.github.io/leder-feeds/silla-bkf-ids.js", "var_name": "SILLA_BKF_IDS", "text": "🔥 OFERTA", "bg_color": "#cc0000", "text_color": "#ffffff"}];
+window.BADGES_CONFIG = [];
