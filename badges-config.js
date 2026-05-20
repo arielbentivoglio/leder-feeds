@@ -1,1 +1,1 @@
-window.BADGES_CONFIG = [{"ids_url": "https://arielbentivoglio.github.io/leder-feeds/ofertas-flash-ids.js", "var_name": "OFERTAS_FLASH_IDS", "text": "🔥OFERTA BOMBA", "bg_color": "#030303", "text_color": "#ffffff"}];
+window.BADGES_CONFIG = [];
