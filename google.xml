@@ -3511,7 +3511,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balup-moss-45-e975677a99cc02d85a17775982210177-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balup-negras-1-17632bf74e1a103f2b17775750767801-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balu-negra-45-434fcfe26810bcdd6c17775982205283-1024-1024.webp</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>189990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
@@ -5645,7 +5645,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-negra-frontal-82135bc0796c76cc6c17775763831040-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-gris-1-eb360ba70ebe1db44117775763831303-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-gris-5dc10298fed59b129017775763831684-1024-1024.webp</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>174990.00 ARS</g:price>
       <g:sale_price>139990.00 ARS</g:sale_price>
@@ -9980,7 +9980,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/billetgrd-vl-467dc27ada594cb24017690065643050-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/billetgrd-t7-cc717b1fc25e28488b17690065642607-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/billetgrd-vd-33fd0aeb4a27c0271c17690065644475-1024-1024.jpg</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>109990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
@@ -10386,7 +10386,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>262990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V21</g:mpn>
     </item>
@@ -10409,7 +10409,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>297990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V14</g:mpn>
     </item>
@@ -10432,7 +10432,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>297990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V81</g:mpn>
     </item>
@@ -10455,7 +10455,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>297990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>LBOLSO-06</g:mpn>
     </item>
@@ -10478,7 +10478,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>262990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V06</g:mpn>
     </item>
@@ -10501,7 +10501,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>297990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V62</g:mpn>
     </item>
@@ -10524,7 +10524,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>439990.00 ARS</g:price>
-      <g:sale_price>349990.00 ARS</g:sale_price>
+      <g:sale_price>262990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>BOLSO-V42</g:mpn>
     </item>
@@ -14249,7 +14249,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249990.00 ARS</g:price>
-      <g:sale_price>199990.00 ARS</g:sale_price>
+      <g:sale_price>169990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>MATERAC-V14</g:mpn>
     </item>
@@ -14295,7 +14295,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249990.00 ARS</g:price>
-      <g:sale_price>199990.00 ARS</g:sale_price>
+      <g:sale_price>169990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>MATERAC-V21</g:mpn>
     </item>
@@ -14410,7 +14410,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249990.00 ARS</g:price>
-      <g:sale_price>199990.00 ARS</g:sale_price>
+      <g:sale_price>169990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>MATERAC-V42</g:mpn>
     </item>
@@ -30988,7 +30988,7 @@
     <item>
       <g:id>1466594198</g:id>
       <g:title><![CDATA[Sillón Reclinable De Cuero Con Apoyapie - Alaska - Nomad]]></g:title>
-      <g:description><![CDATA[El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: 110 cm alto × 75 cm ancho × 48 cm profundidad   Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
+      <g:description><![CDATA[  El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: Sillón 110 cm alto × 74 cm ancho × 48 cm / Apoyapies : 45 cm alto × 55 cm ancho × 44 cm                                              Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
       <g:link>https://lederhd.com/productos/sillon-reclinable-de-cuero-con-apoyapie-alaska/</g:link>
       <g:image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada-alaska-b733b84ed80eab9b3317733204931859-1024-1024.png</g:image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alaska-beige-1-6df6cd5fa7862231ea17731029352862-1024-1024.jpg</g:additional_image_link>
@@ -31007,7 +31007,7 @@
     <item>
       <g:id>1466594183</g:id>
       <g:title><![CDATA[Sillón Reclinable De Cuero Con Apoyapie - Alaska - Gris]]></g:title>
-      <g:description><![CDATA[El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: 110 cm alto × 75 cm ancho × 48 cm profundidad   Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
+      <g:description><![CDATA[  El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: Sillón 110 cm alto × 74 cm ancho × 48 cm / Apoyapies : 45 cm alto × 55 cm ancho × 44 cm                                              Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
       <g:link>https://lederhd.com/productos/sillon-reclinable-de-cuero-con-apoyapie-alaska/</g:link>
       <g:image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada-alaska-b733b84ed80eab9b3317733204931859-1024-1024.png</g:image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alaska-beige-1-6df6cd5fa7862231ea17731029352862-1024-1024.jpg</g:additional_image_link>
@@ -31026,7 +31026,7 @@
     <item>
       <g:id>1466594205</g:id>
       <g:title><![CDATA[Sillón Reclinable De Cuero Con Apoyapie - Alaska - Negro]]></g:title>
-      <g:description><![CDATA[El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: 110 cm alto × 75 cm ancho × 48 cm profundidad   Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
+      <g:description><![CDATA[  El Sillón Alaska combina diseño moderno, confort y funcionalidad, ideal para crear un espacio de descanso elegante en tu living, oficina o rincón de lectura. • Tapizado en cuero, elegante, resistente y fácil de limpiar • Sistema reclinable para encontrar la posición ideal de descanso • Base giratoria que brinda mayor comodidad y movilidad • Incluye apoyapiés para una experiencia de relajación completa • Diseño moderno y sofisticado, adaptable a diferentes ambientes • Medidas: Sillón 110 cm alto × 74 cm ancho × 48 cm / Apoyapies : 45 cm alto × 55 cm ancho × 44 cm                                              Un sillón pensado para ofrecer máximo confort, estilo y practicidad en tu hogar.]]></g:description>
       <g:link>https://lederhd.com/productos/sillon-reclinable-de-cuero-con-apoyapie-alaska/</g:link>
       <g:image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada-alaska-b733b84ed80eab9b3317733204931859-1024-1024.png</g:image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alaska-beige-1-6df6cd5fa7862231ea17731029352862-1024-1024.jpg</g:additional_image_link>
@@ -36266,7 +36266,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249990.00 ARS</g:price>
-      <g:sale_price>199990.00 ARS</g:sale_price>
+      <g:sale_price>169990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>MATERAC-VL</g:mpn>
     </item>
@@ -36283,7 +36283,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249990.00 ARS</g:price>
-      <g:sale_price>199990.00 ARS</g:sale_price>
+      <g:sale_price>169990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>MATERAC-VD</g:mpn>
     </item>
@@ -36975,7 +36975,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>199990.00 ARS</g:price>
-      <g:sale_price>169990.00 ARS</g:sale_price>
+      <g:sale_price>149990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>TOTE-V21</g:mpn>
     </item>
@@ -36990,7 +36990,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>199990.00 ARS</g:price>
-      <g:sale_price>169990.00 ARS</g:sale_price>
+      <g:sale_price>149990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>TOTE-V06</g:mpn>
     </item>
@@ -37036,7 +37036,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>199990.00 ARS</g:price>
-      <g:sale_price>169990.00 ARS</g:sale_price>
+      <g:sale_price>149990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>TOTE-V42</g:mpn>
     </item>
