@@ -69,17 +69,22 @@
       var def = M[color];
       if (!def) return;
 
-      /* Si TN ya renderizó este color, solo aplicar estilo */
+      /* Si TN ya renderizó este color, solo aplicar estilo y asegurar clases */
       var existing = container.querySelector('[data-option="' + color.replace(/"/g, '\\"') + '"]');
       if (existing) {
         applyBullet(existing, def);
+        if (!existing.getAttribute('data-variation-id')) {
+          existing.setAttribute('data-variation-id', '0');
+          existing.classList.add('js-variation-option', 'js-color-variant');
+        }
         return;
       }
 
       /* Crear bullet nuevo antes del span "+N" */
       var span = document.createElement('span');
-      span.className = 'product-item-colors-bullet';
+      span.className = 'product-item-colors-bullet js-variation-option js-color-variant';
       span.setAttribute('data-option', color);
+      span.setAttribute('data-variation-id', '0');
       span.setAttribute('title', color);
       applyBullet(span, def);
 
