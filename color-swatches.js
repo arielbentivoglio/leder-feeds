@@ -12,7 +12,8 @@
   "Stone": { t: "s", c: "#c8a97e" },
   "Marrón Oscuro": { t: "s", c: "#4a3728" },
   "Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-light.webp" },
-  "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" }
+  "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
+  "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" }
   };
 
   var SZ = '16px';
