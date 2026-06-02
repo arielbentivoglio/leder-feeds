@@ -16,7 +16,8 @@
   "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
   "Negra": { t: "s", c: "#000000" },
   "Africano": { t: "s", c: "#6c3333" },
-  "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" }
+  "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
+  "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" }
   };
 
   var SZ = '16px';
