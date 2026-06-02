@@ -10,7 +10,9 @@
   "Moss": { t: "s", c: "#6b7c5c" },
   "Cognac": { t: "s", c: "#8b6f5e" },
   "Stone": { t: "s", c: "#c8a97e" },
-  "Marrón Oscuro": { t: "s", c: "#4a3728" }
+  "Marrón Oscuro": { t: "s", c: "#4a3728" },
+  "Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-light.webp" },
+  "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" }
   };
 
   var SZ = '16px';
