@@ -15,7 +15,8 @@
   "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
   "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
   "Negra": { t: "s", c: "#000000" },
-  "Africano": { t: "s", c: "#6c3333" }
+  "Africano": { t: "s", c: "#6c3333" },
+  "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" }
   };
 
   var SZ = '16px';
