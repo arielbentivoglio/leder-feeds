@@ -95,7 +95,8 @@
   "Degradé Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-grey.png" },
   "Hereford": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/hereford.webp" },
   "Holando": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/holando.webp" },
-  "Leopardo": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/leopardo.webp" }
+  "Leopardo": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/leopardo.webp" },
+  "Split": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/split.webp" }
   };
 
   var SZ = '16px';
