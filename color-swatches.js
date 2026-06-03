@@ -76,7 +76,10 @@
   "Negro/Habano": { t: "d", a: "#000000", b: "#320000" },
   "Negro / Marròn": { t: "d", a: "#000000", b: "#704214" },
   "Negro y Blanco": { t: "d", a: "#000000", b: "#ffffff" },
-  "Nomad": { t: "s", c: "#A8957B" }
+  "Nomad": { t: "s", c: "#A8957B" },
+  "Punta Beige": { t: "s", c: "#FEEEB8" },
+  "Punta Color": { t: "s", c: "#FEEEB8" },
+  "Rosa y Blanco": { t: "d", a: "#FF69B4", b: "#ffffff" }
   };
 
   var SZ = '16px';
