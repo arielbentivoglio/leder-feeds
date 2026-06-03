@@ -37,7 +37,8 @@
   "Coral": { t: "s", c: "#ffe4ea" },
   "Crash Habano": { t: "s", c: "#320000" },
   "Negro": { t: "s", c: "#000000" },
-  "Marrón": { t: "s", c: "#704214" }
+  "Marrón": { t: "s", c: "#704214" },
+  "Crash Marlboro": { t: "s", c: "#742910" }
   };
 
   var SZ = '16px';
