@@ -74,7 +74,8 @@
   "Natural": { t: "s", c: "#C6A76B" },
   "Negro / Habano": { t: "d", a: "#000000", b: "#320000" },
   "Negro/Habano": { t: "d", a: "#000000", b: "#320000" },
-  "Negro / Marròn": { t: "d", a: "#000000", b: "#704214" }
+  "Negro / Marròn": { t: "d", a: "#000000", b: "#704214" },
+  "Negro y Blanco": { t: "d", a: "#000000", b: "#ffffff" }
   };
 
   var SZ = '16px';
