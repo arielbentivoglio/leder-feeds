@@ -66,7 +66,11 @@
   "Marlboro Crash": { t: "s", c: "#742910" },
   "Marrón - Negro": { t: "d", a: "#704214", b: "#000000" },
   "Marrón/Negro": { t: "d", a: "#704214", b: "#000000" },
-  "Marrón claro": { t: "s", c: "#C57D56" }
+  "Marrón claro": { t: "s", c: "#C57D56" },
+  "Marrón Oscuro": { t: "s", c: "#8D4925" },
+  "Marrón y Blanco": { t: "d", a: "#704214", b: "#ffffff" },
+  "Hueso": { t: "s", c: "#faf8f5" },
+  "Moca": { t: "s", c: "#8B6F47" }
   };
 
   var SZ = '16px';
