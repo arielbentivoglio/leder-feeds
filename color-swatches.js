@@ -101,7 +101,9 @@
   "Marrón/Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/marron-vintage-claro-1.png" },
   "Marrón/Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/marron-vintage-dark.png" },
   "Negro / Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/negro-vintage-dark.png" },
-  "Habano / Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/habano-vintage-dark.png" }
+  "Habano / Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/habano-vintage-dark.png" },
+  "Vintage Claro / Marròn": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-claro-marron.png" },
+  "Vintage Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-grey.png" }
   };
 
   var SZ = '16px';
