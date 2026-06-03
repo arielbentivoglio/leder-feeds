@@ -58,7 +58,8 @@
   "Leder Marrón": { t: "s", c: "#704214" },
   "Leder Negro": { t: "s", c: "#000000" },
   "Leder Rosa": { t: "s", c: "#FF69B4" },
-  "Leder Tiza": { t: "s", c: "#FFFFF1" }
+  "Leder Tiza": { t: "s", c: "#FFFFF1" },
+  "Leder Verde Claro": { t: "s", c: "#64c27b" }
   };
 
   var SZ = '16px';
