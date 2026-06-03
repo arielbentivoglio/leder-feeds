@@ -31,7 +31,9 @@
   "Brown": { t: "s", c: "#8d4925" },
   "Café": { t: "s", c: "#230d00" },
   "Blanco": { t: "s", c: "#ffffff" },
-  "Charol Negro": { t: "s", c: "#000000" }
+  "Charol Negro": { t: "s", c: "#000000" },
+  "Chocolate": { t: "s", c: "#46220f" },
+  "Chocolate oscuro": { t: "s", c: "#230d00" }
   };
 
   var SZ = '16px';
