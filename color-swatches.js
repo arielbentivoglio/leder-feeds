@@ -86,7 +86,8 @@
   "Taupe": { t: "s", c: "#f0eae0" },
   "Tiza": { t: "s", c: "#faf8f5" },
   "Turquesa y Marrón": { t: "d", a: "#40cfff", b: "#704214" },
-  "Verde Musgo": { t: "s", c: "#026842" }
+  "Verde Musgo": { t: "s", c: "#026842" },
+  "Visón": { t: "s", c: "#8A7A68" }
   };
 
   var SZ = '16px';
