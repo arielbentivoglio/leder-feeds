@@ -13,7 +13,7 @@
   "Marrón Oscuro": { t: "s", c: "#4a3728" },
   "Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-light.webp" },
   "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
-  "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
+  "Azul y Amarillo": { t: "d", a: "#00004E", b: "#f8de7e" },
   "Africano": { t: "s", c: "#320000" },
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
   "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
