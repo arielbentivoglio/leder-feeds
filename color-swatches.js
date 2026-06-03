@@ -78,7 +78,7 @@
   "Negro y Blanco": { t: "d", a: "#000000", b: "#ffffff" },
   "Nomad": { t: "s", c: "#A8957B" },
   "Punta Beige": { t: "s", c: "#FEEEB8" },
-  "Punta Color": { t: "s", c: "#FEEEB8" },
+  "Punta Color": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/punta-color.png" },
   "Rosa y Blanco": { t: "d", a: "#FF69B4", b: "#ffffff" },
   "Suela": { t: "s", c: "#b87400" },
   "Suela/Habano Claro": { t: "d", a: "#b87400", b: "#aa7444" },
@@ -110,7 +110,8 @@
   "Mix Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix-marron-150x150-1.webp" },
   "Mix": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix.webp" },
   "Mix Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix-gris.png" },
-  "Exótico Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/exotico.png" }
+  "Exótico Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/exotico.png" },
+  "Atigrado Oscuro": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/atigrado.webp" }
   };
 
   var SZ = '16px';
