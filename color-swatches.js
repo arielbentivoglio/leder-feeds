@@ -30,7 +30,8 @@
   "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" },
   "Brown": { t: "s", c: "#8d4925" },
   "Café": { t: "s", c: "#230d00" },
-  "Blanco": { t: "s", c: "#ffffff" }
+  "Blanco": { t: "s", c: "#ffffff" },
+  "Charol Negro": { t: "s", c: "#000000" }
   };
 
   var SZ = '16px';
