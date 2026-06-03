@@ -22,7 +22,8 @@
   "Coopper Brown": { t: "s", c: "#a65b3a" },
   "Black": { t: "s", c: "#000000" },
   "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" },
-  "Beige Claro": { t: "s", c: "#ffd9ab" }
+  "Beige Claro": { t: "s", c: "#ffd9ab" },
+  "Beige Crema": { t: "s", c: "#F5E1CE" }
   };
 
   var SZ = '16px';
