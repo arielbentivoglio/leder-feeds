@@ -21,7 +21,8 @@
   "Almond Brown": { t: "s", c: "#7e634e" },
   "Coopper Brown": { t: "s", c: "#a65b3a" },
   "Black": { t: "s", c: "#000000" },
-  "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" }
+  "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" },
+  "Beige Claro": { t: "s", c: "#ffd9ab" }
   };
 
   var SZ = '16px';
