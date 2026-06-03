@@ -23,7 +23,7 @@
   "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" },
   "Beige Claro": { t: "s", c: "#ffd9ab" },
   "Beige Crema": { t: "s", c: "#F5E1CE" },
-  "Beige Oscuro": { t: "s", c: "#B08E6B" },
+  "Beige Oscuro": { t: "s", c: "#8A7A68" },
   "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" },
   "Marrón Liso": { t: "s", c: "#704214" },
   "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" },
