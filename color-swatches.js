@@ -55,7 +55,10 @@
   "Leder Azul": { t: "s", c: "#062863" },
   "Leder Beige": { t: "s", c: "#c8a97e" },
   "Leder Habano": { t: "s", c: "#320000" },
-  "Leder Marrón": { t: "s", c: "#704214" }
+  "Leder Marrón": { t: "s", c: "#704214" },
+  "Leder Negro": { t: "s", c: "#000000" },
+  "Leder Rosa": { t: "s", c: "#FF69B4" },
+  "Leder Tiza": { t: "s", c: "#FFFFF1" }
   };
 
   var SZ = '16px';
