@@ -23,7 +23,8 @@
   "Black": { t: "s", c: "#000000" },
   "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" },
   "Beige Claro": { t: "s", c: "#ffd9ab" },
-  "Beige Crema": { t: "s", c: "#F5E1CE" }
+  "Beige Crema": { t: "s", c: "#F5E1CE" },
+  "Beige Oscuro": { t: "s", c: "#B08E6B" }
   };
 
   var SZ = '16px';
