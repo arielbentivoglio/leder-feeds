@@ -91,7 +91,8 @@
   "Plata": { t: "s", c: "#a5a1a1" },
   "Degradé Beige": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-beige.png" },
   "Degradé Visón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-vison.png" },
-  "Degradé Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-marron.png" }
+  "Degradé Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-marron.png" },
+  "Degradé Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-grey.png" }
   };
 
   var SZ = '16px';
