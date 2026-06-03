@@ -48,7 +48,8 @@
   "Gout Suede": { t: "s", c: "#704214" },
   "Gris Claro": { t: "s", c: "#a5a1a1" },
   "Gris Medio": { t: "s", c: "#787878" },
-  "Gris Oscuro": { t: "s", c: "#4d4c4c" }
+  "Gris Oscuro": { t: "s", c: "#4d4c4c" },
+  "Habano": { t: "s", c: "#320000" }
   };
 
   var SZ = '16px';
