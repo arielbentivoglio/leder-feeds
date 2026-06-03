@@ -61,7 +61,12 @@
   "Leder Tiza": { t: "s", c: "#FFFFF1" },
   "Leder Verde Claro": { t: "s", c: "#64c27b" },
   "Beige": { t: "s", c: "#e8c39e" },
-  "Manteca": { t: "s", c: "#FEEEB8" }
+  "Manteca": { t: "s", c: "#FEEEB8" },
+  "Marlboro": { t: "s", c: "#742910" },
+  "Marlboro Crash": { t: "s", c: "#742910" },
+  "Marrón - Negro": { t: "d", a: "#704214", b: "#000000" },
+  "Marrón/Negro": { t: "d", a: "#704214", b: "#000000" },
+  "Marrón claro": { t: "s", c: "#C57D56" }
   };
 
   var SZ = '16px';
