@@ -42,7 +42,8 @@
   "Crash Marrón": { t: "s", c: "#704214" },
   "Crash Negro": { t: "s", c: "#000000" },
   "Crash Suela": { t: "s", c: "#b87400" },
-  "Crash Suela / Crash Marròn": { t: "d", a: "#b87400", b: "#704214" }
+  "Crash Suela / Crash Marròn": { t: "d", a: "#b87400", b: "#704214" },
+  "Crema": { t: "s", c: "#FEEEB8" }
   };
 
   var SZ = '16px';
