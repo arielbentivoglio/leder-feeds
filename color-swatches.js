@@ -25,7 +25,8 @@
   "Beige Claro": { t: "s", c: "#ffd9ab" },
   "Beige Crema": { t: "s", c: "#F5E1CE" },
   "Beige Oscuro": { t: "s", c: "#B08E6B" },
-  "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" }
+  "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" },
+  "Marrón": { t: "s", c: "#8d4925" }
   };
 
   var SZ = '16px';
