@@ -81,7 +81,8 @@
   "Punta Color": { t: "s", c: "#FEEEB8" },
   "Rosa y Blanco": { t: "d", a: "#FF69B4", b: "#ffffff" },
   "Suela": { t: "s", c: "#b87400" },
-  "Suela/Habano Claro": { t: "d", a: "#b87400", b: "#aa7444" }
+  "Suela/Habano Claro": { t: "d", a: "#b87400", b: "#aa7444" },
+  "Suela Crash": { t: "s", c: "#b87400" }
   };
 
   var SZ = '16px';
