@@ -45,7 +45,8 @@
   "Crash Suela / Crash Marròn": { t: "d", a: "#b87400", b: "#704214" },
   "Crema": { t: "s", c: "#FEEEB8" },
   "Fume": { t: "s", c: "#555B52" },
-  "Gout Suede": { t: "s", c: "#704214" }
+  "Gout Suede": { t: "s", c: "#704214" },
+  "Gris Claro": { t: "s", c: "#a5a1a1" }
   };
 
   var SZ = '16px';
