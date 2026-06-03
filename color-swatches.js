@@ -70,7 +70,11 @@
   "Marrón Oscuro": { t: "s", c: "#8D4925" },
   "Marrón y Blanco": { t: "d", a: "#704214", b: "#ffffff" },
   "Hueso": { t: "s", c: "#faf8f5" },
-  "Moca": { t: "s", c: "#8B6F47" }
+  "Moca": { t: "s", c: "#8B6F47" },
+  "Natural": { t: "s", c: "#C6A76B" },
+  "Negro / Habano": { t: "d", a: "#000000", b: "#320000" },
+  "Negro/Habano": { t: "d", a: "#000000", b: "#320000" },
+  "Negro / Marròn": { t: "d", a: "#000000", b: "#704214" }
   };
 
   var SZ = '16px';
