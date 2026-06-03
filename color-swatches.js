@@ -111,7 +111,8 @@
   "Mix": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix.webp" },
   "Mix Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix-gris.png" },
   "Exótico Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/exotico.png" },
-  "Atigrado Oscuro": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/atigrado.webp" }
+  "Atigrado Oscuro": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/atigrado.webp" },
+  "Rosa": { t: "s", c: "#FF69B4" }
   };
 
   var SZ = '16px';
