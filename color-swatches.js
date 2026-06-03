@@ -75,7 +75,8 @@
   "Negro / Habano": { t: "d", a: "#000000", b: "#320000" },
   "Negro/Habano": { t: "d", a: "#000000", b: "#320000" },
   "Negro / Marròn": { t: "d", a: "#000000", b: "#704214" },
-  "Negro y Blanco": { t: "d", a: "#000000", b: "#ffffff" }
+  "Negro y Blanco": { t: "d", a: "#000000", b: "#ffffff" },
+  "Nomad": { t: "s", c: "#A8957B" }
   };
 
   var SZ = '16px';
