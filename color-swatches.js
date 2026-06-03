@@ -40,7 +40,8 @@
   "Marrón": { t: "s", c: "#704214" },
   "Crash Marlboro": { t: "s", c: "#742910" },
   "Crash Marrón": { t: "s", c: "#704214" },
-  "Crash Negro": { t: "s", c: "#000000" }
+  "Crash Negro": { t: "s", c: "#000000" },
+  "Crash Suela": { t: "s", c: "#b87400" }
   };
 
   var SZ = '16px';
