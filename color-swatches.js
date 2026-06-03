@@ -35,7 +35,8 @@
   "Chocolate": { t: "s", c: "#46220f" },
   "Chocolate oscuro": { t: "s", c: "#230d00" },
   "Coral": { t: "s", c: "#ffe4ea" },
-  "Crash Habano": { t: "s", c: "#320000" }
+  "Crash Habano": { t: "s", c: "#320000" },
+  "Negro": { t: "s", c: "#000000" }
   };
 
   var SZ = '16px';
