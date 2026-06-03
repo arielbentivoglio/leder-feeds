@@ -27,7 +27,10 @@
   "Beige Oscuro": { t: "s", c: "#B08E6B" },
   "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" },
   "Marrón Liso": { t: "s", c: "#8d4925" },
-  "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" }
+  "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" },
+  "Brown": { t: "s", c: "#8d4925" },
+  "Café": { t: "s", c: "#230d00" },
+  "Blanco": { t: "s", c: "#ffffff" }
   };
 
   var SZ = '16px';
