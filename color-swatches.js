@@ -26,7 +26,7 @@
   "Beige Crema": { t: "s", c: "#F5E1CE" },
   "Beige Oscuro": { t: "s", c: "#B08E6B" },
   "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" },
-  "Marrón Liso": { t: "s", c: "#8d4925" },
+  "Marrón Liso": { t: "s", c: "#704214" },
   "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" },
   "Brown": { t: "s", c: "#8d4925" },
   "Café": { t: "s", c: "#230d00" },
@@ -36,7 +36,8 @@
   "Chocolate oscuro": { t: "s", c: "#230d00" },
   "Coral": { t: "s", c: "#ffe4ea" },
   "Crash Habano": { t: "s", c: "#320000" },
-  "Negro": { t: "s", c: "#000000" }
+  "Negro": { t: "s", c: "#000000" },
+  "Marrón": { t: "s", c: "#704214" }
   };
 
   var SZ = '16px';
