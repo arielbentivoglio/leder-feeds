@@ -8,14 +8,14 @@
   /* Mapa de colores: t=tipo (s=solid, d=split, i=image) */
   var M = {
   "Moss": { t: "s", c: "#6b7c5c" },
-  "Cognac": { t: "s", c: "#8b6f5e" },
+  "Cognac": { t: "s", c: "#CD7F32" },
   "Stone": { t: "s", c: "#c8a97e" },
   "Marrón Oscuro": { t: "s", c: "#4a3728" },
   "Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-light.webp" },
   "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
   "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
   "Negra": { t: "s", c: "#000000" },
-  "Africano": { t: "s", c: "#5a2a2a" },
+  "Africano": { t: "s", c: "#320000" },
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
   "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
   "Almond Brown": { t: "s", c: "#7e634e" },
@@ -34,8 +34,8 @@
   "Charol Negro": { t: "s", c: "#000000" },
   "Chocolate": { t: "s", c: "#46220f" },
   "Chocolate oscuro": { t: "s", c: "#230d00" },
-  "Cognac": { t: "s", c: "#B87400" },
-  "Coral": { t: "s", c: "#ffe4ea" }
+  "Coral": { t: "s", c: "#ffe4ea" },
+  "Crash Habano": { t: "s", c: "#320000" }
   };
 
   var SZ = '16px';
