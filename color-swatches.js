@@ -33,7 +33,8 @@
   "Blanco": { t: "s", c: "#ffffff" },
   "Charol Negro": { t: "s", c: "#000000" },
   "Chocolate": { t: "s", c: "#46220f" },
-  "Chocolate oscuro": { t: "s", c: "#230d00" }
+  "Chocolate oscuro": { t: "s", c: "#230d00" },
+  "Cognac": { t: "s", c: "#B87400" }
   };
 
   var SZ = '16px';
