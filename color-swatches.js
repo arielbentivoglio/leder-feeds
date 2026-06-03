@@ -108,7 +108,9 @@
   "Vintage Medio": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-medio.png" },
   "Vintage Beige": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-beige.png" },
   "Mix Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix-marron-150x150-1.webp" },
-  "Mix": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix.webp" }
+  "Mix": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix.webp" },
+  "Mix Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/mix-gris.png" },
+  "Exótico Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/exotico.png" }
   };
 
   var SZ = '16px';
