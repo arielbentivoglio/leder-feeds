@@ -19,14 +19,15 @@
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
   "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
   "Almond Brown": { t: "s", c: "#7e634e" },
-  "Coopper Brown": { t: "s", c: "#a65b3a" },
+  "Coopper Brown": { t: "s", c: "#985234" },
   "Black": { t: "s", c: "#000000" },
   "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" },
   "Beige Claro": { t: "s", c: "#ffd9ab" },
   "Beige Crema": { t: "s", c: "#F5E1CE" },
   "Beige Oscuro": { t: "s", c: "#B08E6B" },
   "Blanco y Marrón": { t: "d", a: "#ffffff", b: "#8d4925" },
-  "Marrón": { t: "s", c: "#8d4925" }
+  "Marrón Liso": { t: "s", c: "#8d4925" },
+  "Blanco y Rosa": { t: "d", a: "#ffffff", b: "#ff81cb" }
   };
 
   var SZ = '16px';
