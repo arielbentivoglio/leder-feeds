@@ -60,7 +60,8 @@
   "Leder Rosa": { t: "s", c: "#FF69B4" },
   "Leder Tiza": { t: "s", c: "#FFFFF1" },
   "Leder Verde Claro": { t: "s", c: "#64c27b" },
-  "Beige": { t: "s", c: "#e8c39e" }
+  "Beige": { t: "s", c: "#e8c39e" },
+  "Manteca": { t: "s", c: "#FEEEB8" }
   };
 
   var SZ = '16px';
