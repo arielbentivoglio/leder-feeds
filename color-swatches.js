@@ -14,7 +14,6 @@
   "Vintage Light": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-light.webp" },
   "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
   "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
-  "Negra": { t: "s", c: "#000000" },
   "Africano": { t: "s", c: "#320000" },
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
   "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
@@ -52,7 +51,11 @@
   "Habano": { t: "s", c: "#320000" },
   "Habano Claro": { t: "s", c: "#aa7444" },
   "Habano Crash": { t: "s", c: "#320000" },
-  "Habano Liso": { t: "s", c: "#320000" }
+  "Habano Liso": { t: "s", c: "#320000" },
+  "Leder Azul": { t: "s", c: "#062863" },
+  "Leder Beige": { t: "s", c: "#c8a97e" },
+  "Leder Habano": { t: "s", c: "#320000" },
+  "Leder Marrón": { t: "s", c: "#704214" }
   };
 
   var SZ = '16px';
