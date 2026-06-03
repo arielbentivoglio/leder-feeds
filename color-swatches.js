@@ -7,7 +7,7 @@
 
   /* Mapa de colores: t=tipo (s=solid, d=split, i=image) */
   var M = {
-  "Moss": { t: "s", c: "#6b7c5c" },
+  "Moss": { t: "s", c: "#666666" },
   "Cognac": { t: "s", c: "#CD7F32" },
   "Stone": { t: "s", c: "#c8a97e" },
   "Marrón Oscuro": { t: "s", c: "#4a3728" },
