@@ -87,7 +87,8 @@
   "Tiza": { t: "s", c: "#faf8f5" },
   "Turquesa y Marrón": { t: "d", a: "#40cfff", b: "#704214" },
   "Verde Musgo": { t: "s", c: "#026842" },
-  "Visón": { t: "s", c: "#8A7A68" }
+  "Visón": { t: "s", c: "#8A7A68" },
+  "Plata": { t: "s", c: "#a5a1a1" }
   };
 
   var SZ = '16px';
