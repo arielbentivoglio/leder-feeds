@@ -46,7 +46,8 @@
   "Crema": { t: "s", c: "#FEEEB8" },
   "Fume": { t: "s", c: "#555B52" },
   "Gout Suede": { t: "s", c: "#704214" },
-  "Gris Claro": { t: "s", c: "#a5a1a1" }
+  "Gris Claro": { t: "s", c: "#a5a1a1" },
+  "Gris Medio": { t: "s", c: "#787878" }
   };
 
   var SZ = '16px';
