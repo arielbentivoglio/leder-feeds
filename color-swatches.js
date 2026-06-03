@@ -49,7 +49,8 @@
   "Gris Claro": { t: "s", c: "#a5a1a1" },
   "Gris Medio": { t: "s", c: "#787878" },
   "Gris Oscuro": { t: "s", c: "#4d4c4c" },
-  "Habano": { t: "s", c: "#320000" }
+  "Habano": { t: "s", c: "#320000" },
+  "Habano Claro": { t: "s", c: "#aa7444" }
   };
 
   var SZ = '16px';
