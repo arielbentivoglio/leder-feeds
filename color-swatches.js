@@ -92,7 +92,10 @@
   "Degradé Beige": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-beige.png" },
   "Degradé Visón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-vison.png" },
   "Degradé Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-marron.png" },
-  "Degradé Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-grey.png" }
+  "Degradé Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-grey.png" },
+  "Hereford": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/hereford.webp" },
+  "Holando": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/holando.webp" },
+  "Leopardo": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/leopardo.webp" }
   };
 
   var SZ = '16px';
