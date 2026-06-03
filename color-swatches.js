@@ -96,7 +96,8 @@
   "Hereford": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/hereford.webp" },
   "Holando": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/holando.webp" },
   "Leopardo": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/leopardo.webp" },
-  "Split": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/split.webp" }
+  "Split": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/split.webp" },
+  "Vintage Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-grey.png" }
   };
 
   var SZ = '16px';
