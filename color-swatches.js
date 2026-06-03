@@ -84,7 +84,8 @@
   "Suela/Habano Claro": { t: "d", a: "#b87400", b: "#aa7444" },
   "Suela Crash": { t: "s", c: "#b87400" },
   "Taupe": { t: "s", c: "#f0eae0" },
-  "Tiza": { t: "s", c: "#faf8f5" }
+  "Tiza": { t: "s", c: "#faf8f5" },
+  "Turquesa y Marrón": { t: "d", a: "#40cfff", b: "#704214" }
   };
 
   var SZ = '16px';
