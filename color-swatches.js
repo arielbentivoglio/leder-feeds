@@ -17,7 +17,8 @@
   "Negra": { t: "s", c: "#000000" },
   "Africano": { t: "s", c: "#6c3333" },
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
-  "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" }
+  "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
+  "Almond Brown": { t: "s", c: "#7e634e" }
   };
 
   var SZ = '16px';
