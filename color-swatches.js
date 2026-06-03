@@ -83,7 +83,7 @@
   "Suela": { t: "s", c: "#b87400" },
   "Suela/Habano Claro": { t: "d", a: "#b87400", b: "#aa7444" },
   "Suela Crash": { t: "s", c: "#b87400" },
-  "Taupe": { t: "s", c: "#f0eae0" },
+  "Taupe": { t: "s", c: "#B9B3A9" },
   "Tiza": { t: "s", c: "#faf8f5" },
   "Turquesa y Marrón": { t: "d", a: "#40cfff", b: "#704214" },
   "Verde Musgo": { t: "s", c: "#026842" },
