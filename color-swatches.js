@@ -15,12 +15,13 @@
   "Vintage Dark": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/vintage-dark.webp" },
   "Azul y Amarillo": { t: "d", a: "#00004E", b: "#ffff00" },
   "Negra": { t: "s", c: "#000000" },
-  "Africano": { t: "s", c: "#6c3333" },
+  "Africano": { t: "s", c: "#5a2a2a" },
   "Blanco y Negro": { t: "d", a: "#ffffff", b: "#000000" },
   "Blanco y Celeste": { t: "d", a: "#ffffff", b: "#64bce8" },
   "Almond Brown": { t: "s", c: "#7e634e" },
   "Coopper Brown": { t: "s", c: "#a65b3a" },
-  "Black": { t: "s", c: "#000000" }
+  "Black": { t: "s", c: "#000000" },
+  "Beige - Habano": { t: "d", a: "#ffd9ab", b: "#46220f" }
   };
 
   var SZ = '16px';
