@@ -88,7 +88,10 @@
   "Turquesa y Marrón": { t: "d", a: "#40cfff", b: "#704214" },
   "Verde Musgo": { t: "s", c: "#026842" },
   "Visón": { t: "s", c: "#8A7A68" },
-  "Plata": { t: "s", c: "#a5a1a1" }
+  "Plata": { t: "s", c: "#a5a1a1" },
+  "Degradé Beige": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-beige.png" },
+  "Degradé Visón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-vison.png" },
+  "Degradé Marrón": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/degrade-marron.png" }
   };
 
   var SZ = '16px';
