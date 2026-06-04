@@ -140,7 +140,7 @@
     }
   }
 
-  var MAX_BULLETS = 8;
+  var MAX_BULLETS = window.innerWidth <= 600 ? 7 : 8;
 
   function processCard(card) {
     var script = card.querySelector('script[data-component="structured-data.item"]');
