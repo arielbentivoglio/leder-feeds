@@ -140,6 +140,8 @@
     }
   }
 
+  var MAX_BULLETS = 6;
+
   function processCard(card) {
     var script = card.querySelector('script[data-component="structured-data.item"]');
     if (!script) return;
@@ -163,25 +165,40 @@
     var container = card.querySelector('.product-item-colors');
     if (!container) return;
 
-    var textSpan = container.querySelector('.product-item-colors-bullet-text');
-    var added    = 0;
+    var textSpan    = container.querySelector('.product-item-colors-bullet-text');
+    var allBullets  = container.querySelectorAll('.product-item-colors-bullet');
+    var visibleCount = allBullets.length;
+    var added       = 0;
+    var hidden      = 0;
 
+    /* Aplicar estilo a bullets que TN ya renderizó, ocultar los que excedan el máximo */
+    allBullets.forEach(function (el, idx) {
+      var col = el.getAttribute('data-option');
+      var def = col ? M[col] : null;
+      if (def) {
+        applyBullet(el, def);
+        if (!el.getAttribute('data-variation-id')) {
+          el.setAttribute('data-variation-id', '0');
+          el.classList.add('js-variation-option', 'js-color-variant');
+        }
+      }
+      if (idx >= MAX_BULLETS) {
+        el.style.setProperty('display', 'none', 'important');
+        hidden++;
+      }
+    });
+
+    /* Inyectar bullets custom respetando el límite */
     colors.forEach(function (color) {
       var def = M[color];
       if (!def) return;
+      if (container.querySelector('[data-option="' + color.replace(/"/g, '\"') + '"]')) return;
 
-      /* Si TN ya renderizó este color, solo aplicar estilo y asegurar clases */
-      var existing = container.querySelector('[data-option="' + color.replace(/"/g, '\\"') + '"]');
-      if (existing) {
-        applyBullet(existing, def);
-        if (!existing.getAttribute('data-variation-id')) {
-          existing.setAttribute('data-variation-id', '0');
-          existing.classList.add('js-variation-option', 'js-color-variant');
-        }
+      if (visibleCount >= MAX_BULLETS) {
+        hidden++;
         return;
       }
 
-      /* Crear bullet nuevo antes del span "+N" */
       var span = document.createElement('span');
       span.className = 'product-item-colors-bullet js-variation-option js-color-variant';
       span.setAttribute('data-option', color);
@@ -195,10 +212,16 @@
         container.appendChild(span);
       }
       added++;
+      visibleCount++;
     });
 
-    /* Ocultar contador "+N" si se resolvieron todos los colores custom */
-    if (added > 0 && textSpan) {
+    /* Actualizar contador +N */
+    if (hidden > 0) {
+      if (textSpan) {
+        textSpan.textContent = '+' + hidden;
+        textSpan.style.removeProperty('display');
+      }
+    } else if (added > 0 && textSpan) {
       textSpan.style.setProperty('display', 'none', 'important');
     }
   }
