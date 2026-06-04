@@ -140,7 +140,7 @@
     }
   }
 
-  var MAX_BULLETS = 6;
+  var MAX_BULLETS = 8;
 
   function processCard(card) {
     var script = card.querySelector('script[data-component="structured-data.item"]');
