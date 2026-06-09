@@ -1,6 +1,9 @@
 (function() {
   var reglas = {"9": {"activo": true, "mensaje": "Abonando por MercadoPago", "color": "#888888"}};
 
+  // Solo actuar en páginas de producto (body tiene clase template-product)
+  if (!document.body.classList.contains('template-product')) return;
+
   function inyectar() {
     document.querySelectorAll('div.installment-no-interest').forEach(function(el) {
       if (el.dataset.mpInyectado) return;
