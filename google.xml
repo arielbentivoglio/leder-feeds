@@ -2660,7 +2660,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/sully1-cognac-6f13c37b0ae6b5244e17775752566259-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/sully-cognac-6a446caddb3627b59a17775752563359-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/sully3-cognac-fedafeb57e43691f2117775752560992-1024-1024.webp</g:additional_image_link>
-      <g:availability>out of stock</g:availability>
+      <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>209990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
@@ -3103,7 +3103,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/merlin-546ad9896b124eba3517775754015115-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/merlin2-4a7cc3fd2d66facea117775754014557-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/bota-merli-71962d72c5255c277217714344876316-1024-1024-de3f8501aab90da2e817775754010159-1024-1024.webp</g:additional_image_link>
-      <g:availability>out of stock</g:availability>
+      <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>258812.00 ARS</g:price>
       <g:sale_price>219990.00 ARS</g:sale_price>
@@ -3224,7 +3224,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balu3-stone-fa773a2744fda0245217775750768153-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balup-negras-1-17632bf74e1a103f2b17775750767801-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/balu-negra-45-434fcfe26810bcdd6c17775982205283-1024-1024.webp</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>189990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
@@ -9658,7 +9658,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alfombra-pampa-cuero-003-7f8a26f1d60780bbb517690068616734-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alfombra-pampa-cuero-086-313504f26efac4f69c17690068619451-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/vc10-2000d-e5cb1c1817aab6bdbe17690068616224-1024-1024.jpg</g:additional_image_link>
-      <g:availability>out of stock</g:availability>
+      <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>724988.00 ARS</g:price>
       <g:sale_price>579990.00 ARS</g:sale_price>
@@ -24208,7 +24208,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013703|</g:mpn>
     </item>
@@ -24223,7 +24223,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013716|</g:mpn>
     </item>
@@ -24238,7 +24238,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013727|</g:mpn>
     </item>
@@ -24253,7 +24253,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013736|</g:mpn>
     </item>
@@ -24268,7 +24268,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013747|</g:mpn>
     </item>
@@ -24283,7 +24283,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013757|</g:mpn>
     </item>
@@ -24298,7 +24298,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231948|1422013765|</g:mpn>
     </item>
@@ -24313,7 +24313,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013703|</g:mpn>
     </item>
@@ -24328,7 +24328,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013716|</g:mpn>
     </item>
@@ -24343,7 +24343,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013727|</g:mpn>
     </item>
@@ -24358,7 +24358,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013736|</g:mpn>
     </item>
@@ -24373,7 +24373,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013747|</g:mpn>
     </item>
@@ -24388,7 +24388,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013757|</g:mpn>
     </item>
@@ -24403,7 +24403,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231954|1422013765|</g:mpn>
     </item>
@@ -24418,7 +24418,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013703|</g:mpn>
     </item>
@@ -24433,7 +24433,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013716|</g:mpn>
     </item>
@@ -24448,7 +24448,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013727|</g:mpn>
     </item>
@@ -24463,7 +24463,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013736|</g:mpn>
     </item>
@@ -24478,7 +24478,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013747|</g:mpn>
     </item>
@@ -24493,7 +24493,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013757|</g:mpn>
     </item>
@@ -24508,7 +24508,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231958|1422013765|</g:mpn>
     </item>
@@ -24523,7 +24523,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013703|</g:mpn>
     </item>
@@ -24538,7 +24538,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013716|</g:mpn>
     </item>
@@ -24553,7 +24553,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013727|</g:mpn>
     </item>
@@ -24568,7 +24568,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013736|</g:mpn>
     </item>
@@ -24583,7 +24583,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013747|</g:mpn>
     </item>
@@ -24598,7 +24598,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013757|</g:mpn>
     </item>
@@ -24613,7 +24613,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231961|1422013765|</g:mpn>
     </item>
@@ -24628,7 +24628,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013703|</g:mpn>
     </item>
@@ -24643,7 +24643,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013716|</g:mpn>
     </item>
@@ -24658,7 +24658,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013727|</g:mpn>
     </item>
@@ -24673,7 +24673,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013736|</g:mpn>
     </item>
@@ -24688,7 +24688,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013747|</g:mpn>
     </item>
@@ -24703,7 +24703,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013757|</g:mpn>
     </item>
@@ -24718,7 +24718,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231965|1422013765|</g:mpn>
     </item>
@@ -24733,7 +24733,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013703|</g:mpn>
     </item>
@@ -24748,7 +24748,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013716|</g:mpn>
     </item>
@@ -24763,7 +24763,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013727|</g:mpn>
     </item>
@@ -24778,7 +24778,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013736|</g:mpn>
     </item>
@@ -24793,7 +24793,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013747|</g:mpn>
     </item>
@@ -24808,7 +24808,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013757|</g:mpn>
     </item>
@@ -24823,7 +24823,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231974|1422013765|</g:mpn>
     </item>
@@ -24838,7 +24838,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013703|</g:mpn>
     </item>
@@ -24853,7 +24853,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013716|</g:mpn>
     </item>
@@ -24868,7 +24868,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013727|</g:mpn>
     </item>
@@ -24883,7 +24883,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013736|</g:mpn>
     </item>
@@ -24898,7 +24898,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013747|</g:mpn>
     </item>
@@ -24913,7 +24913,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>249980.00 ARS</g:price>
-      <g:sale_price>179990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013757|</g:mpn>
     </item>
@@ -24928,7 +24928,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>279980.00 ARS</g:price>
-      <g:sale_price>209990.00 ARS</g:sale_price>
+      <g:sale_price>237990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418231977|1422013765|</g:mpn>
     </item>
@@ -25904,7 +25904,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832155|1443789563|1431827147</g:mpn>
     </item>
@@ -25926,7 +25926,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832155|1443789574|1431827147</g:mpn>
     </item>
@@ -25948,7 +25948,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832155|1443789587|1431827147</g:mpn>
     </item>
@@ -25970,7 +25970,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832155|1443789596|1431827147</g:mpn>
     </item>
@@ -25992,7 +25992,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832155|1443789605|1431827147</g:mpn>
     </item>
@@ -26014,7 +26014,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832161|1443789563|1431827147</g:mpn>
     </item>
@@ -26036,7 +26036,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832161|1443789574|1431827147</g:mpn>
     </item>
@@ -26058,7 +26058,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832161|1443789587|1431827147</g:mpn>
     </item>
@@ -26080,7 +26080,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832161|1443789596|1431827147</g:mpn>
     </item>
@@ -26102,7 +26102,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832161|1443789605|1431827147</g:mpn>
     </item>
@@ -26124,7 +26124,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832165|1443789563|1431827147</g:mpn>
     </item>
@@ -26146,7 +26146,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832165|1443789574|1431827147</g:mpn>
     </item>
@@ -26168,7 +26168,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832165|1443789587|1431827147</g:mpn>
     </item>
@@ -26190,7 +26190,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832165|1443789596|1431827147</g:mpn>
     </item>
@@ -26212,7 +26212,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832165|1443789605|1431827147</g:mpn>
     </item>
@@ -26234,7 +26234,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832169|1443789563|1431827147</g:mpn>
     </item>
@@ -26256,7 +26256,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832169|1443789574|1431827147</g:mpn>
     </item>
@@ -26278,7 +26278,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832169|1443789587|1431827147</g:mpn>
     </item>
@@ -26300,7 +26300,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832169|1443789596|1431827147</g:mpn>
     </item>
@@ -26322,7 +26322,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832169|1443789605|1431827147</g:mpn>
     </item>
@@ -26344,7 +26344,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832174|1443789563|1431827147</g:mpn>
     </item>
@@ -26366,7 +26366,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832174|1443789574|1431827147</g:mpn>
     </item>
@@ -26388,7 +26388,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832174|1443789587|1431827147</g:mpn>
     </item>
@@ -26410,7 +26410,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832174|1443789596|1431827147</g:mpn>
     </item>
@@ -26432,7 +26432,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832174|1443789605|1431827147</g:mpn>
     </item>
@@ -26454,7 +26454,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832188|1443789563|1431827147</g:mpn>
     </item>
@@ -26476,7 +26476,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832188|1443789574|1431827147</g:mpn>
     </item>
@@ -26498,7 +26498,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832188|1443789587|1431827147</g:mpn>
     </item>
@@ -26520,7 +26520,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832188|1443789596|1431827147</g:mpn>
     </item>
@@ -26542,7 +26542,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>371470.00 ARS</g:price>
-      <g:sale_price>306490.00 ARS</g:sale_price>
+      <g:sale_price>334990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1418832188|1443789605|1431827147</g:mpn>
     </item>
@@ -26563,7 +26563,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775839|1443789563|1431827147</g:mpn>
     </item>
@@ -26584,7 +26584,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775839|1443789574|1431827147</g:mpn>
     </item>
@@ -26605,7 +26605,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775839|1443789587|1431827147</g:mpn>
     </item>
@@ -26626,7 +26626,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775839|1443789596|1431827147</g:mpn>
     </item>
@@ -26647,7 +26647,7 @@
       <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775839|1443789605|1431827147</g:mpn>
     </item>
@@ -26668,7 +26668,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775848|1443789563|1431827147</g:mpn>
     </item>
@@ -26689,7 +26689,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775848|1443789574|1431827147</g:mpn>
     </item>
@@ -26710,7 +26710,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775848|1443789587|1431827147</g:mpn>
     </item>
@@ -26731,7 +26731,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775848|1443789596|1431827147</g:mpn>
     </item>
@@ -26752,7 +26752,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775848|1443789605|1431827147</g:mpn>
     </item>
@@ -26773,7 +26773,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775853|1443789563|1431827147</g:mpn>
     </item>
@@ -26794,7 +26794,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775853|1443789574|1431827147</g:mpn>
     </item>
@@ -26815,7 +26815,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775853|1443789587|1431827147</g:mpn>
     </item>
@@ -26836,7 +26836,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775853|1443789596|1431827147</g:mpn>
     </item>
@@ -26857,7 +26857,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775853|1443789605|1431827147</g:mpn>
     </item>
@@ -26878,7 +26878,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775860|1443789563|1431827147</g:mpn>
     </item>
@@ -26899,7 +26899,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775860|1443789574|1431827147</g:mpn>
     </item>
@@ -26920,7 +26920,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775860|1443789587|1431827147</g:mpn>
     </item>
@@ -26941,7 +26941,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775860|1443789596|1431827147</g:mpn>
     </item>
@@ -26962,7 +26962,7 @@
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>242170.00 ARS</g:price>
-      <g:sale_price>197190.00 ARS</g:sale_price>
+      <g:sale_price>217990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>1443775860|1443789605|1431827147</g:mpn>
     </item>
@@ -34144,7 +34144,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/campera-jimmy-negra-2-a61809323b0b18b89a17781882658095-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/campera-jimmy-black-654977338c79db66ca17781036012449-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/campera-jimmy-negra-1-91358f7976375d67d917781882657020-1024-1024.jpg</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>749988.00 ARS</g:price>
       <g:sale_price>599990.00 ARS</g:sale_price>
@@ -37397,7 +37397,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/pantufla-asia-marron-2-d11b156b5def3ebc1e17775924027006-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/asia-marron-024726b1a4afc0c8ca17775924027027-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/cozy_reading_nook_with_serene_ambiance_4k-872d5ccf8a80edb3c417773390536204-1024-1024.jpg</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>133322.00 ARS</g:price>
       <g:sale_price>119990.00 ARS</g:sale_price>
