@@ -1,1 +1,1 @@
-window.BADGES_CONFIG = [{"ids_url": "https://arielbentivoglio.github.io/leder-feeds/dia-del-padre-ids.js", "var_name": "DIA_DEL_PADRE_IDS", "text": "🎁 REGALO PAPÁ", "bg_color": "#030303", "text_color": "#ffffff"}];
+window.BADGES_CONFIG = [];
