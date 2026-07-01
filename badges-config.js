@@ -1,1 +1,1 @@
-window.BADGES_CONFIG = [{"ids_url": "https://arielbentivoglio.github.io/leder-feeds/winter-sale-ids.js", "var_name": "WINTER_SALE_IDS_2", "text": "❄️ WINTER SALE", "bg_color": "#000000", "text_color": "#ffffff", "border_color": "#000000", "pos_v": "bottom", "pos_h": "left"}];
+window.BADGES_CONFIG = [{"ids_url": "https://arielbentivoglio.github.io/leder-feeds/winter-sale-ids.js", "var_name": "WINTER_SALE_IDS_2", "text": "❄️ WINTER SALE", "bg_color": "#042C53", "text_color": "#ffffff", "border_color": "#000000", "pos_v": "bottom", "pos_h": "left"}];
