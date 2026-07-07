@@ -249,4 +249,56 @@
     _t = setTimeout(run, 120);
   }).observe(document.body, { childList: true, subtree: true });
 
+  /* =====================================================================
+     Swap de imagen al tocar un bullet de color (soporte mobile/touch)
+     El mecanismo nativo de TN (js-insta-variant) es hover-only y no
+     dispara en touch. Esto es un swap propio, independiente del nativo:
+     un único listener delegado, sin nada nuevo por card ni por bullet. */
+  function findVariantForColor(card, color) {
+    var variantsRaw = card.getAttribute('data-variants');
+    if (!variantsRaw) return null;
+    var variants;
+    try { variants = JSON.parse(variantsRaw); } catch (e) { return null; }
+    return variants.find(function (v) {
+      return v.option0 === color || v.option1 === color || v.option2 === color;
+    });
+  }
+
+  function swapImage(card, variant) {
+    if (!variant || !variant.image_url) return;
+    var img = card.querySelector('.product-item-image-featured');
+    if (!img) return;
+    var url = variant.image_url;
+    if (url.indexOf('//') === 0) url = 'https:' + url;
+    /* Se quita el srcset/sizes: si no, el navegador puede preferirlo por
+       sobre el src nuevo y la imagen no cambia visualmente. */
+    img.removeAttribute('srcset');
+    img.removeAttribute('sizes');
+    img.src = url;
+  }
+
+  function onBulletActivate(e) {
+    var bullet = e.target.closest && e.target.closest('.product-item-colors-bullet[data-option]');
+    if (!bullet) return;
+    var card = bullet.closest('.js-item-product');
+    if (!card) return;
+    var color = bullet.getAttribute('data-option');
+    swapImage(card, findVariantForColor(card, color));
+  }
+
+  /* touchend dispara el swap al instante; el click delegado cubre mouse
+     y sirve de respaldo si algún navegador no llega a disparar touchend.
+     El guard con _lastTouchTs evita procesar dos veces el mismo toque
+     (los navegadores mobile generan un click sintético despues del touch). */
+  var _lastTouchTs = 0;
+  document.addEventListener('touchend', function (e) {
+    _lastTouchTs = Date.now();
+    onBulletActivate(e);
+  }, { passive: true });
+
+  document.addEventListener('click', function (e) {
+    if (Date.now() - _lastTouchTs < 600) return;
+    onBulletActivate(e);
+  });
+
 })();
