@@ -143,22 +143,27 @@
   var MAX_BULLETS = window.innerWidth <= 600 ? 7 : 8;
 
   function processCard(card) {
-    var script = card.querySelector('script[data-component="structured-data.item"]');
-    if (!script) return;
+    /* TN dejó de incluir el nombre de variante legible en structured-data.item.
+       Los colores se leen ahora de data-variants, probando option0/option1/option2
+       contra el mapa M sin asumir un orden fijo de opciones. */
+    var variantsRaw = card.getAttribute('data-variants');
+    if (!variantsRaw) return;
 
-    var data;
-    try { data = JSON.parse(script.textContent); } catch (e) { return; }
-
-    var offers = (data.offers && data.offers.offers) ? data.offers.offers : [];
+    var variants;
+    try { variants = JSON.parse(variantsRaw); } catch (e) { return; }
 
     /* Extraer colores únicos en orden de aparición */
     var colors = [];
     var seen   = {};
-    offers.forEach(function (o) {
-      var m = o.name && o.name.match(/\(([^,)]+)/);
-      if (m) {
-        var col = m[1].trim();
-        if (!seen[col]) { seen[col] = true; colors.push(col); }
+    variants.forEach(function (v) {
+      var candidates = [v.option0, v.option1, v.option2];
+      for (var i = 0; i < candidates.length; i++) {
+        var val = candidates[i];
+        if (val && M[val] && !seen[val]) {
+          seen[val] = true;
+          colors.push(val);
+          break;
+        }
       }
     });
 
