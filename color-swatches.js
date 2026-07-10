@@ -113,7 +113,8 @@
   "Exótico Gris": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/exotico.png" },
   "Atigrado Oscuro": { t: "i", u: "https://arielbentivoglio.github.io/leder-feeds/swatches/atigrado.webp" },
   "Rosa": { t: "s", c: "#FF69B4" },
-  "Celeste": { t: "s", c: "#40cfff" }
+  "Celeste": { t: "s", c: "#40cfff" },
+  "Azul": { t: "s", c: "#0b0656" }
   };
 
   var SZ = '16px';
