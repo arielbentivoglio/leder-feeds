@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:00:42
+ * Generado: 2026-08-14 19:08:43
  */
 (function () {
   'use strict';
@@ -30,8 +30,9 @@
     "link": "",
     "autoplay": true,
     "autoplayDelay": 5000,
-    "marginTop": 10,
+    "marginTop": 20,
     "marginBottom": 0,
+    "zoomOnHover": false,
     "desktop": {
       "images": [
         {
@@ -67,9 +68,10 @@
     var link = img.link || cfg.link || '';
     var openTag = link ? ('<a href="' + link + '" class="gallery-link" aria-label="">') : '<div class="gallery-link">';
     var closeTag = link ? '</a>' : '</div>';
+    var zoomClass = cfg.zoomOnHover ? ' js-zoom-hover' : '';
     return (
       '<div class="js-banner-item swiper-slide">' +
-        '<div class="gallery-item-container js-textbanner textbanner transition-soft m-0">' +
+        '<div class="gallery-item-container js-textbanner textbanner transition-soft m-0' + zoomClass + '">' +
           openTag +
             '<img class="textbanner-image transition-soft img-fluid d-block w-100 fade-in lazyloaded" ' +
                  'width="' + img.width + '" height="' + img.height + '" ' +
@@ -80,6 +82,18 @@
         '</div>' +
       '</div>'
     );
+  }
+
+  var _zoomStyleInjected = false;
+  function injectZoomStyleOnce() {
+    if (_zoomStyleInjected) return;
+    _zoomStyleInjected = true;
+    var style = document.createElement('style');
+    style.textContent =
+      '.js-zoom-hover{overflow:hidden}' +
+      '.js-zoom-hover img{transition:transform .45s ease}' +
+      '.js-zoom-hover:hover img{transform:scale(1.06)}';
+    document.head.appendChild(style);
   }
 
   function breakpointBlockHtml(cfg, breakpoint) {
@@ -173,6 +187,8 @@
     var wrapper = document.createElement('div');
     wrapper.innerHTML = buildModuleHtml(cfg);
     var node = wrapper.firstElementChild;
+
+    if (cfg.zoomOnHover) injectZoomStyleOnce();
 
     switch (cfg.position) {
       case 'before': anchor.parentNode.insertBefore(node, anchor); break;
