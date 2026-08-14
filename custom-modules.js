@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:23:16
+ * Generado: 2026-08-14 19:26:42
  */
 (function () {
   'use strict';
@@ -34,8 +34,9 @@
     "marginBottom": 0,
     "zoomOnHover": false,
     "titulo": "Nuestra Historia",
-    "tituloVisible": false,
+    "tituloVisible": true,
     "tituloAlign": "center",
+    "tituloColor": "#1a1a1a",
     "desktop": {
       "images": [
         {
@@ -78,9 +79,6 @@
     var openTag = link ? ('<a href="' + link + '" class="gallery-link" aria-label="">') : '<div class="gallery-link">';
     var closeTag = link ? '</a>' : '</div>';
     var zoomClass = cfg.zoomOnHover ? ' js-zoom-hover' : '';
-    var titleHtml = (cfg.tituloVisible && cfg.titulo)
-      ? ('<div class="js-modulo-title align-' + (cfg.tituloAlign || 'left') + '">' + escHtml(cfg.titulo) + '</div>')
-      : '';
     return (
       '<div class="js-banner-item swiper-slide">' +
         '<div class="gallery-item-container js-textbanner textbanner transition-soft m-0' + zoomClass + '">' +
@@ -90,7 +88,6 @@
                  'style="aspect-ratio:' + img.width + '/' + img.height + '" ' +
                  'src="' + img.src + '" ' +
                  'alt="' + (cfg.alt || '') + '">' +
-            titleHtml +
           closeTag +
         '</div>' +
       '</div>'
@@ -111,10 +108,10 @@
       '.js-home-banner-custom .gallery-item-container:hover img{transform:none!important;transition:none!important}' +
       '.js-home-banner-custom .gallery-item-container.js-zoom-hover{overflow:hidden}' +
       '.js-home-banner-custom .gallery-item-container.js-zoom-hover:hover img{transform:scale(1.06)!important;transition:transform .45s ease!important}' +
-      '.js-home-banner-custom .js-modulo-title{position:absolute;left:0;right:0;bottom:20px;padding:0 28px;margin:0;font-size:1.7rem;line-height:1.25;font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4);pointer-events:none}' +
-      '.js-home-banner-custom .js-modulo-title.align-left{text-align:left}' +
-      '.js-home-banner-custom .js-modulo-title.align-center{text-align:center}' +
-      '.js-home-banner-custom .js-modulo-title.align-right{text-align:right}';
+      '.js-modulo-title-heading{margin:0 0 18px}' +
+      '.js-modulo-title-heading.align-left{text-align:left}' +
+      '.js-modulo-title-heading.align-center{text-align:center}' +
+      '.js-modulo-title-heading.align-right{text-align:right}';
     document.head.appendChild(style);
   }
 
@@ -154,12 +151,19 @@
     );
   }
 
+  function titleHeadingHtml(cfg) {
+    if (!cfg.tituloVisible || !cfg.titulo) return '';
+    var color = cfg.tituloColor || '#1a1a1a';
+    return '<h2 class="js-modulo-title-heading align-' + (cfg.tituloAlign || 'left') + '" style="color:' + color + '">' + escHtml(cfg.titulo) + '</h2>';
+  }
+
   function buildModuleHtml(cfg) {
     var mt = parseInt(cfg.marginTop, 10) || 0;
     var mb = parseInt(cfg.marginBottom, 10) || 0;
     return (
       '<section class="js-section-banner-home section-home section-banners-home position-relative overflow-none p-0" ' +
               'data-store="' + cfg.id + '" style="margin-top:' + mt + 'px;margin-bottom:' + mb + 'px">' +
+        titleHeadingHtml(cfg) +
         '<div class="js-home-banner-custom">' +
           breakpointBlockHtml(cfg, 'desktop') +
           breakpointBlockHtml(cfg, 'mobile') +
