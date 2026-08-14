@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 18:47:27
+ * Generado: 2026-08-14 19:00:42
  */
 (function () {
   'use strict';
@@ -26,35 +26,37 @@
     "page": "home",
     "anchor": ".js-section-banner-home[data-store=\"home-banner-promotional\"]",
     "position": "after",
-    "alt": "",
+    "alt": "Banner de LEDER",
     "link": "",
-    "autoplay": false,
+    "autoplay": true,
     "autoplayDelay": 5000,
+    "marginTop": 10,
+    "marginBottom": 0,
     "desktop": {
       "images": [
         {
+          "height": 620,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/nuestra-historia/desktop/20260814184720851515-Nuestrahistoriadesk1.webp",
-          "width": 1920,
-          "height": 620
+          "width": 1920
         },
         {
+          "height": 620,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/nuestra-historia/desktop/20260814184722320273-nuestraHistoriadesk2.webp",
-          "width": 1920,
-          "height": 620
+          "width": 1920
         }
       ]
     },
     "mobile": {
       "images": [
         {
+          "height": 1080,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/nuestra-historia/mobile/20260814184723945218-nuestrahistoriamobile1.webp",
-          "width": 720,
-          "height": 1080
+          "width": 720
         },
         {
+          "height": 1080,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/nuestra-historia/mobile/20260814184725976407-nuestrahistoriamobile2.webp",
-          "width": 720,
-          "height": 1080
+          "width": 720
         }
       ]
     }
@@ -62,17 +64,19 @@
 ];
 
   function slideHtml(cfg, img) {
-    var link = img.link || cfg.link || '#';
+    var link = img.link || cfg.link || '';
+    var openTag = link ? ('<a href="' + link + '" class="gallery-link" aria-label="">') : '<div class="gallery-link">';
+    var closeTag = link ? '</a>' : '</div>';
     return (
       '<div class="js-banner-item swiper-slide">' +
         '<div class="gallery-item-container js-textbanner textbanner transition-soft m-0">' +
-          '<a href="' + link + '" class="gallery-link" aria-label="">' +
+          openTag +
             '<img class="textbanner-image transition-soft img-fluid d-block w-100 fade-in lazyloaded" ' +
                  'width="' + img.width + '" height="' + img.height + '" ' +
                  'style="aspect-ratio:' + img.width + '/' + img.height + '" ' +
                  'src="' + img.src + '" ' +
                  'alt="' + (cfg.alt || '') + '">' +
-          '</a>' +
+          closeTag +
         '</div>' +
       '</div>'
     );
@@ -115,9 +119,11 @@
   }
 
   function buildModuleHtml(cfg) {
+    var mt = parseInt(cfg.marginTop, 10) || 0;
+    var mb = parseInt(cfg.marginBottom, 10) || 0;
     return (
       '<section class="js-section-banner-home section-home section-banners-home position-relative overflow-none p-0" ' +
-              'data-store="' + cfg.id + '">' +
+              'data-store="' + cfg.id + '" style="margin-top:' + mt + 'px;margin-bottom:' + mb + 'px">' +
         '<div class="js-home-banner-custom">' +
           breakpointBlockHtml(cfg, 'desktop') +
           breakpointBlockHtml(cfg, 'mobile') +
