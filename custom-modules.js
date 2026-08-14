@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:08:43
+ * Generado: 2026-08-14 19:11:45
  */
 (function () {
   'use strict';
@@ -84,15 +84,19 @@
     );
   }
 
-  var _zoomStyleInjected = false;
-  function injectZoomStyleOnce() {
-    if (_zoomStyleInjected) return;
-    _zoomStyleInjected = true;
+  var _hoverStyleInjected = false;
+  function injectHoverStyleOnce() {
+    if (_hoverStyleInjected) return;
+    _hoverStyleInjected = true;
     var style = document.createElement('style');
+    // Por default neutraliza cualquier zoom/transform que el theme nativo
+    // pudiera aplicar por reusar las mismas clases (gallery-item-container,
+    // textbanner-image). Solo si el modulo tiene zoomOnHover activo, la
+    // segunda regla (mas especifica) lo pisa.
     style.textContent =
-      '.js-zoom-hover{overflow:hidden}' +
-      '.js-zoom-hover img{transition:transform .45s ease}' +
-      '.js-zoom-hover:hover img{transform:scale(1.06)}';
+      '.js-home-banner-custom .gallery-item-container:hover img{transform:none!important;transition:none!important}' +
+      '.js-home-banner-custom .gallery-item-container.js-zoom-hover{overflow:hidden}' +
+      '.js-home-banner-custom .gallery-item-container.js-zoom-hover:hover img{transform:scale(1.06)!important;transition:transform .45s ease!important}';
     document.head.appendChild(style);
   }
 
@@ -188,7 +192,7 @@
     wrapper.innerHTML = buildModuleHtml(cfg);
     var node = wrapper.firstElementChild;
 
-    if (cfg.zoomOnHover) injectZoomStyleOnce();
+    injectHoverStyleOnce();
 
     switch (cfg.position) {
       case 'before': anchor.parentNode.insertBefore(node, anchor); break;
