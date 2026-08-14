@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:11:45
+ * Generado: 2026-08-14 19:21:35
  */
 (function () {
   'use strict';
@@ -33,6 +33,9 @@
     "marginTop": 20,
     "marginBottom": 0,
     "zoomOnHover": false,
+    "titulo": "Nuestra Historia",
+    "tituloVisible": true,
+    "tituloAlign": "center",
     "desktop": {
       "images": [
         {
@@ -64,11 +67,20 @@
   }
 ];
 
+  function escHtml(s) {
+    return (s || '').toString().replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
   function slideHtml(cfg, img) {
     var link = img.link || cfg.link || '';
     var openTag = link ? ('<a href="' + link + '" class="gallery-link" aria-label="">') : '<div class="gallery-link">';
     var closeTag = link ? '</a>' : '</div>';
     var zoomClass = cfg.zoomOnHover ? ' js-zoom-hover' : '';
+    var titleHtml = (cfg.tituloVisible && cfg.titulo)
+      ? ('<div class="js-modulo-title align-' + (cfg.tituloAlign || 'left') + '">' + escHtml(cfg.titulo) + '</div>')
+      : '';
     return (
       '<div class="js-banner-item swiper-slide">' +
         '<div class="gallery-item-container js-textbanner textbanner transition-soft m-0' + zoomClass + '">' +
@@ -78,6 +90,7 @@
                  'style="aspect-ratio:' + img.width + '/' + img.height + '" ' +
                  'src="' + img.src + '" ' +
                  'alt="' + (cfg.alt || '') + '">' +
+            titleHtml +
           closeTag +
         '</div>' +
       '</div>'
@@ -94,9 +107,14 @@
     // textbanner-image). Solo si el modulo tiene zoomOnHover activo, la
     // segunda regla (mas especifica) lo pisa.
     style.textContent =
+      '.js-home-banner-custom .gallery-item-container{position:relative}' +
       '.js-home-banner-custom .gallery-item-container:hover img{transform:none!important;transition:none!important}' +
       '.js-home-banner-custom .gallery-item-container.js-zoom-hover{overflow:hidden}' +
-      '.js-home-banner-custom .gallery-item-container.js-zoom-hover:hover img{transform:scale(1.06)!important;transition:transform .45s ease!important}';
+      '.js-home-banner-custom .gallery-item-container.js-zoom-hover:hover img{transform:scale(1.06)!important;transition:transform .45s ease!important}' +
+      '.js-home-banner-custom .js-modulo-title{position:absolute;left:0;right:0;bottom:20px;padding:0 28px;margin:0;font-size:1.7rem;line-height:1.25;font-weight:700;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4);pointer-events:none}' +
+      '.js-home-banner-custom .js-modulo-title.align-left{text-align:left}' +
+      '.js-home-banner-custom .js-modulo-title.align-center{text-align:center}' +
+      '.js-home-banner-custom .js-modulo-title.align-right{text-align:right}';
     document.head.appendChild(style);
   }
 
