@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:21:35
+ * Generado: 2026-08-14 19:23:16
  */
 (function () {
   'use strict';
@@ -34,7 +34,7 @@
     "marginBottom": 0,
     "zoomOnHover": false,
     "titulo": "Nuestra Historia",
-    "tituloVisible": true,
+    "tituloVisible": false,
     "tituloAlign": "center",
     "desktop": {
       "images": [
