@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-14 19:27:57
+ * Generado: 2026-08-18 14:51:12
  */
 (function () {
   'use strict';
@@ -34,9 +34,17 @@
     "marginBottom": 0,
     "zoomOnHover": false,
     "titulo": "Nuestra Historia",
-    "tituloVisible": false,
+    "tituloVisible": true,
     "tituloAlign": "center",
     "tituloColor": "#1a1a1a",
+    "tipo": "imagen",
+    "youtubeId": "",
+    "videoWidth": 16,
+    "videoHeight": 9,
+    "videoMobileDistinto": false,
+    "youtubeIdMobile": "",
+    "videoWidthMobile": 9,
+    "videoHeightMobile": 16,
     "desktop": {
       "images": [
         {
@@ -111,7 +119,9 @@
       '.js-modulo-title-heading{margin:0 0 18px}' +
       '.js-modulo-title-heading.align-left{text-align:left}' +
       '.js-modulo-title-heading.align-center{text-align:center}' +
-      '.js-modulo-title-heading.align-right{text-align:right}';
+      '.js-modulo-title-heading.align-right{text-align:right}' +
+      '.js-video-link-overlay{position:absolute;inset:0;z-index:2;cursor:pointer}' +
+      '.js-video-container iframe{position:absolute;inset:0;width:100%!important;height:100%!important;border:0;pointer-events:none}';
     document.head.appendChild(style);
   }
 
@@ -157,17 +167,122 @@
     return '<h2 class="js-modulo-title-heading align-' + (cfg.tituloAlign || 'left') + '" style="color:' + color + '">' + escHtml(cfg.titulo) + '</h2>';
   }
 
+  function extraerIdYoutube(input) {
+    if (!input) return '';
+    input = input.trim();
+    var m = input.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([a-zA-Z0-9_-]{6,})/);
+    if (m) return m[1];
+    if (/^[a-zA-Z0-9_-]{6,}$/.test(input)) return input; // ya es un ID plano
+    return '';
+  }
+
+  function videoBlockHtml(cfg, breakpoint) {
+    var esMobile = breakpoint === 'mobile';
+    var ytRaw = esMobile ? cfg.youtubeIdMobile : cfg.youtubeId;
+    var id = extraerIdYoutube(ytRaw);
+    if (!id) return '';
+    var w = esMobile ? (parseInt(cfg.videoWidthMobile, 10) || 9) : (parseInt(cfg.videoWidth, 10) || 16);
+    var h = esMobile ? (parseInt(cfg.videoHeightMobile, 10) || 16) : (parseInt(cfg.videoHeight, 10) || 9);
+    var elementId = 'js-yt-player-' + cfg.id + (breakpoint ? '-' + breakpoint : '');
+    var visibilityClass = breakpoint ? (esMobile ? 'd-md-none' : 'd-none d-md-block') : '';
+    var overlay = cfg.link ? ('<a href="' + cfg.link + '" class="js-video-link-overlay" aria-label=""></a>') : '';
+    // El placeholder se reemplaza por el iframe real via YT.Player API (ver
+    // ensureYoutubeApi/crearReproductorYoutube) — necesario para poder pedir
+    // setPlaybackQuality('hd1080'), que no es confiable via parametro de URL.
+    return (
+      '<div class="' + visibilityClass + '">' +
+        '<div class="js-video-container position-relative overflow-none" style="aspect-ratio:' + w + '/' + h + '">' +
+          '<div id="' + elementId + '"></div>' +
+          overlay +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  // Lista de {elementId, videoId} a inicializar segun si el modulo usa el
+  // mismo video en ambos breakpoints (1 player) o uno distinto por cada uno (2).
+  function videoPlayersToInit(cfg) {
+    if (cfg.tipo !== 'video') return [];
+    if (cfg.videoMobileDistinto) {
+      var lista = [];
+      var dId = extraerIdYoutube(cfg.youtubeId);
+      if (dId) lista.push({ elementId: 'js-yt-player-' + cfg.id + '-desktop', videoId: dId });
+      var mId = extraerIdYoutube(cfg.youtubeIdMobile);
+      if (mId) lista.push({ elementId: 'js-yt-player-' + cfg.id + '-mobile', videoId: mId });
+      return lista;
+    }
+    var id = extraerIdYoutube(cfg.youtubeId);
+    return id ? [{ elementId: 'js-yt-player-' + cfg.id, videoId: id }] : [];
+  }
+
+  // ─── YouTube IFrame API: carga unica + cola de reproductores pendientes ───
+  var _ytApiRequested = false;
+  var _ytPendingPlayers = [];
+
+  function ensureYoutubeApi() {
+    if (window.YT && window.YT.Player) { procesarColaYoutube(); return; }
+    if (_ytApiRequested) return;
+    _ytApiRequested = true;
+    var prevReady = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = function () {
+      if (typeof prevReady === 'function') prevReady();
+      procesarColaYoutube();
+    };
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(tag);
+  }
+
+  function procesarColaYoutube() {
+    while (_ytPendingPlayers.length) {
+      var item = _ytPendingPlayers.shift();
+      crearReproductorYoutube(item.elementId, item.videoId);
+    }
+  }
+
+  function crearReproductorYoutube(elementId, videoId) {
+    if (!document.getElementById(elementId)) return; // el modulo pudo haberse sacado del DOM mientras tanto
+    new window.YT.Player(elementId, {
+      videoId: videoId,
+      width: '100%',
+      height: '100%',
+      playerVars: {
+        autoplay: 1, mute: 1, loop: 1, playlist: videoId,
+        controls: 0, modestbranding: 1, playsinline: 1, rel: 0, showinfo: 0
+      },
+      events: {
+        onReady: function (e) {
+          e.target.mute();
+          e.target.setPlaybackQuality('hd1080'); // pide la maxima calidad disponible
+          e.target.playVideo();
+        },
+        onStateChange: function (e) {
+          if (e.data === window.YT.PlayerState.PLAYING) {
+            e.target.setPlaybackQuality('hd1080'); // por si YouTube la bajo por su cuenta
+          }
+        }
+      }
+    });
+  }
+
   function buildModuleHtml(cfg) {
     var mt = parseInt(cfg.marginTop, 10) || 0;
     var mb = parseInt(cfg.marginBottom, 10) || 0;
+    var mediaHtml = cfg.tipo === 'video'
+      ? (cfg.videoMobileDistinto
+          ? (videoBlockHtml(cfg, 'desktop') + videoBlockHtml(cfg, 'mobile'))
+          : videoBlockHtml(cfg, null))
+      : (
+          '<div class="js-home-banner-custom">' +
+            breakpointBlockHtml(cfg, 'desktop') +
+            breakpointBlockHtml(cfg, 'mobile') +
+          '</div>'
+        );
     return (
       '<section class="js-section-banner-home section-home section-banners-home position-relative overflow-none p-0" ' +
               'data-store="' + cfg.id + '" style="margin-top:' + mt + 'px;margin-bottom:' + mb + 'px">' +
         titleHeadingHtml(cfg) +
-        '<div class="js-home-banner-custom">' +
-          breakpointBlockHtml(cfg, 'desktop') +
-          breakpointBlockHtml(cfg, 'mobile') +
-        '</div>' +
+        mediaHtml +
       '</section>'
     );
   }
@@ -223,9 +338,23 @@
       case 'append': default: anchor.appendChild(node); break;
     }
 
-    initSwiper(cfg, 'desktop');
-    initSwiper(cfg, 'mobile');
-    fallbackShowFirstSlide(node);
+    if (cfg.tipo === 'video') {
+      var players = videoPlayersToInit(cfg);
+      if (players.length) {
+        ensureYoutubeApi();
+        players.forEach(function (p) {
+          if (window.YT && window.YT.Player) {
+            crearReproductorYoutube(p.elementId, p.videoId);
+          } else {
+            _ytPendingPlayers.push(p);
+          }
+        });
+      }
+    } else {
+      initSwiper(cfg, 'desktop');
+      initSwiper(cfg, 'mobile');
+      fallbackShowFirstSlide(node);
+    }
   }
 
   function run() {
