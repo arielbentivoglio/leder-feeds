@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 15:05:11
+ * Generado: 2026-08-18 15:13:01
  */
 (function () {
   'use strict';
@@ -58,6 +58,9 @@
     "fontName": 15,
     "fontPrice": 16,
     "fontCuotas": 12,
+    "colorNombre": "#1a1a1a",
+    "colorPrecio": "#1a1a1a",
+    "colorCuotas": "#ff0000",
     "comprarVisible": true,
     "comprarTexto": "Comprar",
     "comprarBg": "#1a1a1a",
@@ -217,25 +220,30 @@
     var fName = cfg.fontName || 13;
     var fPrice = cfg.fontPrice || 15;
     var fCuotas = cfg.fontCuotas || 12;
+    var cName = cfg.colorNombre || '#1a1a1a';
+    var cPrice = cfg.colorPrecio || '#1a1a1a';
+    var cCuotas = cfg.colorCuotas || '#1a1a1a';
+    var nameLineHeight = 1.3;
+    var nameMinHeight = Math.round(fName * nameLineHeight * 2);
     var comprarHtml = '';
     if (cfg.comprarVisible && url) {
       comprarHtml = (
         '<a href="' + escHtml(url) + '" class="js-vc-buy-btn" ' +
-           'style="display:block;text-align:center;margin-top:8px;padding:8px;border-radius:4px;' +
-           'font-size:' + fName + 'px;background:' + (cfg.comprarBg || '#1a1a1a') + ';' +
-           'color:' + (cfg.comprarColor || '#ffffff') + ';text-decoration:none">' +
+           'style="display:inline-block;margin-top:8px;padding:8px 22px;border-radius:4px;' +
+           'font-size:' + fName + 'px;line-height:1.2;background:' + (cfg.comprarBg || '#1a1a1a') + ';' +
+           'color:' + (cfg.comprarColor || '#ffffff') + ';text-decoration:none;white-space:nowrap">' +
           escHtml(cfg.comprarTexto || 'Comprar') +
         '</a>'
       );
     }
     return (
       '<div class="js-vc-product" data-url="' + escHtml(url) + '">' +
-        '<p class="js-vc-product-name" style="font-size:' + fName + 'px">' + escHtml(video.productoNombre) + '</p>' +
+        '<p class="js-vc-product-name" style="font-size:' + fName + 'px;color:' + cName + ';min-height:' + nameMinHeight + 'px;line-height:' + nameLineHeight + '">' + escHtml(video.productoNombre) + '</p>' +
         '<div class="js-vc-product-price-row">' +
-          '<span class="js-vc-product-price" style="font-size:' + fPrice + 'px">' + formatearPrecio(precio) + '</span>' +
+          '<span class="js-vc-product-price" style="font-size:' + fPrice + 'px;color:' + cPrice + '">' + formatearPrecio(precio) + '</span>' +
           (tachado > precio ? '<span class="js-vc-product-compare" style="font-size:' + fCuotas + 'px">' + formatearPrecio(tachado) + '</span>' : '') +
         '</div>' +
-        (video.productoCuotasTexto ? '<div class="js-vc-product-installments" style="font-size:' + fCuotas + 'px">' + escHtml(video.productoCuotasTexto) + '</div>' : '') +
+        (video.productoCuotasTexto ? '<div class="js-vc-product-installments" style="font-size:' + fCuotas + 'px;color:' + cCuotas + '">' + escHtml(video.productoCuotasTexto) + '</div>' : '') +
         comprarHtml +
       '</div>'
     );
@@ -281,15 +289,28 @@
         '<style>' +
           '#' + shelfId + ' .js-vc-item{width:' + wMobile + 'px}' +
           '#' + shelfId + ' .js-vc-card{aspect-ratio:' + ratio + '}' +
-          '#' + shelfId + '{justify-content:' + justify + ';padding-left:' + padMobile + 'px;padding-right:' + padMobile + 'px}' +
+          '#' + shelfId + '{padding-left:' + padMobile + 'px;padding-right:' + padMobile + 'px}' +
           '@media (min-width:768px){' +
             '#' + shelfId + ' .js-vc-item{width:' + wDesktop + 'px}' +
             '#' + shelfId + '{padding-left:' + padDesktop + 'px;padding-right:' + padDesktop + 'px}' +
           '}' +
         '</style>' +
-        '<div id="' + shelfId + '" class="js-vc-shelf">' + cards + '</div>' +
+        '<div id="' + shelfId + '" class="js-vc-shelf" data-justify="' + justify + '">' + cards + '</div>' +
       '</section>'
     );
+  }
+
+  // La alineacion configurada (centro/derecha) solo se aplica cuando TODAS
+  // las tarjetas entran sin necesidad de scroll. Si no entran, forzamos
+  // izquierda: con overflow real, justify-content:center/flex-end deja la
+  // primera tarjeta escondida fuera de la vista (el usuario tendria que
+  // saber que puede scrollear hacia la izquierda, cosa que nadie hace) —
+  // este es el bug que rompia el video de la izquierda en mobile.
+  function ajustarAlineacion(shelf) {
+    var justify = shelf.getAttribute('data-justify') || 'flex-start';
+    var entraSinScroll = shelf.scrollWidth <= shelf.clientWidth + 1;
+    shelf.style.justifyContent = entraSinScroll ? justify : 'flex-start';
+    if (!entraSinScroll) shelf.scrollLeft = 0;
   }
 
   // ─── Reproduccion: solo una tarjeta reproduce a la vez EN TODA LA PAGINA ──
@@ -391,6 +412,16 @@
     }
 
     attachShelfEvents(node);
+
+    var shelfEl = node.querySelector('.js-vc-shelf');
+    if (shelfEl) {
+      ajustarAlineacion(shelfEl);
+      var _resizeTimer = null;
+      window.addEventListener('resize', function () {
+        clearTimeout(_resizeTimer);
+        _resizeTimer = setTimeout(function () { ajustarAlineacion(shelfEl); }, 150);
+      });
+    }
   }
 
   function run() {
