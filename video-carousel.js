@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 14:56:43
+ * Generado: 2026-08-18 15:01:10
  */
 (function () {
   'use strict';
@@ -125,6 +125,20 @@
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-black-frente-e2111184bf5f1f9edb17831051827744-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-black/",
         "productoCuotasTexto": "12 cuotas sin interés de $24.999,17"
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/Vi051au99jM",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 329583210,
+        "productoNombre": "Sillón Reclinable Masajeador De Cuero - Toronto",
+        "productoPrecio": "3749988.00",
+        "productoPrecioTachado": "3749988.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/chatgpt-image-12-mar-2026-10_56_52-a-m-194aeb9cc9a2f133c217733238462892-1024-1024.png",
+        "productoUrl": "https://lederhd.com/productos/sillon-reclinable-masajeador-de-cuero-toronto/",
+        "productoCuotasTexto": "12 cuotas sin interés de $249.999,17"
       }
     ]
   }
