@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 16:29:14
+ * Generado: 2026-08-18 17:28:23
  */
 (function () {
   "use strict";
@@ -17,7 +17,7 @@
       "ENVÍOS A REGIONES"
     ],
     "intervalMs": 4000,
-    "bgColor": "#211913",
+    "bgColor": "#000000",
     "textColor": "#f6f1e7",
     "accentColor": "#c6a875",
     "mostrarAcento": true,
