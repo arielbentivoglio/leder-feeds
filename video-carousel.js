@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 14:44:13
+ * Generado: 2026-08-18 14:54:10
  */
 (function () {
   'use strict';
@@ -111,6 +111,20 @@
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/portada-c9a909b3904003770417783798454457-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/tapado-de-cuero-bella-black/",
         "productoCuotasTexto": "12 cuotas sin interés de $66.665,83"
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/e-BO1fjo_ZA",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 353857136,
+        "productoNombre": "Mochila De Cuero Vacuno Andina - Black",
+        "productoPrecio": "299990.00",
+        "productoPrecioTachado": "299990.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-black-frente-e2111184bf5f1f9edb17831051827744-1024-1024.webp",
+        "productoUrl": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-black/",
+        "productoCuotasTexto": "12 cuotas sin interés de $24.999,17"
       }
     ]
   }
