@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 14:54:10
+ * Generado: 2026-08-18 14:56:43
  */
 (function () {
   'use strict';
@@ -50,7 +50,7 @@
     "tituloColor": "#1a1a1a",
     "cardRatioW": 9,
     "cardRatioH": 16,
-    "cardWidthDesktop": 220,
+    "cardWidthDesktop": 250,
     "cardWidthMobile": 150,
     "align": "center",
     "sidePaddingDesktop": 24,
