@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 14:34:39
+ * Generado: 2026-08-18 14:44:13
  */
 (function () {
   'use strict';
@@ -52,6 +52,9 @@
     "cardRatioH": 16,
     "cardWidthDesktop": 220,
     "cardWidthMobile": 150,
+    "align": "center",
+    "sidePaddingDesktop": 24,
+    "sidePaddingMobile": 14,
     "videos": [
       {
         "tipo": "youtube",
@@ -129,7 +132,7 @@
       '.js-video-carousel-title.align-left{text-align:left}' +
       '.js-video-carousel-title.align-center{text-align:center}' +
       '.js-video-carousel-title.align-right{text-align:right}' +
-      '.js-vc-shelf{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;padding-bottom:2px}' +
+      '.js-vc-shelf{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity;padding-bottom:2px;box-sizing:border-box}' +
       '.js-vc-item{flex:0 0 auto;scroll-snap-align:start}' +
       '.js-vc-card{position:relative;border-radius:10px;overflow:hidden;background:#111;width:100%}' +
       '.js-vc-poster,.js-vc-card video,.js-vc-card iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;display:block}' +
@@ -218,6 +221,9 @@
     var ratio = (cfg.cardRatioW || 9) + '/' + (cfg.cardRatioH || 16);
     var wDesktop = cfg.cardWidthDesktop || 220;
     var wMobile = cfg.cardWidthMobile || 150;
+    var justify = cfg.align === 'center' ? 'center' : (cfg.align === 'right' ? 'flex-end' : 'flex-start');
+    var padDesktop = cfg.sidePaddingDesktop != null ? cfg.sidePaddingDesktop : 24;
+    var padMobile = cfg.sidePaddingMobile != null ? cfg.sidePaddingMobile : 14;
     return (
       '<section class="js-video-carousel" data-store="' + cfg.id + '" ' +
               'style="margin-top:' + mt + 'px;margin-bottom:' + mb + 'px">' +
@@ -225,9 +231,13 @@
         '<style>' +
           '#' + shelfId + ' .js-vc-item{width:' + wMobile + 'px}' +
           '#' + shelfId + ' .js-vc-card{aspect-ratio:' + ratio + '}' +
-          '@media (min-width:768px){#' + shelfId + ' .js-vc-item{width:' + wDesktop + 'px}}' +
+          '#' + shelfId + '{justify-content:' + justify + ';padding-left:' + padMobile + 'px;padding-right:' + padMobile + 'px}' +
+          '@media (min-width:768px){' +
+            '#' + shelfId + ' .js-vc-item{width:' + wDesktop + 'px}' +
+            '#' + shelfId + '{padding-left:' + padDesktop + 'px;padding-right:' + padDesktop + 'px}' +
+          '}' +
         '</style>' +
-        '<div class="container-fluid p-0"><div id="' + shelfId + '" class="js-vc-shelf">' + cards + '</div></div>' +
+        '<div id="' + shelfId + '" class="js-vc-shelf">' + cards + '</div>' +
       '</section>'
     );
   }
