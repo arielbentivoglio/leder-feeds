@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 16:22:39
+ * Generado: 2026-08-18 16:22:50
  */
 (function () {
   "use strict";
