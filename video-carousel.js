@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 15:56:56
+ * Generado: 2026-08-18 16:06:34
  */
 (function () {
   'use strict';
@@ -72,13 +72,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 353777968,
         "productoNombre": "Bolso De Cuero Vacuno Peak - Dark Brown",
         "productoPrecio": "439990.00",
         "productoPrecioTachado": "439990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/bolso-peak-chocolate-1-planchar-d984489ea8e9e9ad3217830833620098-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/bolso-de-viaje-peak-de-cuero-vacuno-dark-brown-1cfko/",
-        "productoCuotasTexto": "12 cuotas sin interés de $36.665,83"
+        "productoCuotasTexto": "12 cuotas sin interés de $36.665,83",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       },
       {
         "tipo": "youtube",
@@ -86,13 +89,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 310516921,
         "productoNombre": "Cuero De Oveja Pelo Largo Muflón Corderito - 80x45cm",
         "productoPrecio": "99790.00",
         "productoPrecioTachado": "99790.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_740623-mla107449749795_022026-f-1-d723a33d92fc6ad28317812686249719-1024-1024.jpg",
         "productoUrl": "https://lederhd.com/productos/cuero-de-oveja-muflon-corderito-colores-80x45cm/",
-        "productoCuotasTexto": "3 cuotas sin interés de $33.263,33"
+        "productoCuotasTexto": "3 cuotas sin interés de $33.263,33",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       },
       {
         "tipo": "youtube",
@@ -100,13 +106,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 317404072,
         "productoNombre": "Bota De Cuero Lanar - Balu",
         "productoPrecio": "249988.00",
         "productoPrecioTachado": "249988.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/balu1-moss-2-458d15db9cb4f375a117775747108515-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/bota-de-cuero-lanar-balu/",
-        "productoCuotasTexto": "9 cuotas sin interés de $22.221,11"
+        "productoCuotasTexto": "9 cuotas sin interés de $22.221,11",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       },
       {
         "tipo": "youtube",
@@ -114,13 +123,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 333922132,
         "productoNombre": "Tapado De Cuero Bella - Black",
         "productoPrecio": "799990.00",
         "productoPrecioTachado": "799990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/portada-c9a909b3904003770417783798454457-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/tapado-de-cuero-bella-black/",
-        "productoCuotasTexto": "12 cuotas sin interés de $66.665,83"
+        "productoCuotasTexto": "12 cuotas sin interés de $66.665,83",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       },
       {
         "tipo": "youtube",
@@ -128,13 +140,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 353857136,
         "productoNombre": "Mochila De Cuero Vacuno Andina - Black",
         "productoPrecio": "299990.00",
         "productoPrecioTachado": "299990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-black-frente-e2111184bf5f1f9edb17831051827744-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-black/",
-        "productoCuotasTexto": "12 cuotas sin interés de $24.999,17"
+        "productoCuotasTexto": "12 cuotas sin interés de $24.999,17",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       },
       {
         "tipo": "youtube",
@@ -142,13 +157,16 @@
         "src": "",
         "poster": "",
         "link": "",
+        "linkTipo": "",
         "productoId": 329583210,
         "productoNombre": "Sillón Reclinable Masajeador De Cuero - Toronto",
         "productoPrecio": "3749988.00",
         "productoPrecioTachado": "3749988.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/chatgpt-image-12-mar-2026-10_56_52-a-m-194aeb9cc9a2f133c217733238462892-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/sillon-reclinable-masajeador-de-cuero-toronto/",
-        "productoCuotasTexto": "12 cuotas sin interés de $249.999,17"
+        "productoCuotasTexto": "12 cuotas sin interés de $249.999,17",
+        "categoriaNombre": "",
+        "categoriaUrl": ""
       }
     ]
   },
@@ -195,13 +213,16 @@
         "src": "",
         "poster": "",
         "link": "",
-        "productoId": 340096653,
-        "productoNombre": "Piel De Oveja Muflón Corderito Natural - 80x45cm",
-        "productoPrecio": "62490.00",
-        "productoPrecioTachado": "62490.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/d_nq_np_2x_740623-mla107449749795_022026-f-1-d723a33d92fc6ad28317812686249719-1024-1024-5a0ccf99774a62a36717867140293885-1024-1024.jpg",
-        "productoUrl": "https://leder.cl/productos/cuero-de-oveja-muflon-corderito-80x45cm1/",
-        "productoCuotasTexto": ""
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "ALFOMBRAS",
+        "categoriaUrl": "https://leder.cl/alfombras-de-cuero/"
       },
       {
         "tipo": "youtube",
@@ -209,13 +230,16 @@
         "src": "",
         "poster": "",
         "link": "",
-        "productoId": 340096083,
-        "productoNombre": "Bolso Matero De Cuero Vacuno",
-        "productoPrecio": "162490.00",
-        "productoPrecioTachado": "162490.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/matera-simple-18-fa0046cb8b4f3fd61f17804030904019-1024-1024.webp",
-        "productoUrl": "https://leder.cl/productos/bolso-matero-de-cuero-vacuno/",
-        "productoCuotasTexto": ""
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "BOLSOS Y CARTERAS",
+        "categoriaUrl": "https://leder.cl/bolsos-y-carteras-de-cuero/"
       },
       {
         "tipo": "youtube",
@@ -223,13 +247,16 @@
         "src": "",
         "poster": "",
         "link": "",
-        "productoId": 340096185,
-        "productoNombre": "Bolso De Viaje De Cuero Vacuno",
-        "productoPrecio": "269990.00",
-        "productoPrecioTachado": "269990.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/bolso-habano-chile-37dab49ca99f0e08f517804113086854-1024-1024.png",
-        "productoUrl": "https://leder.cl/productos/bolso-de-viaje-de-cuero-vacuno/",
-        "productoCuotasTexto": ""
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "BOLSOS Y CARTERAS",
+        "categoriaUrl": "https://leder.cl/bolsos-y-carteras-de-cuero/"
       },
       {
         "tipo": "youtube",
@@ -237,13 +264,16 @@
         "src": "",
         "poster": "",
         "link": "",
-        "productoId": 340095234,
-        "productoNombre": "Alfombra Cuero De Vaca Light Brindle – Aprox 160x140cm",
-        "productoPrecio": "175590.00",
-        "productoPrecioTachado": "175590.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/d_nq_np_2x_709890-mlc104700849162_012026-f-alfombra-moderna-de-cuero-de-vaca-natural-atigrado-160x140cm-72a6537082a2ba38b217798878213256-1024-1024.webp",
-        "productoUrl": "https://leder.cl/productos/alfombra-living-cuero-de-vaca-light-brindle-aprox-160x140cm/",
-        "productoCuotasTexto": ""
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "CUEROS",
+        "categoriaUrl": "https://leder.cl/cueros/"
       },
       {
         "tipo": "youtube",
@@ -251,13 +281,16 @@
         "src": "",
         "poster": "",
         "link": "",
-        "productoId": 340095945,
-        "productoNombre": "Cojín De Cuero Vacuno Mosaico Crash - 50x50cm",
-        "productoPrecio": "59990.00",
-        "productoPrecioTachado": "59990.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/chatgpt-image-16-ene-2026-18_36_12-a12365324b3a922eec17803212862404-1024-1024.webp",
-        "productoUrl": "https://leder.cl/productos/cojin-de-cuero-vacuno-mosaico-crash-50x50cm/",
-        "productoCuotasTexto": ""
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "COJINES",
+        "categoriaUrl": "https://leder.cl/cojines-de-cuero/"
       }
     ]
   }
@@ -358,6 +391,35 @@
     );
   }
 
+  function categoriaBlockHtml(cfg, video) {
+    if (!video.categoriaNombre) return '';
+    var url = video.categoriaUrl || '';
+    var fName = cfg.fontName || 13;
+    var cName = cfg.colorNombre || '#1a1a1a';
+    var comprarHtml = '';
+    if (cfg.comprarVisible && url) {
+      comprarHtml = (
+        '<a href="' + escHtml(url) + '" class="js-vc-buy-btn" ' +
+           'style="display:inline-block;margin-top:8px;padding:8px 22px;border-radius:4px;' +
+           'font-size:' + fName + 'px;line-height:1.2;background:' + (cfg.comprarBg || '#1a1a1a') + ';' +
+           'color:' + (cfg.comprarColor || '#ffffff') + ';text-decoration:none;white-space:nowrap">' +
+          escHtml(cfg.comprarTexto || 'Ver mas') +
+        '</a>'
+      );
+    }
+    return (
+      '<div class="js-vc-product" data-url="' + escHtml(url) + '">' +
+        '<p class="js-vc-product-name" style="font-size:' + fName + 'px;color:' + cName + ';margin:0">' + escHtml(video.categoriaNombre) + '</p>' +
+        comprarHtml +
+      '</div>'
+    );
+  }
+
+  function infoBlockHtml(cfg, video) {
+    if (video.linkTipo === 'categoria') return categoriaBlockHtml(cfg, video);
+    return productoBlockHtml(cfg, video);
+  }
+
   function cardHtml(cfg, video, idx) {
     var tipo = video.tipo === 'youtube' ? 'youtube' : 'archivo';
     var ytId = tipo === 'youtube' ? extraerIdYoutube(video.youtube_id) : '';
@@ -374,7 +436,7 @@
             '<div class="js-vc-play-circle"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>' +
           '</div>' +
         '</div>' +
-        productoBlockHtml(cfg, video) +
+        infoBlockHtml(cfg, video) +
       '</div>'
     );
   }
