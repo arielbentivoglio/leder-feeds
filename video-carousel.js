@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 15:20:10
+ * Generado: 2026-08-18 15:56:56
  */
 (function () {
   'use strict';
@@ -149,6 +149,115 @@
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/chatgpt-image-12-mar-2026-10_56_52-a-m-194aeb9cc9a2f133c217733238462892-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/sillon-reclinable-masajeador-de-cuero-toronto/",
         "productoCuotasTexto": "12 cuotas sin interés de $249.999,17"
+      }
+    ]
+  },
+  {
+    "id": "carrusel-home-video-chile",
+    "stores": [
+      "cl"
+    ],
+    "placements": [
+      {
+        "page": "home",
+        "anchor": ".section-instafeed-home[data-store=\"home-instagram-feed\"]",
+        "position": "after"
+      }
+    ],
+    "link": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "titulo": "",
+    "tituloVisible": false,
+    "tituloAlign": "center",
+    "tituloColor": "#1a1a1a",
+    "cardRatioW": 9,
+    "cardRatioH": 16,
+    "cardWidthDesktop": 220,
+    "cardWidthMobile": 150,
+    "align": "center",
+    "sidePaddingDesktop": 24,
+    "sidePaddingMobile": 14,
+    "fontName": 15,
+    "fontPrice": 16,
+    "fontCuotas": 12,
+    "colorNombre": "#1a1a1a",
+    "colorPrecio": "#1a1a1a",
+    "colorCuotas": "#1a1a1a",
+    "comprarVisible": true,
+    "comprarTexto": "Comprar",
+    "comprarBg": "#1a1a1a",
+    "comprarColor": "#ffffff",
+    "videos": [
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/ElhEOX1qoIM",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 340096653,
+        "productoNombre": "Piel De Oveja Muflón Corderito Natural - 80x45cm",
+        "productoPrecio": "62490.00",
+        "productoPrecioTachado": "62490.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/d_nq_np_2x_740623-mla107449749795_022026-f-1-d723a33d92fc6ad28317812686249719-1024-1024-5a0ccf99774a62a36717867140293885-1024-1024.jpg",
+        "productoUrl": "https://leder.cl/productos/cuero-de-oveja-muflon-corderito-80x45cm1/",
+        "productoCuotasTexto": ""
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/pnCkojlwF4Y",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 340096083,
+        "productoNombre": "Bolso Matero De Cuero Vacuno",
+        "productoPrecio": "162490.00",
+        "productoPrecioTachado": "162490.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/matera-simple-18-fa0046cb8b4f3fd61f17804030904019-1024-1024.webp",
+        "productoUrl": "https://leder.cl/productos/bolso-matero-de-cuero-vacuno/",
+        "productoCuotasTexto": ""
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/yaXe3lFFEn0",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 340096185,
+        "productoNombre": "Bolso De Viaje De Cuero Vacuno",
+        "productoPrecio": "269990.00",
+        "productoPrecioTachado": "269990.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/bolso-habano-chile-37dab49ca99f0e08f517804113086854-1024-1024.png",
+        "productoUrl": "https://leder.cl/productos/bolso-de-viaje-de-cuero-vacuno/",
+        "productoCuotasTexto": ""
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/I0xictT_dkU",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 340095234,
+        "productoNombre": "Alfombra Cuero De Vaca Light Brindle – Aprox 160x140cm",
+        "productoPrecio": "175590.00",
+        "productoPrecioTachado": "175590.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/d_nq_np_2x_709890-mlc104700849162_012026-f-alfombra-moderna-de-cuero-de-vaca-natural-atigrado-160x140cm-72a6537082a2ba38b217798878213256-1024-1024.webp",
+        "productoUrl": "https://leder.cl/productos/alfombra-living-cuero-de-vaca-light-brindle-aprox-160x140cm/",
+        "productoCuotasTexto": ""
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://www.youtube.com/shorts/WR2E9XfhAik",
+        "src": "",
+        "poster": "",
+        "link": "",
+        "productoId": 340095945,
+        "productoNombre": "Cojín De Cuero Vacuno Mosaico Crash - 50x50cm",
+        "productoPrecio": "59990.00",
+        "productoPrecioTachado": "59990.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/007/542/985/products/chatgpt-image-16-ene-2026-18_36_12-a12365324b3a922eec17803212862404-1024-1024.webp",
+        "productoUrl": "https://leder.cl/productos/cojin-de-cuero-vacuno-mosaico-crash-50x50cm/",
+        "productoCuotasTexto": ""
       }
     ]
   }
