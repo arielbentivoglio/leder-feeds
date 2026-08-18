@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 15:13:01
+ * Generado: 2026-08-18 15:20:10
  */
 (function () {
   'use strict';
@@ -37,7 +37,7 @@
     "placements": [
       {
         "page": "home",
-        "anchor": ".js-section-banner-home[data-store=\"nuestra-historia\"]",
+        "anchor": ".section-instafeed-home[data-store=\"home-instagram-feed\"]",
         "position": "after"
       }
     ],
