@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 16:22:50
+ * Generado: 2026-08-18 16:29:14
  */
 (function () {
   "use strict";
@@ -13,15 +13,17 @@
       "cl"
     ],
     "mensajes": [
-      "💳 6 CUOTAS SIN INTERÉS",
-      "🚚 ENVÍOS A REGIONES"
+      "6 CUOTAS SIN INTERÉS",
+      "ENVÍOS A REGIONES"
     ],
     "intervalMs": 4000,
-    "bgColor": "#000000",
-    "textColor": "#ffffff",
-    "accentColor": "#ffffff",
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#c6a875",
     "mostrarAcento": true,
-    "sticky": false
+    "sticky": false,
+    "negrita": false,
+    "cursiva": false
   }
 ];
 
@@ -40,7 +42,7 @@
   function injectStyle() {
     if (document.getElementById("ldr-topbar-style")) return;
     var css =
-      ".ldr-topbar{width:100%;box-sizing:border-box;text-align:center;padding:8px 14px;font-size:12px;font-weight:600;letter-spacing:.03em;line-height:1.4}" +
+      ".ldr-topbar{width:100%;box-sizing:border-box;text-align:center;padding:8px 14px;font-size:12px;font-weight:400;letter-spacing:.03em;line-height:1.4}" +
       ".ldr-topbar__viewport{position:relative;height:1.4em;overflow:hidden;max-width:100%;margin:0 auto}" +
       ".ldr-topbar__item{position:absolute;left:0;right:0;top:0;opacity:0;transform:translateY(6px);transition:opacity .45s ease,transform .45s ease;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}" +
       ".ldr-topbar__item.is-active{opacity:1;transform:translateY(0);pointer-events:auto}" +
@@ -62,6 +64,8 @@
     bar.setAttribute("aria-label", "Anuncios");
     bar.style.background = tb.bgColor || "#000000";
     bar.style.color = tb.textColor || "#ffffff";
+    bar.style.fontWeight = tb.negrita ? "700" : "400";
+    bar.style.fontStyle = tb.cursiva ? "italic" : "normal";
     if (tb.sticky) {
       bar.style.position = "sticky";
       bar.style.top = "0";
