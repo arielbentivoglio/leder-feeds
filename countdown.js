@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 17:23:48
+ * Generado: 2026-08-18 17:24:30
  */
 (function () {
   "use strict";
@@ -36,7 +36,7 @@
     },
     "etiqueta": {
       "texto": "Termina en",
-      "color": "#211913",
+      "color": "#f6f1e7",
       "negrita": false,
       "cursiva": false
     },
@@ -47,7 +47,7 @@
     },
     "bgColor": "#211913",
     "textColor": "#f6f1e7",
-    "accentColor": "#c6a875"
+    "accentColor": "#000000"
   }
 ];
   // Offset fijo por tienda (sin manejo de horario de verano/DST — mismo
