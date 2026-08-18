@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 17:21:53
+ * Generado: 2026-08-18 17:23:48
  */
 (function () {
   "use strict";
@@ -36,7 +36,7 @@
     },
     "etiqueta": {
       "texto": "Termina en",
-      "color": "#f6f1e7",
+      "color": "#211913",
       "negrita": false,
       "cursiva": false
     },
