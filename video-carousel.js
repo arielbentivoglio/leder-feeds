@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 15:01:10
+ * Generado: 2026-08-18 15:05:11
  */
 (function () {
   'use strict';
@@ -55,6 +55,13 @@
     "align": "center",
     "sidePaddingDesktop": 24,
     "sidePaddingMobile": 14,
+    "fontName": 15,
+    "fontPrice": 16,
+    "fontCuotas": 12,
+    "comprarVisible": true,
+    "comprarTexto": "Comprar",
+    "comprarBg": "#1a1a1a",
+    "comprarColor": "#ffffff",
     "videos": [
       {
         "tipo": "youtube",
@@ -169,11 +176,11 @@
       '.js-vc-play-circle svg{width:18px;height:18px;fill:#fff;margin-left:2px}' +
       '.js-vc-link-overlay{position:absolute;inset:0;z-index:1}' +
       '.js-vc-product{margin-top:8px;cursor:pointer;font-family:inherit}' +
-      '.js-vc-product-name{font-size:12px;color:#1a1a1a;margin:0 0 3px;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}' +
+      '.js-vc-product-name{color:#1a1a1a;margin:0 0 3px;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}' +
       '.js-vc-product-price-row{display:flex;align-items:baseline;gap:6px}' +
-      '.js-vc-product-price{font-size:13px;font-weight:600;color:#1a1a1a}' +
-      '.js-vc-product-compare{font-size:11px;color:#999;text-decoration:line-through}' +
-      '.js-vc-product-installments{font-size:11px;color:#1a1a1a;margin-top:2px}';
+      '.js-vc-product-price{font-weight:600;color:#1a1a1a}' +
+      '.js-vc-product-compare{color:#999;text-decoration:line-through}' +
+      '.js-vc-product-installments{color:#1a1a1a;margin-top:2px}';
     document.head.appendChild(style);
   }
 
@@ -202,19 +209,34 @@
     return '$' + n.toLocaleString('es-AR');
   }
 
-  function productoBlockHtml(video) {
+  function productoBlockHtml(cfg, video) {
     if (!video.productoNombre) return '';
     var precio = parseFloat(video.productoPrecio) || 0;
     var tachado = parseFloat(video.productoPrecioTachado) || 0;
     var url = video.productoUrl || '';
+    var fName = cfg.fontName || 13;
+    var fPrice = cfg.fontPrice || 15;
+    var fCuotas = cfg.fontCuotas || 12;
+    var comprarHtml = '';
+    if (cfg.comprarVisible && url) {
+      comprarHtml = (
+        '<a href="' + escHtml(url) + '" class="js-vc-buy-btn" ' +
+           'style="display:block;text-align:center;margin-top:8px;padding:8px;border-radius:4px;' +
+           'font-size:' + fName + 'px;background:' + (cfg.comprarBg || '#1a1a1a') + ';' +
+           'color:' + (cfg.comprarColor || '#ffffff') + ';text-decoration:none">' +
+          escHtml(cfg.comprarTexto || 'Comprar') +
+        '</a>'
+      );
+    }
     return (
       '<div class="js-vc-product" data-url="' + escHtml(url) + '">' +
-        '<p class="js-vc-product-name">' + escHtml(video.productoNombre) + '</p>' +
+        '<p class="js-vc-product-name" style="font-size:' + fName + 'px">' + escHtml(video.productoNombre) + '</p>' +
         '<div class="js-vc-product-price-row">' +
-          '<span class="js-vc-product-price">' + formatearPrecio(precio) + '</span>' +
-          (tachado > precio ? '<span class="js-vc-product-compare">' + formatearPrecio(tachado) + '</span>' : '') +
+          '<span class="js-vc-product-price" style="font-size:' + fPrice + 'px">' + formatearPrecio(precio) + '</span>' +
+          (tachado > precio ? '<span class="js-vc-product-compare" style="font-size:' + fCuotas + 'px">' + formatearPrecio(tachado) + '</span>' : '') +
         '</div>' +
-        (video.productoCuotasTexto ? '<div class="js-vc-product-installments">' + escHtml(video.productoCuotasTexto) + '</div>' : '') +
+        (video.productoCuotasTexto ? '<div class="js-vc-product-installments" style="font-size:' + fCuotas + 'px">' + escHtml(video.productoCuotasTexto) + '</div>' : '') +
+        comprarHtml +
       '</div>'
     );
   }
@@ -235,7 +257,7 @@
             '<div class="js-vc-play-circle"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>' +
           '</div>' +
         '</div>' +
-        productoBlockHtml(video) +
+        productoBlockHtml(cfg, video) +
       '</div>'
     );
   }
