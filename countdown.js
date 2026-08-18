@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 17:24:30
+ * Generado: 2026-08-18 17:29:51
  */
 (function () {
   "use strict";
@@ -25,23 +25,27 @@
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
+      "tamano": 11,
       "negrita": false,
       "cursiva": false
     },
     "titulo": {
       "texto": "Chairpad 6x5",
       "color": "#f6f1e7",
-      "negrita": false,
+      "tamano": 15,
+      "negrita": true,
       "cursiva": false
     },
     "etiqueta": {
       "texto": "Termina en",
       "color": "#f6f1e7",
+      "tamano": 12,
       "negrita": false,
       "cursiva": false
     },
     "digitos": {
       "color": "#f6f1e7",
+      "tamano": 18,
       "negrita": true,
       "cursiva": false
     },
@@ -169,6 +173,18 @@
     if (seg.color) s += "color:" + seg.color + ";";
     s += "font-weight:" + (seg.negrita ? "700" : "400") + ";";
     s += "font-style:" + (seg.cursiva ? "italic" : "normal") + ";";
+    if (seg.tamano) s += "font-size:" + seg.tamano + "px;";
+    return s;
+  }
+
+  function digitoStyle(dig, isLabel) {
+    dig = dig || {};
+    var tamano = dig.tamano || 16;
+    var s = "";
+    if (dig.color) s += "color:" + dig.color + ";";
+    s += "font-weight:" + (dig.negrita ? "700" : "400") + ";";
+    s += "font-style:" + (dig.cursiva ? "italic" : "normal") + ";";
+    s += "font-size:" + (isLabel ? Math.max(7, Math.round(tamano * 0.45)) : tamano) + "px;";
     return s;
   }
 
@@ -179,11 +195,11 @@
     var num = document.createElement("span");
     num.className = "ldr-cd__num js-ldr-cd-num";
     num.setAttribute("data-unit", label);
-    num.setAttribute("style", segStyle(cd.digitos));
+    num.setAttribute("style", digitoStyle(cd.digitos, false));
     num.textContent = valor;
     var lbl = document.createElement("span");
     lbl.className = "ldr-cd__u-label";
-    lbl.setAttribute("style", segStyle(cd.digitos));
+    lbl.setAttribute("style", digitoStyle(cd.digitos, true));
     lbl.textContent = label;
     wrap.appendChild(num);
     wrap.appendChild(lbl);
