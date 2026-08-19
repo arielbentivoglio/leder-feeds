@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 12:01:26
+ * Generado: 2026-08-19 12:13:07
  */
 (function () {
   "use strict";
@@ -356,6 +356,47 @@
 
     bar.appendChild(row);
 
+    colocarBarra(cd, bar, function () {
+      var nums = bar.querySelectorAll(".js-ldr-cd-num");
+      var numHrs = nums[0], numMin = nums[1], numSeg = nums[2];
+
+      function tick() {
+        var info = getEndTimestamp(cd, offsetMs);
+        var now = Math.floor(Date.now() / 1000);
+        var left = info.ts - now;
+        if (left <= 0) {
+          if (info.fijo) {
+            // fecha fija vencida: se saca el modulo del DOM
+            bar.remove();
+            clearInterval(iv);
+            return;
+          }
+          // sin fecha fija: se reinicio solo (proximo tick ya calcula la
+          // nueva medianoche), no hace falta hacer nada especial aca
+          left = 0;
+        }
+        var h = Math.floor(left / 3600);
+        var mnt = Math.floor((left % 3600) / 60);
+        var s = Math.floor(left % 60);
+        numHrs.textContent = String(h).padStart(2, "0");
+        numMin.textContent = String(mnt).padStart(2, "0");
+        numSeg.textContent = String(s).padStart(2, "0");
+      }
+
+      tick();
+      var iv = setInterval(tick, 1000);
+    });
+  }
+
+  // Coloca la barra ya construida en el DOM. Si el alcance es "anchor", el
+  // selector puede no existir todavia al momento de correr este script
+  // (muchos themes de Tiendanube hidratan partes de la pagina — como el
+  // formulario de producto — despues del DOMContentLoaded), asi que se
+  // reintenta cada 150ms hasta 40 veces (~6s) antes de caer al fallback de
+  // "arriba de todo". Mismo patron ya validado en produccion en
+  // modulos_custom_panel.py y video_carousel_panel.py.
+  function colocarBarra(cd, bar, onPlaced, attemptsLeft) {
+    attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
     if (cd.posicion === "anchor" && cd.anchorSelector) {
       var target = document.querySelector(cd.anchorSelector);
       if (target) {
@@ -363,41 +404,19 @@
         else if (cd.anchorPosition === "prepend") target.insertBefore(bar, target.firstChild);
         else if (cd.anchorPosition === "append") target.appendChild(bar);
         else target.parentNode.insertBefore(bar, target); // before (default)
-      } else {
-        document.body.insertBefore(bar, document.body.firstChild); // fallback: arriba de todo
+        onPlaced();
+        return;
       }
-    } else {
-      document.body.insertBefore(bar, document.body.firstChild);
-    }
-
-    var nums = bar.querySelectorAll(".js-ldr-cd-num");
-    var numHrs = nums[0], numMin = nums[1], numSeg = nums[2];
-
-    function tick() {
-      var info = getEndTimestamp(cd, offsetMs);
-      var now = Math.floor(Date.now() / 1000);
-      var left = info.ts - now;
-      if (left <= 0) {
-        if (info.fijo) {
-          // fecha fija vencida: se saca el modulo del DOM
-          bar.remove();
-          clearInterval(iv);
-          return;
-        }
-        // sin fecha fija: se reinicio solo (proximo tick ya calcula la
-        // nueva medianoche), no hace falta hacer nada especial aca
-        left = 0;
+      if (attemptsLeft > 0) {
+        setTimeout(function () { colocarBarra(cd, bar, onPlaced, attemptsLeft - 1); }, 150);
+        return;
       }
-      var h = Math.floor(left / 3600);
-      var mnt = Math.floor((left % 3600) / 60);
-      var s = Math.floor(left % 60);
-      numHrs.textContent = String(h).padStart(2, "0");
-      numMin.textContent = String(mnt).padStart(2, "0");
-      numSeg.textContent = String(s).padStart(2, "0");
+      document.body.insertBefore(bar, document.body.firstChild); // fallback: arriba de todo
+      onPlaced();
+      return;
     }
-
-    tick();
-    var iv = setInterval(tick, 1000);
+    document.body.insertBefore(bar, document.body.firstChild);
+    onPlaced();
   }
 
   function init() {
