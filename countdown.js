@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 11:59:57
+ * Generado: 2026-08-19 12:01:26
  */
 (function () {
   "use strict";
@@ -83,7 +83,7 @@
     "sticky": false,
     "alto": "",
     "link": "/productos/cojin/",
-    "fechaFin": "2026-08-19 12:00",
+    "fechaFin": "2026-08-19 13:00",
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
