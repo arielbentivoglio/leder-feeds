@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 11:43:20
+ * Generado: 2026-08-19 11:54:33
  */
 (function () {
   "use strict";
@@ -49,11 +49,15 @@
       "color": "#f6f1e7",
       "tamano": 18,
       "negrita": true,
-      "cursiva": false
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
     },
     "bgColor": "#211913",
     "textColor": "#f6f1e7",
-    "accentColor": "#000000"
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
   }
 ];
   // Offset fijo por tienda (sin manejo de horario de verano/DST — mismo
@@ -194,6 +198,11 @@
     var wrap = document.createElement("div");
     wrap.className = "ldr-cd__unit";
     wrap.style.background = cd.accentColor || "transparent";
+    var dig = cd.digitos || {};
+    if (dig.border_width && Number(dig.border_width) > 0) {
+      wrap.style.boxSizing = "border-box";
+      wrap.style.border = dig.border_width + "px solid " + (dig.border_color || "#000000");
+    }
     var num = document.createElement("span");
     num.className = "ldr-cd__num js-ldr-cd-num";
     num.setAttribute("data-unit", label);
@@ -219,6 +228,10 @@
     bar.style.color = cd.textColor || "#ffffff";
     if (cd.alto) {
       bar.style.minHeight = cd.alto + "px";
+    }
+    if (cd.borderWidth && Number(cd.borderWidth) > 0) {
+      bar.style.boxSizing = "border-box";
+      bar.style.border = cd.borderWidth + "px solid " + (cd.borderColor || "#000000");
     }
     if (cd.sticky) {
       bar.style.position = "sticky";
