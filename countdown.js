@@ -1,36 +1,31 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 12:46:12
+ * Generado: 2026-08-19 13:24:46
  */
 (function () {
   "use strict";
   var COUNTDOWNS = [
   {
-    "id": "countdown-chile-cojines-producto",
+    "id": "countdown-chile-cojines",
     "activo": true,
     "stores": [
       "cl"
     ],
     "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "340096104"
-      ],
-      "labels": [
-        {
-          "id": "340096104",
-          "nombre": "Cojín Decorativo De Piel De Oveja Natural Para Sillas – 38cm"
-        }
-      ]
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
     },
-    "posicion": "anchor",
-    "anchorSelector": "#product_form",
-    "anchorPosition": "after",
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
     "sticky": false,
     "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
     "link": "/productos/cojin/",
-    "fechaFin": "2026-08-19 13:00",
+    "fechaFin": "2026-08-19 12:00",
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
@@ -67,23 +62,32 @@
     "borderWidth": 0
   },
   {
-    "id": "countdown-chile-cojines",
+    "id": "countdown-chile-cojines-producto",
     "activo": true,
     "stores": [
       "cl"
     ],
     "alcance": {
-      "tipo": "todos",
-      "valores": [],
-      "labels": []
+      "tipo": "producto",
+      "valores": [
+        "340096104"
+      ],
+      "labels": [
+        {
+          "id": "340096104",
+          "nombre": "Cojín Decorativo De Piel De Oveja Natural Para Sillas – 38cm"
+        }
+      ]
     },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
+    "posicion": "anchor",
+    "anchorSelector": "#product_form",
+    "anchorPosition": "after",
     "sticky": false,
     "alto": "",
+    "marginTop": 0,
+    "marginBottom": 25,
     "link": "/productos/cojin/",
-    "fechaFin": "2026-08-19 12:00",
+    "fechaFin": "2026-08-19 13:00",
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
@@ -289,6 +293,12 @@
     bar.style.color = cd.textColor || "#ffffff";
     if (cd.alto) {
       bar.style.minHeight = cd.alto + "px";
+    }
+    if (cd.marginTop && Number(cd.marginTop) > 0) {
+      bar.style.marginTop = cd.marginTop + "px";
+    }
+    if (cd.marginBottom && Number(cd.marginBottom) > 0) {
+      bar.style.marginBottom = cd.marginBottom + "px";
     }
     if (cd.borderWidth && Number(cd.borderWidth) > 0) {
       bar.style.boxSizing = "border-box";
