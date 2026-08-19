@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 12:13:07
+ * Generado: 2026-08-19 12:46:06
  */
 (function () {
   "use strict";
@@ -282,7 +282,8 @@
 
     var bar = document.createElement("div");
     bar.className = "ldr-cd";
-    bar.id = "ldr-countdown-mod";
+    bar.id = "ldr-countdown-mod-" + (cd.id || Math.random().toString(36).slice(2));
+    bar.setAttribute("data-countdown-id", cd.id || "");
     bar.setAttribute("data-inserted", "true");
     bar.style.background = cd.bgColor || "#000000";
     bar.style.color = cd.textColor || "#ffffff";
@@ -419,20 +420,25 @@
     onPlaced();
   }
 
+  // No hay "un solo countdown por pagina": pueden convivir varios al mismo
+  // tiempo siempre que no terminen en el mismo lugar visual (ej. uno
+  // "Todos" arriba de todo + otro "Producto" anclado despues del formulario
+  // de compra, como en el caso real de LEDER). Cada uno se posiciona segun
+  // su propia config; si dos terminan apuntando exactamente al mismo lugar
+  // (ej. dos "arriba de todo" activos para la misma tienda), van a
+  // apilarse uno arriba del otro — es una colision de configuracion del
+  // admin, no algo que el runtime deba resolver adivinando cual "gana".
   function init() {
     var store = getStore();
     var ctx = contextoActual();
-    var cd = null;
+    var offsetMs = getTzOffsetMs(store);
     for (var i = 0; i < COUNTDOWNS.length; i++) {
       var c = COUNTDOWNS[i];
       if (!c.activo) continue;
       if ((c.stores || []).indexOf(store) === -1) continue;
       if (!matchesAlcance(c, ctx)) continue;
-      cd = c;
-      break;
+      render(c, offsetMs);
     }
-    if (!cd) return;
-    render(cd, getTzOffsetMs(store));
   }
 
   if (document.readyState === "loading") {
