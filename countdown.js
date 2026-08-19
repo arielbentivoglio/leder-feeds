@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 11:54:33
+ * Generado: 2026-08-19 11:59:57
  */
 (function () {
   "use strict";
@@ -20,6 +20,66 @@
     "posicion": "top",
     "anchorSelector": "",
     "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "link": "/productos/cojin/",
+    "fechaFin": "2026-08-19 12:00",
+    "textoChico": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "Chairpad 6x5",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "TERMINA EN",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-chile-cojines-producto",
+    "activo": true,
+    "stores": [
+      "cl"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "340096104"
+      ],
+      "labels": [
+        {
+          "id": "340096104",
+          "nombre": "Cojín Decorativo De Piel De Oveja Natural Para Sillas – 38cm"
+        }
+      ]
+    },
+    "posicion": "anchor",
+    "anchorSelector": "#product_form",
+    "anchorPosition": "after",
     "sticky": false,
     "alto": "",
     "link": "/productos/cojin/",
