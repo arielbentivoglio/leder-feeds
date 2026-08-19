@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 17:30:24
+ * Generado: 2026-08-19 11:43:20
  */
 (function () {
   "use strict";
@@ -14,12 +14,14 @@
     ],
     "alcance": {
       "tipo": "todos",
-      "valores": []
+      "valores": [],
+      "labels": []
     },
     "posicion": "top",
     "anchorSelector": "",
     "anchorPosition": "before",
     "sticky": false,
+    "alto": "",
     "link": "/productos/cojin/",
     "fechaFin": "2026-08-19 12:00",
     "textoChico": {
@@ -149,18 +151,18 @@
   function injectStyle() {
     if (document.getElementById("ldr-cd-style")) return;
     var css =
-      ".ldr-cd{width:100%;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 14px;padding:10px 16px;font-size:13px;line-height:1.3}" +
+      ".ldr-cd{width:100%;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 22px;padding:14px 20px;font-size:13px;line-height:1.3}" +
       ".ldr-cd__col{display:flex;flex-direction:column;align-items:center;line-height:1.25}" +
-      ".ldr-cd__small{font-size:11px;opacity:.85}" +
-      ".ldr-cd__row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 14px}" +
-      ".ldr-cd__title{font-size:14px}" +
-      ".ldr-cd__label{font-size:12px;opacity:.9}" +
-      ".ldr-cd__clock{display:flex;align-items:center;gap:4px}" +
-      ".ldr-cd__unit{display:flex;flex-direction:column;align-items:center;min-width:34px;border-radius:4px;padding:2px 6px}" +
-      ".ldr-cd__num{font-size:16px;font-variant-numeric:tabular-nums;line-height:1.1}" +
-      ".ldr-cd__u-label{font-size:8px;letter-spacing:.05em;opacity:.75;text-transform:uppercase}" +
-      ".ldr-cd__sep{font-size:15px;opacity:.7;margin:0 1px}" +
-      "@media(max-width:480px){.ldr-cd{font-size:12px;padding:8px 10px}.ldr-cd__title{font-size:13px}.ldr-cd__num{font-size:14px}}";
+      ".ldr-cd__small{font-size:11px;opacity:.85;letter-spacing:.02em}" +
+      ".ldr-cd__row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 18px}" +
+      ".ldr-cd__title{font-size:15px}" +
+      ".ldr-cd__label{font-size:11px;opacity:.85;letter-spacing:.08em;text-transform:uppercase}" +
+      ".ldr-cd__clock{display:flex;align-items:center;gap:6px}" +
+      ".ldr-cd__unit{display:flex;flex-direction:column;align-items:center;min-width:46px;border-radius:6px;padding:6px 10px}" +
+      ".ldr-cd__num{font-size:20px;font-variant-numeric:tabular-nums;line-height:1.1}" +
+      ".ldr-cd__u-label{font-size:9px;letter-spacing:.08em;opacity:.75;text-transform:uppercase;margin-top:2px}" +
+      ".ldr-cd__sep{font-size:20px;opacity:.55;margin:0 1px;align-self:center}" +
+      "@media(max-width:480px){.ldr-cd{padding:10px 12px;gap:6px 14px}.ldr-cd__title{font-size:13px}.ldr-cd__unit{min-width:38px;padding:4px 8px}}";
     var st = document.createElement("style");
     st.id = "ldr-cd-style";
     st.textContent = css;
@@ -215,6 +217,9 @@
     bar.setAttribute("data-inserted", "true");
     bar.style.background = cd.bgColor || "#000000";
     bar.style.color = cd.textColor || "#ffffff";
+    if (cd.alto) {
+      bar.style.minHeight = cd.alto + "px";
+    }
     if (cd.sticky) {
       bar.style.position = "sticky";
       bar.style.top = "0";
