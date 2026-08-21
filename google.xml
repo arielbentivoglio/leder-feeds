@@ -24,7 +24,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-ATIGRADO-CLARO</g:mpn>
+      <g:mpn>CUERO-ATIGRADOC</g:mpn>
     </item>
     <item>
       <g:id>1362735295</g:id>
@@ -46,7 +46,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-ATIGRADO-MEDIO</g:mpn>
+      <g:mpn>CUERO-ATIGRADOM</g:mpn>
     </item>
     <item>
       <g:id>1362735306</g:id>
@@ -68,7 +68,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-ATIGRADO-OSCURO</g:mpn>
+      <g:mpn>CUERO-ATIGRADOO</g:mpn>
     </item>
     <item>
       <g:id>1364660042</g:id>
@@ -112,7 +112,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-BLANCOYNEGRO</g:mpn>
+      <g:mpn>CUERO-HOLANDO</g:mpn>
     </item>
     <item>
       <g:id>1364660056</g:id>
@@ -134,7 +134,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-EXOTICO</g:mpn>
+      <g:mpn>CUERO-EXOTICOG</g:mpn>
     </item>
     <item>
       <g:id>1364660062</g:id>
@@ -178,7 +178,7 @@
       <g:condition>new</g:condition>
       <g:price>88650.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
-      <g:mpn>CUERO-MARRONYBLANCO</g:mpn>
+      <g:mpn>CUERO-HEREFORD</g:mpn>
     </item>
     <item>
       <g:id>1364660073</g:id>
@@ -1962,7 +1962,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/pantubota-marron-3_hd_2400x2400-1f7b7511b4dfeda99c17800002165839-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/negro-1_hd_2400x2400-434c91c503cf4f1f2d17800002166048-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/negro-3_hd_2400x2400-6c5f70cddb8ec4b30617800002165800-1024-1024.jpg</g:additional_image_link>
-      <g:availability>out of stock</g:availability>
+      <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>149988.00 ARS</g:price>
       <g:sale_price>119990.00 ARS</g:sale_price>
@@ -6147,7 +6147,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-negra-frontal-82135bc0796c76cc6c17775763831040-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-gris-1-eb360ba70ebe1db44117775763831303-1024-1024.webp</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/luxe-gris-5dc10298fed59b129017775763831684-1024-1024.webp</g:additional_image_link>
-      <g:availability>out of stock</g:availability>
+      <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>199988.00 ARS</g:price>
       <g:sale_price>159990.00 ARS</g:sale_price>
@@ -24279,7 +24279,8 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/la50-5000-d68a28981bdb4ae26b17714478578820-1024-1024.jpg</g:additional_image_link>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
-      <g:price>79990.00 ARS</g:price>
+      <g:price>99988.00 ARS</g:price>
+      <g:sale_price>79990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>LA40N-O26</g:mpn>
     </item>
@@ -24370,7 +24371,8 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/la50-5000-d68a28981bdb4ae26b17714478578820-1024-1024.jpg</g:additional_image_link>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
-      <g:price>79990.00 ARS</g:price>
+      <g:price>99988.00 ARS</g:price>
+      <g:sale_price>79990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>LA40N-P29</g:mpn>
     </item>
@@ -24392,7 +24394,8 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/la50-5000-d68a28981bdb4ae26b17714478578820-1024-1024.jpg</g:additional_image_link>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
-      <g:price>79990.00 ARS</g:price>
+      <g:price>99988.00 ARS</g:price>
+      <g:sale_price>79990.00 ARS</g:sale_price>
       <g:brand>LEDER</g:brand>
       <g:mpn>LA40N-P19</g:mpn>
     </item>
@@ -26799,7 +26802,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/jenny-negra-1-16e1df9bdb08ee61be17782527094147-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/jenny-negra-5-bbeb4894d412b5be4017782527095781-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/jenny-negra-4-png-1dfae4443781bbd67b17782527488261-1024-1024.jpg</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>724988.00 ARS</g:price>
       <g:sale_price>579990.00 ARS</g:sale_price>
@@ -28481,7 +28484,7 @@
       <g:link>https://lederhd.com/productos/campera-de-cuero-de-oveja-olivia-dark-brown/</g:link>
       <g:image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/olivia-marron-1-eb0f9b36b1cee8b1d717783814569394-1024-1024.png</g:image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/olivia-marron-2-5c0737f01e8e18a9db17783814565196-1024-1024.png</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>749990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
@@ -32914,7 +32917,7 @@
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_2_2026-06-12-167db7f6d17f573cd917812905162226-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/victoria-napalan-black-3-b3a612b16fcb02c38a17812910852061-1024-1024.jpg</g:additional_image_link>
       <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-11-62acb56dc2ed806d4317864516611262-1024-1024.png</g:additional_image_link>
-      <g:availability>in stock</g:availability>
+      <g:availability>out of stock</g:availability>
       <g:condition>new</g:condition>
       <g:price>999989.00 ARS</g:price>
       <g:sale_price>899990.00 ARS</g:sale_price>
@@ -43321,6 +43324,22 @@
       <g:price>71990.00 ARS</g:price>
       <g:brand>LEDER</g:brand>
       <g:mpn>EA40-1010-GRI-F</g:mpn>
+    </item>
+    <item>
+      <g:id>1576100561</g:id>
+      <g:title><![CDATA[Pellon Cuero De Oveja Leder Cojinillo Para Montura 60x80cm]]></g:title>
+      <g:description><![CDATA[Cojinillo Pellón de Cuero de Oveja Leder Diseñado para brindar mayor comodidad, estabilidad y confort durante la monta , el Cojinillo Pellón Leder está confeccionado en cuero de oveja , un material natural que aporta suavidad, abrigo y excelente adaptación al cuerpo del caballo. Con una medida de 60 x 80 cm , es ideal para acompañar jornadas de entrenamiento, equitación, polo y otras actividades ecuestres, tanto recreativas como competitivas. Su diseño Leder HD combina funcionalidad y estética, ofreciendo un apoyo confortable y una mejor conexión entre el jinete y el caballo. Su formato se adapta de manera natural a la anatomía del animal, favoreciendo una experiencia más cómoda durante la práctica. Características: Cuero de oveja genuino. Medidas: 60 x 80 cm. Modelo Leder HD. Diseño ergonómico y confortable. Aporta estabilidad y soporte durante la monta. Ideal para polo, equitación, entrenamiento y recado. Apto para uso recreativo y competitivo. No incluye estribos. Un accesorio pensado para quienes buscan confort, calidad y funcionalidad en cada jornada a caballo .]]></g:description>
+      <g:link>https://lederhd.com/productos/pellon-cuero-de-oveja-leder-cojinillo-para-montura-60x80cm-j5t8j/</g:link>
+      <g:image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/campo-pellon-c010f9d3a78c55dc6317866291158662-1024-1024.png</g:image_link>
+      <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_805166-mla112464681560_062026-f-6cec78e89e6532fdd417866288440395-1024-1024.webp</g:additional_image_link>
+      <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_632389-mla113628734967_062026-f-fb413a2732bf7d1fdc17866292553164-1024-1024.webp</g:additional_image_link>
+      <g:additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_907424-mla113628515149_062026-f-c57d19c86212c1c1fb17866288438859-1024-1024.webp</g:additional_image_link>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+      <g:price>149988.00 ARS</g:price>
+      <g:sale_price>119990.00 ARS</g:sale_price>
+      <g:brand>LEDER</g:brand>
+      <g:mpn>PELLON-BCO</g:mpn>
     </item>
   </channel>
 </rss>
