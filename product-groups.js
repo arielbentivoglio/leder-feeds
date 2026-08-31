@@ -1,11 +1,11 @@
 /**
  * product-groups.js - generado automaticamente por SyncPropio (Variantes Vinculadas)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-08-31T16:01:16.440552
+ * Generado: 2026-08-31T16:11:42.939505
  */
 (function () {
   "use strict";
-  var DATA = {"ar": {"activo_global": true, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"morral-daily": {"label": "Morral Daily", "habilitado": true, "productos": [{"product_id": 353784915, "label": "Morral De Cuero Vacuno Daily - Black", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-black/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/morral-daily-black-1a70c27142abf5ac0617830908181973-1024-1024.webp"}, {"product_id": 353812176, "label": "Morral Daily De Cuero Vacuno Porta Notebook -Dark Brown", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-dark-brown-8vcg5/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-24-2-14217daf7b4ba8c86f17876057922965-1024-1024.png"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
+  var DATA = {"ar": {"activo_global": true, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"morral-daily": {"label": "Morral Daily", "campo": "Morrales", "productos": [{"product_id": 353784915, "label": "Morral De Cuero Vacuno Daily - Black", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-black/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/morral-daily-black-1a70c27142abf5ac0617830908181973-1024-1024.webp"}, {"product_id": 353812176, "label": "Morral Daily De Cuero Vacuno Porta Notebook -Dark Brown", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-dark-brown-8vcg5/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-24-2-14217daf7b4ba8c86f17876057922965-1024-1024.png"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
 
   function getStoreKey() {
     var h = location.hostname || "";
