@@ -1,11 +1,11 @@
 /**
  * product-groups.js - generado automaticamente por SyncPropio (Variantes Vinculadas)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-08-31T20:38:30.919616
+ * Generado: 2026-08-31T20:38:32.177800
  */
 (function () {
   "use strict";
-  var DATA = {"ar": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"modelo-de-cartera__lily": {"label": "Lily", "campo": "Modelo de Cartera", "productos": [{"product_id": 1, "label": "Cartera Lily A", "url": "https://x/1", "img": "i"}, {"product_id": 2, "label": "Cartera Lily B", "url": "https://x/2", "img": "i"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
+  var DATA = {"ar": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"modelo-de-cartera__lily": {"label": "Lily", "campo": "Modelo de Cartera", "productos": [{"product_id": 1, "label": "Cartera Lily A", "url": "https://x/1", "img": "i"}, {"product_id": 2, "label": "Cartera Lily B", "url": "https://x/2", "img": "i"}]}, "camperas__lily": {"label": ".Lily", "campo": "Camperas", "productos": [{"product_id": 3, "label": "Campera .Lily A", "url": "https://x/3", "img": "i"}, {"product_id": 4, "label": "Campera .Lily B", "url": "https://x/4", "img": "i"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
 
   function getStoreKey() {
     var h = location.hostname || "";
