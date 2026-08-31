@@ -1,11 +1,11 @@
 /**
  * product-groups.js - generado automaticamente por SyncPropio (Variantes Vinculadas)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-08-31T16:11:42.939505
+ * Generado: 2026-08-31T19:16:06.090288
  */
 (function () {
   "use strict";
-  var DATA = {"ar": {"activo_global": true, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"morral-daily": {"label": "Morral Daily", "campo": "Morrales", "productos": [{"product_id": 353784915, "label": "Morral De Cuero Vacuno Daily - Black", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-black/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/morral-daily-black-1a70c27142abf5ac0617830908181973-1024-1024.webp"}, {"product_id": 353812176, "label": "Morral Daily De Cuero Vacuno Porta Notebook -Dark Brown", "url": "https://lederhd.com/productos/morral-daily-de-cuero-vacuno-porta-notebook-dark-brown-8vcg5/", "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-24-2-14217daf7b4ba8c86f17876057922965-1024-1024.png"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
+  var DATA = {"ar": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {"morral-daily": {"label": "Morral Daily", "campo": "Morrales", "productos": [{"product_id": 5, "label": "Morral Daily Black", "url": "https://x/5", "img": "i"}, {"product_id": 6, "label": "Morral Daily Brown", "url": "https://x/6", "img": "i"}]}, "alina": {"label": "Alina", "campo": "Modelo de Cartera", "productos": [{"product_id": 1, "label": "Alina Beige", "url": "https://x/1", "img": "i"}, {"product_id": 2, "label": "Alina Negro", "url": "https://x/2", "img": "i"}]}, "tote-milano": {"label": "Tote Milano", "campo": "Modelo de Cartera", "productos": [{"product_id": 3, "label": "Tote Milano Black", "url": "https://x/3", "img": "i"}, {"product_id": 4, "label": "Tote Milano Brown", "url": "https://x/4", "img": "i"}]}}}, "cl": {"activo_global": false, "excluidos_widget": [], "anchor_selector": "#product_form", "anchor_posicion": "after", "grupos": {}}};
 
   function getStoreKey() {
     var h = location.hostname || "";
