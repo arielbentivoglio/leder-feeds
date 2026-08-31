@@ -1,7 +1,7 @@
 /**
  * product-groups.js - generado automaticamente por SyncPropio (Variantes Vinculadas)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-08-31T18:07:45.977054
+ * Generado: 2026-08-31T18:08:04.040983
  */
 (function () {
   "use strict";
