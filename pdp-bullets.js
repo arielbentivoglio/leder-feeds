@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 14:45:00
+ * Generado: 2026-09-01 14:48:54
  */
 (function () {
   "use strict";
@@ -42,7 +42,9 @@
     "showDividers": true,
     "dividerColor": "#a87c4f",
     "iconSize": 15,
-    "textSize": 13
+    "textSize": 13,
+    "dividerWidth": 1,
+    "textBold": false
   }
 ];
 
@@ -154,19 +156,21 @@
     var textColor = set.text_color || "#1a1a1a";
     var iconSize = set.iconSize || 18;
     var textSize = set.textSize || 13;
+    var dividerWidth = set.dividerWidth || 1;
+    var fontWeight = set.textBold ? "600" : "400";
     var lista = (set.bullets || []).filter(Boolean);
     var items = lista.map(function (texto) {
       var itemStyle = "";
       if (set.showDividers) {
         var dc = set.dividerColor || "#e5e5e5";
-        itemStyle = ' style="padding:9px 0;border-bottom:1px solid ' + dc + ' !important"';
+        itemStyle = ' style="padding:9px 0;border-bottom:' + dividerWidth + 'px solid ' + dc + ' !important"';
       }
       return (
         '<li class="ldr-pblt__item"' + itemStyle + '>' +
           '<span class="ldr-pblt__ic" style="stroke:' + accent + ';width:' + iconSize + 'px;height:' + iconSize + 'px">' +
             '<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>' +
           '</span>' +
-          '<span class="ldr-pblt__tx" style="color:' + textColor + ';font-size:' + textSize + 'px">' + esc(texto) + '</span>' +
+          '<span class="ldr-pblt__tx" style="color:' + textColor + ';font-size:' + textSize + 'px;font-weight:' + fontWeight + '">' + esc(texto) + '</span>' +
         '</li>'
       );
     }).join("");
@@ -175,7 +179,7 @@
     var listStyle = "";
     if (set.showDividers) {
       var dcTop = set.dividerColor || "#e5e5e5";
-      listStyle = ' style="gap:0;border-top:1px solid ' + dcTop + ' !important"';
+      listStyle = ' style="gap:0;border-top:' + dividerWidth + 'px solid ' + dcTop + ' !important"';
     }
     return '<div id="ldr-pdp-bullets-mod" data-set="' + esc(set.id) + '"><ul class="' + listClass + '"' + listStyle + '>' + items + '</ul></div>';
   }
