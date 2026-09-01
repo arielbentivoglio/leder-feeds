@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 16:25:16
+ * Generado: 2026-09-01 16:28:28
  */
 (function () {
   "use strict";
@@ -134,7 +134,7 @@
   function injectStyle() {
     if (document.getElementById("ldr-pfaq-style")) return;
     var css =
-      ".ldr-pfaq{width:100%;font-family:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}" +
+      ".ldr-pfaq{width:100%;font-family:inherit}" +
       ".ldr-pfaq__wrap{max-width:800px;margin:0 auto;padding:32px 20px}" +
       ".ldr-pfaq__head{margin-bottom:16px;text-align:center}" +
       ".ldr-pfaq__eyebrow{margin:0;letter-spacing:.12em;text-transform:uppercase;font-weight:600;font-family:inherit}" +
