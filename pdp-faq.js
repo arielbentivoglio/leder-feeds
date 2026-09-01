@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 16:09:32
+ * Generado: 2026-09-01 16:12:39
  */
 (function () {
   "use strict";
@@ -17,8 +17,8 @@
       "valores": [],
       "labels": []
     },
-    "anchorSelector": "#product_form",
-    "anchorPosition": "after",
+    "anchorSelector": "[data-store=\"footer\"]",
+    "anchorPosition": "before",
     "eyebrow": "Preguntas frecuentes",
     "items": [
       {
