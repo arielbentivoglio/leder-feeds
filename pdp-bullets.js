@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 14:25:19
+ * Generado: 2026-09-01 14:29:30
  */
 (function () {
   "use strict";
@@ -37,10 +37,10 @@
       "Confort Natural: Hipoalergénica y con termorregulación natural",
       "Pet & Kid Friendly: Super suave y confortable para disfrutar en familia"
     ],
-    "accent_color": "#1a1a1a",
+    "accent_color": "#a87c4f",
     "text_color": "#1a1a1a",
     "showDividers": true,
-    "dividerColor": "#e5e5e5"
+    "dividerColor": "#a87c4f"
   }
 ];
 
