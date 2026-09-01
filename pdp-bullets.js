@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 14:17:17
+ * Generado: 2026-09-01 14:23:01
  */
 (function () {
   "use strict";
@@ -15,12 +15,17 @@
     "alcance": {
       "tipo": "producto",
       "valores": [
-        "340096653"
+        "340096653",
+        "340096334"
       ],
       "labels": [
         {
           "id": "340096653",
           "nombre": "Piel De Oveja Muflón Corderito Natural - 80x45cm"
+        },
+        {
+          "id": "340096334",
+          "nombre": "Alfombra De Piel De Oveja Natural DUO - 160x45cm"
         }
       ]
     },
