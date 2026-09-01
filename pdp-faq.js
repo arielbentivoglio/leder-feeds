@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 16:24:52
+ * Generado: 2026-09-01 16:25:16
  */
 (function () {
   "use strict";
@@ -44,7 +44,7 @@
     "textSizeEyebrow": 13,
     "textSizePregunta": 16,
     "textSizeRespuesta": 15,
-    "textBold": true
+    "textBold": false
   }
 ];
 
