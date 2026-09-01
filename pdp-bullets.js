@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 15:04:30
+ * Generado: 2026-09-01 15:04:37
  */
 (function () {
   "use strict";
@@ -42,7 +42,7 @@
     "showDividers": true,
     "dividerColor": "#dfc4aa",
     "iconSize": 15,
-    "textSize": 12,
+    "textSize": 13,
     "dividerWidth": 0.5,
     "textBold": false
   }
