@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 16:17:35
+ * Generado: 2026-09-01 16:24:52
  */
 (function () {
   "use strict";
@@ -43,7 +43,8 @@
     "textColor": "#1a1a1a",
     "textSizeEyebrow": 13,
     "textSizePregunta": 16,
-    "textSizeRespuesta": 15
+    "textSizeRespuesta": 15,
+    "textBold": true
   }
 ];
 
@@ -133,19 +134,19 @@
   function injectStyle() {
     if (document.getElementById("ldr-pfaq-style")) return;
     var css =
-      ".ldr-pfaq{width:100%}" +
+      ".ldr-pfaq{width:100%;font-family:inherit;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}" +
       ".ldr-pfaq__wrap{max-width:800px;margin:0 auto;padding:32px 20px}" +
       ".ldr-pfaq__head{margin-bottom:16px;text-align:center}" +
-      ".ldr-pfaq__eyebrow{margin:0;letter-spacing:.12em;text-transform:uppercase;font-weight:600}" +
+      ".ldr-pfaq__eyebrow{margin:0;letter-spacing:.12em;text-transform:uppercase;font-weight:600;font-family:inherit}" +
       ".ldr-pfaq__item{border-bottom:1px solid rgba(0,0,0,.12)}" +
-      ".ldr-pfaq__q{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:14px 2px;background:none;border:0;cursor:pointer;text-align:left;font-weight:600}" +
+      ".ldr-pfaq__q{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:14px 2px;background:none;border:0;cursor:pointer;text-align:left;font-family:inherit}" +
       ".ldr-pfaq__ic{position:relative;flex:0 0 16px;width:16px;height:16px}" +
       ".ldr-pfaq__ic::before,.ldr-pfaq__ic::after{content:\"\";position:absolute;top:50%;left:50%;background:currentColor;transform:translate(-50%,-50%)}" +
       ".ldr-pfaq__ic::before{width:12px;height:2px}" +
       ".ldr-pfaq__ic::after{width:2px;height:12px;transition:transform .25s ease}" +
       ".ldr-pfaq__item.is-open .ldr-pfaq__ic::after{transform:translate(-50%,-50%) rotate(90deg) scaleY(0)}" +
       ".ldr-pfaq__a{max-height:0;overflow:hidden;transition:max-height .3s ease}" +
-      ".ldr-pfaq__a-in{padding:0 2px 14px}";
+      ".ldr-pfaq__a-in{padding:0 2px 14px;font-family:inherit}";
     var st = document.createElement("style");
     st.id = "ldr-pfaq-style";
     st.textContent = css;
@@ -156,9 +157,10 @@
     var color = set.textColor || "#1a1a1a";
     var qSize = (parseInt(set.textSizePregunta, 10) || 16) + "px";
     var aSize = (parseInt(set.textSizeRespuesta, 10) || 15) + "px";
+    var qWeight = set.textBold === false ? "400" : "600";
     return (
       '<div class="ldr-pfaq__item" data-idx="' + idx + '">' +
-        '<button type="button" class="ldr-pfaq__q" style="color:' + color + ';font-size:' + qSize + '">' +
+        '<button type="button" class="ldr-pfaq__q" style="color:' + color + ';font-size:' + qSize + ";font-weight:" + qWeight + '">' +
           "<span>" + esc(item.pregunta) + "</span>" +
           '<span class="ldr-pfaq__ic" style="color:' + (set.accentColor || "#a87c4f") + '"></span>' +
         "</button>" +
