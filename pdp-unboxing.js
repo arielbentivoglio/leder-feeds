@@ -1,7 +1,7 @@
 /**
  * pdp-unboxing.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Unboxing)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-03 14:12:46
+ * Generado: 2026-09-03 14:15:19
  */
 (function () {
   "use strict";
@@ -24,7 +24,7 @@
         }
       ]
     },
-    "anchorSelector": "#product_form",
+    "anchorSelector": "<div class=\"user-content mb-4\">",
     "anchorPosition": "after",
     "eyebrow": "Nuestro Delantal",
     "titulo": "Mira nuestro delantal en pleno uso",
