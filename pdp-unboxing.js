@@ -1,7 +1,7 @@
 /**
  * pdp-unboxing.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Unboxing)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-03 14:19:04
+ * Generado: 2026-09-03 14:33:37
  */
 (function () {
   "use strict";
@@ -43,7 +43,8 @@
     "textSizeTitulo": 30,
     "textSizeDescripcion": 15,
     "textSizeItem": 14,
-    "quitarCursiva": false
+    "quitarCursiva": false,
+    "anchoCompleto": true
   }
 ];
 
@@ -152,6 +153,7 @@
       ".ldr-unbx__title{margin:0 0 14px;font-family:inherit;font-weight:500;line-height:1.15}" +
       ".ldr-unbx__title em{font-style:italic}" +
       ".ldr-unbx--no-italic .ldr-unbx__title em{font-style:normal}" +
+      ".ldr-unbx--full-width{width:100vw;max-width:100vw;position:relative;left:50%;right:50%;margin-left:-50vw;margin-right:-50vw}" +
       ".ldr-unbx__desc{margin:0 0 20px;font-family:inherit;line-height:1.5}" +
       ".ldr-unbx__divider{width:100%;height:1px;margin:0 0 16px}" +
       ".ldr-unbx__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}" +
@@ -219,7 +221,9 @@
       : "";
     var dividerHtml = '<div class="ldr-unbx__divider" style="background:' + accentColor + '"></div>';
     var listHtml = itemsHtml(set);
-    var wrapClass = "ldr-unbx" + (set.quitarCursiva ? " ldr-unbx--no-italic" : "");
+    var wrapClass = "ldr-unbx" +
+      (set.quitarCursiva ? " ldr-unbx--no-italic" : "") +
+      (set.anchoCompleto ? " ldr-unbx--full-width" : "");
 
     return (
       '<div id="ldr-pdp-unboxing-mod" data-set="' + esc(set.id) + '">' +
