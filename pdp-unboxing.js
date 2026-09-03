@@ -1,7 +1,7 @@
 /**
  * pdp-unboxing.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Unboxing)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-03 14:17:43
+ * Generado: 2026-09-03 14:19:04
  */
 (function () {
   "use strict";
@@ -28,10 +28,14 @@
     "anchorPosition": "after",
     "eyebrow": "Nuestro Delantal",
     "titulo": "Mira nuestro delantal en pleno uso",
-    "descripcion": "Ideal para parrilladas.",
+    "descripcion": "Delantal de cuero vacuno",
     "youtubeId": "Hf0PtehC79o",
     "posterImage": "",
-    "items": [],
+    "items": [
+      "Ideal para parrilladas",
+      "Cocina",
+      "Trabajos que requieran protejer las prendas"
+    ],
     "bgColor": "#ffffff",
     "accentColor": "#a87c4f",
     "textColor": "#1a1a1a",
