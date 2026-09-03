@@ -1,7 +1,7 @@
 /**
  * pdp-unboxing.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Unboxing)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-03 14:33:37
+ * Generado: 2026-09-03 14:44:58
  */
 (function () {
   "use strict";
@@ -44,7 +44,12 @@
     "textSizeDescripcion": 15,
     "textSizeItem": 14,
     "quitarCursiva": false,
-    "anchoCompleto": true
+    "anchoCompleto": true,
+    "alignH": "left",
+    "alignV": "center",
+    "mostrarRecuadro": false,
+    "recuadroColor": "#a87c4f",
+    "recuadroAncho": 1.0
   }
 ];
 
@@ -147,8 +152,8 @@
       ".ldr-unbx__media{position:relative;width:100%;overflow:hidden;background:#000}" +
       ".ldr-unbx__video-wrap{position:relative;width:100%;padding-top:125%;background-size:cover;background-position:center;background-repeat:no-repeat}" +
       ".ldr-unbx__video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none}" +
-      ".ldr-unbx__content{display:flex;align-items:center}" +
-      ".ldr-unbx__inner{padding:40px;max-width:520px;margin:0 auto;width:100%}" +
+      ".ldr-unbx__content{display:flex}" +
+      ".ldr-unbx__inner{padding:40px;max-width:520px;width:100%;box-sizing:border-box}" +
       ".ldr-unbx__eyebrow{margin:0 0 8px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;font-family:inherit}" +
       ".ldr-unbx__title{margin:0 0 14px;font-family:inherit;font-weight:500;line-height:1.15}" +
       ".ldr-unbx__title em{font-style:italic}" +
@@ -191,9 +196,10 @@
     var items = (set.items || []).filter(Boolean);
     if (!items.length) return "";
     var textSize = (parseInt(set.textSizeItem, 10) || 14) + "px";
+    var justify = { center: "center", right: "flex-end" }[set.alignH] || "flex-start";
     var lis = items.map(function (texto) {
       return (
-        "<li>" +
+        '<li style="justify-content:' + justify + '">' +
           '<span class="ldr-unbx__arrow" style="color:' + (set.accentColor || "#a87c4f") + '">&rarr;</span>' +
           '<span style="color:' + (set.textColor || "#1a1a1a") + ";font-size:" + textSize + '">' + esc(texto) + "</span>" +
         "</li>"
@@ -209,6 +215,17 @@
     var descSize = (parseInt(set.textSizeDescripcion, 10) || 15) + "px";
     var textColor = set.textColor || "#1a1a1a";
     var accentColor = set.accentColor || "#a87c4f";
+
+    var justify = { center: "center", right: "flex-end" }[set.alignH] || "flex-start";
+    var alignItems = { top: "flex-start", bottom: "flex-end" }[set.alignV] || "center";
+    var textAlign = set.alignH || "left";
+    var contentStyle = "justify-content:" + justify + ";align-items:" + alignItems;
+    var innerStyle = "text-align:" + textAlign;
+    if (set.mostrarRecuadro) {
+      var recAncho = parseFloat(set.recuadroAncho);
+      if (!recAncho || recAncho < 0.5) recAncho = 1;
+      innerStyle += ";border:" + recAncho + "px solid " + (set.recuadroColor || "#a87c4f");
+    }
 
     var eyebrowHtml = set.eyebrow
       ? '<p class="ldr-unbx__eyebrow" style="color:' + accentColor + ";font-size:" + eyebrowSize + '">' + esc(set.eyebrow) + "</p>"
@@ -230,8 +247,8 @@
         '<section class="' + wrapClass + '" style="background:' + (set.bgColor || "#ffffff") + '">' +
           '<div class="ldr-unbx__grid">' +
             mediaHtml(set) +
-            '<div class="ldr-unbx__content">' +
-              '<div class="ldr-unbx__inner">' +
+            '<div class="ldr-unbx__content" style="' + contentStyle + '">' +
+              '<div class="ldr-unbx__inner" style="' + innerStyle + '">' +
                 eyebrowHtml + tituloHtml + descHtml + dividerHtml + listHtml +
               "</div>" +
             "</div>" +
