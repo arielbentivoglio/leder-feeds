@@ -1430,7 +1430,7 @@
       <availability>in stock</availability>
       <condition>new</condition>
       <price>49990.00 ARS</price>
-      <sale_price>30090.00 ARS</sale_price>
+      <sale_price>29990.00 ARS</sale_price>
       <brand>LEDER</brand>
     </item>
     <item>
@@ -1452,7 +1452,7 @@
       <availability>in stock</availability>
       <condition>new</condition>
       <price>49990.00 ARS</price>
-      <sale_price>32590.00 ARS</sale_price>
+      <sale_price>31990.00 ARS</sale_price>
       <brand>LEDER</brand>
     </item>
     <item>
@@ -1472,7 +1472,7 @@
       <availability>in stock</availability>
       <condition>new</condition>
       <price>49990.00 ARS</price>
-      <sale_price>30090.00 ARS</sale_price>
+      <sale_price>29990.00 ARS</sale_price>
       <brand>LEDER</brand>
     </item>
     <item>
@@ -1493,7 +1493,7 @@
       <availability>in stock</availability>
       <condition>new</condition>
       <price>49990.00 ARS</price>
-      <sale_price>32590.00 ARS</sale_price>
+      <sale_price>31990.00 ARS</sale_price>
       <brand>LEDER</brand>
     </item>
     <item>
@@ -3822,7 +3822,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/placa-mate-logo-a15ee0844e2f754df517702267118246-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mate-vd-acc5936fb5d483292e17702266726793-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/curado-de-mate-a74f42d4358c74444a17702267117321-1024-1024.jpg</additional_image_link>
-      <availability>in stock</availability>
+      <availability>out of stock</availability>
       <condition>new</condition>
       <price>99989.00 ARS</price>
       <sale_price>89990.00 ARS</sale_price>
@@ -6950,7 +6950,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/combo-mate-5-9f87d4d7fb45fdf2dc17724841449028-1024-1024-aade02914bb547fcb017823576786753-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/combo-mate-3-43602552d0c185aa4c17724841444587-1024-1024-320c3b38d61d30569417823576779176-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mates-ed43a6a5832b6573a717702266727547-1024-1024-6d7c6c97e6c39e111e17710810184127-1024-1024-89206fa5542e58a14917823576779487-1024-1024.webp</additional_image_link>
-      <availability>in stock</availability>
+      <availability>out of stock</availability>
       <condition>new</condition>
       <price>414970.00 ARS</price>
       <sale_price>373480.00 ARS</sale_price>
@@ -6968,7 +6968,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_639964-mla73879920375_012024-f-8db32cee4f982ba1b717803254902659-1024-1024-d7991eab2597038e0117803261933534-1024-1024-ac777f5aa4f7d8c98c17824173842541-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada-yerbera-2-f5842a1b204b1e337e17710795181370-1024-1024-7b109ff118312b5d3317803261944734-1024-1024-e22f57feb0ff27ef1b17824173855836-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mate-leder-2-402d3925e04018c6b117803253218102-1024-1024-7e8865a8842b01531517803261972149-1024-1024-0d4e1cd6452715f26417824173878998-1024-1024.jpg</additional_image_link>
-      <availability>in stock</availability>
+      <availability>out of stock</availability>
       <condition>new</condition>
       <price>424970.00 ARS</price>
       <sale_price>382480.00 ARS</sale_price>
@@ -6988,7 +6988,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada-yerbera-2-f5842a1b204b1e337e17710795181370-1024-1024-4c38abc9ef7947980a17710813423044-1024-1024-baf41a6ebe7452104017824876773873-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mate-leder-2-2fef490943df7f149317724838674632-1024-1024-459ba442d999129f4f17824876796154-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mates-ed43a6a5832b6573a717702266727547-1024-1024-8974f6bb04f32d083c17710813446914-1024-1024-a96a866387f838ed9f17824876806315-1024-1024.jpg</additional_image_link>
-      <availability>in stock</availability>
+      <availability>out of stock</availability>
       <condition>new</condition>
       <price>264970.00 ARS</price>
       <sale_price>238480.00 ARS</sale_price>
@@ -7889,6 +7889,39 @@
       <condition>new</condition>
       <price>254970.00 ARS</price>
       <sale_price>189990.00 ARS</sale_price>
+      <brand>LEDER</brand>
+    </item>
+    <item>
+      <id>364694457</id>
+      <title><![CDATA[Combo X3 Almohadón Nórdico Cuero De Oveja Pelo Corto - 40x40cm]]></title>
+      <description><![CDATA[Transformá tus espacios con un combo de 3 almohadones confeccionados en cuero lanar natural rasado, una propuesta que combina suavidad, calidez y diseño para aportar personalidad y sofisticación a cualquier ambiente.. Su estética versátil se adapta perfectamente a ambientes contemporáneos, minimalistas, cálidos o de inspiración natural, aportando confort y una textura sofisticada a sillones, livings, dormitorios y espacios de descanso. Características principales Combo de 3 almohadones Confeccionados en cuero lanar natural rasado Superficie suave y agradable al tacto Textura delicada y uniforme Tonalidad y características únicas en cada pieza Variaciones naturales propias de la piel Terminaciones artesanales Diseño versátil y atemporal Ideales para livings, sillones, dormitorios y espacios de diseño Una combinación de suavidad, calidez y autenticidad que transforma cualquier espacio y destaca la belleza natural del cuero lanar.]]></description>
+      <link>https://lederhd.com/productos/combo-x3-almohadon-nordico-cuero-de-oveja-pelo-corto-40x40cm/</link>
+      <image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_633629-mla81651657558_012025-f-2e79afa68a47d479c617883823937025-1024-1024.webp</image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_683468-mla93488192517_092025-f-f237564834fd16a2af17883823938598-1024-1024.webp</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-09-02-5-9015d8639472d77b5617883824772727-1024-1024.png</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_755381-mla93072835340_092025-f-1a92a76f7d07680b2217883823934257-1024-1024.webp</additional_image_link>
+      <availability>in stock</availability>
+      <condition>new</condition>
+      <price>239970.00 ARS</price>
+      <sale_price>179990.00 ARS</sale_price>
+      <brand>LEDER</brand>
+    </item>
+    <item>
+      <id>364732674</id>
+      <title><![CDATA[Combo X3 Almohadón Nórdico Cuero De Oveja Pelo Largo - 40x40cm]]></title>
+      <description><![CDATA[Transformá tus espacios con un combo de 3 almohadones confeccionados en cuero lanar natural de pelo largo , una propuesta que combina textura, calidez y diseño para aportar personalidad y sofisticación a cualquier ambiente. Su estética versátil se adapta perfectamente a ambientes rústicos, contemporáneos, cálidos o de inspiración natural , aportando textura y confort a sillones, livings, dormitorios y espacios de descanso. Características principales Combo de 3 almohadones Confeccionados en cuero lanar natural de pelo largo Pelo suave, largo y de gran volumen Textura y tonalidad únicas en cada pieza Variaciones naturales propias de la piel Terminaciones artesanales Diseño versátil y atemporal Ideales para livings, sillones, dormitorios y espacios de diseño Una combinación de textura, calidez y autenticidad que transforma cualquier espacio y destaca la belleza natural del cuero lanar.]]></description>
+      <link>https://lederhd.com/productos/combo-x3-almohadon-nordico-cuero-de-oveja-pelo-largo-40x40cm/</link>
+      <image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-09-02-2-8b9067afcc61293ab017883719462110-1024-1024.png</image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-09-02-3-99e00d55e9155e98eb17883719448098-1024-1024.png</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alm-lanar-40x40-191-36d7a296bfdcab067517714475590740-1024-1024-a2823082201727599817883726321258-1024-1024.webp</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alm-lanar-40x40-120-8ce59fe3a8957cf05217714475588768-1024-1024-2c46fa55dfc6943d4017883726326708-1024-1024.webp</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alm-lanar-40x40-121-c02f6d78e6150128de17714475588479-1024-1024-7aa5ebc74770a2e9b817883726325170-1024-1024.webp</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alm-lanar-40x40-109-b584022f94e8d6c59717714475591488-1024-1024-906fef19e9380552bd17883726327579-1024-1024.webp</additional_image_link>
+      <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/alm-lanar-40x40-110-bfbdeaf67d66b0a85417714475591394-1024-1024-1f8e4fab6c7a95100317883726325809-1024-1024.webp</additional_image_link>
+      <availability>in stock</availability>
+      <condition>new</condition>
+      <price>269970.00 ARS</price>
+      <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
     </item>
   </channel>
