@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-04 16:05:06
+ * Generado: 2026-09-04 16:13:48
  */
 (function () {
   "use strict";
@@ -31,6 +31,8 @@
     },
     "anchor_selector": "#product_form",
     "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "before",
     "bullets": [
       "Autenticidad: Piel de oveja 100% natural",
       "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
@@ -44,7 +46,9 @@
     "iconSize": 15,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
   },
   {
     "id": "cuero-de-oveja-ar",
@@ -65,7 +69,9 @@
       ]
     },
     "anchor_selector": "#product_form",
-    "anchor_position": "after",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
     "bullets": [
       "Autenticidad: Cuero de oveja argentino 100% natural",
       "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
@@ -79,7 +85,9 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
   }
 ];
 
@@ -174,7 +182,7 @@
   function injectStyle() {
     if (document.getElementById("ldr-pblt-style")) return;
     var css =
-      ".ldr-pblt__list{list-style:none;margin:16px 0;padding:0;display:flex;flex-direction:column;gap:8px}" +
+      ".ldr-pblt__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}" +
       ".ldr-pblt__list.ldr-pblt--dividers{gap:0}" +
       ".ldr-pblt__item{display:flex;align-items:flex-start;gap:8px}" +
       ".ldr-pblt__ic{flex-shrink:0;width:18px;height:18px;margin-top:1px}" +
@@ -216,7 +224,27 @@
       var dcTop = set.dividerColor || "#e5e5e5";
       listStyle = ' style="gap:0;border-top:' + dividerWidth + 'px solid ' + dcTop + ' !important"';
     }
-    return '<div id="ldr-pblt-mod" data-set="' + esc(set.id) + '"><ul class="' + listClass + '"' + listStyle + '>' + items + '</ul></div>';
+    var marginTop = (set.marginTop === undefined || set.marginTop === null) ? 16 : set.marginTop;
+    var marginBottom = (set.marginBottom === undefined || set.marginBottom === null) ? 16 : set.marginBottom;
+    var wrapStyle = ' style="margin:' + marginTop + 'px 0 ' + marginBottom + 'px"';
+    return '<div id="ldr-pblt-mod" data-set="' + esc(set.id) + '"' + wrapStyle + '><ul class="' + listClass + '"' + listStyle + '>' + items + '</ul></div>';
+  }
+
+  function esMobile() {
+    try {
+      return window.matchMedia("(max-width: 767px)").matches;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function posicionActual(set) {
+    // Compatibilidad: sets guardados antes de este cambio solo tienen
+    // "anchor_position" (una sola posicion para todos los dispositivos).
+    // Los nuevos campos, si existen, tienen prioridad por dispositivo.
+    var fallback = set.anchor_position || "before";
+    if (esMobile()) return set.anchorPositionMobile || fallback;
+    return set.anchorPositionDesktop || fallback;
   }
 
   // Mismo patron de reintento (40 x 150ms) ya validado en produccion en
@@ -238,7 +266,7 @@
     var wrap = document.createElement("div");
     wrap.innerHTML = html;
     var node = wrap.firstElementChild;
-    var pos = set.anchor_position || "before";
+    var pos = posicionActual(set);
     if (pos === "after") anchor.parentNode.insertBefore(node, anchor.nextSibling);
     else if (pos === "prepend") anchor.insertBefore(node, anchor.firstChild);
     else if (pos === "append") anchor.appendChild(node);
