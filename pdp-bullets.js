@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-04 16:13:48
+ * Generado: 2026-09-04 16:38:17
  */
 (function () {
   "use strict";
@@ -59,12 +59,52 @@
     "alcance": {
       "tipo": "producto",
       "valores": [
-        "337169607"
+        "337169607",
+        "336840952",
+        "336841198",
+        "310505258",
+        "310516921",
+        "319438878",
+        "316820587",
+        "314900368",
+        "315601790"
       ],
       "labels": [
         {
           "id": "337169607",
           "nombre": "Set X2 Cueros De Oveja Natural 70x45 cm"
+        },
+        {
+          "id": "336840952",
+          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45cm"
+        },
+        {
+          "id": "336841198",
+          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45 - Colores"
+        },
+        {
+          "id": "310505258",
+          "nombre": "Cuero De Oveja Pelo Largo Muflón Natural - 80x45cm"
+        },
+        {
+          "id": "310516921",
+          "nombre": "Cuero De Oveja Pelo Largo Muflón Corderito - 80x45cm"
+        },
+        {
+          "id": "319438878",
+          "nombre": "Alfombra De Cuero De Oveja Natural DUO 160x45cm"
+        },
+        {
+          "id": "316820587",
+          "nombre": "Cuero de Oveja Exótico Natural"
+        },
+        {
+          "id": "314900368",
+          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
+        },
+        {
+          "id": "315601790",
+          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
         }
       ]
     },
