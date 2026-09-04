@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-04 15:47:30
+ * Generado: 2026-09-04 15:48:18
  */
 (function () {
   "use strict";
@@ -64,7 +64,7 @@
         }
       ]
     },
-    "anchor_selector": "#product_form",
+    "anchor_selector": "pb-4",
     "anchor_position": "before",
     "bullets": [
       "Autenticidad: Cuero de oveja argentino 100% natural",
