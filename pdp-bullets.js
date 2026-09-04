@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-04 15:50:37
+ * Generado: 2026-09-04 16:03:31
  */
 (function () {
   "use strict";
@@ -216,7 +216,7 @@
       var dcTop = set.dividerColor || "#e5e5e5";
       listStyle = ' style="gap:0;border-top:' + dividerWidth + 'px solid ' + dcTop + ' !important"';
     }
-    return '<div id="ldr-pdp-bullets-mod" data-set="' + esc(set.id) + '"><ul class="' + listClass + '"' + listStyle + '>' + items + '</ul></div>';
+    return '<div id="ldr-pblt-mod" data-set="' + esc(set.id) + '"><ul class="' + listClass + '"' + listStyle + '>' + items + '</ul></div>';
   }
 
   // Mismo patron de reintento (40 x 150ms) ya validado en produccion en
@@ -224,7 +224,7 @@
   // porque el theme hidrata #product_form despues del DOMContentLoaded.
   function insertar(set, attemptsLeft) {
     attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
-    if (document.getElementById("ldr-pdp-bullets-mod")) return; // ya insertado
+    if (document.getElementById("ldr-pblt-mod")) return; // ya insertado
     var selector = set.anchor_selector || "#product_form";
     var anchor = document.querySelector(selector);
     if (!anchor) {
