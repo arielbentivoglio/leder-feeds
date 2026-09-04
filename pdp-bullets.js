@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-01 16:05:33
+ * Generado: 2026-09-04 15:42:58
  */
 (function () {
   "use strict";
@@ -44,6 +44,41 @@
     "iconSize": 15,
     "textSize": 13,
     "dividerWidth": 0.5,
+    "textBold": false
+  },
+  {
+    "id": "cuero-de-oveja-ar",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "337169607"
+      ],
+      "labels": [
+        {
+          "id": "337169607",
+          "nombre": "Set X2 Cueros De Oveja Natural 70x45 cm"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "bullets": [
+      "Autenticidad: Cuero de oveja argentino 100% natural",
+      "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
+      "Confort Natural: Hipoalergénica y con termorregulación natural",
+      "Pet & Kid Friendly: Super suave y confortable para disfrutar en familia"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
     "textBold": false
   }
 ];
