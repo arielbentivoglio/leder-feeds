@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-04 16:03:31
+ * Generado: 2026-09-04 16:05:06
  */
 (function () {
   "use strict";
@@ -65,7 +65,7 @@
       ]
     },
     "anchor_selector": "#product_form",
-    "anchor_position": "before",
+    "anchor_position": "after",
     "bullets": [
       "Autenticidad: Cuero de oveja argentino 100% natural",
       "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
