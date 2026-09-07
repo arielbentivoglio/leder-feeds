@@ -1,5 +1,5 @@
 /* menu-desktop.js - generado por SyncPropio, no editar a mano
-   Ultima publicacion: 2026-09-07T15:52:58.513385 */
+   Ultima publicacion: 2026-09-07T16:06:18.248426 */
 (function () {
     "use strict";
     var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"nombre_categoria":"","categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","color_titulos":"#8a8a8a","color_items":"#1a1a1a","columnas":[{"items":[{"categoria_id":36664825,"color":"","destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"color":"","destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"color":"","destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/"}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"color":"","destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"color":"","destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/"}],"tipo":"links","titulo":"POR ESTILO"},{"alto":220,"ancho":220,"cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","texto":"Diseño atemporal","tipo":"imagen","titulo":""}],"columnas_mobile":[]}};
@@ -81,10 +81,27 @@
         return '<div class="ldr-menu-mobile">' + cols + "</div>" + viewall;
     }
 
-    function posicionarVertical(li, dropdownEl) {
+    function ajustarHorizontal(li, dropdownEl) {
         if (!dropdownEl) return;
-        var r = li.getBoundingClientRect();
-        dropdownEl.style.setProperty("top", r.bottom + "px", "important");
+        // position/top se dejan intactos (igual que el resto de los menus,
+        // sin gap). Solo se corrige "left": con position:absolute, left es
+        // relativo al li (contenedor posicionado), asi que restando su propia
+        // posicion en pantalla el resultado queda anclado al borde real del
+        // viewport, sin necesidad de position:fixed ni de tocar el top.
+        var liRect = li.getBoundingClientRect();
+        dropdownEl.style.setProperty("left", (-liRect.left) + "px", "important");
+        if (dropdownEl.classList.contains("ldr-menu-fit")) {
+            requestAnimationFrame(function () {
+                var wrap = dropdownEl.querySelector(".ldr-menu-desktop-wrap");
+                if (!wrap) return;
+                var w = wrap.getBoundingClientRect().width;
+                if (!w) return;
+                var vw = document.documentElement.clientWidth || window.innerWidth;
+                var liRect2 = li.getBoundingClientRect();
+                var desiredLeft = Math.max(20, (vw - w) / 2);
+                dropdownEl.style.setProperty("left", (desiredLeft - liRect2.left) + "px", "important");
+            });
+        }
     }
 
     function init() {
@@ -113,20 +130,16 @@
             }
             // El centrado nativo de TN (300vw + translateX) centra respecto
             // al boton del menu, no al viewport real — con columnas anchas
-            // eso saca contenido de pantalla en ventanas angostas. En vez
-            // de corregir con transform (dependia de timing de hover, no
-            // andaba confiable), se cambia la estrategia de posicionamiento
-            // solo para estas categorias: position:fixed ancla directo al
-            // viewport real (CSS, .ldr-menu-active en ldr-menu-desktop-v2.css),
-            // sin heredar el offset del boton. Lo unico que no puede resolver
-            // el CSS solo es la posicion vertical (depende de la altura real
-            // del header), por eso se calcula aca.
+            // eso saca contenido de pantalla en ventanas angostas. Se deja
+            // position/top nativos intactos (cero riesgo de gap vertical,
+            // es el mismo mecanismo que usan los demas menus) y solo se
+            // corrige "left" en px exactos por JS.
             li.classList.add("ldr-menu-active");
             (function (liEl, dropdownEl) {
-                posicionarVertical(liEl, dropdownEl);
-                liEl.addEventListener("mouseenter", function () { posicionarVertical(liEl, dropdownEl); });
-                liEl.addEventListener("focusin", function () { posicionarVertical(liEl, dropdownEl); });
-                window.addEventListener("resize", function () { posicionarVertical(liEl, dropdownEl); });
+                ajustarHorizontal(liEl, dropdownEl);
+                liEl.addEventListener("mouseenter", function () { ajustarHorizontal(liEl, dropdownEl); });
+                liEl.addEventListener("focusin", function () { ajustarHorizontal(liEl, dropdownEl); });
+                window.addEventListener("resize", function () { ajustarHorizontal(liEl, dropdownEl); });
             })(li, dropdown);
         }
     }
