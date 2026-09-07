@@ -1,5 +1,5 @@
 /* menu-desktop.js - generado por SyncPropio, no editar a mano
-   Ultima publicacion: 2026-09-07T15:25:08.599325 */
+   Ultima publicacion: 2026-09-07T15:29:50.438227 */
 (function () {
     "use strict";
     var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"nombre_categoria":"","categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","color_titulos":"#8a8a8a","color_items":"#1a1a1a","columnas":[{"items":[{"categoria_id":36664825,"color":"","destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"color":"","destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"color":"","destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/"}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"color":"","destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"color":"","destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/"}],"tipo":"links","titulo":"POR ESTILO"},{"alto":220,"ancho":220,"cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","texto":"Diseño atemporal","tipo":"imagen","titulo":""}],"columnas_mobile":[]}};
@@ -81,6 +81,23 @@
         return '<div class="ldr-menu-mobile">' + cols + "</div>" + viewall;
     }
 
+    function centrarWrap(wrap) {
+        if (!wrap) return;
+        requestAnimationFrame(function () {
+            var rect = wrap.getBoundingClientRect();
+            if (!rect.width) return;
+            var vw = document.documentElement.clientWidth || window.innerWidth;
+            var margin = 20;
+            var desiredLeft = (vw - rect.width) / 2;
+            if (desiredLeft < margin) desiredLeft = margin;
+            var maxLeft = vw - rect.width - margin;
+            if (maxLeft < margin) maxLeft = margin;
+            if (desiredLeft > maxLeft) desiredLeft = maxLeft;
+            var delta = desiredLeft - rect.left;
+            wrap.style.transform = "translateX(" + delta + "px)";
+        });
+    }
+
     function init() {
         var keys = Object.keys(CONFIG);
         if (!keys.length) return;
@@ -105,6 +122,18 @@
                     dropdown.classList.remove("ldr-menu-fit");
                 }
             }
+            // El centrado nativo de TN (300vw + translateX) centra respecto
+            // al boton del menu, no al viewport real — con columnas anchas
+            // eso puede sacar contenido de pantalla en ventanas angostas.
+            // Se recalcula en cada apertura porque medir el ancho recien
+            // armado (antes de que el dropdown este visible) puede dar 0.
+            (function (wrapLi) {
+                var wrap = wrapLi.querySelector(".ldr-menu-desktop-wrap");
+                if (!wrap) return;
+                wrapLi.addEventListener("mouseenter", function () { centrarWrap(wrap); });
+                wrapLi.addEventListener("focusin", function () { centrarWrap(wrap); });
+                centrarWrap(wrap);
+            })(li);
         }
     }
 
