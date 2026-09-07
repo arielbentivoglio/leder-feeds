@@ -1,8 +1,8 @@
 /* menu-desktop.js - generado por SyncPropio, no editar a mano
-   Ultima publicacion: 2026-09-07T14:09:36.133121 */
+   Ultima publicacion: 2026-09-07T14:15:16.262293 */
 (function () {
     "use strict";
-    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","columnas":[{"tipo":"links","titulo":"Por Material","items":[{"categoria_id":36664825,"nombre_real":"CUEROS DE VACA","label_custom":"CUEROS DE VACA","subtitulo":"","destacado":false,"url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"nombre_real":"CUEROS DE OVEJA","label_custom":"CUEROS DE OVEJA","subtitulo":"","destacado":false,"url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"nombre_real":"CUEROS DE CABRA","label_custom":"CUEROS DE CABRA","subtitulo":"","destacado":false,"url":"https://lederhd.com/cueros-de-cabra/"}]},{"tipo":"links","titulo":"POR ESTILO","items":[{"categoria_id":36664827,"nombre_real":"ALFOMBRAS PATCHWORK","label_custom":"ALFOMBRAS PATCHWORK","subtitulo":"","destacado":false,"url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"nombre_real":"ONE OF A KIND","label_custom":"ONE OF A KIND","subtitulo":"Piezas Unicas","destacado":true,"url":"https://lederhd.com/one-of-a-kind/"}]}]}};
+    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","columnas":[{"items":[{"categoria_id":36664825,"destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/"}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Unicas","url":"https://lederhd.com/one-of-a-kind/"}],"tipo":"links","titulo":"POR ESTILO"}]}};
 
     function esc(s) {
         return (s || "").replace(/[&<>"]/g, function (c) {
@@ -34,7 +34,7 @@
             return '<div class="ldr-menu-col ldr-menu-col-links">' + titulo2 + items + "</div>";
         }).filter(function (html) { return html !== ""; }).join("");
         var viewall = cfg.link_ver_todo ? '<a class="ldr-menu-viewall" href="' + esc(cfg.categoria_url || "#") + '">' + esc(cfg.link_ver_todo) + "</a>" : "";
-        return '<div class="ldr-menu-desktop">' + cols + "</div>" + viewall;
+        return '<div class="ldr-menu-desktop-wrap"><div class="ldr-menu-desktop">' + cols + "</div>" + viewall + "</div>";
     }
 
     function init() {
