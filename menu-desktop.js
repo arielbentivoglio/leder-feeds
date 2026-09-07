@@ -1,8 +1,8 @@
 /* menu-desktop.js - generado por SyncPropio, no editar a mano
-   Ultima publicacion: 2026-09-07T14:34:18.767432 */
+   Ultima publicacion: 2026-09-07T14:52:48.774575 */
 (function () {
     "use strict";
-    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","columnas":[{"items":[{"categoria_id":36664825,"destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/"}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/"}],"tipo":"links","titulo":"POR ESTILO"},{"tipo":"imagen","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","titulo":"","texto":"Diseño atemporal","cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/"}]}};
+    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","color_titulos":"#8a8a8a","color_items":"#1a1a1a","columnas":[{"items":[{"categoria_id":36664825,"destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/","color":""},{"categoria_id":36664826,"destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/","color":""},{"categoria_id":36686239,"destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/","color":""}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/","color":""},{"categoria_id":38147185,"destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/","color":""}],"tipo":"links","titulo":"POR ESTILO"},{"cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","texto":"Diseño atemporal","tipo":"imagen","titulo":"","ancho":null,"alto":null}]}};
 
     function esc(s) {
         return (s || "").replace(/[&<>"]/g, function (c) {
@@ -11,15 +11,22 @@
     }
 
     function buildHtml(cfg) {
+        var colorTitulos = cfg.color_titulos ? ' style="color:' + esc(cfg.color_titulos) + '"' : "";
+        var colorItems = cfg.color_items ? ' style="color:' + esc(cfg.color_items) + '"' : "";
         var cols = (cfg.columnas || []).map(function (col) {
             if (col.tipo === "imagen") {
                 var tieneContenido = col.imagen_url || col.titulo || col.texto || col.cta_url;
                 if (!tieneContenido) return "";
-                var img = col.imagen_url ? '<img src="' + esc(col.imagen_url) + '" alt="" loading="lazy" decoding="async">' : "";
+                var imgSize = "";
+                if (col.ancho) imgSize += "width:" + parseInt(col.ancho, 10) + "px;";
+                if (col.alto) imgSize += "height:" + parseInt(col.alto, 10) + "px;";
+                var imgStyle = imgSize ? ' style="' + imgSize + '"' : "";
+                var img = col.imagen_url ? '<img src="' + esc(col.imagen_url) + '" alt=""' + imgStyle + ' loading="lazy" decoding="async">' : "";
                 var titulo = col.titulo ? '<div class="ldr-menu-img-title">' + esc(col.titulo) + "</div>" : "";
                 var texto = col.texto ? '<div class="ldr-menu-img-text">' + esc(col.texto) + "</div>" : "";
                 var cta = col.cta_url ? '<a class="ldr-menu-img-cta" href="' + esc(col.cta_url) + '">' + esc(col.cta_texto || "Ver mas") + "</a>" : "";
-                return '<div class="ldr-menu-col ldr-menu-col-imagen">' + img + '<div class="ldr-menu-img-body">' + titulo + texto + cta + "</div></div>";
+                var colStyle = col.ancho ? ' style="width:' + parseInt(col.ancho, 10) + 'px"' : "";
+                return '<div class="ldr-menu-col ldr-menu-col-imagen"' + colStyle + '>' + img + '<div class="ldr-menu-img-body">' + titulo + texto + cta + "</div></div>";
             }
             var itemsArr = col.items || [];
             if (!col.titulo && !itemsArr.length) return "";
@@ -28,9 +35,9 @@
                 var label = esc(it.label_custom || it.nombre_real || "");
                 var sub = it.subtitulo ? '<span class="ldr-menu-item-subtitle">' + esc(it.subtitulo) + "</span>" : "";
                 var icon = it.destacado ? '<span class="ldr-menu-item-icon">+</span>' : "";
-                return '<a class="' + cls + '" href="' + esc(it.url || "#") + '">' + icon + '<span class="ldr-menu-item-text">' + label + sub + "</span></a>";
+                return '<a class="' + cls + '" href="' + esc(it.url || "#") + '"' + (it.color ? ' style="color:' + esc(it.color) + '"' : colorItems) + '>' + icon + '<span class="ldr-menu-item-text">' + label + sub + "</span></a>";
             }).join("");
-            var titulo2 = col.titulo ? '<div class="ldr-menu-col-title">' + esc(col.titulo) + "</div>" : "";
+            var titulo2 = col.titulo ? '<div class="ldr-menu-col-title"' + colorTitulos + '>' + esc(col.titulo) + "</div>" : "";
             return '<div class="ldr-menu-col ldr-menu-col-links">' + titulo2 + items + "</div>";
         }).filter(function (html) { return html !== ""; }).join("");
         var viewall = cfg.link_ver_todo ? '<a class="ldr-menu-viewall" href="' + esc(cfg.categoria_url || "#") + '">' + esc(cfg.link_ver_todo) + "</a>" : "";
