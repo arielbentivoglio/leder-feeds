@@ -1,8 +1,8 @@
 /* menu-desktop.js - generado por SyncPropio, no editar a mano
-   Ultima publicacion: 2026-09-07T14:53:17.696421 */
+   Ultima publicacion: 2026-09-07T15:17:16.293655 */
 (function () {
     "use strict";
-    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","color_titulos":"#8a8a8a","color_items":"#1a1a1a","columnas":[{"items":[{"categoria_id":36664825,"destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/","color":""},{"categoria_id":36664826,"destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/","color":""},{"categoria_id":36686239,"destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/","color":""}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/","color":""},{"categoria_id":38147185,"destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/","color":""}],"tipo":"links","titulo":"POR ESTILO"},{"cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","texto":"Diseño atemporal","tipo":"imagen","titulo":"","ancho":220,"alto":220}]}};
+    var CONFIG = {"alfombras":{"activo":true,"parent_category_id":36664698,"nombre_categoria":"","categoria_url":"https://lederhd.com/alfombras/","link_ver_todo":"Ver todas las alfombras","ancho":"completo","color_titulos":"#8a8a8a","color_items":"#1a1a1a","columnas":[{"items":[{"categoria_id":36664825,"color":"","destacado":false,"label_custom":"CUEROS DE VACA","nombre_real":"CUEROS DE VACA","subtitulo":"","url":"https://lederhd.com/cueros-de-vaca/"},{"categoria_id":36664826,"color":"","destacado":false,"label_custom":"CUEROS DE OVEJA","nombre_real":"CUEROS DE OVEJA","subtitulo":"","url":"https://lederhd.com/cueros-de-oveja/"},{"categoria_id":36686239,"color":"","destacado":false,"label_custom":"CUEROS DE CABRA","nombre_real":"CUEROS DE CABRA","subtitulo":"","url":"https://lederhd.com/cueros-de-cabra/"}],"tipo":"links","titulo":"Por Material"},{"items":[{"categoria_id":36664827,"color":"","destacado":false,"label_custom":"ALFOMBRAS PATCHWORK","nombre_real":"ALFOMBRAS PATCHWORK","subtitulo":"","url":"https://lederhd.com/patchwork/"},{"categoria_id":38147185,"color":"","destacado":true,"label_custom":"ONE OF A KIND","nombre_real":"ONE OF A KIND","subtitulo":"Piezas Únicas","url":"https://lederhd.com/one-of-a-kind/"}],"tipo":"links","titulo":"POR ESTILO"},{"alto":220,"ancho":220,"cta_texto":"Ver Alfombras Patchwork","cta_url":"/patchwork/","imagen_url":"https://raw.githubusercontent.com/arielbentivoglio/leder-feeds/main/menu-desktop/alfombras/img_20260907143214.webp","texto":"Diseño atemporal","tipo":"imagen","titulo":""}],"columnas_mobile":[]}};
 
     function esc(s) {
         return (s || "").replace(/[&<>"]/g, function (c) {
@@ -44,6 +44,43 @@
         return '<div class="ldr-menu-desktop-wrap"><div class="ldr-menu-desktop">' + cols + "</div>" + viewall + "</div>";
     }
 
+    function norm(s) {
+        return (s || "").toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+    }
+
+    function buildMobileHtml(cfg) {
+        var colorTitulos = cfg.color_titulos ? ' style="color:' + esc(cfg.color_titulos) + '"' : "";
+        var colorItems = cfg.color_items ? ' style="color:' + esc(cfg.color_items) + '"' : "";
+        var fuente = (cfg.columnas_mobile && cfg.columnas_mobile.length) ? cfg.columnas_mobile : cfg.columnas;
+        var cols = (fuente || []).map(function (col) {
+            if (col.tipo === "imagen") {
+                var tieneContenido = col.imagen_url || col.titulo || col.texto || col.cta_url;
+                if (!tieneContenido) return "";
+                var imgSize = "";
+                if (col.alto) imgSize += "height:" + parseInt(col.alto, 10) + "px;";
+                var imgStyle = imgSize ? ' style="' + imgSize + '"' : "";
+                var img = col.imagen_url ? '<img src="' + esc(col.imagen_url) + '" alt=""' + imgStyle + ' loading="lazy" decoding="async">' : "";
+                var titulo = col.titulo ? '<div class="ldr-menu-img-title">' + esc(col.titulo) + "</div>" : "";
+                var texto = col.texto ? '<div class="ldr-menu-img-text">' + esc(col.texto) + "</div>" : "";
+                var cta = col.cta_url ? '<a class="ldr-menu-img-cta" href="' + esc(col.cta_url) + '">' + esc(col.cta_texto || "Ver mas") + "</a>" : "";
+                return '<div class="ldr-menu-col ldr-menu-col-imagen">' + img + '<div class="ldr-menu-img-body">' + titulo + texto + cta + "</div></div>";
+            }
+            var itemsArr = col.items || [];
+            if (!col.titulo && !itemsArr.length) return "";
+            var items = itemsArr.map(function (it) {
+                var cls = "ldr-menu-item" + (it.destacado ? " ldr-menu-item-highlight" : "");
+                var label = esc(it.label_custom || it.nombre_real || "");
+                var sub = it.subtitulo ? '<span class="ldr-menu-item-subtitle">' + esc(it.subtitulo) + "</span>" : "";
+                var icon = it.destacado ? '<span class="ldr-menu-item-icon">+</span>' : "";
+                return '<a class="' + cls + '" href="' + esc(it.url || "#") + '"' + (it.color ? ' style="color:' + esc(it.color) + '"' : colorItems) + '>' + icon + '<span class="ldr-menu-item-text">' + label + sub + "</span></a>";
+            }).join("");
+            var titulo2 = col.titulo ? '<div class="ldr-menu-col-title"' + colorTitulos + '>' + esc(col.titulo) + "</div>" : "";
+            return '<div class="ldr-menu-col ldr-menu-col-links">' + titulo2 + items + "</div>";
+        }).filter(function (html) { return html !== ""; }).join("");
+        var viewall = cfg.link_ver_todo ? '<a class="ldr-menu-viewall" href="' + esc(cfg.categoria_url || "#") + '">' + esc(cfg.link_ver_todo) + "</a>" : "";
+        return '<div class="ldr-menu-mobile">' + cols + "</div>" + viewall;
+    }
+
     function init() {
         var keys = Object.keys(CONFIG);
         if (!keys.length) return;
@@ -71,19 +108,50 @@
         }
     }
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", init);
-    } else {
+    function initMobile() {
+        var keys = Object.keys(CONFIG);
+        if (!keys.length) return;
+        var buttons = document.querySelectorAll(".js-modal-open-private.nav-list-link");
+        for (var i = 0; i < buttons.length; i++) {
+            var btn = buttons[i];
+            var txt = norm(btn.textContent);
+            for (var k = 0; k < keys.length; k++) {
+                var slug = keys[k];
+                var cfg = CONFIG[slug];
+                if (!cfg || cfg.activo === false || !cfg.nombre_categoria) continue;
+                if (norm(cfg.nombre_categoria) !== txt) continue;
+                var targetSel = btn.getAttribute("data-target");
+                if (!targetSel) continue;
+                var modal;
+                try { modal = document.querySelector(targetSel); } catch (e) { continue; }
+                if (!modal) continue;
+                var body = modal.querySelector(".modal-body") || modal;
+                if (body.getAttribute("data-ldr-mobile-built") === "1") continue;
+                body.innerHTML = buildMobileHtml(cfg);
+                body.setAttribute("data-ldr-mobile-built", "1");
+            }
+        }
+    }
+
+    function initAll() {
         init();
+        initMobile();
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initAll);
+    } else {
+        initAll();
     }
 
     // Reintentos por hidratacion async del theme (mismo patron 40x150ms
-    // usado en el resto de los Modulos Custom). init() es idempotente
-    // (marca data-ldr-menu-built), asi que no hay parpadeo ni loop.
+    // usado en el resto de los Modulos Custom). initAll() es idempotente
+    // (marca data-ldr-menu-built / data-ldr-mobile-built), asi que no hay
+    // parpadeo ni loop.
     var tries = 0;
     var timer = setInterval(function () {
         tries++;
-        init();
+        initAll();
         if (tries >= 40) clearInterval(timer);
     }, 150);
 })();
