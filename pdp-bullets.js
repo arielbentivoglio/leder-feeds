@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 11:03:26
+ * Generado: 2026-09-09 11:11:01
  */
 (function () {
   "use strict";
@@ -184,7 +184,7 @@
     "anchorPositionDesktop": "before",
     "anchorPositionMobile": "after",
     "bullets": [
-      "Set completo: bolso de viaje + mochila urbana",
+      "Set completo: bolso de viaje + neceser  cuero genuino",
       "Ideal para viajes, trabajo y uso diario",
       "Más practicidad: dos piezas para organizar y llevar todo lo necesario",
       "Un combo funcional, elegante y atemporal"
