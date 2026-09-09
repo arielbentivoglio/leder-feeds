@@ -1,7 +1,7 @@
 /**
  * pdp-talles.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Guia de talles)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 13:37:32
+ * Generado: 2026-09-09 13:49:59
  */
 (function () {
   "use strict";
@@ -104,6 +104,8 @@
     "textColor": "#1a1a1a",
     "botonBgColor": "#1a1a1a",
     "botonTextColor": "#ffffff",
+    "bordesEstilo": "cuadrado",
+    "stackMobile": true,
     "quitarCursiva": false
   }
 ];
@@ -204,6 +206,7 @@
     if (document.getElementById("ldr-talles-style")) return;
     var css =
       ".ldr-talles__triggers{display:flex;gap:10px;width:100%;margin:12px 0;font-family:inherit}" +
+      "@media (max-width:480px){.ldr-talles__triggers.ldr-talles__stack-mobile{flex-direction:column}}" +
       ".ldr-talles__trigger{flex:1;display:flex;align-items:center;justify-content:center;gap:10px;padding:13px 12px;border:1.5px solid;border-radius:9px;background:#fff;cursor:pointer;font-size:14px;font-family:inherit;line-height:1.2}" +
       ".ldr-talles__trigger:hover{background:rgba(0,0,0,.03)}" +
       ".ldr-talles__ic{width:16px;height:16px;flex-shrink:0}" +
@@ -239,24 +242,32 @@
     document.head.appendChild(st);
   }
 
+  // Estilo de bordes: "cuadrado" (mas angular) o "redondeado" (default,
+  // como venia el modulo). Elegible desde el panel, no hardcodeado.
+  function radioPx(set) {
+    return set.bordesEstilo === "cuadrado" ? 4 : 10;
+  }
+
   function triggersHtml(set) {
     var accent = set.accentColor || "#a87c4f";
+    var r = radioPx(set);
     var partes = [];
     if (set.calcHabilitado) {
       partes.push(
-        '<button type="button" class="ldr-talles__trigger" id="ldr-talles-calc-open" style="color:' + accent + ';border-color:' + accent + '">' +
+        '<button type="button" class="ldr-talles__trigger" id="ldr-talles-calc-open" style="color:' + accent + ';border-color:' + accent + ';border-radius:' + r + 'px">' +
           '<span class="ldr-talles__ic"><svg viewBox="0 0 24 24"><path d="M3 7h18v10H3z"/><path d="M7 7v3M11 7v3M15 7v3M19 7v3"/></svg></span>' +
           '<span class="ldr-talles__lab">' + esc(set.botonCalcLabel || "Calculá tu talle") + "</span>" +
         "</button>"
       );
     }
     partes.push(
-      '<button type="button" class="ldr-talles__trigger" id="ldr-talles-guia-open" style="color:' + accent + ';border-color:' + accent + '">' +
+      '<button type="button" class="ldr-talles__trigger" id="ldr-talles-guia-open" style="color:' + accent + ';border-color:' + accent + ';border-radius:' + r + 'px">' +
         '<span class="ldr-talles__ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M3 14h18M9 4v16M15 4v16"/></svg></span>' +
         '<span class="ldr-talles__lab">' + esc(set.botonGuiaLabel || "Guía de talles") + "</span>" +
       "</button>"
     );
-    return '<div id="ldr-pdp-talles-mod" data-set="' + esc(set.id) + '"><div class="ldr-talles__triggers">' + partes.join("") + "</div></div>";
+    var wrapClass = "ldr-talles__triggers" + (set.stackMobile ? " ldr-talles__stack-mobile" : "");
+    return '<div id="ldr-pdp-talles-mod" data-set="' + esc(set.id) + '"><div class="' + wrapClass + '">' + partes.join("") + "</div></div>";
   }
 
   function tableHtml(set) {
