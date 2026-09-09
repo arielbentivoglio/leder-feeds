@@ -1,11 +1,103 @@
 /**
  * pdp-talles-indumentaria.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Guia de talles Indumentaria)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 16:42:00
+ * Generado: 2026-09-09 16:42:36
  */
 (function () {
   "use strict";
-  var SETS = [];
+  var SETS = [
+  {
+    "id": "saco-de-cuero-nairobi-black",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "334201485"
+      ],
+      "labels": [
+        {
+          "id": "334201485",
+          "nombre": "Saco De Cuero Nairobi-Black"
+        }
+      ]
+    },
+    "anchorSelector": ".js-product-variants",
+    "anchorPosition": "before",
+    "botonCalcLabel": "Calculá tu talle",
+    "botonGuiaLabel": "Guía de talles",
+    "calcHabilitado": true,
+    "eyebrowGuia": "Guía de talles",
+    "tituloGuia": "Tabla de <em>talles</em>",
+    "colHeaderMedida": "Medida (cm)",
+    "sizeHeaders": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "rows": [
+      {
+        "label": "A - Busto",
+        "cells": [
+          "85",
+          "92",
+          "95",
+          "98",
+          "103"
+        ]
+      },
+      {
+        "label": "B - Cintura",
+        "cells": [
+          "80",
+          "82",
+          "90",
+          "92",
+          "92"
+        ]
+      },
+      {
+        "label": "C - Ruedo",
+        "cells": [
+          "103",
+          "106",
+          "112",
+          "116",
+          "118"
+        ]
+      },
+      {
+        "label": "D - Largo",
+        "cells": [
+          "63",
+          "65",
+          "67",
+          "69",
+          "70"
+        ]
+      }
+    ],
+    "notaGuia": "Medidas de la prenda en cm.",
+    "eyebrowCalc": "Probador virtual",
+    "tituloCalc": "Calculá tu <em>talle</em>",
+    "introCalc": "Cargá las medidas (en cm) y te sugerimos el talle que mejor coincide. Mirá la guía de talles para ver dónde se toma cada una.",
+    "botonCalcularTexto": "Calcular mi talle",
+    "resultadoLabel": "Tu talle sugerido",
+    "fueraRangoTexto": "No encontramos un talle exacto para esas medidas.",
+    "sinDatosTexto": "Completá al menos una medida para calcular tu talle.",
+    "accentColor": "#a87c4f",
+    "textColor": "#1a1a1a",
+    "botonBgColor": "#1a1a1a",
+    "botonTextColor": "#ffffff",
+    "bordesEstilo": "redondeado",
+    "stackMobile": true,
+    "quitarCursiva": false
+  }
+];
   var DIAGRAM_URL = "https://arielbentivoglio.github.io/leder-feeds/talles-guia-cuerpo.webp";
 
   function getStore() {
