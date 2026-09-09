@@ -1,7 +1,7 @@
 /**
  * pdp-talles-indumentaria.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Guia de talles Indumentaria)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 16:42:36
+ * Generado: 2026-09-09 16:42:53
  */
 (function () {
   "use strict";
@@ -93,7 +93,7 @@
     "textColor": "#1a1a1a",
     "botonBgColor": "#1a1a1a",
     "botonTextColor": "#ffffff",
-    "bordesEstilo": "redondeado",
+    "bordesEstilo": "cuadrado",
     "stackMobile": true,
     "quitarCursiva": false
   }
