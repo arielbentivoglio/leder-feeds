@@ -1,114 +1,11 @@
 /**
  * pdp-talles.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Guia de talles)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 13:49:59
+ * Generado: 2026-09-09 13:52:12
  */
 (function () {
   "use strict";
-  var SETS = [
-  {
-    "id": "pantufla-de-cuero-vacuno-lanar-combinada-tom",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "317124047"
-      ],
-      "labels": [
-        {
-          "id": "317124047",
-          "nombre": "Pantufla de Cuero Vacuno/Lanar Combinada - Tom"
-        }
-      ]
-    },
-    "anchorSelector": ".js-product-variants",
-    "anchorPosition": "before",
-    "botonCalcLabel": "Calculá tu talle",
-    "botonGuiaLabel": "Guía de talles",
-    "calcHabilitado": true,
-    "eyebrowGuia": "Guía de talles",
-    "tituloGuia": "Tabla de <em>talles</em>",
-    "headers": [
-      "EU",
-      "CM"
-    ],
-    "rows": [
-      [
-        "33-34",
-        "23"
-      ],
-      [
-        "35-36",
-        "24"
-      ],
-      [
-        "37-38",
-        "24.5"
-      ],
-      [
-        "39-40",
-        "25.5"
-      ],
-      [
-        "41-42",
-        "26.5"
-      ],
-      [
-        "43-44",
-        "27.5"
-      ]
-    ],
-    "notaGuia": "Apoyá el talón contra la pared y medí el largo de tu pie en cm.",
-    "eyebrowCalc": "Probador virtual",
-    "tituloCalc": "Calculá tu <em>talle</em>",
-    "introCalc": "Medí el largo de tu pie en cm (talón contra la pared) y te decimos tu talle.",
-    "calcMapa": [
-      {
-        "min": 0.0,
-        "max": 23.0,
-        "talle": "33-34"
-      },
-      {
-        "min": 23.01,
-        "max": 24.0,
-        "talle": "35-36"
-      },
-      {
-        "min": 24.01,
-        "max": 24.5,
-        "talle": "37-38"
-      },
-      {
-        "min": 24.51,
-        "max": 25.5,
-        "talle": "39-40"
-      },
-      {
-        "min": 25.51,
-        "max": 26.5,
-        "talle": "41-42"
-      },
-      {
-        "min": 26.51,
-        "max": 27.5,
-        "talle": "43-44"
-      }
-    ],
-    "botonCalcularTexto": "Calcular mi talle",
-    "resultadoLabel": "Tu talle sugerido",
-    "fueraRangoTexto": "No encontramos un talle exacto para esa medida. Escribinos y te ayudamos a elegir.",
-    "accentColor": "#a87c4f",
-    "textColor": "#1a1a1a",
-    "botonBgColor": "#1a1a1a",
-    "botonTextColor": "#ffffff",
-    "bordesEstilo": "cuadrado",
-    "stackMobile": true,
-    "quitarCursiva": false
-  }
-];
+  var SETS = [];
 
   function getStore() {
     var h = location.hostname || "";
