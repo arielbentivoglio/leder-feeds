@@ -1,7 +1,7 @@
 /**
  * pdp-talles.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Guia de talles)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 13:31:16
+ * Generado: 2026-09-09 13:37:19
  */
 (function () {
   "use strict";
@@ -103,8 +103,8 @@
     if (document.getElementById("ldr-talles-style")) return;
     var css =
       ".ldr-talles__triggers{display:flex;gap:10px;width:100%;margin:12px 0;font-family:inherit}" +
-      ".ldr-talles__trigger{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 10px;border:1px solid rgba(0,0,0,.18);border-radius:8px;background:#fff;cursor:pointer;font-size:13px;font-family:inherit;color:inherit;line-height:1.2}" +
-      ".ldr-talles__trigger:hover{border-color:rgba(0,0,0,.4)}" +
+      ".ldr-talles__trigger{flex:1;display:flex;align-items:center;justify-content:center;gap:10px;padding:13px 12px;border:1.5px solid;border-radius:9px;background:#fff;cursor:pointer;font-size:14px;font-family:inherit;line-height:1.2}" +
+      ".ldr-talles__trigger:hover{background:rgba(0,0,0,.03)}" +
       ".ldr-talles__ic{width:16px;height:16px;flex-shrink:0}" +
       ".ldr-talles__ic svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.6}" +
       "@media (max-width:480px){.ldr-talles__lab{font-size:12px}}" +
@@ -120,14 +120,13 @@
       ".ldr-talles--no-italic .ldr-talles__title em{font-style:normal}" +
       ".ldr-talles__intro{margin:0 0 18px;font-size:14px;line-height:1.5;text-align:center;color:#555;font-family:inherit}" +
       ".ldr-talles__table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:14px}" +
-      ".ldr-talles__table th{text-align:center;padding:8px 6px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;font-size:11px;color:#777;border-bottom:1px solid rgba(0,0,0,.12)}" +
-      ".ldr-talles__table td{text-align:center;padding:9px 6px;font-size:14px}" +
-      ".ldr-talles__table tbody tr:nth-child(even){background:rgba(0,0,0,.035)}" +
+      ".ldr-talles__table th{text-align:center;padding:10px 10px 16px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:12px;color:#777}" +
+      ".ldr-talles__table td{text-align:center;padding:15px 10px;font-size:16px;border-top:1px solid rgba(0,0,0,.1)}" +
       ".ldr-talles__note{margin:6px 0 0;font-size:12px;color:#888;text-align:center;line-height:1.5;font-family:inherit}" +
       ".ldr-talles__field{margin:0 0 16px}" +
       ".ldr-talles__flabel{display:block;font-size:12px;color:#666;margin-bottom:6px;font-family:inherit}" +
-      ".ldr-talles__input{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid rgba(0,0,0,.2);border-radius:6px;font-size:15px;font-family:inherit}" +
-      ".ldr-talles__calc{width:100%;padding:13px;border:none;border-radius:6px;background:#1a1a1a;color:#fff;font-size:13px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit}" +
+      ".ldr-talles__input{width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid rgba(0,0,0,.18) !important;border-radius:6px;font-size:15px;font-family:inherit;background:#fff !important}" +
+      ".ldr-talles__calc{width:100%;padding:13px;border:none;border-radius:6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;font-family:inherit}" +
       ".ldr-talles__result{display:none;margin-top:18px;padding:18px;border-radius:8px;text-align:center;background:rgba(0,0,0,.035)}" +
       ".ldr-talles__result.show{display:block}" +
       ".ldr-talles__result-lab{margin:0 0 4px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#888;font-family:inherit}" +
@@ -144,14 +143,14 @@
     var partes = [];
     if (set.calcHabilitado) {
       partes.push(
-        '<button type="button" class="ldr-talles__trigger" id="ldr-talles-calc-open" style="color:' + accent + '">' +
+        '<button type="button" class="ldr-talles__trigger" id="ldr-talles-calc-open" style="color:' + accent + ';border-color:' + accent + '">' +
           '<span class="ldr-talles__ic"><svg viewBox="0 0 24 24"><path d="M3 7h18v10H3z"/><path d="M7 7v3M11 7v3M15 7v3M19 7v3"/></svg></span>' +
           '<span class="ldr-talles__lab">' + esc(set.botonCalcLabel || "Calculá tu talle") + "</span>" +
         "</button>"
       );
     }
     partes.push(
-      '<button type="button" class="ldr-talles__trigger" id="ldr-talles-guia-open" style="color:' + accent + '">' +
+      '<button type="button" class="ldr-talles__trigger" id="ldr-talles-guia-open" style="color:' + accent + ';border-color:' + accent + '">' +
         '<span class="ldr-talles__ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 9h18M3 14h18M9 4v16M15 4v16"/></svg></span>' +
         '<span class="ldr-talles__lab">' + esc(set.botonGuiaLabel || "Guía de talles") + "</span>" +
       "</button>"
@@ -199,7 +198,7 @@
             '<label class="ldr-talles__flabel" for="ldr-talles-calc-input">Largo del pie (cm)</label>' +
             '<input type="number" inputmode="decimal" step="0.1" class="ldr-talles__input" id="ldr-talles-calc-input" placeholder="Ej: 25.5">' +
           "</div>" +
-          '<button type="button" class="ldr-talles__calc" id="ldr-talles-calc-btn" style="background:' + (set.accentColor || "#1a1a1a") + '">' + esc(set.botonCalcularTexto || "Calcular mi talle") + "</button>" +
+          '<button type="button" class="ldr-talles__calc" id="ldr-talles-calc-btn" style="background:' + (set.botonBgColor || "#1a1a1a") + ";color:" + (set.botonTextColor || "#ffffff") + '">' + esc(set.botonCalcularTexto || "Calcular mi talle") + "</button>" +
           '<div class="ldr-talles__result" id="ldr-talles-calc-result">' +
             '<p class="ldr-talles__result-lab">' + esc(set.resultadoLabel || "Tu talle sugerido") + "</p>" +
             '<p class="ldr-talles__result-talle" id="ldr-talles-calc-out" style="color:' + (set.textColor || "#1a1a1a") + '"></p>' +
