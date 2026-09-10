@@ -14,7 +14,7 @@
   "use strict";
 
   // ─── Datos publicados por el panel (placeholder reemplazado al publicar) ──
-  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10mron-601a53cc4fc030c1e417690055171263-1024-1024.jpg", "width": 1200, "height": 1200}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
+  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10mron-601a53cc4fc030c1e417690055171263-1024-1024.jpg", "width": 1200, "height": 1200}, "imagen_variantes": {"Marrón": {"id": 1090258777, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10mron-601a53cc4fc030c1e417690055171263-1024-1024.jpg", "width": 1200, "height": 1200}, "Beige": {"id": 1090258779, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10beige-172ee5f2db88b3467b17690055171733-1024-1024.jpg", "width": 1200, "height": 1200}, "Blanco": {"id": 1090258775, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10bco-e26c4e151057693da717690055170072-1024-1024.jpg", "width": 1200, "height": 1200}, "Negro": {"id": 1090258774, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10negro-cb013a4034b119e81f17690055170144-1024-1024.jpg", "width": 1200, "height": 1200}, "Mix": {"id": 1090258778, "src": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/av60110-10mix-5de12cbbdd21cfbd7c17690055171618-1024-1024.jpg", "width": 1200, "height": 1200}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
 
   var MOUNT_ID = "ldr-pdp-probador-alfombras";
   var RETRY_MAX = 40;
@@ -64,6 +64,35 @@
     if (!candidatos.length) return null;
     candidatos.sort(function (a, b) { return specificity(b) - specificity(a); });
     return candidatos[0];
+  }
+
+  // ─── Deteccion del color/variante activo en la PDP ─────────────────────────
+  // Best-effort con varios fallbacks, en el mismo orden de confianza que ya
+  // usa el resto del sitio (colores_panel.py / store.js.tpl):
+  //   1) bullet nativo con clase .selected (".js-insta-variant"/".js-color-variant")
+  //   2) <select> nativo de variante (".js-variation-option"), texto de la opcion elegida
+  // Si ninguno matchea contra el mapa de imagenes por color del modulo, cae
+  // al "imagen" default configurado en el panel — no rompe nada si el theme
+  // no tiene ninguno de estos selectores.
+  function colorSeleccionadoActual() {
+    var sel = document.querySelector(".js-insta-variant.selected, .js-color-variant.selected");
+    if (sel) {
+      var v = sel.getAttribute("data-option");
+      if (v) return v.trim();
+    }
+    var selects = document.querySelectorAll("select.js-variation-option");
+    for (var i = 0; i < selects.length; i++) {
+      var opt = selects[i].options[selects[i].selectedIndex];
+      if (opt && opt.text) return opt.text.trim();
+    }
+    return null;
+  }
+
+  function imagenActual(set) {
+    var mapa = set.imagen_variantes || {};
+    var color = colorSeleccionadoActual();
+    if (color && mapa[color] && mapa[color].src) return mapa[color];
+    return set.imagen;
   }
 
   // ─── Estilos (inyectados una sola vez) ─────────────────────────────────────
@@ -200,13 +229,30 @@
     var anchoCm = parseFloat(set.ancho_cm) || 170;
     var altoCm = parseFloat(set.alto_cm) || 120;
     var baseH = Math.round(baseW * (altoCm / anchoCm));
-    var imgSrc = (set.imagen || {}).src || "";
 
     rug.style.width = baseW + "px";
     rug.style.height = baseH + "px";
     shadow.style.width = baseW + "px";
     shadow.style.height = baseH + "px";
-    if (imgSrc) rug.style.backgroundImage = "url(" + imgSrc + ")";
+
+    function aplicarImagenActual() {
+      var img = imagenActual(set);
+      if (img && img.src) rug.style.backgroundImage = "url(" + img.src + ")";
+    }
+    aplicarImagenActual();
+
+    // Si el cliente cambia de color con el modal abierto, la alfombra se
+    // actualiza en vivo sin perder las esquinas que ya arrastro.
+    document.addEventListener("change", function (e) {
+      if (e.target && e.target.matches && e.target.matches("select.js-variation-option")) {
+        aplicarImagenActual();
+      }
+    });
+    document.addEventListener("click", function (e) {
+      var t = e.target.closest && e.target.closest(".js-insta-variant, .js-color-variant");
+      if (t) setTimeout(aplicarImagenActual, 60);
+    });
+
 
     var defaultCorners = [
       { x: 0.30, y: 0.56 }, { x: 0.72, y: 0.56 },
@@ -287,6 +333,7 @@
 
     return {
       open: function () {
+        aplicarImagenActual();
         overlay.classList.add("ldr-pa-open");
         modal.classList.add("ldr-pa-open");
         if (handlesVisible) update();
