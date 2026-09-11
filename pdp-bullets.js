@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:24:54
+ * Generado: 2026-09-11 12:25:26
  */
 (function () {
   "use strict";
@@ -125,45 +125,6 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
-    "id": "combo-asador-leder-delantal-cuero-cubiertos-parrilleros",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "366067250"
-      ],
-      "labels": [
-        {
-          "id": "366067250",
-          "nombre": "Combo Asador Leder: Delantal cuero + Cubiertos parrilleros"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Set completo: delantal + cuchillo + tenedor",
-      "Cuero genuino, resistente y duradero",
-      "Todo lo necesario para disfrutar del asado",
-      "Ideal para regalar a un amante de la parrilla"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": true,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
-    "textSize": 13,
-    "dividerWidth": 1.0,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
@@ -546,6 +507,45 @@
       "Ideal para viajes, trabajo y uso diario",
       "Más practicidad: dos piezas para organizar y llevar todo lo necesario",
       "Un combo funcional, elegante y atemporal"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "combo-asador-leder-delantal-cuero-cubiertos-parrilleros",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "366067250"
+      ],
+      "labels": [
+        {
+          "id": "366067250",
+          "nombre": "Combo Asador Leder: Delantal cuero + Cubiertos parrilleros"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Set completo: delantal + cuchillo + tenedor",
+      "Cuero genuino, resistente y duradero",
+      "Todo lo necesario para disfrutar del asado",
+      "Ideal para regalar a un amante de la parrilla"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
