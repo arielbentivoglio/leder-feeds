@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:26:40
+ * Generado: 2026-09-11 12:26:49
  */
 (function () {
   "use strict";
@@ -125,45 +125,6 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
-    "id": "bota-de-cuero-lanar-balu",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "317404072"
-      ],
-      "labels": [
-        {
-          "id": "317404072",
-          "nombre": "Bota De Cuero Lanar - Balu"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Cuero de oveja premium, suave y confortable",
-      "Propiedades térmicas naturales",
-      "Diseño versátil y sofisticado",
-      "Altura de caña: 15 cm"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": true,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
-    "textSize": 13,
-    "dividerWidth": 1.0,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
@@ -546,6 +507,45 @@
       "Exterior en cuero vacuno resistente",
       "Suela de goma elevada y antideslizante",
       "Altura de caña: 12.5 cm"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "bota-de-cuero-lanar-balu",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317404072"
+      ],
+      "labels": [
+        {
+          "id": "317404072",
+          "nombre": "Bota De Cuero Lanar - Balu"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero de oveja premium, suave y confortable",
+      "Propiedades térmicas naturales",
+      "Diseño versátil y sofisticado",
+      "Altura de caña: 15 cm"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
