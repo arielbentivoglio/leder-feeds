@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:25:51
+ * Generado: 2026-09-11 12:26:00
  */
 (function () {
   "use strict";
@@ -125,45 +125,6 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
-    "id": "pantuflas-de-cuero-lanar-cape",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "317299894"
-      ],
-      "labels": [
-        {
-          "id": "317299894",
-          "nombre": "Pantuflas de Cuero Lanar - Cape"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Interior en cuero lanar, cálido y acogedor",
-      "Exterior en cuero vacuno resistente",
-      "Diseño estilo botita que envuelve y protege",
-      "Suela firme para mayor estabilidad"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": true,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
-    "textSize": 13,
-    "dividerWidth": 1.0,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
@@ -546,6 +507,45 @@
       "Textura suave y cálida al tacto",
       "Diseño clásico y atemporal",
       "Livianas, cómodas y envolventes"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "pantuflas-de-cuero-lanar-cape",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317299894"
+      ],
+      "labels": [
+        {
+          "id": "317299894",
+          "nombre": "Pantuflas de Cuero Lanar - Cape"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Interior en cuero lanar, cálido y acogedor",
+      "Exterior en cuero vacuno resistente",
+      "Diseño estilo botita que envuelve y protege",
+      "Suela firme para mayor estabilidad"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
