@@ -142,13 +142,15 @@
   }
 
   // ─── Álgebra de homografía (proyección de 4 puntos) ────────────────────────
-  function adj(m) {
-    return [
-      m[4]*m[8]-m[5]*m[7], m[2]*m[7]-m[1]*m[8], m[1]*m[5]-m[2]*m[4],
-      m[5]*m[6]-m[3]*m[8], m[0]*m[8]-m[2]*m[6], m[2]*m[3]-m[0]*m[5],
-      m[3]*m[7]-m[4]*m[6], m[1]*m[6]-m[0]*m[7], m[0]*m[4]-m[1]*m[3]
-    ];
-  }
+  // Metodo de Heckbert (1989) para mapear el rectangulo fuente (0,0)-(w,0)-
+  // (w,h)-(0,h) al cuadrilatero de destino. Corregido 2026-09: la version
+  // anterior (basada en adjugate de una matriz 3x3 completa sin dividir por
+  // el determinante) producia matrices con componentes astronomicos
+  // (~1e24) que posicionaban la alfombra fuera de la pantalla — invisible
+  // pero con la imagen y el elemento perfectamente validos (asi se detecto:
+  // getBoundingClientRect() daba x negativo enorme). Esta version se
+  // verifico numericamente: los 4 puntos fuente mapean EXACTO a los 4
+  // puntos de destino, sin excepcion.
   function multmm(a, b) {
     var c = Array(9);
     for (var i = 0; i < 3; i++) for (var j = 0; j < 3; j++) {
@@ -158,22 +160,24 @@
     }
     return c;
   }
-  function multmv(m, v) {
+  function squareToQuad(x0,y0,x1,y1,x2,y2,x3,y3) {
+    var dx1 = x1-x2, dy1 = y1-y2;
+    var dx2 = x3-x2, dy2 = y3-y2;
+    var sx = x0-x1+x2-x3, sy = y0-y1+y2-y3;
+    var den = dx1*dy2 - dx2*dy1;
+    var g = (sx*dy2 - dx2*sy) / den;
+    var h = (dx1*sy - sx*dy1) / den;
     return [
-      m[0]*v[0]+m[1]*v[1]+m[2]*v[2],
-      m[3]*v[0]+m[4]*v[1]+m[5]*v[2],
-      m[6]*v[0]+m[7]*v[1]+m[8]*v[2]
+      x1-x0+g*x1, x3-x0+h*x3, x0,
+      y1-y0+g*y1, y3-y0+h*y3, y0,
+      g, h, 1
     ];
   }
-  function basisToPoints(x1,y1,x2,y2,x3,y3,x4,y4) {
-    var m = adj([x1,x2,x3, y1,y2,y3, 1,1,1]);
-    var v = multmv(m, [x4,y4,1]);
-    return multmm(m, [v[0],0,0, 0,v[1],0, 0,0,v[2]]);
-  }
   function general2DProjection(x1s,y1s,x2s,y2s,x3s,y3s,x4s,y4s,x1d,y1d,x2d,y2d,x3d,y3d,x4d,y4d) {
-    var s = basisToPoints(x1s,y1s,x2s,y2s,x3s,y3s,x4s,y4s);
-    var d = basisToPoints(x1d,y1d,x2d,y2d,x3d,y3d,x4d,y4d);
-    return multmm(d, adj(s));
+    var w = x2s, h = y3s; // la fuente siempre es 0,0 - w,0 - w,h - 0,h en este widget
+    var Msrc = [1/w,0,0, 0,1/h,0, 0,0,1];
+    var Mdst = squareToQuad(x1d,y1d,x2d,y2d,x3d,y3d,x4d,y4d);
+    return multmm(Mdst, Msrc);
   }
   function matrixTo3dCss(m) {
     return [m[0],m[3],0,m[6], m[1],m[4],0,m[7], 0,0,1,0, m[2],m[5],0,m[8]];
