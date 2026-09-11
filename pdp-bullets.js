@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:24:13
+ * Generado: 2026-09-11 12:24:37
  */
 (function () {
   "use strict";
@@ -125,45 +125,6 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
-    "id": "combo-work-essential",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "366065103"
-      ],
-      "labels": [
-        {
-          "id": "366065103",
-          "nombre": "Combo Work Essential"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Combo 2 en 1: portafolio + carpeta de cuero genuino",
-      "Diseñado para organizar notebook, documentos y esenciales",
-      "Ideal para trabajo, oficina, reuniones y viajes",
-      "Cuero genuino con diseño ejecutivo y terminaciones premium"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": true,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
-    "textSize": 13,
-    "dividerWidth": 1.0,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
@@ -554,6 +515,45 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "combo-work-essential",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "366065103"
+      ],
+      "labels": [
+        {
+          "id": "366065103",
+          "nombre": "Combo Work Essential"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Combo 2 en 1: portafolio + carpeta de cuero genuino",
+      "Diseñado para organizar notebook, documentos y esenciales",
+      "Ideal para trabajo, oficina, reuniones y viajes",
+      "Cuero genuino con diseño ejecutivo y terminaciones premium"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
