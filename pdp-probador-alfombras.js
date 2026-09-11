@@ -14,7 +14,7 @@
   "use strict";
 
   // ─── Datos publicados por el panel (placeholder reemplazado al publicar) ──
-  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_alineacion": "izquierda", "boton_ancho_completo": true, "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.\nSi quieres una simulación mas real, escribanos por whatsapp aquí", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 775, "height": 453}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 779, "height": 453}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 770, "height": 453}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 773, "height": 458}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 770, "height": 454}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 772, "height": 456}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
+  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_alineacion": "izquierda", "boton_ancho_completo": true, "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.\nSi quieres una simulación mas real, escribanos por whatsapp aquí", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 754, "height": 435}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 753, "height": 435}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 750, "height": 434}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 752, "height": 438}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 751, "height": 434}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 748, "height": 435}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
 
   var MOUNT_ID = "ldr-pdp-probador-alfombras";
   var RETRY_MAX = 40;
@@ -140,6 +140,7 @@
       ".ldr-pa-handle.ldr-pa-show{display:block;}" +
       ".ldr-pa-handle.ldr-pa-fade{opacity:.25;pointer-events:none;}" +
       ".ldr-pa-actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}" +
+      ".ldr-pa-actions .ldr-pa-rot-izq,.ldr-pa-actions .ldr-pa-rot-der{flex:0 0 auto;padding:11px 16px;font-size:16px;}" +
       ".ldr-pa-btn{flex:1 1 auto;padding:11px 14px;border-radius:3px;font-size:13.5px;font-weight:600;cursor:pointer;text-align:center;}" +
       ".ldr-pa-btn.primary{background:" + btnBg + ";color:" + btnText + ";border:1px solid " + btnBg + ";}" +
       ".ldr-pa-btn.secondary{background:transparent;color:#241c15;border:1px solid rgba(0,0,0,0.15);}" +
@@ -230,6 +231,8 @@
       '<div class="ldr-pa-actions">' +
         '<label class="ldr-pa-btn primary" style="margin:0;">Subir o sacar una foto' +
           '<input type="file" accept="image/*" capture="environment" style="display:none;" class="ldr-pa-file"></label>' +
+        '<button type="button" class="ldr-pa-btn secondary ldr-pa-rot-izq" title="Girar">\u21b6</button>' +
+        '<button type="button" class="ldr-pa-btn secondary ldr-pa-rot-der" title="Girar">\u21b7</button>' +
         '<button type="button" class="ldr-pa-btn secondary ldr-pa-reset">Reiniciar esquinas</button>' +
         '<button type="button" class="ldr-pa-btn secondary ldr-pa-restaurar">Restaurar alfombra completa</button>' +
       '</div>';
@@ -246,6 +249,8 @@
     var handles = [].slice.call(modal.querySelectorAll(".ldr-pa-handle"));
     var fileInput = modal.querySelector(".ldr-pa-file");
     var resetBtn = modal.querySelector(".ldr-pa-reset");
+    var rotIzqBtn = modal.querySelector(".ldr-pa-rot-izq");
+    var rotDerBtn = modal.querySelector(".ldr-pa-rot-der");
     var restaurarBtn = modal.querySelector(".ldr-pa-restaurar");
     var closeBtn = modal.querySelector(".ldr-pa-close");
     var btnModoEsquinas = modal.querySelector(".ldr-pa-modo-esquinas");
@@ -321,6 +326,27 @@
       shadow.style.display = "block";
       update();
     }
+
+    // Gira las 4 esquinas alrededor del centro del cuadrilatero, sin tocar
+    // cada una a mano - util para alinear el rectangulo con el angulo del
+    // piso en la foto en vez de arrastrar esquina por esquina.
+    function rotar(deltaGrados) {
+      var rect = stage.getBoundingClientRect();
+      var pxPts = corners.map(function (c) { return { x: c.x * rect.width, y: c.y * rect.height }; });
+      var cx = 0, cy = 0;
+      pxPts.forEach(function (p) { cx += p.x; cy += p.y; });
+      cx /= pxPts.length; cy /= pxPts.length;
+      var rad = deltaGrados * Math.PI / 180;
+      var cos = Math.cos(rad), sin = Math.sin(rad);
+      var rotados = pxPts.map(function (p) {
+        var dx = p.x - cx, dy = p.y - cy;
+        return { x: cx + dx * cos - dy * sin, y: cy + dx * sin + dy * cos };
+      });
+      corners = rotados.map(function (p) { return { x: p.x / rect.width, y: p.y / rect.height }; });
+      update();
+    }
+    rotIzqBtn.addEventListener("click", function () { rotar(-10); });
+    rotDerBtn.addEventListener("click", function () { rotar(10); });
 
     function setModo(m) {
       modo = m;
