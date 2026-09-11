@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-09 12:16:47
+ * Generado: 2026-09-11 11:48:40
  */
 (function () {
   "use strict";
@@ -238,6 +238,45 @@
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
     "showDividers": false,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "producto-pantufla-de-cuero-vacuno-lanar-combinada-tom",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317124047"
+      ],
+      "labels": [
+        {
+          "id": "317124047",
+          "nombre": "Pantufla de Cuero Vacuno/Lanar Combinada - Tom"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Interior cálido y suave para mayor abrigo",
+      "Diseño clásico y versátil",
+      "Suela antideslizante para mayor seguridad",
+      "Construcción resistente y cómoda"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
     "dividerColor": "#e5e5e5",
     "iconSize": 18,
     "textSize": 13,
