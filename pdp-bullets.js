@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 11:48:40
+ * Generado: 2026-09-11 12:12:03
  */
 (function () {
   "use strict";
@@ -273,6 +273,45 @@
       "Diseño clásico y versátil",
       "Suela antideslizante para mayor seguridad",
       "Construcción resistente y cómoda"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "pantuflas-de-cuero-lanar-rasado-chuni",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317132226"
+      ],
+      "labels": [
+        {
+          "id": "317132226",
+          "nombre": "Pantuflas de Cuero Lanar Rasado - Chuni"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Interior y exterior en cuero lanar natural",
+      "Textura suave y cálida al tacto",
+      "Diseño clásico y atemporal",
+      "Livianas, cómodas y envolventes"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
