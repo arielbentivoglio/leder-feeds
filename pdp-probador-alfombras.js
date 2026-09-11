@@ -14,7 +14,7 @@
   "use strict";
 
   // ─── Datos publicados por el panel (placeholder reemplazado al publicar) ──
-  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 779, "height": 453}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 779, "height": 453}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 770, "height": 453}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 773, "height": 458}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 770, "height": 454}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 772, "height": 456}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
+  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_alineacion": "izquierda", "boton_ancho_completo": true, "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 775, "height": 453}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 779, "height": 453}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 770, "height": 453}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 773, "height": 458}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 770, "height": 454}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 772, "height": 456}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
 
   var MOUNT_ID = "ldr-pdp-probador-alfombras";
   var RETRY_MAX = 40;
@@ -103,9 +103,11 @@
     var btnText = set.boton_text_color || "#ffffff";
     var radius = set.bordes_estilo === "cuadrado" ? "4px" : "10px";
     var css = "" +
+      ".ldr-pa-trigger-wrap{display:flex;}" +
       ".ldr-pa-trigger{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;" +
       "border-radius:" + radius + ";border:1px solid " + btnBg + ";background:" + btnBg + ";" +
       "color:" + btnText + ";font-size:14px;font-weight:600;cursor:pointer;margin:10px 0;}" +
+      ".ldr-pa-trigger.ldr-pa-trigger-full{display:block;width:100%;justify-content:center;}" +
       ".ldr-pa-trigger svg{width:16px;height:16px;flex:0 0 auto;}" +
       ".ldr-pa-overlay{position:fixed;inset:0;background:rgba(20,15,10,0.55);z-index:99998;display:none;}" +
       ".ldr-pa-overlay.ldr-pa-open{display:block;}" +
@@ -122,13 +124,21 @@
       ".ldr-pa-placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;" +
       "flex-direction:column;gap:10px;color:#5b5145;font-size:13px;text-align:center;padding:20px;}" +
       ".ldr-pa-room{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none;}" +
-      ".ldr-pa-shadow,.ldr-pa-rug{position:absolute;top:0;left:0;transform-origin:0 0;pointer-events:none;}" +
-      ".ldr-pa-shadow{background:rgba(15,10,5,0.38);filter:blur(9px);}" +
-      ".ldr-pa-rug{background-repeat:no-repeat;background-size:100% 100%;box-shadow:0 0 0 1px rgba(0,0,0,0.18) inset;}" +
+      ".ldr-pa-shadow,.ldr-pa-rug{position:absolute;top:0;left:0;transform-origin:0 0;display:none;}" +
+      ".ldr-pa-shadow{background:rgba(15,10,5,0.38);filter:blur(9px);pointer-events:none;}" +
+      ".ldr-pa-rug{pointer-events:none;box-shadow:0 0 0 1px rgba(0,0,0,0.18) inset;}" +
+      ".ldr-pa-rug.ldr-pa-borrando{pointer-events:auto;cursor:crosshair;}" +
+      ".ldr-pa-modo-toggle{display:flex;border:1px solid rgba(0,0,0,.15);border-radius:3px;overflow:hidden;margin-top:10px;}" +
+      ".ldr-pa-modo-toggle button{flex:1;padding:9px;font-size:12.5px;border:none;background:#fbf9f4;cursor:pointer;color:#5b5145;}" +
+      ".ldr-pa-modo-toggle button.ldr-pa-on{background:#5c6b4f;color:#fff;font-weight:600;}" +
+      ".ldr-pa-brush-row{display:flex;align-items:center;gap:8px;font-size:12.5px;color:#5b5145;margin-top:10px;display:none;}" +
+      ".ldr-pa-brush-row.ldr-pa-show{display:flex;}" +
+      ".ldr-pa-brush-row input{flex:1;}" +
       ".ldr-pa-handle{position:absolute;width:22px;height:22px;margin-left:-11px;margin-top:-11px;" +
       "border-radius:50%;background:#fbf9f4;border:2px solid " + accent + ";box-shadow:0 1px 3px rgba(0,0,0,0.3);" +
       "cursor:grab;touch-action:none;display:none;}" +
       ".ldr-pa-handle.ldr-pa-show{display:block;}" +
+      ".ldr-pa-handle.ldr-pa-fade{opacity:.25;pointer-events:none;}" +
       ".ldr-pa-actions{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}" +
       ".ldr-pa-btn{flex:1 1 auto;padding:11px 14px;border-radius:3px;font-size:13.5px;font-weight:600;cursor:pointer;text-align:center;}" +
       ".ldr-pa-btn.primary{background:" + btnBg + ";color:" + btnText + ";border:1px solid " + btnBg + ";}" +
@@ -202,7 +212,7 @@
         '<div class="ldr-pa-placeholder">Sub\u00ed una foto para empezar</div>' +
         '<img class="ldr-pa-room" alt="Tu ambiente">' +
         '<div class="ldr-pa-shadow"></div>' +
-        '<div class="ldr-pa-rug"></div>' +
+        '<canvas class="ldr-pa-rug"></canvas>' +
         '<div class="ldr-pa-handle" data-i="0"></div>' +
         '<div class="ldr-pa-handle" data-i="1"></div>' +
         '<div class="ldr-pa-handle" data-i="2"></div>' +
@@ -210,10 +220,18 @@
       '</div>' +
       '<p class="ldr-pa-caption">' + (productName ? productName + " \u2014 " : "") +
         (set.ancho_cm && set.alto_cm ? set.ancho_cm + "\u00d7" + set.alto_cm + " cm" : "") + '</p>' +
+      '<div class="ldr-pa-modo-toggle">' +
+        '<button type="button" class="ldr-pa-modo-esquinas ldr-pa-on">Ajustar esquinas</button>' +
+        '<button type="button" class="ldr-pa-modo-borrador">Tapar con muebles</button>' +
+      '</div>' +
+      '<div class="ldr-pa-brush-row">' +
+        '<span>Grosor</span><input type="range" class="ldr-pa-brush" min="10" max="60" value="26">' +
+      '</div>' +
       '<div class="ldr-pa-actions">' +
         '<label class="ldr-pa-btn primary" style="margin:0;">Subir o sacar una foto' +
           '<input type="file" accept="image/*" capture="environment" style="display:none;" class="ldr-pa-file"></label>' +
         '<button type="button" class="ldr-pa-btn secondary ldr-pa-reset">Reiniciar esquinas</button>' +
+        '<button type="button" class="ldr-pa-btn secondary ldr-pa-restaurar">Restaurar alfombra completa</button>' +
       '</div>';
 
     overlay.appendChild(modal);
@@ -222,18 +240,25 @@
     var stage = modal.querySelector(".ldr-pa-stage");
     var placeholder = modal.querySelector(".ldr-pa-placeholder");
     var roomImg = modal.querySelector(".ldr-pa-room");
-    var rug = modal.querySelector(".ldr-pa-rug");
+    var rug = modal.querySelector(".ldr-pa-rug"); // ahora es un <canvas>
+    var ctxRug = rug.getContext("2d");
     var shadow = modal.querySelector(".ldr-pa-shadow");
     var handles = [].slice.call(modal.querySelectorAll(".ldr-pa-handle"));
     var fileInput = modal.querySelector(".ldr-pa-file");
     var resetBtn = modal.querySelector(".ldr-pa-reset");
+    var restaurarBtn = modal.querySelector(".ldr-pa-restaurar");
     var closeBtn = modal.querySelector(".ldr-pa-close");
+    var btnModoEsquinas = modal.querySelector(".ldr-pa-modo-esquinas");
+    var btnModoBorrador = modal.querySelector(".ldr-pa-modo-borrador");
+    var brushRow = modal.querySelector(".ldr-pa-brush-row");
+    var brushInput = modal.querySelector(".ldr-pa-brush");
 
     var baseW = 400;
     var anchoCm = parseFloat(set.ancho_cm) || 170;
     var altoCm = parseFloat(set.alto_cm) || 120;
     var baseH = Math.round(baseW * (altoCm / anchoCm));
 
+    rug.width = baseW; rug.height = baseH;
     rug.style.width = baseW + "px";
     rug.style.height = baseH + "px";
     shadow.style.width = baseW + "px";
@@ -241,12 +266,19 @@
 
     function aplicarImagenActual() {
       var img = imagenActual(set);
-      if (img && img.src) rug.style.backgroundImage = "url(" + img.src + ")";
+      if (!img || !img.src) return;
+      var tmp = new Image();
+      tmp.onload = function () {
+        ctxRug.clearRect(0, 0, baseW, baseH);
+        ctxRug.drawImage(tmp, 0, 0, baseW, baseH);
+      };
+      tmp.src = img.src;
     }
     aplicarImagenActual();
 
     // Si el cliente cambia de color con el modal abierto, la alfombra se
-    // actualiza en vivo sin perder las esquinas que ya arrastro.
+    // actualiza en vivo sin perder las esquinas que ya arrastro (aunque se
+    // pierde lo borrado - la textura nueva arranca limpia).
     document.addEventListener("change", function (e) {
       if (e.target && e.target.matches && e.target.matches("select.js-variation-option")) {
         aplicarImagenActual();
@@ -257,13 +289,13 @@
       if (t) setTimeout(aplicarImagenActual, 60);
     });
 
-
     var defaultCorners = [
       { x: 0.30, y: 0.56 }, { x: 0.72, y: 0.56 },
       { x: 0.88, y: 0.90 }, { x: 0.16, y: 0.90 }
     ];
     var corners = defaultCorners.map(function (c) { return { x: c.x, y: c.y }; });
     var handlesVisible = false;
+    var modo = "esquinas";
 
     function update() {
       var rect = stage.getBoundingClientRect();
@@ -290,9 +322,21 @@
       update();
     }
 
+    function setModo(m) {
+      modo = m;
+      btnModoEsquinas.classList.toggle("ldr-pa-on", m === "esquinas");
+      btnModoBorrador.classList.toggle("ldr-pa-on", m === "borrador");
+      brushRow.classList.toggle("ldr-pa-show", m === "borrador");
+      rug.classList.toggle("ldr-pa-borrando", m === "borrador");
+      handles.forEach(function (h) { h.classList.toggle("ldr-pa-fade", m === "borrador"); });
+    }
+    btnModoEsquinas.addEventListener("click", function () { setModo("esquinas"); });
+    btnModoBorrador.addEventListener("click", function () { setModo("borrador"); });
+
     var dragIndex = null;
     handles.forEach(function (h, i) {
       h.addEventListener("pointerdown", function (e) {
+        if (modo !== "esquinas") return;
         dragIndex = i;
         try { h.setPointerCapture(e.pointerId); } catch (err) {}
       });
@@ -306,6 +350,32 @@
       update();
     });
     window.addEventListener("pointerup", function () { dragIndex = null; });
+
+    // Borrador: offsetX/offsetY del pointer ya vienen en el espacio LOCAL
+    // del canvas (el navegador deshace el matrix3d solo al hacer hit-test),
+    // asi que no hace falta invertir la matriz de perspectiva a mano.
+    var borrando = false;
+    function borrarEn(x, y) {
+      var radio = parseInt(brushInput.value, 10) || 26;
+      ctxRug.save();
+      ctxRug.globalCompositeOperation = "destination-out";
+      var grad = ctxRug.createRadialGradient(x, y, 0, x, y, radio);
+      grad.addColorStop(0, "rgba(0,0,0,1)");
+      grad.addColorStop(1, "rgba(0,0,0,0)");
+      ctxRug.fillStyle = grad;
+      ctxRug.beginPath(); ctxRug.arc(x, y, radio, 0, Math.PI * 2); ctxRug.fill();
+      ctxRug.restore();
+    }
+    rug.addEventListener("pointerdown", function (e) {
+      if (modo !== "borrador") return;
+      borrando = true;
+      borrarEn(e.offsetX, e.offsetY);
+    });
+    rug.addEventListener("pointermove", function (e) {
+      if (modo !== "borrador" || !borrando) return;
+      borrarEn(e.offsetX, e.offsetY);
+    });
+    window.addEventListener("pointerup", function () { borrando = false; });
 
     fileInput.addEventListener("change", function (e) {
       var file = e.target.files[0];
@@ -324,6 +394,7 @@
       corners = defaultCorners.map(function (c) { return { x: c.x, y: c.y }; });
       update();
     });
+    restaurarBtn.addEventListener("click", aplicarImagenActual);
 
     function close() {
       overlay.classList.remove("ldr-pa-open");
@@ -355,22 +426,28 @@
     injectStyles(set);
     var modalApi = buildModal(set);
 
+    var wrap = document.createElement("div");
+    wrap.className = "ldr-pa-trigger-wrap";
+    var justify = { izquierda: "flex-start", centro: "center", derecha: "flex-end" }[set.boton_alineacion] || "flex-start";
+    wrap.style.justifyContent = justify;
+
     var btn = document.createElement("button");
     btn.type = "button";
     btn.id = MOUNT_ID;
-    btn.className = "ldr-pa-trigger";
+    btn.className = "ldr-pa-trigger" + (set.boton_ancho_completo ? " ldr-pa-trigger-full" : "");
     btn.innerHTML =
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">' +
       '<rect x="3" y="3" width="18" height="18" rx="1"></rect>' +
       '<path d="M3 9h18M9 21V9"></path></svg>' +
       (set.boton_label || "Probar en tu ambiente");
     btn.addEventListener("click", function () { modalApi.open(); });
+    wrap.appendChild(btn);
 
     var pos = set.anchor_position || "after";
-    if (pos === "before") target.parentNode.insertBefore(btn, target);
-    else if (pos === "prepend") target.insertBefore(btn, target.firstChild);
-    else if (pos === "append") target.appendChild(btn);
-    else target.parentNode.insertBefore(btn, target.nextSibling); // after
+    if (pos === "before") target.parentNode.insertBefore(wrap, target);
+    else if (pos === "prepend") target.insertBefore(wrap, target.firstChild);
+    else if (pos === "append") target.appendChild(wrap);
+    else target.parentNode.insertBefore(wrap, target.nextSibling); // after
   }
 
   // ─── Bootstrap con retry (mismo patron que el resto de modulos PDP) ────────
