@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:29:17
+ * Generado: 2026-09-11 12:30:10
  */
 (function () {
   "use strict";
@@ -585,6 +585,45 @@
       "Máximo confort durante todo el día",
       "Suela resistente con buena tracción",
       "Diseño clásico y versátil"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "zapatilla-de-cuero-vacuno-nomad",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317430310"
+      ],
+      "labels": [
+        {
+          "id": "317430310",
+          "nombre": "Zapatilla de Cuero Vacuno - Nomad"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Diseño minimalista con acabados premium",
+      "Tonalidad neutra que combina con todo",
+      "Suela ancha y ligera para mayor estabilidad",
+      "Materiales suaves y duraderos"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
