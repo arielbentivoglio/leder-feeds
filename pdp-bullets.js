@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:30:10
+ * Generado: 2026-09-11 12:32:33
  */
 (function () {
   "use strict";
@@ -624,6 +624,45 @@
       "Tonalidad neutra que combina con todo",
       "Suela ancha y ligera para mayor estabilidad",
       "Materiales suaves y duraderos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "zapatilla-de-cuero-vacuno-mason",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317832360"
+      ],
+      "labels": [
+        {
+          "id": "317832360",
+          "nombre": "Zapatilla de Cuero Vacuno - Mason"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Tonalidad neutra, versátil y fácil de combinar",
+      "Diseño minimalista y atemporal",
+      "Suela ligera y flexible para mayor comodidad",
+      "Ideales para el día a día y outfits casuales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
