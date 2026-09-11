@@ -14,7 +14,7 @@
   "use strict";
 
   // ─── Datos publicados por el panel (placeholder reemplazado al publicar) ──
-  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_alineacion": "izquierda", "boton_ancho_completo": true, "whatsapp_habilitado": true, "whatsapp_numero": "5491151857964", "whatsapp_texto": "Hola LEDER estoy interesado en la alfombra y quiero que me simulen esta alfombra ({link}) en mi ambiente", "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 742, "height": 423}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 753, "height": 435}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 750, "height": 434}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 752, "height": 438}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 751, "height": 434}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 748, "height": 435}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
+  var PROBADOR_SETS = /*__PROBADOR_ALFOMBRAS_SETS__*/ [{"id": "pa-20260910154309190410", "nombre": "Alfombra Patchwork Pampa 110x60cm Marrón", "activo": true, "stores": ["ar"], "alcance": {"tipo": "producto", "valores": ["319850972"], "labels": [{"id": "319850972", "nombre": "Alfombra Patchwork Pampa 110x60cm"}]}, "anchor_selector": ".js-product-variants", "anchor_position": "after", "boton_alineacion": "izquierda", "boton_ancho_completo": true, "whatsapp_habilitado": true, "whatsapp_numero": "5491151857964", "whatsapp_texto": "Hola LEDER estoy interesado en la alfombra y quiero que me simulen esta alfombra ({link}) en mi ambiente", "whatsapp_link_texto": "¿Preferís que te la simulemos nosotros? Escribinos por WhatsApp", "rotar_habilitado": false, "boton_label": "Probar en tu ambiente", "titulo_modal": "Probá la alfombra en tu ambiente", "texto_instructivo": "Subí una foto de tu ambiente y arrastrá las cuatro esquinas hasta el piso.", "imagen": {"id": 1090258777, "src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-default.webp", "width": 736, "height": 417}, "imagen_variantes": {"Marrón": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-marrón.webp", "width": 753, "height": 435}, "Beige": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-beige.webp", "width": 750, "height": 434}, "Blanco": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-blanco.webp", "width": 752, "height": 438}, "Negro": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-negro.webp", "width": 751, "height": 434}, "Mix": {"src": "https://arielbentivoglio.github.io/leder-feeds/probador-alfombras/pa-20260910154309190410-mix.webp", "width": 748, "height": 435}}, "ancho_cm": 110.0, "alto_cm": 60.0, "accent_color": "#a87c4f", "boton_bg_color": "#1a1a1a", "boton_text_color": "#ffffff", "bordes_estilo": "cuadrado"}] /*__END_SETS__*/;
 
   var MOUNT_ID = "ldr-pdp-probador-alfombras";
   var RETRY_MAX = 40;
@@ -240,7 +240,7 @@
       '</div>' +
       '<a href="#" target="_blank" rel="noopener" class="ldr-pa-whatsapp">' +
         '<svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.35A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.62-1.27 1.2-1.75 1.24-.45.05-.9.22-3.03-.63-2.57-1.02-4.22-3.62-4.35-3.78-.13-.17-1.04-1.38-1.04-2.63 0-1.25.66-1.87.9-2.12.24-.25.52-.31.7-.31h.5c.16 0 .38-.03.58.44.22.53.75 1.83.82 1.96.07.13.11.29.02.46-.09.17-.14.28-.27.43-.13.15-.28.34-.4.46-.13.13-.27.27-.12.53.16.27.7 1.15 1.5 1.86 1.03.92 1.9 1.2 2.17 1.34.27.13.43.11.58-.07.16-.18.68-.79.87-1.07.18-.27.36-.22.6-.13.25.09 1.58.75 1.85.88.27.13.45.2.51.31.07.11.07.65-.15 1.27z"/></svg>' +
-        '<span class="ldr-pa-whatsapp-texto">\u00bfPrefer\u00eds que te la simulemos nosotros? Escribinos por WhatsApp</span>' +
+        '<span class="ldr-pa-whatsapp-texto"></span>' +
       '</a>';
 
     overlay.appendChild(modal);
@@ -264,6 +264,8 @@
     if (set.whatsapp_habilitado === false || !set.whatsapp_numero) {
       whatsappLink.style.display = "none";
     } else {
+      whatsappLink.querySelector(".ldr-pa-whatsapp-texto").textContent =
+        set.whatsapp_link_texto || "\u00bfPrefer\u00eds que te la simulemos nosotros? Escribinos por WhatsApp";
       var numeroLimpio = String(set.whatsapp_numero).replace(/\D/g, "");
       var plantilla = set.whatsapp_texto || "Hola LEDER estoy interesado en la alfombra y quiero que me simulen esta alfombra ({link}) en mi ambiente";
       var mensaje = plantilla.replace("{link}", window.location.href);
@@ -364,6 +366,10 @@
     }
     rotIzqBtn.addEventListener("click", function () { rotar(-10); });
     rotDerBtn.addEventListener("click", function () { rotar(10); });
+    if (set.rotar_habilitado === false) {
+      rotIzqBtn.style.display = "none";
+      rotDerBtn.style.display = "none";
+    }
 
     function setModo(m) {
       modo = m;
