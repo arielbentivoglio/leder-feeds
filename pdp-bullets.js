@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:32:33
+ * Generado: 2026-09-11 12:35:02
  */
 (function () {
   "use strict";
@@ -663,6 +663,45 @@
       "Diseño minimalista y atemporal",
       "Suela ligera y flexible para mayor comodidad",
       "Ideales para el día a día y outfits casuales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "zapatilla-de-cuero-vacuno-luxe",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "317836443"
+      ],
+      "labels": [
+        {
+          "id": "317836443",
+          "nombre": "Zapatilla de Cuero Vacuno - Luxe"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Hechas en cuero premium con textura suave",
+      "Suela ligera con excelente amortiguación",
+      "Diseño elegante y minimalista",
+      "Interior acolchado para mayor confort"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
