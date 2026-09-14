@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:42:37
+ * Generado: 2026-09-14 11:45:08
  */
 (function () {
   "use strict";
@@ -995,6 +995,80 @@
       "Diseño sin mangas, práctico y versátil",
       "Cierre frontal y bolsillos delanteros funcionales",
       "Ideal para superponer y sumar abrigo liviano"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-jenny",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318762986",
+        "333461819",
+        "333462197",
+        "333462570",
+        "333463108",
+        "333470928",
+        "333475463",
+        "333476346"
+      ],
+      "labels": [
+        {
+          "id": "318762986",
+          "nombre": "Campera Cuero Mujer - Jenny"
+        },
+        {
+          "id": "333461819",
+          "nombre": "Campera De Cuero Jenny - Dark Brown"
+        },
+        {
+          "id": "333462197",
+          "nombre": "Campera De Cuero Jenny - Coral"
+        },
+        {
+          "id": "333462570",
+          "nombre": "Campera De Cuero Jenny - Pink"
+        },
+        {
+          "id": "333463108",
+          "nombre": "Campera De Cuero Jenny - Black"
+        },
+        {
+          "id": "333470928",
+          "nombre": "Campera De Cuero Jenny - Taupe"
+        },
+        {
+          "id": "333475463",
+          "nombre": "Campera Cuero Jenny - Fume"
+        },
+        {
+          "id": "333476346",
+          "nombre": "Campera De Cuero Jenny - Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Napa ovina de alta calidad, suave y liviana",
+      "Cierre delantero inclinado con look en “V”",
+      "Diseño sin cinto que estiliza la silueta",
+      "Hombros ajustables y bolsillos con cierre"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
