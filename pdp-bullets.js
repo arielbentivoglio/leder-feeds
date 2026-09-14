@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:07:12
+ * Generado: 2026-09-14 12:08:20
  */
 (function () {
   "use strict";
@@ -1804,6 +1804,60 @@
       "Cierre frontal con cremallera metálica",
       "Cuello alto con broches y bolsillos laterales funcionales",
       "Corte recto y diseño minimalista, para looks urbanos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-gamulan-de-cuero-napalan-tyler",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318939173",
+        "333992919",
+        "334001751",
+        "334306779"
+      ],
+      "labels": [
+        {
+          "id": "318939173",
+          "nombre": "Campera Cuero de Oveja Napalán - Modelo Tyler"
+        },
+        {
+          "id": "333992919",
+          "nombre": "Campera Gamulán De Cuero Napalán Tyler - Marlboro"
+        },
+        {
+          "id": "334001751",
+          "nombre": "Campera Gamulán De Cuero Napalán Tyler - Dark Brown"
+        },
+        {
+          "id": "334306779",
+          "nombre": "Campera Gamulán De Cuero Napalán Tyler - Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napalán ovino de alta calidad, suave y abrigado",
+      "Apliques ajustables en cuello y laterales",
+      "Hebillas con ojales para un mejor ajuste",
+      "Bolsillos laterales amplios, de looks casuales a más formales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
