@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:13:46
+ * Generado: 2026-09-14 15:37:45
  */
 (function () {
   "use strict";
@@ -2008,6 +2008,45 @@
     "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "almohadon-decorativo-de-cuero-vacuno-patagonia-30x60cm",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "320122325"
+      ],
+      "labels": [
+        {
+          "id": "320122325",
+          "nombre": "Almohadon Decorativo De Cuero Vacuno Patagonia - 30x60cm"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino: calidad y carácter en cada pieza",
+      "Diseño versátil: ideal para sofá, sillón, cama o silla",
+      "30 x 60 cm: formato práctico para renovar cualquier ambiente",
+      "Dos estilos disponibles: cuero entero con pelo o Patchwork"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": false,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
     "textBold": false,
     "marginTop": 16,
     "marginBottom": 16
