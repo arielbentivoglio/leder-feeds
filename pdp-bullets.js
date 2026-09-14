@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:39:29
+ * Generado: 2026-09-14 11:41:03
  */
 (function () {
   "use strict";
@@ -907,6 +907,45 @@
       "Cierre frontal con botones metálicos",
       "Costuras reforzadas y terminaciones premium",
       "Almond brown, un tono neutro que mejora con el uso"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-taylor-goat",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "358219056"
+      ],
+      "labels": [
+        {
+          "id": "358219056",
+          "nombre": "Campera De Cuero Taylor Goat Suede - Chocolate"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Goat Suede 100% genuina, con caída elegante que se adapta al cuerpo",
+      "Cierre frontal con botones metálicos",
+      "Costuras reforzadas",
+      "Terminación suede, de textura mate y aspecto sofisticado"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
