@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:35:23
+ * Generado: 2026-09-14 11:37:35
  */
 (function () {
   "use strict";
@@ -819,6 +819,45 @@
       "Cuatro bolsillos frontales con cierre",
       "Cierre recto al frente con hebilla decorativa en el cuello",
       "Diseño femenino y versátil, de reuniones informales a eventos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-combinada-penny",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318161871"
+      ],
+      "labels": [
+        {
+          "id": "318161871",
+          "nombre": "Campera De Cuero Combinada Penny - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa de alta calidad combinado con pelo natural",
+      "Dos bolsillos frontales con cierre",
+      "Cierre recto al frente con hebilla decorativa en el cuello",
+      "Tono dark brown, cálido y fácil de combinar"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
