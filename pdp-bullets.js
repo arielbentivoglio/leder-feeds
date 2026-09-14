@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:03:44
+ * Generado: 2026-09-14 12:05:27
  */
 (function () {
   "use strict";
@@ -1701,6 +1701,60 @@
       "Bolsillos frontales con cierre",
       "Bolsillo interno con cierre más bolsillo de acceso rápido",
       "Mangas ajustables con cierre y estructura cómoda"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-cuero-napalan-noah",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318894344",
+        "333950952",
+        "333953768",
+        "333956018"
+      ],
+      "labels": [
+        {
+          "id": "318894344",
+          "nombre": "Campera Cuero Oveja Napalán Noah"
+        },
+        {
+          "id": "333950952",
+          "nombre": "Campera Cuero Napalán Noah - Marlboro"
+        },
+        {
+          "id": "333953768",
+          "nombre": "Campera Cuero Napalán Noah - Dark Brown"
+        },
+        {
+          "id": "333956018",
+          "nombre": "Campera Cuero Napalán Noah-Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napalán de alta calidad, de textura natural y resistente",
+      "Interior de cuero lanar que aporta mayor abrigo",
+      "Cierre frontal resistente y bolsillos frontales amplios",
+      "Corte recto: se lleva sobre remeras, sweaters o buzos livianos"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
