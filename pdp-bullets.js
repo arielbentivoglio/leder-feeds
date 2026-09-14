@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:10:08
+ * Generado: 2026-09-14 12:12:40
  */
 (function () {
   "use strict";
@@ -1907,6 +1907,50 @@
       "Corte clásico con silueta femenina y excelente caída natural",
       "Cierre frontal práctico y bolsillos delanteros integrados",
       "Ideal para looks casuales o más elaborados"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "tapado-cuero-de-oveja-victoria-curly",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "334210067",
+        "334210306"
+      ],
+      "labels": [
+        {
+          "id": "334210067",
+          "nombre": "Tapado Cuero de Oveja Victoria Curly- Black"
+        },
+        {
+          "id": "334210306",
+          "nombre": "Tapado Cuero De Oveja Victoria Curly -Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napalán de alta calidad, suave y liviano",
+      "Cierre frontal con botones y bolsillos funcionales",
+      "Excelente abrigo para el invierno",
+      "Diseño clásico y femenino, de uso diario a ocasiones formales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
