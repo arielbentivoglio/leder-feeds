@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:05:27
+ * Generado: 2026-09-14 12:06:49
  */
 (function () {
   "use strict";
@@ -1755,6 +1755,60 @@
       "Interior de cuero lanar que aporta mayor abrigo",
       "Cierre frontal resistente y bolsillos frontales amplios",
       "Corte recto: se lleva sobre remeras, sweaters o buzos livianos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-logan",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318881413",
+        "333960697",
+        "333986863",
+        "358249646"
+      ],
+      "labels": [
+        {
+          "id": "318881413",
+          "nombre": "Campera De Cuero Hombre - Modelo Logan"
+        },
+        {
+          "id": "333960697",
+          "nombre": "Campera De Cuero Logan - Almond Brown"
+        },
+        {
+          "id": "333986863",
+          "nombre": "Campera De Cuero Logan - Black"
+        },
+        {
+          "id": "358249646",
+          "nombre": "Campera De Cuero Logan Suede-Chocolate"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero genuino de alta calidad, suave y resistente",
+      "Cierre frontal con cremallera metálica",
+      "Cuello alto con broches y bolsillos laterales funcionales",
+      "Corte recto y diseño minimalista, para looks urbanos"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
