@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:52:16
+ * Generado: 2026-09-14 11:55:26
  */
 (function () {
   "use strict";
@@ -1299,6 +1299,50 @@
       "Textura suave y cálida al tacto",
       "Diseño clásico y atemporal",
       "Livianas, cómodas y envolventes"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-penny",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "333527719",
+        "333535979"
+      ],
+      "labels": [
+        {
+          "id": "333527719",
+          "nombre": "Campera De Cuero Penny - Black"
+        },
+        {
+          "id": "333535979",
+          "nombre": "Campera De Cuero Penny - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa de alta calidad combinado con pelo natural",
+      "Cierre frontal recto con hebilla decorativa en el cuello",
+      "Dos bolsillos frontales con cierre",
+      "Textura que aporta distinción"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
