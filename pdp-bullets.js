@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:49:58
+ * Generado: 2026-09-14 11:51:19
  */
 (function () {
   "use strict";
@@ -1221,6 +1221,45 @@
       "Cierre frontal recto con hebilla decorativa en el cuello",
       "Cuatro bolsillos frontales con cierre",
       "Textura y carácter único"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-logan-suede",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "358249646"
+      ],
+      "labels": [
+        {
+          "id": "358249646",
+          "nombre": "Campera De Cuero Logan Suede-Chocolate"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero genuino de alta calidad, ideal para uso diario",
+      "Cierre frontal con cremallera metálica",
+      "Cuello alto con broches y bolsillos laterales funcionales",
+      "Chocolate, de diseño minimalista y masculino, atemporal"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
