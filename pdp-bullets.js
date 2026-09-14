@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:08:20
+ * Generado: 2026-09-14 12:10:08
  */
 (function () {
   "use strict";
@@ -1858,6 +1858,55 @@
       "Apliques ajustables en cuello y laterales",
       "Hebillas con ojales para un mejor ajuste",
       "Bolsillos laterales amplios, de looks casuales a más formales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-cuero-napalan-julia",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318994123",
+        "333504200",
+        "334199146"
+      ],
+      "labels": [
+        {
+          "id": "318994123",
+          "nombre": "Campera Cuero Napalán Julia"
+        },
+        {
+          "id": "333504200",
+          "nombre": "Campera De Cuero Napalán Julia - Black"
+        },
+        {
+          "id": "334199146",
+          "nombre": "Campera Cuero Napalán Julia -Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero de oveja napalán de alta calidad, suave y liviano",
+      "Corte clásico con silueta femenina y excelente caída natural",
+      "Cierre frontal práctico y bolsillos delanteros integrados",
+      "Ideal para looks casuales o más elaborados"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
