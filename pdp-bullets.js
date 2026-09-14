@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:55:26
+ * Generado: 2026-09-14 11:56:42
  */
 (function () {
   "use strict";
@@ -1343,6 +1343,60 @@
       "Cierre frontal recto con hebilla decorativa en el cuello",
       "Dos bolsillos frontales con cierre",
       "Textura que aporta distinción"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "saco-de-cuero-nairobi",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319415806",
+        "333540413",
+        "333544842",
+        "334201485"
+      ],
+      "labels": [
+        {
+          "id": "319415806",
+          "nombre": "Saco De Cuero Mujer - Modelo Nairobi"
+        },
+        {
+          "id": "333540413",
+          "nombre": "Saco De Cuero Nairobi- Brown"
+        },
+        {
+          "id": "333544842",
+          "nombre": "Saco Cuero Mujer Nairobi - Dark Brown"
+        },
+        {
+          "id": "334201485",
+          "nombre": "Saco De Cuero Nairobi-Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero genuino de alta calidad, suave y resistente",
+      "Cierre con cremallera y broches",
+      "Lazo en la cintura que estiliza la silueta",
+      "Bolsillos frontales amplios, para looks casuales o formales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
