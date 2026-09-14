@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:06:49
+ * Generado: 2026-09-14 12:07:12
  */
 (function () {
   "use strict";
@@ -1778,8 +1778,7 @@
       "valores": [
         "318881413",
         "333960697",
-        "333986863",
-        "358249646"
+        "333986863"
       ],
       "labels": [
         {
@@ -1793,10 +1792,6 @@
         {
           "id": "333986863",
           "nombre": "Campera De Cuero Logan - Black"
-        },
-        {
-          "id": "358249646",
-          "nombre": "Campera De Cuero Logan Suede-Chocolate"
         }
       ]
     },
