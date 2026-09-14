@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:41:03
+ * Generado: 2026-09-14 11:41:22
  */
 (function () {
   "use strict";
@@ -928,12 +928,17 @@
     "alcance": {
       "tipo": "producto",
       "valores": [
-        "358219056"
+        "358219056",
+        "332603070"
       ],
       "labels": [
         {
           "id": "358219056",
           "nombre": "Campera De Cuero Taylor Goat Suede - Chocolate"
+        },
+        {
+          "id": "332603070",
+          "nombre": "Campera De Cuero Taylor Goat Suede - Tan"
         }
       ]
     },
