@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:56:42
+ * Generado: 2026-09-14 11:58:19
  */
 (function () {
   "use strict";
@@ -1397,6 +1397,55 @@
       "Cierre con cremallera y broches",
       "Lazo en la cintura que estiliza la silueta",
       "Bolsillos frontales amplios, para looks casuales o formales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-de-oveja-olivia",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319367226",
+        "333550997",
+        "333552021"
+      ],
+      "labels": [
+        {
+          "id": "319367226",
+          "nombre": "Campera Cuero de Oveja Napalán - Modelo Olivia"
+        },
+        {
+          "id": "333550997",
+          "nombre": "Campera de Cuero de Oveja Olivia - Black"
+        },
+        {
+          "id": "333552021",
+          "nombre": "Campera de Cuero de Oveja Olivia- Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Confeccionada en napalán de alta calidad",
+      "Cuello amplio y caído que envuelve los hombros",
+      "Cierre frontal para un calce elegante y bolsillos con cierre",
+      "Una prenda femenina y moderna para elevar el look"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
