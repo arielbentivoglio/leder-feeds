@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:58:19
+ * Generado: 2026-09-14 11:59:25
  */
 (function () {
   "use strict";
@@ -1446,6 +1446,55 @@
       "Cuello amplio y caído que envuelve los hombros",
       "Cierre frontal para un calce elegante y bolsillos con cierre",
       "Una prenda femenina y moderna para elevar el look"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-napalan-rochy",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319377746",
+        "333563106",
+        "333565483"
+      ],
+      "labels": [
+        {
+          "id": "319377746",
+          "nombre": "Campera Cuero De Oveja Napalan - Modelo Rochy"
+        },
+        {
+          "id": "333563106",
+          "nombre": "Campera De Cuero Napalan Rochy - Black"
+        },
+        {
+          "id": "333565483",
+          "nombre": "Campera De Cuero Napalan Rochy - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napalán suave y liviano, genuino y flexible",
+      "Apliques ajustables en el cuello para mayor abrigo",
+      "Lazo en la cintura que estiliza la silueta",
+      "Bolsillos frontales amplios y funcionales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
