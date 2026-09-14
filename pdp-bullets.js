@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:37:35
+ * Generado: 2026-09-14 11:39:13
  */
 (function () {
   "use strict";
@@ -858,6 +858,55 @@
       "Dos bolsillos frontales con cierre",
       "Cierre recto al frente con hebilla decorativa en el cuello",
       "Tono dark brown, cálido y fácil de combinar"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-taylor-almond-brown",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318729634",
+        "333459547",
+        "333458111"
+      ],
+      "labels": [
+        {
+          "id": "318729634",
+          "nombre": "Campera De Cuero Taylor - Almond Brown"
+        },
+        {
+          "id": "333459547",
+          "nombre": "Campera De Cuero Taylor - Black"
+        },
+        {
+          "id": "333458111",
+          "nombre": "Campera De Cuero Taylor - Copper Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Napa ovina 100% genuina, más suave y liviana que el cuero vacuno",
+      "Cierre frontal con botones metálicos",
+      "Costuras reforzadas y terminaciones premium",
+      "Almond brown, un tono neutro que mejora con el uso"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
