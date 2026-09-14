@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 10:26:15
+ * Generado: 2026-09-14 11:35:23
  */
 (function () {
   "use strict";
@@ -780,6 +780,45 @@
       "Cuatro bolsillos frontales con cierre: dos superiores y dos convencionales",
       "Cierre recto al frente con hebilla decorativa en el cuello",
       "Mangas ajustables con cierre para regular la apertura"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-mujer-modelo-mailey",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318145796"
+      ],
+      "labels": [
+        {
+          "id": "318145796",
+          "nombre": "Campera De Cuero Mujer - Modelo Mailey"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa de alta calidad combinado con pelo natural",
+      "Cuatro bolsillos frontales con cierre",
+      "Cierre recto al frente con hebilla decorativa en el cuello",
+      "Diseño femenino y versátil, de reuniones informales a eventos"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
