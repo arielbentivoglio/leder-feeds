@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:01:23
+ * Generado: 2026-09-14 12:02:27
  */
 (function () {
   "use strict";
@@ -1593,6 +1593,60 @@
       "Largo a la rodilla para mayor abrigo",
       "Cierre frontal con botones y bolsillos laterales integrados",
       "Más liviano y flexible que el cuero vacuno"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-steven",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318902281",
+        "333928148",
+        "333931336",
+        "334468497"
+      ],
+      "labels": [
+        {
+          "id": "318902281",
+          "nombre": "Campera De Cuero Hombre - Modelo Steven"
+        },
+        {
+          "id": "333928148",
+          "nombre": "Campera De Cuero Steven - Habano"
+        },
+        {
+          "id": "333931336",
+          "nombre": "Campera De Cuero Steven - Black"
+        },
+        {
+          "id": "334468497",
+          "nombre": "Campera De Cuero Steven - Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero genuino napa, suave al tacto y resistente al uso diario",
+      "Capucha ajustable",
+      "Bolsillos frontales con cierre y bolsillos internos prácticos",
+      "Mangas regulables, ideal para looks urbanos"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
