@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:41:22
+ * Generado: 2026-09-14 11:42:37
  */
 (function () {
   "use strict";
@@ -951,6 +951,50 @@
       "Cierre frontal con botones metálicos",
       "Costuras reforzadas",
       "Terminación suede, de textura mate y aspecto sofisticado"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "chaleco-cuero-oveja-choppy",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319392411",
+        "334026991"
+      ],
+      "labels": [
+        {
+          "id": "319392411",
+          "nombre": "Chaleco Cuero Oveja Choppy- Marlboro"
+        },
+        {
+          "id": "334026991",
+          "nombre": "Chaleco de Cuero de Oveja Choppy - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napalán genuino, suave y liviano",
+      "Diseño sin mangas, práctico y versátil",
+      "Cierre frontal y bolsillos delanteros funcionales",
+      "Ideal para superponer y sumar abrigo liviano"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
