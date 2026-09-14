@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-11 12:36:03
+ * Generado: 2026-09-14 10:26:15
  */
 (function () {
   "use strict";
@@ -741,6 +741,45 @@
       "Suela ligera de alta resistencia con gran amortiguación",
       "Interior acolchado para confort durante todo el día",
       "Diseño para outfits casuales y urbanos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-mujer-modelo-emma",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318127822"
+      ],
+      "labels": [
+        {
+          "id": "318127822",
+          "nombre": "Campera De Cuero Mujer - Modelo Emma"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Confeccionada en cuero napa de alta calidad, suave al tacto",
+      "Cuatro bolsillos frontales con cierre: dos superiores y dos convencionales",
+      "Cierre recto al frente con hebilla decorativa en el cuello",
+      "Mangas ajustables con cierre para regular la apertura"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
