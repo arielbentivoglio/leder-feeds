@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:12:40
+ * Generado: 2026-09-14 12:13:46
  */
 (function () {
   "use strict";
@@ -1951,6 +1951,55 @@
       "Cierre frontal con botones y bolsillos funcionales",
       "Excelente abrigo para el invierno",
       "Diseño clásico y femenino, de uso diario a ocasiones formales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "chaleco-cuero-de-oveja-jeffrey",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319400830",
+        "334321973",
+        "334344876"
+      ],
+      "labels": [
+        {
+          "id": "319400830",
+          "nombre": "Chaleco de Cuero de Oveja Jeffrey"
+        },
+        {
+          "id": "334321973",
+          "nombre": "Chaleco Cuero de Oveja Jeffrey - Dark Brown"
+        },
+        {
+          "id": "334344876",
+          "nombre": "Chaleco Cuero de Oveja Jeffrey- Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero genuino de alta calidad, resistente y de uso diario",
+      "Diseño sin mangas, cómodo y funcional",
+      "Tres bolsillos frontales con cierre más bolsillos internos",
+      "Suma capas sin perder libertad de movimiento"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
