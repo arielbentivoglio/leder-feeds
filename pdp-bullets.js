@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:51:19
+ * Generado: 2026-09-14 11:52:16
  */
 (function () {
   "use strict";
@@ -1260,6 +1260,45 @@
       "Cierre frontal con cremallera metálica",
       "Cuello alto con broches y bolsillos laterales funcionales",
       "Chocolate, de diseño minimalista y masculino, atemporal"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "pantuflas-de-cuero-lanar-asia",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "338005656"
+      ],
+      "labels": [
+        {
+          "id": "338005656",
+          "nombre": "Pantuflas de Cuero Lanar - Asia"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Confeccionadas en capellada y cuero lanar natural",
+      "Textura suave y cálida al tacto",
+      "Diseño clásico y atemporal",
+      "Livianas, cómodas y envolventes"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
