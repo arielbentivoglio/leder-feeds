@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:02:27
+ * Generado: 2026-09-14 12:03:44
  */
 (function () {
   "use strict";
@@ -1647,6 +1647,60 @@
       "Capucha ajustable",
       "Bolsillos frontales con cierre y bolsillos internos prácticos",
       "Mangas regulables, ideal para looks urbanos"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-de-cuero-jimmy",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318872985",
+        "333933592",
+        "333941624",
+        "333946234"
+      ],
+      "labels": [
+        {
+          "id": "318872985",
+          "nombre": "Campera De Cuero Hombre - Modelo Jimmy"
+        },
+        {
+          "id": "333933592",
+          "nombre": "Campera De Cuero Jimmy - Brown"
+        },
+        {
+          "id": "333941624",
+          "nombre": "Campera De Cuero Jimmy - Dark Brown"
+        },
+        {
+          "id": "333946234",
+          "nombre": "Campera Cuero Jimmy - Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa ovina de alta calidad, suave y resistente",
+      "Bolsillos frontales con cierre",
+      "Bolsillo interno con cierre más bolsillo de acceso rápido",
+      "Mangas ajustables con cierre y estructura cómoda"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
