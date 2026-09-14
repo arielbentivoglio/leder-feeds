@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:46:58
+ * Generado: 2026-09-14 11:48:47
  */
 (function () {
   "use strict";
@@ -1118,6 +1118,65 @@
       "Corte clásico con silueta femenina",
       "Cierre frontal práctico y bolsillos delanteros integrados",
       "Estructura liviana: abrigo todo el día sin perder movilidad"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "campera-cuero-lily",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "318867966",
+        "333510562",
+        "333512750",
+        "333514558",
+        "333516962"
+      ],
+      "labels": [
+        {
+          "id": "318867966",
+          "nombre": "Campera De Cuero Mujer - Modelo Lily"
+        },
+        {
+          "id": "333510562",
+          "nombre": "Campera Cuero Lily - Black"
+        },
+        {
+          "id": "333512750",
+          "nombre": "Campera Cuero Lily - Coral"
+        },
+        {
+          "id": "333514558",
+          "nombre": "Campera De Cuero Lily - Pink"
+        },
+        {
+          "id": "333516962",
+          "nombre": "Campera Cuero Lily - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa de alta calidad, suave y resistente",
+      "Cinto con hebilla para ajustar la silueta",
+      "Tres bolsillos frontales con cierre más un bolsillo con tapa",
+      "Mangas con cierre regulable para un calce a medida"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
