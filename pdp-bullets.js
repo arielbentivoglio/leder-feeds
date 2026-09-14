@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 12:00:28
+ * Generado: 2026-09-14 12:01:23
  */
 (function () {
   "use strict";
@@ -1544,6 +1544,55 @@
       "Diseño largo para mayor cobertura y protección térmica",
       "Botones frontales de estilo clásico y bolsillos amplios",
       "Estructura que mantiene la forma y estiliza la figura"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "tapado-de-cuero-bella",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319465366",
+        "333920561",
+        "333922132"
+      ],
+      "labels": [
+        {
+          "id": "319465366",
+          "nombre": "Tapado Mujer De Cuero Largo - Modelo Bella"
+        },
+        {
+          "id": "333920561",
+          "nombre": "Tapado De Cuero Bella - Dark Brown"
+        },
+        {
+          "id": "333922132",
+          "nombre": "Tapado De Cuero Bella - Black"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero napa ovina de alta calidad, suave y con excelente caída",
+      "Largo a la rodilla para mayor abrigo",
+      "Cierre frontal con botones y bolsillos laterales integrados",
+      "Más liviano y flexible que el cuero vacuno"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
