@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 11:59:25
+ * Generado: 2026-09-14 12:00:28
  */
 (function () {
   "use strict";
@@ -1495,6 +1495,55 @@
       "Apliques ajustables en el cuello para mayor abrigo",
       "Lazo en la cintura que estiliza la silueta",
       "Bolsillos frontales amplios y funcionales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "tapado-cuero-oveja-amelia-curly",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319453489",
+        "333607150",
+        "333608239"
+      ],
+      "labels": [
+        {
+          "id": "319453489",
+          "nombre": "Tapado de Cuero de Oveja Amelia Curly"
+        },
+        {
+          "id": "333607150",
+          "nombre": "Tapado Cuero Oveja Amelia Curly - Black"
+        },
+        {
+          "id": "333608239",
+          "nombre": "Tapado Cuero Oveja Amelia Curly - Dark Brown"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Confeccionado en lana rasada de alta calidad",
+      "Diseño largo para mayor cobertura y protección térmica",
+      "Botones frontales de estilo clásico y bolsillos amplios",
+      "Estructura que mantiene la forma y estiliza la figura"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
