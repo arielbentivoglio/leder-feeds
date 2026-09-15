@@ -2,12 +2,12 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 14:09:50
+ * Generado: 2026-09-15 14:18:22
  */
 (function () {
   "use strict";
 
-  var RUNTIME = {"transferenciaActivo": false, "descuentoPct": 15.0, "cuotasActivo": true, "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles", "envioPosicion": "abajo"};
+  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
 
   // Punto de anclaje/posicion real en el DOM del carrito. Para reubicar el
   // bloque (ej. antes del boton en vez de despues) alcanza con cambiar estas
@@ -60,30 +60,59 @@
   }
 
   function buildBlock(subtotal) {
-    var boxHtml = "";
+    var items = [];
+
     if (RUNTIME.transferenciaActivo) {
       var transferPrice = subtotal * (1 - (RUNTIME.descuentoPct / 100));
-      boxHtml += '<div class="ldr-cart-payment-transfer">' + formatArs(transferPrice) +
-        ' con <span class="ldr-cart-payment-transfer-tag">Transferencia</span></div>';
+      items.push({
+        tipo: "box",
+        orden: RUNTIME.transferenciaOrden,
+        html: '<div class="ldr-cart-payment-transfer">' + formatArs(transferPrice) +
+          ' con <span class="ldr-cart-payment-transfer-tag">Transferencia</span></div>'
+      });
     }
-    boxHtml += cuotasLine(subtotal);
 
-    var boxPiece = boxHtml ? '<div class="ldr-cart-payment-box">' + boxHtml + "</div>" : "";
+    var cuotasHtml = cuotasLine(subtotal);
+    if (cuotasHtml) {
+      items.push({ tipo: "box", orden: RUNTIME.cuotasOrden, html: cuotasHtml });
+    }
 
-    var envioPiece = "";
     if (RUNTIME.envioActivo && RUNTIME.envioTexto && subtotal >= (RUNTIME.envioUmbral || 0)) {
-      envioPiece = '<div class="ldr-cart-shipping-banner">' + RUNTIME.envioTexto + "</div>";
+      items.push({
+        tipo: "banner",
+        orden: RUNTIME.envioOrden,
+        html: '<div class="ldr-cart-shipping-banner">' + RUNTIME.envioTexto + "</div>"
+      });
     }
 
-    var parts = RUNTIME.envioPosicion === "arriba" ? [envioPiece, boxPiece] : [boxPiece, envioPiece];
-    parts = parts.filter(Boolean);
+    if (!items.length) return null;
 
-    if (!parts.length) return null;
+    items.sort(function (a, b) { return a.orden - b.orden; });
+
+    // Agrupar en un mismo recuadro los items consecutivos tipo "box"
+    // (Transferencia/Cuotas); los banners (Envio) siempre van sueltos.
+    var htmlParts = [];
+    var i = 0;
+    while (i < items.length) {
+      if (items[i].tipo === "box") {
+        var group = [items[i].html];
+        var j = i + 1;
+        while (j < items.length && items[j].tipo === "box") {
+          group.push(items[j].html);
+          j++;
+        }
+        htmlParts.push('<div class="ldr-cart-payment-box">' + group.join("") + "</div>");
+        i = j;
+      } else {
+        htmlParts.push(items[i].html);
+        i++;
+      }
+    }
 
     var wrap = document.createElement("div");
     wrap.id = BLOCK_ID;
     wrap.className = "ldr-cart-payment-info";
-    wrap.innerHTML = parts.join("");
+    wrap.innerHTML = htmlParts.join("");
     return wrap;
   }
 
