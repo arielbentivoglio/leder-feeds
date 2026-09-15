@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-14 15:37:45
+ * Generado: 2026-09-15 09:57:09
  */
 (function () {
   "use strict";
@@ -2039,6 +2039,45 @@
       "Diseño versátil: ideal para sofá, sillón, cama o silla",
       "30 x 60 cm: formato práctico para renovar cualquier ambiente",
       "Dos estilos disponibles: cuero entero con pelo o Patchwork"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": false,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "almohadon-decorativo-de-cuero-vacuno-exotico-30x60cm",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "367510618"
+      ],
+      "labels": [
+        {
+          "id": "367510618",
+          "nombre": "Almohadón Decorativo De Cuero Vacuno Exótico - 30x60cm"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero  Exótico vacuno genuino",
+      "Medida: 30 × 60 cm",
+      "Ideal para sofás, sillones, camas y decoración",
+      "Cada pieza es única, con variaciones naturales de tonos, texturas y vetas propias del cuero."
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
