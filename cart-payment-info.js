@@ -2,12 +2,12 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 13:49:02
+ * Generado: 2026-09-15 14:09:50
  */
 (function () {
   "use strict";
 
-  var RUNTIME = {"transferenciaActivo": true, "descuentoPct": 15.0, "cuotasActivo": true, "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
+  var RUNTIME = {"transferenciaActivo": false, "descuentoPct": 15.0, "cuotasActivo": true, "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles", "envioPosicion": "abajo"};
 
   // Punto de anclaje/posicion real en el DOM del carrito. Para reubicar el
   // bloque (ej. antes del boton en vez de despues) alcanza con cambiar estas
@@ -60,23 +60,23 @@
   }
 
   function buildBlock(subtotal) {
-    var parts = [];
-
-    var transferHtml = "";
+    var boxHtml = "";
     if (RUNTIME.transferenciaActivo) {
       var transferPrice = subtotal * (1 - (RUNTIME.descuentoPct / 100));
-      transferHtml = '<div class="ldr-cart-payment-transfer">' + formatArs(transferPrice) +
+      boxHtml += '<div class="ldr-cart-payment-transfer">' + formatArs(transferPrice) +
         ' con <span class="ldr-cart-payment-transfer-tag">Transferencia</span></div>';
     }
-    var cuotasHtml = cuotasLine(subtotal);
+    boxHtml += cuotasLine(subtotal);
 
-    if (transferHtml || cuotasHtml) {
-      parts.push('<div class="ldr-cart-payment-box">' + transferHtml + cuotasHtml + "</div>");
-    }
+    var boxPiece = boxHtml ? '<div class="ldr-cart-payment-box">' + boxHtml + "</div>" : "";
 
+    var envioPiece = "";
     if (RUNTIME.envioActivo && RUNTIME.envioTexto && subtotal >= (RUNTIME.envioUmbral || 0)) {
-      parts.push('<div class="ldr-cart-shipping-banner">' + RUNTIME.envioTexto + "</div>");
+      envioPiece = '<div class="ldr-cart-shipping-banner">' + RUNTIME.envioTexto + "</div>";
     }
+
+    var parts = RUNTIME.envioPosicion === "arriba" ? [envioPiece, boxPiece] : [boxPiece, envioPiece];
+    parts = parts.filter(Boolean);
 
     if (!parts.length) return null;
 
