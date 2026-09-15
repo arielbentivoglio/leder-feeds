@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 09:57:09
+ * Generado: 2026-09-15 10:12:25
  */
 (function () {
   "use strict";
@@ -2078,6 +2078,45 @@
       "Medida: 30 × 60 cm",
       "Ideal para sofás, sillones, camas y decoración",
       "Cada pieza es única, con variaciones naturales de tonos, texturas y vetas propias del cuero."
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": false,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "almohadon-decorativo-de-cuero-vacuno-pampa-30x60cm",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "367505513"
+      ],
+      "labels": [
+        {
+          "id": "367505513",
+          "nombre": "Almohadón Decorativo De Cuero Vacuno Pampa 30x60cm"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino",
+      "Medida: 30 × 60 cm",
+      "Patchwork compuesto por cortes de 10 × 10 cm",
+      "Ideal para sofás, sillones, camas y espacios de living o dormitorio"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
