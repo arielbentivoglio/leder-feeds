@@ -2,12 +2,12 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 14:25:36
+ * Generado: 2026-09-15 14:53:55
  */
 (function () {
   "use strict";
 
-  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "cuotasTexto": "Hasta {n} cuotas sin interés de {monto}", "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
+  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "cuotasTexto": "Hasta {n} cuotas sin interés de {monto}", "cuotasUbicacion": "bajo_total", "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
 
   // Punto de anclaje/posicion real en el DOM del carrito. Para reubicar el
   // bloque (ej. antes del boton en vez de despues) alcanza con cambiar estas
@@ -16,6 +16,15 @@
   var INSERT_POSITION = "afterend"; // debajo del boton "Iniciar compra"
   var MODAL_SELECTOR = "#modal-cart";
   var BLOCK_ID = "ldr-cart-payment-info";
+  // Linea nativa de Tiendanube debajo del Total ("O $X con Transferencia"),
+  // que aparece sola cuando la tienda tiene configurado un descuento por
+  // medio de pago. El mensaje de cuotas sale en UNO solo de dos lugares
+  // posibles (RUNTIME.cuotasUbicacion): "recuadro" (junto a Transferencia,
+  // debajo del boton -- ver buildBlock) o "bajo_total" (linea propia debajo
+  // de la nativa, sin tocarla -- ver updateExtraCuotasLine). Nunca los dos
+  // a la vez.
+  var NATIVE_TOTAL_SELECTOR = ".js-payment-discount-price-cart-container";
+  var EXTRA_TOTAL_LINE_ID = "ldr-cart-native-cuotas-extra";
 
   var lastKey = null;
 
@@ -51,15 +60,64 @@
     return parseArNumber(match[1]);
   }
 
-  function cuotasLine(subtotal) {
-    if (!RUNTIME.cuotasActivo) return "";
+  function renderCuotasTexto(subtotal) {
     var n = getCuotasTier(subtotal);
-    if (!n) return "";
+    if (!n) return null;
     var amount = subtotal / n;
     var texto = (RUNTIME.cuotasTexto || "{n} cuotas sin inter\u00e9s de {monto}")
       .replace(/\{n\}/g, n)
       .replace(/\{monto\}/g, formatArs(amount));
+    return texto;
+  }
+
+  function cuotasLine(subtotal) {
+    if (!RUNTIME.cuotasActivo || RUNTIME.cuotasUbicacion !== "recuadro") return "";
+    var texto = renderCuotasTexto(subtotal);
+    if (texto === null) return "";
     return '<div class="ldr-cart-payment-cuotas">' + texto + "</div>";
+  }
+
+  function updateExtraCuotasLine(modal, subtotal) {
+    var existing = document.getElementById(EXTRA_TOTAL_LINE_ID);
+
+    if (!RUNTIME.cuotasActivo || RUNTIME.cuotasUbicacion !== "bajo_total") {
+      if (existing) existing.remove();
+      return;
+    }
+
+    var nativeEl = modal.querySelector(NATIVE_TOTAL_SELECTOR);
+    if (!nativeEl) {
+      if (existing) existing.remove();
+      return;
+    }
+
+    var texto = renderCuotasTexto(subtotal);
+    if (texto === null) {
+      if (existing) existing.remove();
+      return;
+    }
+
+    var deseado = "O " + texto;
+
+    if (existing) {
+      if (existing.textContent.replace(/\s+/g, " ").trim() !== deseado) {
+        existing.textContent = deseado;
+      }
+      // Si Tiendanube volvio a renderizar el bloque nativo, nuestra linea
+      // puede haber quedado desacomodada -- la reubicamos siempre debajo.
+      if (existing.previousElementSibling !== nativeEl) {
+        nativeEl.insertAdjacentElement("afterend", existing);
+      }
+      return;
+    }
+
+    var line = document.createElement("div");
+    line.id = EXTRA_TOTAL_LINE_ID;
+    // Reusa solo las clases de estilo (no las "js-*", que son ganchos
+    // internos de Tiendanube) para que se vea igual que la linea nativa.
+    line.className = "text-accent font-small font-weight-normal mt-1 text-right";
+    line.textContent = deseado;
+    nativeEl.insertAdjacentElement("afterend", line);
   }
 
   function buildBlock(subtotal) {
@@ -126,6 +184,8 @@
 
     var subtotal = getCartSubtotal(modal);
     if (subtotal === null) return;
+
+    updateExtraCuotasLine(modal, subtotal);
 
     var existing = document.getElementById(BLOCK_ID);
     if (existing && subtotal === lastKey) return; // nada cambio, no reinsertar
