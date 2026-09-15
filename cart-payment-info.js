@@ -2,12 +2,12 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 14:21:38
+ * Generado: 2026-09-15 14:25:36
  */
 (function () {
   "use strict";
 
-  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
+  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "cuotasTexto": "Hasta {n} cuotas sin interés de {monto}", "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
 
   // Punto de anclaje/posicion real en el DOM del carrito. Para reubicar el
   // bloque (ej. antes del boton en vez de despues) alcanza con cambiar estas
@@ -56,7 +56,10 @@
     var n = getCuotasTier(subtotal);
     if (!n) return "";
     var amount = subtotal / n;
-    return '<div class="ldr-cart-payment-cuotas">' + n + " cuotas sin inter\u00e9s de " + formatArs(amount) + "</div>";
+    var texto = (RUNTIME.cuotasTexto || "{n} cuotas sin inter\u00e9s de {monto}")
+      .replace(/\{n\}/g, n)
+      .replace(/\{monto\}/g, formatArs(amount));
+    return '<div class="ldr-cart-payment-cuotas">' + texto + "</div>";
   }
 
   function buildBlock(subtotal) {
