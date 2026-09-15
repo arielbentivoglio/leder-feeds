@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 10:14:43
+ * Generado: 2026-09-15 10:16:38
  */
 (function () {
   "use strict";
@@ -2114,9 +2114,9 @@
     "anchorPositionMobile": "after",
     "bullets": [
       "Cuero vacuno genuino: calidad y carácter en cada pieza",
-      "Diseño versátil: ideal para sofá, sillón, cama o silla",
       "30 x 60 cm: formato práctico para renovar cualquier ambiente",
-      "Dos estilos disponibles: cuero entero con pelo"
+      "Una pieza única para darle carácter a tus espacios",
+      "Diseño versátil: ideal para sofá, sillón, cama o silla"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
