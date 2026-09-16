@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 17:04:37
+ * Generado: 2026-09-16 12:00:33
  */
 (function () {
   "use strict";
@@ -2195,6 +2195,45 @@
       "Medida: 60 × 60 cm",
       "Textura natural y única en cada pieza",
       "Ideal para sumar calidez y textura a tus espacios"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": false,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 1.0,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "combo-travel-basic-bolso-neceser-de-cuero",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "367764874"
+      ],
+      "labels": [
+        {
+          "id": "367764874",
+          "nombre": "Combo Travel Basic | Bolso + Neceser De Cuero"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Neceser Valle+Billetera Dolar Cuero Vacuno Genuino",
+      "Diseño clásico, funcional y atemporal",
+      "Ideal para viajes, escapadas y uso diario",
+      "Material resistente y duradero"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
