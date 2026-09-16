@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-16 12:02:18
+ * Generado: 2026-09-16 12:02:54
  */
 (function () {
   "use strict";
@@ -2130,45 +2130,6 @@
     "marginBottom": 16
   },
   {
-    "id": "almohadon-decorativo-de-cuero-vacuno-crash-30x60cm",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "367560311"
-      ],
-      "labels": [
-        {
-          "id": "367560311",
-          "nombre": "Almohadón Decorativo De Cuero Vacuno Crash - 30x60cm"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Cuero vacuno genuino Crash",
-      "Textura natural y efecto envejecido",
-      "Medida: 30 × 60 cm",
-      "Ideal para aportar carácter y calidez a tus espacios"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": false,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
-    "textSize": 13,
-    "dividerWidth": 1.0,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
     "id": "combo-travel-basic-bolso-neceser-de-cuero",
     "activo": true,
     "stores": [
@@ -2234,6 +2195,45 @@
       "Medida: 60 × 60 cm",
       "Textura natural y única en cada pieza",
       "Ideal para sumar calidez y textura a tus espacios"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "almohadon-decorativo-de-cuero-vacuno-crash-30x60cm",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "367560311"
+      ],
+      "labels": [
+        {
+          "id": "367560311",
+          "nombre": "Almohadón Decorativo De Cuero Vacuno Crash - 30x60cm"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino Crash",
+      "Textura natural y efecto envejecido",
+      "Medida: 30 × 60 cm",
+      "Ideal para aportar carácter y calidez a tus espacios"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
