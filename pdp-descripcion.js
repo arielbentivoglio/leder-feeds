@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 15:04:50
+ * Generado: 2026-09-17 15:21:49
  */
 (function () {
   "use strict";
@@ -22,10 +22,10 @@
           "width": 400
         },
         {
-          "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353690056/img-1/20260917150449167941-bolsomaipo2.webp",
-          "width": 400,
           "height": 600,
-          "max_height": 400
+          "max_height": 400,
+          "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353690056/img-1/20260917150449167941-bolsomaipo2.webp",
+          "width": 400
         }
       ],
       "bg_colors": [
@@ -33,7 +33,8 @@
         ""
       ],
       "margin_top": 0,
-      "margin_bottom": 0
+      "margin_bottom": 0,
+      "gap": 24
     }
   ]
 };
@@ -93,7 +94,7 @@
       ".ldr-pdpdesc-content p:last-child{margin-bottom:0}" +
       ".ldr-pdpdesc-full .ldr-pdpdesc-row{max-width:760px;text-align:center;justify-content:center}" +
       ".ldr-pdpdesc-eyebrow{max-width:1180px;margin:0 auto 20px;text-align:center;font-weight:700}" +
-      "@media (max-width:767px){.ldr-pdpdesc-row{flex-direction:column !important;gap:20px}.ldr-pdpdesc-section{padding:32px 20px}}";
+      "@media (max-width:767px){.ldr-pdpdesc-row{flex-direction:column !important;gap:20px !important}.ldr-pdpdesc-section{padding:32px 20px}}";
     var st = document.createElement("style");
     st.id = "ldr-pdpdesc-style";
     st.textContent = css;
@@ -116,6 +117,11 @@
       var img = (cfg.imagenes || [])[i];
       var bg = (cfg.bg_colors || [])[i] || (i % 2 === 0 ? "#fafafa" : "#f7f5f2");
       var rowClass = "ldr-pdpdesc-row" + (img && i % 2 === 1 ? " ldr-rev" : "");
+      // Espacio entre imagen y texto: si el producto no configuro nada,
+      // queda el standard (48px, definido en la clase). El override solo
+      // pisa el desktop -- en mobile siempre se usa el gap fijo mas chico
+      // (20px !important en la media query), sea cual sea este valor.
+      var rowStyle = cfg.gap ? ' style="gap:' + cfg.gap + 'px"' : '';
       var sectionClass = "ldr-pdpdesc-break ldr-pdpdesc-section" + (img ? "" : " ldr-pdpdesc-full");
       var imgStyle = "";
       if (img && img.max_height) {
@@ -130,7 +136,7 @@
       out +=
         '<section class="' + sectionClass + '" style="background:' + esc(bg) + '">' +
           eyebrowHtml +
-          '<div class="' + rowClass + '">' +
+          '<div class="' + rowClass + '"' + rowStyle + '>' +
             imgHtml +
             '<div class="ldr-pdpdesc-content">' + secciones[i] + "</div>" +
           "</div>" +
