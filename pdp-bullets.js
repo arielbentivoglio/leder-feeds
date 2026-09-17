@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-16 15:11:37
+ * Generado: 2026-09-17 12:58:11
  */
 (function () {
   "use strict";
@@ -44,85 +44,6 @@
     "showDividers": true,
     "dividerColor": "#dfc4aa",
     "iconSize": 15,
-    "textSize": 13,
-    "dividerWidth": 0.5,
-    "textBold": false,
-    "marginTop": 16,
-    "marginBottom": 16
-  },
-  {
-    "id": "cuero-de-oveja-ar",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "337169607",
-        "336840952",
-        "336841198",
-        "310505258",
-        "310516921",
-        "319438878",
-        "316820587",
-        "314900368",
-        "315601790"
-      ],
-      "labels": [
-        {
-          "id": "337169607",
-          "nombre": "Set X2 Cueros De Oveja Natural 70x45 cm"
-        },
-        {
-          "id": "336840952",
-          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45cm"
-        },
-        {
-          "id": "336841198",
-          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45 - Colores"
-        },
-        {
-          "id": "310505258",
-          "nombre": "Cuero De Oveja Pelo Largo Muflón Natural - 80x45cm"
-        },
-        {
-          "id": "310516921",
-          "nombre": "Cuero De Oveja Pelo Largo Muflón Corderito - 80x45cm"
-        },
-        {
-          "id": "319438878",
-          "nombre": "Alfombra De Cuero De Oveja Natural DUO 160x45cm"
-        },
-        {
-          "id": "316820587",
-          "nombre": "Cuero de Oveja Exótico Natural"
-        },
-        {
-          "id": "314900368",
-          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
-        },
-        {
-          "id": "315601790",
-          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
-        }
-      ]
-    },
-    "anchor_selector": "#product_form",
-    "anchor_position": "before",
-    "anchorPositionDesktop": "before",
-    "anchorPositionMobile": "after",
-    "bullets": [
-      "Autenticidad: Cuero de oveja argentino 100% natural",
-      "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
-      "Confort Natural: Hipoalergénica y con termorregulación natural",
-      "Pet & Kid Friendly: Super suave y confortable para disfrutar en familia"
-    ],
-    "accent_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
-    "showDividers": true,
-    "dividerColor": "#e5e5e5",
-    "iconSize": 18,
     "textSize": 13,
     "dividerWidth": 0.5,
     "textBold": false,
@@ -2273,6 +2194,90 @@
       "Cuero vacuno genuino",
       "Ideal para viajes y uso diario",
       "Material resistente y duradero"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "cuero-de-oveja-ar",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "337169607",
+        "336840952",
+        "336841198",
+        "310505258",
+        "310516921",
+        "319438878",
+        "316820587",
+        "314900368",
+        "315601790",
+        "367822923"
+      ],
+      "labels": [
+        {
+          "id": "337169607",
+          "nombre": "Set X2 Cueros De Oveja Natural 70x45 cm"
+        },
+        {
+          "id": "336840952",
+          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45cm"
+        },
+        {
+          "id": "336841198",
+          "nombre": "Alfombra Cuero De Oveja Natural Pelo Largo 70x45 - Colores"
+        },
+        {
+          "id": "310505258",
+          "nombre": "Cuero De Oveja Pelo Largo Muflón Natural - 80x45cm"
+        },
+        {
+          "id": "310516921",
+          "nombre": "Cuero De Oveja Pelo Largo Muflón Corderito - 80x45cm"
+        },
+        {
+          "id": "319438878",
+          "nombre": "Alfombra De Cuero De Oveja Natural DUO 160x45cm"
+        },
+        {
+          "id": "316820587",
+          "nombre": "Cuero de Oveja Exótico Natural"
+        },
+        {
+          "id": "314900368",
+          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
+        },
+        {
+          "id": "315601790",
+          "nombre": "Cuero De Oveja Pelo Corto Muflon - 80x45cm"
+        },
+        {
+          "id": "367822923",
+          "nombre": "Set X2 Cueros De Oveja Natural 70x45 cm Colores"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Autenticidad: Cuero de oveja argentino 100% natural",
+      "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
+      "Confort Natural: Hipoalergénica y con termorregulación natural",
+      "Pet & Kid Friendly: Super suave y confortable para disfrutar en familia"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
