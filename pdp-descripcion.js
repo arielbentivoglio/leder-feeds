@@ -1,12 +1,12 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 14:21:18
+ * Generado: 2026-09-17 14:27:24
  */
 (function () {
   "use strict";
   var CONFIG = {
-  "anchor_selector": ".product-description",
+  "anchor_selector": ".user-content",
   "productos": [
     {
       "product_id": "353690056",
@@ -30,7 +30,7 @@
   ]
 };
   var PRODUCTOS = CONFIG.productos || [];
-  var ANCHOR_SELECTOR = CONFIG.anchor_selector || ".product-description";
+  var ANCHOR_SELECTOR = CONFIG.anchor_selector || ".user-content";
 
   function getStore() {
     var h = location.hostname || "";
