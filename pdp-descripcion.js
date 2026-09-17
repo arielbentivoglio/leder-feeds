@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 15:37:49
+ * Generado: 2026-09-17 15:53:30
  */
 (function () {
   "use strict";
@@ -31,6 +31,14 @@
       "bg_colors": [
         "",
         ""
+      ],
+      "text_aligns": [
+        "left",
+        "left"
+      ],
+      "img_aligns": [
+        "right",
+        "left"
       ],
       "margin_top": 0,
       "margin_bottom": 0,
@@ -123,11 +131,26 @@
       // (20px !important en la media query), sea cual sea este valor.
       var rowStyle = cfg.gap ? ' style="gap:' + cfg.gap + 'px"' : '';
       var sectionClass = "ldr-pdpdesc-break ldr-pdpdesc-section" + (img ? "" : " ldr-pdpdesc-full");
+      // Alineacion por seccion. La de imagen se resuelve con margin (no con
+      // text-align, porque la imagen es display:block): asi funciona tanto
+      // si la imagen llena el ancho de su columna (sin "Alto maximo") como
+      // si quedo mas angosta que la columna por el recorte de alto -- en
+      // ese ultimo caso es lo que decide si el hueco libre queda a la
+      // izquierda, a la derecha o repartido en ambos lados (centrada).
+      var imgAlign = (cfg.img_aligns || [])[i] || "center";
+      var imgMargin = imgAlign === "left" ? "margin-left:0;margin-right:auto"
+        : imgAlign === "right" ? "margin-left:auto;margin-right:0"
+        : "margin-left:auto;margin-right:auto";
+      var textAlign = (cfg.text_aligns || [])[i] || "left";
       var imgStyle = "";
-      if (img && img.max_height) {
-        // Alto maximo elegido en el panel: el ancho se recalcula solo
-        // (proporcional), nunca se fuerza aparte.
-        imgStyle = ' style="max-height:' + img.max_height + 'px;width:auto;max-width:100%;height:auto"';
+      if (img) {
+        var imgStyleParts = [imgMargin];
+        if (img.max_height) {
+          // Alto maximo elegido en el panel: el ancho se recalcula solo
+          // (proporcional), nunca se fuerza aparte.
+          imgStyleParts.push("max-height:" + img.max_height + "px", "width:auto", "max-width:100%", "height:auto");
+        }
+        imgStyle = ' style="' + imgStyleParts.join(";") + '"';
       }
       var imgHtml = img
         ? '<div class="ldr-pdpdesc-img"><img src="' + esc(img.src) + '" alt="" loading="lazy" width="' + (img.width || 600) + '" height="' + (img.height || 600) + '"' + imgStyle + '></div>'
@@ -138,7 +161,7 @@
           eyebrowHtml +
           '<div class="' + rowClass + '"' + rowStyle + '>' +
             imgHtml +
-            '<div class="ldr-pdpdesc-content">' + secciones[i] + "</div>" +
+            '<div class="ldr-pdpdesc-content" style="text-align:' + textAlign + '">' + secciones[i] + "</div>" +
           "</div>" +
         "</section>";
     }
