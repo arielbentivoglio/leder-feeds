@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 15:53:30
+ * Generado: 2026-09-17 15:55:23
  */
 (function () {
   "use strict";
@@ -37,8 +37,8 @@
         "left"
       ],
       "img_aligns": [
-        "right",
-        "left"
+        "center",
+        "center"
       ],
       "margin_top": 0,
       "margin_bottom": 0,
