@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 14:27:28
+ * Generado: 2026-09-17 14:36:58
  */
 (function () {
   "use strict";
@@ -18,7 +18,8 @@
         {
           "height": 600,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353690056/img-0/20260917140819993294-bolsomaipo.webp",
-          "width": 400
+          "width": 400,
+          "max_height": 400
         }
       ],
       "bg_colors": [
@@ -77,13 +78,14 @@
       ".ldr-pdpdesc-section{padding:48px 24px;box-sizing:border-box}" +
       ".ldr-pdpdesc-row{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:48px;flex-wrap:wrap}" +
       ".ldr-pdpdesc-row.ldr-rev{flex-direction:row-reverse}" +
-      ".ldr-pdpdesc-img{flex:1 1 380px;min-width:280px}" +
-      ".ldr-pdpdesc-img img{width:100%;height:auto;display:block;border-radius:4px}" +
+      ".ldr-pdpdesc-img{flex:1 1 380px;min-width:280px;text-align:center}" +
+      ".ldr-pdpdesc-img img{width:100%;height:auto;display:block;border-radius:4px;margin:0 auto}" +
       ".ldr-pdpdesc-content{flex:1 1 380px;min-width:280px}" +
       ".ldr-pdpdesc-content h1,.ldr-pdpdesc-content h2,.ldr-pdpdesc-content h3{margin:0 0 12px}" +
       ".ldr-pdpdesc-content p{margin:0 0 10px;line-height:1.6}" +
       ".ldr-pdpdesc-content p:last-child{margin-bottom:0}" +
       ".ldr-pdpdesc-full .ldr-pdpdesc-row{max-width:760px;text-align:center;justify-content:center}" +
+      ".ldr-pdpdesc-eyebrow{max-width:1180px;margin:0 auto 20px;text-align:center;font-weight:700}" +
       "@media (max-width:767px){.ldr-pdpdesc-row{flex-direction:column !important;gap:20px}.ldr-pdpdesc-section{padding:32px 20px}}";
     var st = document.createElement("style");
     st.id = "ldr-pdpdesc-style";
@@ -101,18 +103,26 @@
       .filter(function (s) { return s.length > 0; });
   }
 
-  function buildHtml(cfg, secciones) {
+  function buildHtml(cfg, secciones, eyebrowText) {
     var out = "";
     for (var i = 0; i < secciones.length; i++) {
       var img = (cfg.imagenes || [])[i];
       var bg = (cfg.bg_colors || [])[i] || (i % 2 === 0 ? "#fafafa" : "#f7f5f2");
       var rowClass = "ldr-pdpdesc-row" + (img && i % 2 === 1 ? " ldr-rev" : "");
       var sectionClass = "ldr-pdpdesc-break ldr-pdpdesc-section" + (img ? "" : " ldr-pdpdesc-full");
+      var imgStyle = "";
+      if (img && img.max_height) {
+        // Alto maximo elegido en el panel: el ancho se recalcula solo
+        // (proporcional), nunca se fuerza aparte.
+        imgStyle = ' style="max-height:' + img.max_height + 'px;width:auto;max-width:100%;height:auto"';
+      }
       var imgHtml = img
-        ? '<div class="ldr-pdpdesc-img"><img src="' + esc(img.src) + '" alt="" loading="lazy" width="' + (img.width || 600) + '" height="' + (img.height || 600) + '"></div>'
+        ? '<div class="ldr-pdpdesc-img"><img src="' + esc(img.src) + '" alt="" loading="lazy" width="' + (img.width || 600) + '" height="' + (img.height || 600) + '"' + imgStyle + '></div>'
         : "";
+      var eyebrowHtml = (i === 0 && eyebrowText) ? '<div class="ldr-pdpdesc-eyebrow">' + esc(eyebrowText) + "</div>" : "";
       out +=
         '<section class="' + sectionClass + '" style="background:' + esc(bg) + '">' +
+          eyebrowHtml +
           '<div class="' + rowClass + '">' +
             imgHtml +
             '<div class="ldr-pdpdesc-content">' + secciones[i] + "</div>" +
@@ -139,8 +149,21 @@
     var secciones = splitSecciones(original);
     if (!secciones.length) return;
 
+    // El theme muestra un titulo ("Descripcion") como hermano justo antes
+    // del bloque de texto, fuera de ANCHOR_SELECTOR. Si esta ahi, se oculta
+    // junto con la descripcion nativa y su texto se repite centrado arriba
+    // de la primera seccion, para no dejarlo "flotando" fuera del modulo.
+    // El chequeo de largo evita tocar por error un hermano que no sea ese
+    // titulo (ej. si el theme cambia de estructura).
+    var eyebrowText = "";
+    var labelEl = anchor.previousElementSibling;
+    if (labelEl && labelEl.textContent && labelEl.textContent.trim().length > 0 && labelEl.textContent.trim().length < 40) {
+      eyebrowText = labelEl.textContent.trim();
+      labelEl.style.display = "none";
+    }
+
     injectStyle();
-    var html = buildHtml(cfg, secciones);
+    var html = buildHtml(cfg, secciones, eyebrowText);
     var wrap = document.createElement("div");
     wrap.className = "ldr-pdpdesc-wrap";
     var marginTop = cfg.margin_top || 0;
