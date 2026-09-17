@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 14:38:36
+ * Generado: 2026-09-17 15:04:50
  */
 (function () {
   "use strict";
@@ -17,12 +17,19 @@
       "imagenes": [
         {
           "height": 600,
-          "max_height": 600,
+          "max_height": 400,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353690056/img-0/20260917140819993294-bolsomaipo.webp",
           "width": 400
+        },
+        {
+          "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353690056/img-1/20260917150449167941-bolsomaipo2.webp",
+          "width": 400,
+          "height": 600,
+          "max_height": 400
         }
       ],
       "bg_colors": [
+        "",
         ""
       ],
       "margin_top": 0,
