@@ -1,7 +1,7 @@
 /**
  * pdp-descripcion.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - Descripcion)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-18 15:47:12
+ * Generado: 2026-09-18 15:54:58
  */
 (function () {
   "use strict";
@@ -56,6 +56,34 @@
           "max_height": 400,
           "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353442312/img-0/20260918154658598882-cartera1.webp",
           "width": 400
+        }
+      ],
+      "bg_colors": [
+        ""
+      ],
+      "text_aligns": [
+        "left"
+      ],
+      "img_aligns": [
+        "center"
+      ],
+      "margin_top": 0,
+      "margin_bottom": 0,
+      "gap": null
+    },
+    {
+      "product_id": "353441989",
+      "activo": true,
+      "stores": [
+        "ar",
+        "cl"
+      ],
+      "imagenes": [
+        {
+          "src": "https://arielbentivoglio.github.io/leder-feeds/modules/pdp-descripcion-353441989/img-0/20260918155456681347-indigo2.webp",
+          "width": 400,
+          "height": 600,
+          "max_height": 400
         }
       ],
       "bg_colors": [
