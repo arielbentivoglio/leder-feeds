@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-09-17 12:58:11
+ * Generado: 2026-09-28 11:45:57
  */
 (function () {
   "use strict";
@@ -2278,6 +2278,46 @@
       "Decoración Versatil: Usalo como pie de cama, sobre un sillón o butaca",
       "Confort Natural: Hipoalergénica y con termorregulación natural",
       "Pet & Kid Friendly: Super suave y confortable para disfrutar en familia"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "canasta-matera-de-cuero-vacuno-con-pelo",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "356177257"
+      ],
+      "labels": [
+        {
+          "id": "356177257",
+          "nombre": "Canasta Matera De Cuero Vacuno con pelo"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno con pelo natural",
+      "Estructura firme y resistente",
+      "Manija de cuero reforzada",
+      "Capacidad para termo de hasta 1,5 L + mate y accesorios",
+      "Medidas: 17 cm × 20 cm × 17 cm"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
