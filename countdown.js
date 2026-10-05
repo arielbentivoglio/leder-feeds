@@ -1,66 +1,11 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-05 12:21:33
+ * Generado: 2026-10-05 12:21:46
  */
 (function () {
   "use strict";
   var COUNTDOWNS = [
-  {
-    "id": "countdown-chile-cojines",
-    "activo": true,
-    "stores": [
-      "cl"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": [],
-      "labels": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "/productos/cojin/",
-    "fechaFin": "2026-08-19 12:00",
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "Chairpad 6x5",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "TERMINA EN",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
   {
     "id": "countdown-chile-cojines-producto",
     "activo": true,
