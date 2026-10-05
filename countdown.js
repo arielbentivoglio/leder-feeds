@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-05 12:22:16
+ * Generado: 2026-10-05 12:39:28
  */
 (function () {
   "use strict";
@@ -26,6 +26,7 @@
     "marginBottom": 0,
     "link": "",
     "fechaFin": "2026-10-07 23:59",
+    "mostrarDias": true,
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
@@ -62,11 +63,13 @@
     "borderWidth": 0
   }
 ];
-  // Offset fijo por tienda (sin manejo de horario de verano/DST — mismo
-  // criterio ya usado en store.js.tpl para estas dos tiendas):
-  //   Argentina (America/Argentina/Buenos_Aires) = UTC-3, sin DST
-  //   Chile (America/Santiago)                   = UTC-4, horario estandar
-  var TZ_OFFSET_MS = { ar: 3 * 3600 * 1000, cl: 4 * 3600 * 1000 };
+  // Zona horaria real de cada tienda. El offset se calcula con Intl para
+  // cada instante, asi el horario de verano de Chile (UTC-3 de septiembre
+  // a abril, UTC-4 el resto del año) se respeta solo. Si el navegador no
+  // soporta Intl con timeZone, cae a los offsets fijos de antes.
+  var TZ_NAME = { ar: "America/Argentina/Buenos_Aires", cl: "America/Santiago" };
+  var TZ_FALLBACK_MS = { ar: 3 * 3600 * 1000, cl: 4 * 3600 * 1000 };
+  var _tzFormatters = {};
 
   function getStore() {
     var h = location.hostname || "";
@@ -74,8 +77,39 @@
     return "ar";
   }
 
-  function getTzOffsetMs(store) {
-    return TZ_OFFSET_MS[store] || TZ_OFFSET_MS.ar;
+  // Devuelve (UTC - hora local de la tienda) en ms para el instante utcMs.
+  // Ej.: Argentina -> 3h; Chile en verano -> 3h, en invierno -> 4h.
+  function tzOffsetMsAt(store, utcMs) {
+    var tz = TZ_NAME[store] || TZ_NAME.ar;
+    try {
+      var fmt = _tzFormatters[tz];
+      if (!fmt) {
+        fmt = new Intl.DateTimeFormat("en-US", {
+          timeZone: tz, hourCycle: "h23",
+          year: "numeric", month: "2-digit", day: "2-digit",
+          hour: "2-digit", minute: "2-digit", second: "2-digit"
+        });
+        _tzFormatters[tz] = fmt;
+      }
+      var p = {};
+      fmt.formatToParts(new Date(utcMs)).forEach(function (x) { p[x.type] = x.value; });
+      var hora = +p.hour === 24 ? 0 : +p.hour;
+      var paredMs = Date.UTC(+p.year, +p.month - 1, +p.day, hora, +p.minute, +p.second);
+      var segundos = Math.floor(utcMs / 1000) * 1000;
+      return segundos - paredMs;
+    } catch (e) {
+      return TZ_FALLBACK_MS[store] || TZ_FALLBACK_MS.ar;
+    }
+  }
+
+  // Convierte una hora "de pared" de la tienda (campos leidos como UTC) al
+  // instante UTC real. Se verifica el offset dos veces por si el instante
+  // cae justo en un cambio de horario.
+  function paredAUtcMs(store, paredMs) {
+    var off = tzOffsetMsAt(store, paredMs + (TZ_FALLBACK_MS[store] || 0));
+    var utc = paredMs + off;
+    var off2 = tzOffsetMsAt(store, utc);
+    return off2 === off ? utc : paredMs + off2;
   }
 
   function esc(s) {
@@ -129,28 +163,33 @@
   }
 
   // ─── Calculo del timestamp de fin ────────────────────────────────────────
-  function parseFechaFinLocal(fechaFin, offsetMs) {
+  function parseFechaFinLocal(fechaFin, store) {
     // Espera "AAAA-MM-DD HH:MM" (o con T) interpretado como hora local de
     // la tienda (Argentina o Chile, segun corresponda).
     var m = String(fechaFin || "").match(/(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
     if (!m) return null;
-    var utcMs = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]) + offsetMs;
-    return Math.floor(utcMs / 1000);
+    var paredMs = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
+    return Math.floor(paredAUtcMs(store, paredMs) / 1000);
   }
 
-  function proximaMedianocheLocal(offsetMs) {
-    var localMs = Date.now() - offsetMs; // "shiftea" para leer los campos como si fueran hora local
-    var d = new Date(localMs);
-    var medianocheLocalMs = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, 0, 0, 0);
-    return Math.floor((medianocheLocalMs + offsetMs) / 1000);
+  function proximaMedianocheLocal(store) {
+    var ahora = Date.now();
+    var d = new Date(ahora - tzOffsetMsAt(store, ahora)); // campos UTC = hora local de la tienda
+    var medianocheParedMs = Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + 1, 0, 0, 0);
+    return Math.floor(paredAUtcMs(store, medianocheParedMs) / 1000);
   }
 
-  function getEndTimestamp(cd, offsetMs) {
+  // La fecha fija no cambia: se calcula una sola vez por countdown.
+  var _finFijoCache = {};
+
+  function getEndTimestamp(cd, store) {
     if (cd.fechaFin) {
-      var fijo = parseFechaFinLocal(cd.fechaFin, offsetMs);
+      var key = store + "|" + cd.fechaFin;
+      if (!(key in _finFijoCache)) _finFijoCache[key] = parseFechaFinLocal(cd.fechaFin, store);
+      var fijo = _finFijoCache[key];
       if (fijo) return { ts: fijo, fijo: true };
     }
-    return { ts: proximaMedianocheLocal(offsetMs), fijo: false };
+    return { ts: proximaMedianocheLocal(store), fijo: false };
   }
 
   // ─── Estilos ──────────────────────────────────────────────────────────────
@@ -196,9 +235,10 @@
     return s;
   }
 
-  function unidad(valor, label, cd) {
+  function unidad(valor, label, cd, key) {
     var wrap = document.createElement("div");
     wrap.className = "ldr-cd__unit";
+    wrap.setAttribute("data-unit-wrap", key || label);
     wrap.style.background = cd.accentColor || "transparent";
     var dig = cd.digitos || {};
     if (dig.border_width && Number(dig.border_width) > 0) {
@@ -207,7 +247,7 @@
     }
     var num = document.createElement("span");
     num.className = "ldr-cd__num js-ldr-cd-num";
-    num.setAttribute("data-unit", label);
+    num.setAttribute("data-unit", key || label);
     num.setAttribute("style", digitoStyle(cd.digitos, false));
     num.textContent = valor;
     var lbl = document.createElement("span");
@@ -219,7 +259,7 @@
     return wrap;
   }
 
-  function render(cd, offsetMs) {
+  function render(cd, store) {
     injectStyle();
 
     var bar = document.createElement("div");
@@ -294,23 +334,35 @@
 
     var clock = document.createElement("div");
     clock.className = "ldr-cd__clock";
-    clock.appendChild(unidad("00", "HRS", cd));
+    // Casilla de DIAS opcional (toggle "Mostrar dias" del panel). Se oculta
+    // sola cuando falta menos de 1 dia; con el toggle apagado el reloj
+    // queda como siempre (todo sumado en horas).
+    var unitDias = null, sepDias = null;
+    if (cd.mostrarDias) {
+      unitDias = unidad("00", "DÍAS", cd, "DIAS");
+      clock.appendChild(unitDias);
+      sepDias = document.createElement("span"); sepDias.className = "ldr-cd__sep"; sepDias.textContent = ":";
+      clock.appendChild(sepDias);
+    }
+    clock.appendChild(unidad("00", "HRS", cd, "HRS"));
     var sep1 = document.createElement("span"); sep1.className = "ldr-cd__sep"; sep1.textContent = ":";
     clock.appendChild(sep1);
-    clock.appendChild(unidad("00", "MIN", cd));
+    clock.appendChild(unidad("00", "MIN", cd, "MIN"));
     var sep2 = document.createElement("span"); sep2.className = "ldr-cd__sep"; sep2.textContent = ":";
     clock.appendChild(sep2);
-    clock.appendChild(unidad("00", "SEG", cd));
+    clock.appendChild(unidad("00", "SEG", cd, "SEG"));
     row.appendChild(clock);
 
     bar.appendChild(row);
 
     colocarBarra(cd, bar, function () {
-      var nums = bar.querySelectorAll(".js-ldr-cd-num");
-      var numHrs = nums[0], numMin = nums[1], numSeg = nums[2];
+      var numDias = bar.querySelector('.js-ldr-cd-num[data-unit="DIAS"]');
+      var numHrs = bar.querySelector('.js-ldr-cd-num[data-unit="HRS"]');
+      var numMin = bar.querySelector('.js-ldr-cd-num[data-unit="MIN"]');
+      var numSeg = bar.querySelector('.js-ldr-cd-num[data-unit="SEG"]');
 
       function tick() {
-        var info = getEndTimestamp(cd, offsetMs);
+        var info = getEndTimestamp(cd, store);
         var now = Math.floor(Date.now() / 1000);
         var left = info.ts - now;
         if (left <= 0) {
@@ -324,7 +376,17 @@
           // nueva medianoche), no hace falta hacer nada especial aca
           left = 0;
         }
-        var h = Math.floor(left / 3600);
+        var h;
+        if (unitDias) {
+          var dias = Math.floor(left / 86400);
+          var visible = dias > 0;
+          unitDias.style.display = visible ? "" : "none";
+          sepDias.style.display = visible ? "" : "none";
+          if (numDias) numDias.textContent = String(dias).padStart(2, "0");
+          h = Math.floor((left % 86400) / 3600);
+        } else {
+          h = Math.floor(left / 3600);
+        }
         var mnt = Math.floor((left % 3600) / 60);
         var s = Math.floor(left % 60);
         numHrs.textContent = String(h).padStart(2, "0");
@@ -379,13 +441,12 @@
   function init() {
     var store = getStore();
     var ctx = contextoActual();
-    var offsetMs = getTzOffsetMs(store);
     for (var i = 0; i < COUNTDOWNS.length; i++) {
       var c = COUNTDOWNS[i];
       if (!c.activo) continue;
       if ((c.stores || []).indexOf(store) === -1) continue;
       if (!matchesAlcance(c, ctx)) continue;
-      render(c, offsetMs);
+      render(c, store);
     }
   }
 
