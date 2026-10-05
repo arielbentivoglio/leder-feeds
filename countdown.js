@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-19 13:24:46
+ * Generado: 2026-10-05 12:21:33
  */
 (function () {
   "use strict";
@@ -97,6 +97,61 @@
     },
     "titulo": {
       "texto": "Chairpad 6x5",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "TERMINA EN",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-chile-cojines-copia",
+    "activo": true,
+    "stores": [
+      "cl"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "",
+    "fechaFin": "2026-10-07 23:59",
+    "textoChico": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "CYBER",
       "color": "#f6f1e7",
       "tamano": 15,
       "negrita": true,
