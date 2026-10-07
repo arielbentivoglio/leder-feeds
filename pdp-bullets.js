@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 15:26:53
+ * Generado: 2026-10-07 17:45:09
  */
 (function () {
   "use strict";
@@ -2543,6 +2543,46 @@
       "Medidas 50 × 26 × 26 cm",
       "Amplio y funcional",
       "Ideal para viajes y escapadas"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "morral-travel",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "319868360"
+      ],
+      "labels": [
+        {
+          "id": "319868360",
+          "nombre": "Bolso Morral Travel De Cuero Vacuno"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Morral de cuero vacuno genuino",
+      "Diseño compacto, moderno y funcional",
+      "Correa intercambiable para llevar de ambos lados",
+      "Medidas: 20 × 30 × 6 cm",
+      "Espacio para celular, billetera, llaves y objetos esenciales"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
