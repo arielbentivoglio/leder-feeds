@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 15:18:12
+ * Generado: 2026-10-07 15:26:53
  */
 (function () {
   "use strict";
@@ -2501,6 +2501,46 @@
       "Cuero vacuno genuino",
       "Medidas: 50 × 26 × 26 cm",
       "Correa ajustable hasta 110 cm",
+      "Amplio y funcional",
+      "Ideal para viajes y escapadas"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "bolso-de-viaje-de-cuero-vintage-dark",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "349167716"
+      ],
+      "labels": [
+        {
+          "id": "349167716",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Vintage Dark"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino",
+      "Marcas y variaciones naturales",
+      "Medidas 50 × 26 × 26 cm",
       "Amplio y funcional",
       "Ideal para viajes y escapadas"
     ],
