@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 17:45:09
+ * Generado: 2026-10-07 17:46:54
  */
 (function () {
   "use strict";
@@ -2581,7 +2581,7 @@
       "Morral de cuero vacuno genuino",
       "Diseño compacto, moderno y funcional",
       "Correa intercambiable para llevar de ambos lados",
-      "Medidas: 20 × 30 × 6 cm",
+      "Medidas: 30 × 20 × 6 cm",
       "Espacio para celular, billetera, llaves y objetos esenciales"
     ],
     "accent_color": "#1a1a1a",
