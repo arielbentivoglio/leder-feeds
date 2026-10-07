@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 14:05:41
+ * Generado: 2026-10-07 15:18:12
  */
 (function () {
   "use strict";
@@ -2442,6 +2442,66 @@
       "Cada pieza es única",
       "Gran capacidad - Medidas· 50 × 26 × 26 CM",
       "Diseño resistente y funcional",
+      "Ideal para viajes y escapadas"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "bolso-de-viaje",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "348788464",
+        "349166046",
+        "349166770",
+        "349167435",
+        "349169020"
+      ],
+      "labels": [
+        {
+          "id": "348788464",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Azul"
+        },
+        {
+          "id": "349166046",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Beige Claro"
+        },
+        {
+          "id": "349166770",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Marrón"
+        },
+        {
+          "id": "349167435",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Habano"
+        },
+        {
+          "id": "349169020",
+          "nombre": "Bolso De Viaje De Cuero Vacuno - Tiza"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino",
+      "Medidas: 50 × 26 × 26 cm",
+      "Correa ajustable hasta 110 cm",
+      "Amplio y funcional",
       "Ideal para viajes y escapadas"
     ],
     "accent_color": "#1a1a1a",
