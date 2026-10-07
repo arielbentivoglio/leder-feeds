@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 09:54:27
+ * Generado: 2026-10-07 14:05:41
  */
 (function () {
   "use strict";
@@ -2398,6 +2398,51 @@
       "Elegís tipo y color de cuero",
       "Cuero natural con vetas y marcas propias",
       "Cada pieza es única"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "bolso-de-cuero-con-pelo",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "332933689",
+        "332936678"
+      ],
+      "labels": [
+        {
+          "id": "332933689",
+          "nombre": "Bolso De Viaje De Cuero Vacuno con Pelo - Holando"
+        },
+        {
+          "id": "332936678",
+          "nombre": "Bolso De Viaje De Cuero Vacuno con Pelo - Hereford"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno con pelo 100% natural",
+      "Cada pieza es única",
+      "Gran capacidad - Medidas· 50 × 26 × 26 CM",
+      "Diseño resistente y funcional",
+      "Ideal para viajes y escapadas"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
