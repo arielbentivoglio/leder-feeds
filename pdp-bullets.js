@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-07 17:46:59
+ * Generado: 2026-10-08 09:28:41
  */
 (function () {
   "use strict";
@@ -2583,6 +2583,50 @@
       "Correa intercambiable para llevar de ambos lados",
       "Medidas: 30 × 20 × 6 cm",
       "Espacio para celular, billetera, llaves y objetos esenciales"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "cuero-de-tapiceria",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "310492721",
+        "306242734"
+      ],
+      "labels": [
+        {
+          "id": "310492721",
+          "nombre": "Cuero Vacuno para Tapicería y Marroquinería"
+        },
+        {
+          "id": "306242734",
+          "nombre": "Cuero Vacuno Con Pelo para Tapicería y Marroquinería"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Para tapicería y marroquinería",
+      "Venta por m² · Cuero entero",
+      "Varios colores disponibles",
+      "Textura y características naturales del cuero"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
