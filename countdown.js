@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-05 12:40:06
+ * Generado: 2026-10-08 21:48:22
  */
 (function () {
   "use strict";
@@ -25,8 +25,8 @@
     "marginTop": 0,
     "marginBottom": 0,
     "link": "",
-    "fechaFin": "2026-10-07 23:59",
-    "mostrarDias": false,
+    "fechaFin": "2026-10-11 23:59",
+    "mostrarDias": true,
     "textoChico": {
       "texto": "",
       "color": "#f6f1e7",
