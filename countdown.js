@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-08 21:48:22
+ * Generado: 2026-10-08 22:59:33
  */
 (function () {
   "use strict";
@@ -42,7 +42,7 @@
       "cursiva": false
     },
     "etiqueta": {
-      "texto": "TERMINA EN",
+      "texto": "EXTENDIMOS",
       "color": "#f6f1e7",
       "tamano": 12,
       "negrita": false,
