@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 17:28:23
+ * Generado: 2026-10-13 14:00:53
  */
 (function () {
   "use strict";
@@ -14,6 +14,7 @@
     ],
     "mensajes": [
       "6 CUOTAS SIN INTERÉS",
+      "ENVÍO GRATIS A REGION METROPOLITANA",
       "ENVÍOS A REGIONES"
     ],
     "intervalMs": 4000,
