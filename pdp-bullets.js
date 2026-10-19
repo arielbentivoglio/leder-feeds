@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-19 10:07:14
+ * Generado: 2026-10-19 10:09:52
  */
 (function () {
   "use strict";
@@ -2706,7 +2706,7 @@
     "anchorPositionDesktop": "before",
     "anchorPositionMobile": "after",
     "bullets": [
-      "Cuero vacuno argentino genuino",
+      "Cuero vacuno  genuino",
       "Porta notebook hasta 15”",
       "Bolsillos internos y externos",
       "Apta para valija carry on",
