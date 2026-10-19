@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-19 10:09:52
+ * Generado: 2026-10-19 10:14:16
  */
 (function () {
   "use strict";
@@ -2711,6 +2711,46 @@
       "Bolsillos internos y externos",
       "Apta para valija carry on",
       "Medidas: 40 × 30 × 10 cm"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "mochila-urbana-de-cuero-vacuno",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "320368456"
+      ],
+      "labels": [
+        {
+          "id": "320368456",
+          "nombre": "Mochila Urbana De Cuero Vacuno"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno  genuino",
+      "Compartimento porta notebook de hasta 15”",
+      "Bolsillos internos y externos para una mejor organización",
+      "Medidas: 40 × 30 × 10 cm",
+      "Ideal para trabajo, estudio y uso urbano"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
