@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-19 10:47:39
+ * Generado: 2026-10-19 10:48:58
  */
 (function () {
   "use strict";
@@ -2830,7 +2830,7 @@
       "Compartimento porta notebook de hasta 15”",
       "Manija de mano para mayor versatilidad",
       "Correa larga ajustable hasta 110 cm",
-      "Medidas: 40 × 30 × 7 cm"
+      "Medidas: 40 × 30 × 8 cm"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
