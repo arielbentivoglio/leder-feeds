@@ -1,7 +1,7 @@
 /**
  * pdp-bullets.js — generado automaticamente por SyncPropio (panel de Modulos Custom > Bullets)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-19 10:41:54
+ * Generado: 2026-10-19 10:47:39
  */
 (function () {
   "use strict";
@@ -2791,6 +2791,46 @@
       "Bolsillos internos y externos",
       "Medidas: 40 × 30 × 10 cm",
       "Ideal para trabajo, estudio y uso diario"
+    ],
+    "accent_color": "#1a1a1a",
+    "text_color": "#1a1a1a",
+    "showDividers": true,
+    "dividerColor": "#e5e5e5",
+    "iconSize": 18,
+    "textSize": 13,
+    "dividerWidth": 0.5,
+    "textBold": false,
+    "marginTop": 16,
+    "marginBottom": 16
+  },
+  {
+    "id": "portafolio-maletin-de-cuero-vacuno-ejecutivo",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "320746850"
+      ],
+      "labels": [
+        {
+          "id": "320746850",
+          "nombre": "Portafolio Maletín de Cuero Vacuno Ejecutivo"
+        }
+      ]
+    },
+    "anchor_selector": "#product_form",
+    "anchor_position": "before",
+    "anchorPositionDesktop": "before",
+    "anchorPositionMobile": "after",
+    "bullets": [
+      "Cuero vacuno genuino",
+      "Compartimento porta notebook de hasta 15”",
+      "Manija de mano para mayor versatilidad",
+      "Correa larga ajustable hasta 110 cm",
+      "Medidas: 40 × 30 × 7 cm"
     ],
     "accent_color": "#1a1a1a",
     "text_color": "#1a1a1a",
