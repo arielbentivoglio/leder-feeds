@@ -1,11 +1,69 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 15:41:06
+ * Generado: 2026-10-21 15:50:33
  */
 (function () {
   "use strict";
-  var COUNTDOWNS = [];
+  var COUNTDOWNS = [
+  {
+    "id": "countdown-chile-cyber-10-home",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "https://lederhd.com/deco/discount/LEDERCYBER26",
+    "fechaInicio": "2026-11-04 00:00",
+    "fechaFin": "2026-11-05 23:59",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "SOLO POR HOY 10% OFF EN HOME & DECO CUPÓN",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "LEDERCYBER26",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  }
+];
   // Zona horaria real de cada tienda. El offset se calcula con Intl para
   // cada instante, asi el horario de verano de Chile (UTC-3 de septiembre
   // a abril, UTC-4 el resto del año) se respeta solo. Si el navegador no
@@ -108,7 +166,8 @@
   // ─── Calculo del timestamp de fin ────────────────────────────────────────
   function parseFechaFinLocal(fechaFin, store) {
     // Espera "AAAA-MM-DD HH:MM" (o con T) interpretado como hora local de
-    // la tienda (Argentina o Chile, segun corresponda).
+    // la tienda (Argentina o Chile, segun corresponda). Se usa tanto para
+    // la fecha de fin como para la fecha de inicio.
     var m = String(fechaFin || "").match(/(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
     if (!m) return null;
     var paredMs = Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4], +m[5]);
@@ -381,14 +440,33 @@
   // (ej. dos "arriba de todo" activos para la misma tienda), van a
   // apilarse uno arriba del otro — es una colision de configuracion del
   // admin, no algo que el runtime deba resolver adivinando cual "gana".
+  // Fecha de inicio opcional: si todavia no llego, el countdown no se
+  // muestra. Si falta poco (<= 24 h) se programa para que aparezca solo en
+  // el momento justo, por si el visitante tiene la pagina abierta.
+  var MAX_ESPERA_INICIO_MS = 24 * 3600 * 1000;
+
+  function programarInicio(cd, store, inicioTs) {
+    var esperaMs = inicioTs * 1000 - Date.now();
+    if (esperaMs > MAX_ESPERA_INICIO_MS) return;
+    setTimeout(function () { render(cd, store); }, Math.max(0, esperaMs) + 250);
+  }
+
   function init() {
     var store = getStore();
     var ctx = contextoActual();
+    var ahora = Math.floor(Date.now() / 1000);
     for (var i = 0; i < COUNTDOWNS.length; i++) {
       var c = COUNTDOWNS[i];
       if (!c.activo) continue;
       if ((c.stores || []).indexOf(store) === -1) continue;
       if (!matchesAlcance(c, ctx)) continue;
+      if (c.fechaInicio) {
+        var inicioTs = parseFechaFinLocal(c.fechaInicio, store);
+        if (inicioTs && inicioTs > ahora) {
+          programarInicio(c, store, inicioTs);
+          continue;
+        }
+      }
       render(c, store);
     }
   }
