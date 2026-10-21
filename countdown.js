@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 15:50:33
+ * Generado: 2026-10-21 15:54:33
  */
 (function () {
   "use strict";
@@ -24,7 +24,7 @@
     "alto": "",
     "marginTop": 0,
     "marginBottom": 0,
-    "link": "https://lederhd.com/deco/discount/LEDERCYBER26",
+    "link": "https://lederhd.com/discount/LEDERCYBER26?redirect_to=/deco/",
     "fechaInicio": "2026-11-04 00:00",
     "fechaFin": "2026-11-05 23:59",
     "mostrarDias": false,
