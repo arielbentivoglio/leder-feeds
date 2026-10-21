@@ -1,68 +1,11 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 16:06:15
+ * Generado: 2026-10-21 16:06:29
  */
 (function () {
   "use strict";
   var COUNTDOWNS = [
-  {
-    "id": "countdown-chile-cyber-10-home",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": [],
-      "labels": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "https://lederhd.com/discount/LEDERCYBER26?redirect_to=/deco/",
-    "fechaInicio": "2026-11-04 00:00",
-    "fechaFin": "2026-11-05 23:59",
-    "mostrarDias": false,
-    "textoChico": {
-      "texto": "SOLO POR HOY 10% OFF EN HOME & DECO - CUPÓN",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "LEDERCYBER26",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
   {
     "id": "countdown-chile-cyber-envio-gratis-marroquineria-e-indumentaria",
     "activo": true,
@@ -158,6 +101,63 @@
     },
     "etiqueta": {
       "texto": "No incluye Tierrra del fuego",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-chile-cyber-10-home",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "https://lederhd.com/discount/LEDERCYBER26?redirect_to=/deco/",
+    "fechaInicio": "2026-11-04 00:00",
+    "fechaFin": "2026-11-04 23:59",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "SOLO POR HOY 10% OFF EN HOME & DECO - CUPÓN",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "LEDERCYBER26",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
       "color": "#f6f1e7",
       "tamano": 12,
       "negrita": false,
