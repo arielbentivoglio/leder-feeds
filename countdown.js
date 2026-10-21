@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 16:02:44
+ * Generado: 2026-10-21 16:03:27
  */
 (function () {
   "use strict";
@@ -100,7 +100,7 @@
       "cursiva": false
     },
     "etiqueta": {
-      "texto": "",
+      "texto": "No incluye Tierrra del fuego",
       "color": "#f6f1e7",
       "tamano": 12,
       "negrita": false,
