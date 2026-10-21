@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 15:54:33
+ * Generado: 2026-10-21 15:56:48
  */
 (function () {
   "use strict";
@@ -29,7 +29,7 @@
     "fechaFin": "2026-11-05 23:59",
     "mostrarDias": false,
     "textoChico": {
-      "texto": "SOLO POR HOY 10% OFF EN HOME & DECO CUPÓN",
+      "texto": "SOLO POR HOY 10% OFF EN HOME & DECO - CUPÓN",
       "color": "#f6f1e7",
       "tamano": 11,
       "negrita": false,
