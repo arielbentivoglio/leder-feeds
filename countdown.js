@@ -1,68 +1,11 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-08 22:59:51
+ * Generado: 2026-10-21 15:36:56
  */
 (function () {
   "use strict";
-  var COUNTDOWNS = [
-  {
-    "id": "countdown-chile-cojines-copia",
-    "activo": true,
-    "stores": [
-      "cl"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": [],
-      "labels": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "",
-    "fechaFin": "2026-10-11 23:59",
-    "mostrarDias": true,
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "CYBER",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "EXTENDIMOS",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  }
-];
+  var COUNTDOWNS = [];
   // Zona horaria real de cada tienda. El offset se calcula con Intl para
   // cada instante, asi el horario de verano de Chile (UTC-3 de septiembre
   // a abril, UTC-4 el resto del año) se respeta solo. Si el navegador no
