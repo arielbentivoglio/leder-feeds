@@ -1,68 +1,11 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-21 16:06:29
+ * Generado: 2026-10-22 15:45:31
  */
 (function () {
   "use strict";
   var COUNTDOWNS = [
-  {
-    "id": "countdown-chile-cyber-envio-gratis-marroquineria-e-indumentaria",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": [],
-      "labels": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "",
-    "fechaInicio": "2026-11-02 00:00",
-    "fechaFin": "2026-11-02 23:59",
-    "mostrarDias": false,
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "ENVIO GRATIS A TODO EL PAÍS EN INDUMENTARIA E MARROQUINERIA",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "No incluye Tierrra del fuego",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
   {
     "id": "countdown-chile-cyber-envio-gratis-cueros",
     "activo": true,
@@ -106,6 +49,7 @@
       "negrita": false,
       "cursiva": false
     },
+    "aclaracion": {},
     "digitos": {
       "color": "#f6f1e7",
       "tamano": 18,
@@ -162,6 +106,72 @@
       "tamano": 12,
       "negrita": false,
       "cursiva": false
+    },
+    "aclaracion": {},
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-chile-cyber-envio-gratis-marroquineria-e-indumentaria",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "",
+    "fechaInicio": "2026-11-02 00:00",
+    "fechaFin": "2026-11-02 23:59",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "ENVIO GRATIS A TODO EL PAÍS EN INDUMENTARIA E MARROQUINERIA",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "aclaracion": {
+      "texto": "*No incluye Tierrra del fuego",
+      "color": "#f6f1e7",
+      "tamano": 8,
+      "negrita": false,
+      "cursiva": false,
+      "opacidad": 60
     },
     "digitos": {
       "color": "#f6f1e7",
@@ -323,6 +333,7 @@
       ".ldr-cd__num{font-size:20px;font-variant-numeric:tabular-nums;line-height:1.1}" +
       ".ldr-cd__u-label{font-size:9px;letter-spacing:.08em;opacity:.75;text-transform:uppercase;margin-top:2px}" +
       ".ldr-cd__sep{font-size:20px;opacity:.55;margin:0 1px;align-self:center}" +
+      ".ldr-cd__nota{flex-basis:100%;text-align:center;font-size:11px;line-height:1.2;letter-spacing:.01em;margin-top:-4px}" +
       "@media(max-width:480px){.ldr-cd{padding:10px 12px;gap:6px 14px}.ldr-cd__title{font-size:13px}.ldr-cd__unit{min-width:38px;padding:4px 8px}}";
     var st = document.createElement("style");
     st.id = "ldr-cd-style";
@@ -470,6 +481,18 @@
     row.appendChild(clock);
 
     bar.appendChild(row);
+
+    // Aclaracion opcional: linea propia debajo de todo (flex-basis 100%).
+    // Si esta vacia no se crea nada, asi la barra no suma alto.
+    if (cd.aclaracion && (cd.aclaracion.texto || "").trim()) {
+      var nota = document.createElement("span");
+      nota.className = "ldr-cd__nota";
+      var op = Number(cd.aclaracion.opacidad);
+      if (!(op >= 10 && op <= 100)) op = 60;
+      nota.setAttribute("style", segStyle(cd.aclaracion) + "opacity:" + (op / 100) + ";");
+      nota.textContent = cd.aclaracion.texto;
+      bar.appendChild(nota);
+    }
 
     colocarBarra(cd, bar, function () {
       var numDias = bar.querySelector('.js-ldr-cd-num[data-unit="DIAS"]');
