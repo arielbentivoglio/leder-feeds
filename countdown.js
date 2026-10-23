@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-22 15:50:27
+ * Generado: 2026-10-23 11:43:29
  */
 (function () {
   "use strict";
@@ -167,6 +167,78 @@
     },
     "titulo": {
       "texto": "LEDERCYBER26",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "aclaracion": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false,
+      "opacidad": 60
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-cyber-3x2-almohadones",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [
+        "340096104"
+      ],
+      "labels": [
+        {
+          "id": "340096104",
+          "nombre": "Cojín Decorativo De Piel De Oveja Natural Para Sillas – 38cm"
+        }
+      ]
+    },
+    "posicion": "anchor",
+    "anchorSelector": "#product_form",
+    "anchorPosition": "after",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 25,
+    "link": "/productos/cojin/",
+    "fechaInicio": "2026-11-02 00:00",
+    "fechaFin": "2026-11-10 00:00",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "3X2",
       "color": "#f6f1e7",
       "tamano": 15,
       "negrita": true,
