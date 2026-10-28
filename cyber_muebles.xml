@@ -19,6 +19,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>321125163</id>
@@ -40,6 +42,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>321125292</id>
@@ -57,6 +61,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>321128589</id>
@@ -75,6 +81,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>321131038</id>
@@ -90,6 +98,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>321134375</id>
@@ -110,6 +120,9 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>321143477</id>
@@ -129,6 +142,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>329580850</id>
@@ -149,6 +164,8 @@
       <sale_price>2599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>329583210</id>
@@ -172,6 +189,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
     <item>
       <id>329584932</id>
@@ -193,6 +212,8 @@
       <sale_price>2799990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
     </item>
   </channel>
 </rss>
