@@ -26,6 +26,8 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>317404072</id>
@@ -49,6 +51,8 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>317832360</id>
@@ -71,6 +75,9 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>318729634</id>
@@ -88,6 +95,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>319716531</id>
@@ -112,6 +123,12 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>332603070</id>
@@ -129,6 +146,10 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>332895587</id>
@@ -146,6 +167,13 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>332901751</id>
@@ -164,6 +192,14 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>332933689</id>
@@ -183,6 +219,11 @@
       <price>419990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>332936678</id>
@@ -202,6 +243,11 @@
       <price>419990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>333458111</id>
@@ -220,6 +266,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333459547</id>
@@ -235,6 +285,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333540413</id>
@@ -251,6 +305,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333544842</id>
@@ -268,6 +324,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>334201485</id>
@@ -284,6 +342,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>335674508</id>
@@ -303,6 +363,11 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>335702811</id>
@@ -319,6 +384,11 @@
       <price>249990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>335704937</id>
@@ -335,6 +405,11 @@
       <price>249990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>335705330</id>
@@ -351,6 +426,11 @@
       <price>249990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>336121881</id>
@@ -371,6 +451,13 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>344786138</id>
@@ -388,6 +475,13 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>344798902</id>
@@ -405,6 +499,13 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>349166046</id>
@@ -423,6 +524,12 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349169020</id>
@@ -441,6 +548,12 @@
       <sale_price>349990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349169893</id>
@@ -459,6 +572,12 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352745069</id>
@@ -478,6 +597,8 @@
       <sale_price>382490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>352759857</id>
@@ -497,6 +618,9 @@
       <sale_price>271990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
     <item>
       <id>353406225</id>
@@ -517,6 +641,14 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353419130</id>
@@ -537,6 +669,14 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353419390</id>
@@ -561,6 +701,14 @@
       <sale_price>289990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353420319</id>
@@ -585,6 +733,14 @@
       <sale_price>289990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353441989</id>
@@ -604,6 +760,14 @@
       <price>269990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353442312</id>
@@ -624,6 +788,14 @@
       <price>269990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353608555</id>
@@ -643,6 +815,14 @@
       <price>269990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353608794</id>
@@ -662,6 +842,14 @@
       <price>269990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353621721</id>
@@ -684,6 +872,14 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353622622</id>
@@ -704,6 +900,14 @@
       <price>289990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353623338</id>
@@ -725,6 +929,14 @@
       <price>289990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353690056</id>
@@ -748,6 +960,13 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353889054</id>
@@ -766,6 +985,9 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>354073117</id>
@@ -790,6 +1012,11 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>354073893</id>
@@ -814,6 +1041,11 @@
       <sale_price>74990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>356177257</id>
@@ -830,12 +1062,18 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-07-21-1-02dce76064080d66e517846573712574-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_5_2026-07-21-be757ff2ca410cdc0d17846573712187-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>30</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>29</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>136990.00 ARS</price>
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>358219056</id>
@@ -852,6 +1090,10 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>370461966</id>
@@ -868,6 +1110,8 @@
       <sale_price>166490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>ddm_general</internal_label>
     </item>
     <item>
       <id>370922055</id>
@@ -886,6 +1130,8 @@
       <sale_price>292490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_general</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
     </item>
   </channel>
 </rss>
