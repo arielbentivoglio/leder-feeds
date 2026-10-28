@@ -21,12 +21,13 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/cuero-marron-97c830cba133d4a2ba17630492274430-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/cuero-hereford-2a4a7b0a0bdf3cd01817630492276941-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>446</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>444</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>88650.00 ARS</price>
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>310505258</id>
@@ -44,6 +45,7 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>310516921</id>
@@ -68,6 +70,7 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>314900368</id>
@@ -85,6 +88,9 @@
       <price>99990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>315601790</id>
@@ -105,6 +111,9 @@
       <price>109990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>316304782</id>
@@ -128,6 +137,9 @@
       <price>104990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>316308171</id>
@@ -144,6 +156,9 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>316784781</id>
@@ -167,6 +182,7 @@
       <sale_price>119990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>316820587</id>
@@ -187,6 +203,7 @@
       <price>73490.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>318377416</id>
@@ -203,6 +220,7 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>318380620</id>
@@ -220,6 +238,7 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>318682861</id>
@@ -237,6 +256,7 @@
       <sale_price>299990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>319420194</id>
@@ -254,6 +274,8 @@
       <price>2399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319421985</id>
@@ -274,6 +296,8 @@
       <sale_price>1499990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319438878</id>
@@ -298,6 +322,10 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319466216</id>
@@ -321,6 +349,11 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319472421</id>
@@ -344,6 +377,8 @@
       <price>899990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319683020</id>
@@ -365,6 +400,8 @@
       <price>1899990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319685991</id>
@@ -387,6 +424,8 @@
       <price>2799990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319689413</id>
@@ -411,6 +450,9 @@
       <sale_price>499990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319705955</id>
@@ -434,6 +476,8 @@
       <sale_price>999990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319715469</id>
@@ -458,6 +502,10 @@
       <sale_price>799990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319731670</id>
@@ -479,6 +527,9 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319732764</id>
@@ -503,6 +554,10 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319829198</id>
@@ -526,6 +581,8 @@
       <price>319990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319833147</id>
@@ -549,6 +606,8 @@
       <price>999990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319837889</id>
@@ -572,6 +631,8 @@
       <price>3299990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319848842</id>
@@ -594,6 +655,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319850972</id>
@@ -617,6 +680,11 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319851489</id>
@@ -632,6 +700,10 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319855468</id>
@@ -655,6 +727,9 @@
       <price>679990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319858036</id>
@@ -678,6 +753,11 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319858641</id>
@@ -693,6 +773,8 @@
       <price>617990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319859224</id>
@@ -713,6 +795,10 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319862356</id>
@@ -728,6 +814,8 @@
       <price>566490.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319863972</id>
@@ -745,6 +833,10 @@
       <sale_price>749990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319864850</id>
@@ -764,6 +856,11 @@
       <sale_price>749990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319868411</id>
@@ -782,6 +879,10 @@
       <price>1199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319869882</id>
@@ -804,6 +905,8 @@
       <sale_price>1149990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319886666</id>
@@ -819,6 +922,8 @@
       <price>899990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319888196</id>
@@ -842,6 +947,10 @@
       <price>1099990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>319888793</id>
@@ -861,6 +970,8 @@
       <price>1249990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319892440</id>
@@ -884,6 +995,8 @@
       <price>1099990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319892559</id>
@@ -904,6 +1017,8 @@
       <price>1249990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319894968</id>
@@ -923,6 +1038,8 @@
       <price>1499990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>319896114</id>
@@ -942,6 +1059,8 @@
       <price>1999990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
     </item>
     <item>
       <id>325642645</id>
@@ -960,6 +1079,9 @@
       <price>209990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>325645722</id>
@@ -976,6 +1098,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>325646963</id>
@@ -992,6 +1115,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>325649120</id>
@@ -1005,6 +1129,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>325649720</id>
@@ -1018,6 +1143,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>326252205</id>
@@ -1037,6 +1163,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>326253565</id>
@@ -1057,6 +1184,9 @@
       <sale_price>69990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327059195</id>
@@ -1075,6 +1205,9 @@
       <price>209990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327084930</id>
@@ -1094,6 +1227,9 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327086974</id>
@@ -1113,6 +1249,9 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327088682</id>
@@ -1132,6 +1271,7 @@
       <sale_price>299990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327092549</id>
@@ -1151,6 +1291,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327664646</id>
@@ -1167,6 +1310,7 @@
       <price>359990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327672648</id>
@@ -1185,6 +1329,7 @@
       <price>359990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327674040</id>
@@ -1201,6 +1346,7 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327681372</id>
@@ -1216,6 +1362,7 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327688485</id>
@@ -1231,6 +1378,7 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327693140</id>
@@ -1247,6 +1395,7 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>327715691</id>
@@ -1262,6 +1411,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>327718165</id>
@@ -1280,6 +1432,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
     </item>
     <item>
       <id>336840952</id>
@@ -1293,12 +1448,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_612132-mla107321393465_022026-f-60bbe6b6f4c7d703a617757450745423-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_944219-mla93855500984_102025-f-cda746beb1893cb87c17757450745481-1024-1024.webp</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>142</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>78</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>81238.00 ARS</price>
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336841198</id>
@@ -1316,12 +1475,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-13cd618f3f51556f6017757395582811-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>283</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>261</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>87488.00 ARS</price>
       <sale_price>69990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>337169607</id>
@@ -1338,12 +1501,17 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mano-sobre-lanar-e08210ae7991274cc417882132213912-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-3b45b746f46cba863e17882121055968-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>71</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>39</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149976.00 ARS</price>
       <sale_price>117635.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>337666253</id>
@@ -1360,6 +1528,8 @@
       <sale_price>331490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>337731959</id>
@@ -1376,6 +1546,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>337766397</id>
@@ -1392,6 +1564,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>337914964</id>
@@ -1408,6 +1582,8 @@
       <sale_price>355990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>337938446</id>
@@ -1423,6 +1599,8 @@
       <price>444490.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>337942366</id>
@@ -1439,6 +1617,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>338161993</id>
@@ -1454,6 +1634,8 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>340900721</id>
@@ -1470,6 +1652,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>343631923</id>
@@ -1486,6 +1670,8 @@
       <sale_price>355990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>343742266</id>
@@ -1501,6 +1687,8 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>343745776</id>
@@ -1516,6 +1704,8 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>345633305</id>
@@ -1531,6 +1721,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>345754149</id>
@@ -1546,6 +1737,7 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
     </item>
     <item>
       <id>350098512</id>
@@ -1562,6 +1754,8 @@
       <sale_price>331490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>350129971</id>
@@ -1577,6 +1771,8 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>350150040</id>
@@ -1592,6 +1788,8 @@
       <price>389990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>359491141</id>
@@ -1607,6 +1805,8 @@
       <price>379990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>359495075</id>
@@ -1622,6 +1822,8 @@
       <price>379990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>359499297</id>
@@ -1637,6 +1839,8 @@
       <price>379990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>360784614</id>
@@ -1653,6 +1857,8 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>366580417</id>
@@ -1668,6 +1874,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366800613</id>
@@ -1683,6 +1891,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366803347</id>
@@ -1698,6 +1908,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366872014</id>
@@ -1713,6 +1925,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366879222</id>
@@ -1728,6 +1942,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366883699</id>
@@ -1744,6 +1960,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>366886016</id>
@@ -1760,6 +1978,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>oneofakind</internal_label>
     </item>
     <item>
       <id>368119296</id>
@@ -1775,12 +1995,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>1313</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>1169</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>alfombras_cat_tn</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
     </item>
   </channel>
 </rss>
