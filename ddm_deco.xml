@@ -26,6 +26,8 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320823630</id>
@@ -49,6 +51,8 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320870449</id>
@@ -68,6 +72,9 @@
       <price>429990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>325375400</id>
@@ -92,6 +99,10 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>337169607</id>
@@ -108,12 +119,17 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mano-sobre-lanar-e08210ae7991274cc417882132213912-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-3b45b746f46cba863e17882121055968-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>71</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>39</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149976.00 ARS</price>
       <sale_price>117635.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>352345365</id>
@@ -129,6 +145,8 @@
       <sale_price>123990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>356177257</id>
@@ -145,12 +163,18 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-07-21-1-02dce76064080d66e517846573712574-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_5_2026-07-21-be757ff2ca410cdc0d17846573712187-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>30</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>29</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>136990.00 ARS</price>
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>357549494</id>
@@ -170,6 +194,9 @@
       <sale_price>152990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>357550001</id>
@@ -189,6 +216,9 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>364732674</id>
@@ -209,6 +239,8 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>368119296</id>
@@ -224,12 +256,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>1313</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>1169</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
     </item>
     <item>
       <id>370461966</id>
@@ -246,6 +282,8 @@
       <sale_price>166490.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>ddm_general</internal_label>
     </item>
   </channel>
 </rss>
