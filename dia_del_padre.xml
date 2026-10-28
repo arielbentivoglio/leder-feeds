@@ -22,6 +22,8 @@
       <sale_price>94990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317132226</id>
@@ -44,6 +46,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>317299894</id>
@@ -68,6 +71,8 @@
       <sale_price>119990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317328606</id>
@@ -91,6 +96,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>317378483</id>
@@ -107,6 +113,7 @@
       <price>279990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>317836443</id>
@@ -131,6 +138,7 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>317837973</id>
@@ -150,6 +158,7 @@
       <sale_price>169990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>318107271</id>
@@ -168,6 +177,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>318108735</id>
@@ -186,6 +196,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>319868360</id>
@@ -208,6 +219,8 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320087656</id>
@@ -232,6 +245,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320150069</id>
@@ -256,6 +272,9 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320732222</id>
@@ -275,6 +294,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320735372</id>
@@ -296,6 +316,7 @@
       <sale_price>249990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320746850</id>
@@ -315,6 +336,7 @@
       <sale_price>299990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320758557</id>
@@ -338,6 +360,8 @@
       <price>159990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>320830949</id>
@@ -357,6 +381,8 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320832654</id>
@@ -380,6 +406,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>321041550</id>
@@ -397,6 +425,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>321345288</id>
@@ -418,6 +447,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>321365797</id>
@@ -438,6 +469,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>323069567</id>
@@ -457,6 +490,7 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>325375400</id>
@@ -481,6 +515,10 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>325376735</id>
@@ -501,6 +539,9 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>327722410</id>
@@ -525,6 +566,7 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>327729583</id>
@@ -549,6 +591,9 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>328320055</id>
@@ -571,6 +616,10 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333928148</id>
@@ -590,6 +639,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333931336</id>
@@ -606,6 +659,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333933592</id>
@@ -623,6 +680,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333941624</id>
@@ -641,6 +702,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333946234</id>
@@ -659,6 +724,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333950952</id>
@@ -676,6 +745,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333953768</id>
@@ -694,6 +764,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333956018</id>
@@ -713,6 +784,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333960697</id>
@@ -730,6 +802,9 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333986863</id>
@@ -747,6 +822,9 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>333992919</id>
@@ -764,6 +842,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334001751</id>
@@ -781,6 +860,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334306779</id>
@@ -800,6 +880,7 @@
       <sale_price>899990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334321973</id>
@@ -818,6 +899,7 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334344876</id>
@@ -834,6 +916,7 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334468497</id>
@@ -851,6 +934,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>334959018</id>
@@ -866,6 +953,7 @@
       <price>189990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>334964171</id>
@@ -888,6 +976,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>335119328</id>
@@ -909,6 +1000,9 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>337223921</id>
@@ -932,6 +1026,7 @@
       <price>167990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>338005656</id>
@@ -951,6 +1046,9 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>348788464</id>
@@ -969,6 +1067,10 @@
       <sale_price>349990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349166046</id>
@@ -987,6 +1089,12 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349166770</id>
@@ -1005,6 +1113,10 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349167435</id>
@@ -1022,6 +1134,10 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349167716</id>
@@ -1041,6 +1157,8 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349169020</id>
@@ -1059,6 +1177,12 @@
       <sale_price>349990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>349169893</id>
@@ -1077,6 +1201,12 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352389017</id>
@@ -1098,6 +1228,7 @@
       <sale_price>373480.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352555303</id>
@@ -1118,6 +1249,7 @@
       <sale_price>364480.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352675130</id>
@@ -1140,6 +1272,7 @@
       <sale_price>220480.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352679850</id>
@@ -1156,6 +1289,7 @@
       <sale_price>188990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352687085</id>
@@ -1180,6 +1314,7 @@
       <sale_price>171882.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352739786</id>
@@ -1196,6 +1331,7 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>352753817</id>
@@ -1212,6 +1348,7 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>353636734</id>
@@ -1233,6 +1370,11 @@
       <price>499990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353690056</id>
@@ -1256,6 +1398,13 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353777968</id>
@@ -1277,6 +1426,11 @@
       <price>499990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353784915</id>
@@ -1296,6 +1450,8 @@
       <price>319990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353812176</id>
@@ -1310,11 +1466,13 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-24-5-e8c4b2e397d4d8cab117876019422224-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/morral-modelo-1-ad604326d4c24fcee817876019392592-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>23</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>22</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>319990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353827795</id>
@@ -1331,11 +1489,15 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lateral-black-562b1908e250c9b26f17831003628486-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-25-2-c4b6ddb1eac8dc87f617876678617984-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>37</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>38</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353827894</id>
@@ -1352,11 +1514,15 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lateral-ch-fbb50826ea4db083e017830999146483-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/maletin_andes_ch_modelo_2026-08-25-a2071c5b2996c379b017876635241345-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>36</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>35</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353836699</id>
@@ -1378,6 +1544,10 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>353908133</id>
@@ -1397,6 +1567,11 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>354005514</id>
@@ -1416,6 +1591,11 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>new_in</internal_label>
     </item>
     <item>
       <id>356177257</id>
@@ -1432,12 +1612,18 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-07-21-1-02dce76064080d66e517846573712574-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_5_2026-07-21-be757ff2ca410cdc0d17846573712187-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>30</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>29</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>136990.00 ARS</price>
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_marroquineria</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
       <id>358249646</id>
@@ -1456,6 +1642,9 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>dia_del_padre</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
     </item>
   </channel>
 </rss>
