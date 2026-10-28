@@ -18,6 +18,7 @@
       <price>267790.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>319587716</id>
@@ -32,6 +33,7 @@
       <price>195690.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>319904286</id>
@@ -46,6 +48,7 @@
       <price>149990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>319904864</id>
@@ -60,6 +63,7 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>319908511</id>
@@ -82,6 +86,7 @@
       <price>49990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320038540</id>
@@ -105,6 +110,7 @@
       <price>49990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320040129</id>
@@ -126,6 +132,8 @@
       <price>49990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320041338</id>
@@ -148,6 +156,8 @@
       <price>49990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320069196</id>
@@ -171,6 +181,7 @@
       <price>79990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320083875</id>
@@ -194,6 +205,7 @@
       <price>99990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320086285</id>
@@ -217,6 +229,7 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320088232</id>
@@ -233,6 +246,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320090728</id>
@@ -254,6 +268,7 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320091004</id>
@@ -277,6 +292,7 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320097254</id>
@@ -293,6 +309,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320101605</id>
@@ -316,6 +333,7 @@
       <price>149990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320108175</id>
@@ -339,6 +357,7 @@
       <price>149990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320112275</id>
@@ -358,6 +377,7 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320117355</id>
@@ -381,6 +401,8 @@
       <sale_price>169990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320118872</id>
@@ -404,6 +426,7 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320121331</id>
@@ -419,6 +442,7 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320122325</id>
@@ -436,6 +460,7 @@
       <price>99990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320124060</id>
@@ -455,6 +480,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320129714</id>
@@ -474,6 +500,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320132238</id>
@@ -494,6 +521,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320147154</id>
@@ -514,6 +542,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320338318</id>
@@ -538,6 +567,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320339938</id>
@@ -561,6 +591,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320345413</id>
@@ -580,6 +611,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320389043</id>
@@ -599,6 +631,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320390696</id>
@@ -616,6 +649,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320771801</id>
@@ -636,6 +670,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320781377</id>
@@ -655,6 +690,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320782265</id>
@@ -673,6 +709,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320787415</id>
@@ -695,6 +732,7 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320789491</id>
@@ -711,6 +749,7 @@
       <price>114990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320793280</id>
@@ -733,6 +772,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320799344</id>
@@ -755,6 +795,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320814794</id>
@@ -772,6 +813,7 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320816514</id>
@@ -796,6 +838,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320819556</id>
@@ -817,6 +860,7 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320821736</id>
@@ -840,6 +884,8 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320823630</id>
@@ -863,6 +909,8 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320827452</id>
@@ -881,6 +929,7 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320829337</id>
@@ -896,6 +945,7 @@
       <price>124990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320830949</id>
@@ -915,6 +965,8 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320832654</id>
@@ -938,6 +990,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320834146</id>
@@ -957,6 +1011,7 @@
       <price>1199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320839810</id>
@@ -979,6 +1034,7 @@
       <price>23990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320843979</id>
@@ -1002,6 +1058,7 @@
       <price>24690.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320847490</id>
@@ -1021,6 +1078,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320849117</id>
@@ -1044,6 +1102,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320851596</id>
@@ -1060,6 +1119,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320858418</id>
@@ -1084,6 +1144,7 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320860883</id>
@@ -1105,6 +1166,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320861265</id>
@@ -1126,6 +1188,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320863164</id>
@@ -1147,6 +1210,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320864136</id>
@@ -1170,6 +1234,7 @@
       <price>39990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320865281</id>
@@ -1190,6 +1255,9 @@
       <sale_price>319990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320865397</id>
@@ -1210,6 +1278,9 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320865881</id>
@@ -1230,6 +1301,9 @@
       <sale_price>319990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320866255</id>
@@ -1251,6 +1325,9 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320869212</id>
@@ -1274,6 +1351,7 @@
       <price>524990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>320870449</id>
@@ -1293,6 +1371,9 @@
       <price>429990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>321345288</id>
@@ -1314,6 +1395,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>321398452</id>
@@ -1331,6 +1414,7 @@
       <price>799990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>325386897</id>
@@ -1346,6 +1430,7 @@
       <price>49990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>325387300</id>
@@ -1360,6 +1445,7 @@
       <price>24990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>326083635</id>
@@ -1384,6 +1470,9 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>326175973</id>
@@ -1407,6 +1496,9 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>342176098</id>
@@ -1430,6 +1522,7 @@
       <price>24690.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>357549494</id>
@@ -1449,6 +1542,9 @@
       <sale_price>152990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>357550001</id>
@@ -1468,6 +1564,9 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>359877431</id>
@@ -1490,6 +1589,7 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>360162003</id>
@@ -1511,6 +1611,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>362089504</id>
@@ -1533,6 +1635,7 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>364694457</id>
@@ -1550,6 +1653,7 @@
       <sale_price>179990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>364732674</id>
@@ -1570,6 +1674,8 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>367505513</id>
@@ -1585,6 +1691,7 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>367510618</id>
@@ -1605,6 +1712,7 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
     <item>
       <id>367560311</id>
@@ -1624,6 +1732,7 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>home_deco</custom_label_0>
+      <internal_label>home_deco</internal_label>
     </item>
   </channel>
 </rss>
