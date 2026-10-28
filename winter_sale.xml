@@ -22,6 +22,8 @@
       <sale_price>94990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317299894</id>
@@ -46,6 +48,8 @@
       <sale_price>119990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317409408</id>
@@ -68,6 +72,8 @@
       <sale_price>129990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317430310</id>
@@ -87,6 +93,7 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>317832360</id>
@@ -109,6 +116,9 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319438878</id>
@@ -133,6 +143,10 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319466216</id>
@@ -156,6 +170,11 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319705955</id>
@@ -179,6 +198,8 @@
       <sale_price>999990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319715469</id>
@@ -203,6 +224,10 @@
       <sale_price>799990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319731670</id>
@@ -224,6 +249,9 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319850972</id>
@@ -247,6 +275,11 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319855468</id>
@@ -270,6 +303,9 @@
       <price>679990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319858036</id>
@@ -293,6 +329,11 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>319864850</id>
@@ -312,6 +353,11 @@
       <sale_price>749990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>321134375</id>
@@ -332,6 +378,9 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>cyber_muebles</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>321152144</id>
@@ -351,6 +400,7 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>326083635</id>
@@ -375,6 +425,9 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>326175973</id>
@@ -398,6 +451,9 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>332901751</id>
@@ -416,6 +472,14 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_carteras</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_marro</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333461819</id>
@@ -432,6 +496,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333462197</id>
@@ -449,6 +516,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333462570</id>
@@ -469,6 +539,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333463108</id>
@@ -486,6 +559,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333470928</id>
@@ -504,6 +580,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333475463</id>
@@ -521,6 +600,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333476346</id>
@@ -537,6 +619,9 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333510562</id>
@@ -555,6 +640,9 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333512750</id>
@@ -572,6 +660,9 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333514558</id>
@@ -588,6 +679,9 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333516962</id>
@@ -605,6 +699,9 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333522615</id>
@@ -626,6 +723,9 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333523740</id>
@@ -643,6 +743,9 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333527719</id>
@@ -660,6 +763,9 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333535979</id>
@@ -678,6 +784,9 @@
       <sale_price>519990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333607150</id>
@@ -694,6 +803,7 @@
       <sale_price>1099990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333608239</id>
@@ -712,6 +822,7 @@
       <sale_price>1099990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333920561</id>
@@ -730,6 +841,7 @@
       <price>899990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333922132</id>
@@ -746,6 +858,7 @@
       <price>899990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333928148</id>
@@ -765,6 +878,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333931336</id>
@@ -781,6 +898,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333933592</id>
@@ -798,6 +919,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333941624</id>
@@ -816,6 +941,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>333946234</id>
@@ -834,6 +963,10 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>334210067</id>
@@ -852,6 +985,7 @@
       <sale_price>949990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>334210306</id>
@@ -870,6 +1004,7 @@
       <sale_price>949990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>334468497</id>
@@ -887,6 +1022,10 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336089743</id>
@@ -903,6 +1042,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336090341</id>
@@ -920,6 +1062,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336090632</id>
@@ -935,6 +1080,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336090987</id>
@@ -950,6 +1098,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336091257</id>
@@ -966,6 +1117,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336098650</id>
@@ -982,6 +1136,11 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336098841</id>
@@ -998,6 +1157,11 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336100609</id>
@@ -1014,6 +1178,11 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336101159</id>
@@ -1031,6 +1200,11 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336102653</id>
@@ -1048,6 +1222,11 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>bolsos_y_carteras</internal_label>
+      <internal_label>carteras_tn_cat</internal_label>
+      <internal_label>cyber_carteras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336840952</id>
@@ -1061,12 +1240,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_612132-mla107321393465_022026-f-60bbe6b6f4c7d703a617757450745423-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_944219-mla93855500984_102025-f-cda746beb1893cb87c17757450745481-1024-1024.webp</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>142</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>78</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>81238.00 ARS</price>
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>336841198</id>
@@ -1084,12 +1267,16 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-13cd618f3f51556f6017757395582811-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>283</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>261</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>87488.00 ARS</price>
       <sale_price>69990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>337169607</id>
@@ -1106,12 +1293,17 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mano-sobre-lanar-e08210ae7991274cc417882132213912-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-3b45b746f46cba863e17882121055968-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>71</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>39</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149976.00 ARS</price>
       <sale_price>117635.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>cyber_alfombras</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>338005656</id>
@@ -1131,6 +1323,9 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>dia_del_padre</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>344531067</id>
@@ -1148,6 +1343,7 @@
       <sale_price>999990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>344531390</id>
@@ -1164,6 +1360,7 @@
       <sale_price>999990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>352345365</id>
@@ -1179,6 +1376,8 @@
       <sale_price>123990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>357549494</id>
@@ -1198,6 +1397,9 @@
       <sale_price>152990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>357550001</id>
@@ -1217,6 +1419,9 @@
       <sale_price>189990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>ddm_deco</internal_label>
+      <internal_label>home_deco</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>360784614</id>
@@ -1233,6 +1438,8 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>winter_sale</custom_label_0>
+      <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
   </channel>
 </rss>
