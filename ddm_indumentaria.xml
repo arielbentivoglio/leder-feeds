@@ -26,6 +26,8 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>317404072</id>
@@ -49,6 +51,8 @@
       <price>199990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>317832360</id>
@@ -71,6 +75,9 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
+      <internal_label>winter_sale</internal_label>
     </item>
     <item>
       <id>318729634</id>
@@ -88,6 +95,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>332603070</id>
@@ -105,6 +116,10 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333458111</id>
@@ -123,6 +138,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333459547</id>
@@ -138,6 +157,10 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333540413</id>
@@ -154,6 +177,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>333544842</id>
@@ -171,6 +196,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>334201485</id>
@@ -187,6 +214,8 @@
       <price>749990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
     <item>
       <id>358219056</id>
@@ -203,6 +232,10 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>ddm_indumentaria</custom_label_0>
+      <internal_label>cyber_camperas</internal_label>
+      <internal_label>cyber_monday</internal_label>
+      <internal_label>ddm_general</internal_label>
+      <internal_label>ddm_indumentaria</internal_label>
     </item>
   </channel>
 </rss>
