@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-10-23 11:43:29
+ * Generado: 2026-10-30 11:24:01
  */
 (function () {
   "use strict";
@@ -227,7 +227,7 @@
     "marginTop": 0,
     "marginBottom": 25,
     "link": "/productos/cojin/",
-    "fechaInicio": "2026-11-02 00:00",
+    "fechaInicio": "2026-11-01 22:10",
     "fechaFin": "2026-11-10 00:00",
     "mostrarDias": false,
     "textoChico": {
