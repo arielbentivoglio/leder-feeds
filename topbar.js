@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-02 00:35:11
+ * Generado: 2026-11-02 00:36:38
  */
 (function () {
   "use strict";
@@ -39,9 +39,9 @@
     "bgColor": "#0109f9",
     "textColor": "#ffffff",
     "accentColor": "#ffffff",
-    "mostrarAcento": true,
+    "mostrarAcento": false,
     "sticky": true,
-    "negrita": false,
+    "negrita": true,
     "cursiva": false
   }
 ];
