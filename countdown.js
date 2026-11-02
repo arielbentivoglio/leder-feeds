@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-01 21:51:30
+ * Generado: 2026-11-01 22:15:37
  */
 (function () {
   "use strict";
@@ -336,11 +336,11 @@
   function injectStyle() {
     if (document.getElementById("ldr-cd-style")) return;
     var css =
-      ".ldr-cd{width:100%;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 22px;padding:14px 20px;font-size:13px;line-height:1.3}" +
+      ".ldr-cd{width:100%;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 22px;padding:14px 20px;font-size:13px;line-height:1.3;text-align:center}" +
       ".ldr-cd__col{display:flex;flex-direction:column;align-items:center;line-height:1.25}" +
       ".ldr-cd__small{font-size:11px;opacity:.85;letter-spacing:.02em}" +
       ".ldr-cd__row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 18px}" +
-      ".ldr-cd__title{font-size:15px}" +
+      ".ldr-cd__title{font-size:15px;text-align:center;text-wrap:balance}" +
       ".ldr-cd__label{font-size:11px;opacity:.85;letter-spacing:.08em;text-transform:uppercase}" +
       ".ldr-cd__clock{display:flex;align-items:center;gap:6px}" +
       ".ldr-cd__unit{display:flex;flex-direction:column;align-items:center;min-width:46px;border-radius:6px;padding:6px 10px}" +
