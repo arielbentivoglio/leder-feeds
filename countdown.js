@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-01 21:50:10
+ * Generado: 2026-11-01 21:51:30
  */
 (function () {
   "use strict";
@@ -102,78 +102,6 @@
     },
     "titulo": {
       "texto": "LEDERCYBER26",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "aclaracion": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false,
-      "opacidad": 60
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
-  {
-    "id": "countdown-cyber-3x2-almohadones",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "categoria",
-      "valores": [
-        "41713833"
-      ],
-      "labels": [
-        {
-          "id": "41713833",
-          "nombre": "3x2 ALMOHADONES"
-        }
-      ]
-    },
-    "posicion": "anchor",
-    "anchorSelector": "#product_form",
-    "anchorPosition": "after",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 25,
-    "link": "/productos/cojin/",
-    "fechaInicio": "2026-11-01 21:40",
-    "fechaFin": "2026-11-10 00:00",
-    "mostrarDias": false,
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "3X2",
       "color": "#f6f1e7",
       "tamano": 15,
       "negrita": true,
