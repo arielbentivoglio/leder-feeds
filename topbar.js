@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-02 08:53:15
+ * Generado: 2026-11-02 09:01:06
  */
 (function () {
   "use strict";
@@ -24,24 +24,6 @@
     "mostrarAcento": true,
     "sticky": false,
     "negrita": false,
-    "cursiva": false
-  },
-  {
-    "id": "cyber-monday",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "mensajes": [
-      "CYBER MONDAY"
-    ],
-    "intervalMs": 4000,
-    "bgColor": "#0109f9",
-    "textColor": "#ffffff",
-    "accentColor": "#ffffff",
-    "mostrarAcento": false,
-    "sticky": false,
-    "negrita": true,
     "cursiva": false
   }
 ];
