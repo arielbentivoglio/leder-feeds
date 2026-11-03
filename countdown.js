@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-02 21:40:21
+ * Generado: 2026-11-03 11:14:31
  */
 (function () {
   "use strict";
@@ -14,8 +14,7 @@
     ],
     "alcance": {
       "tipo": "todos",
-      "valores": [],
-      "labels": []
+      "valores": []
     },
     "posicion": "top",
     "anchorSelector": "",
@@ -79,8 +78,7 @@
     ],
     "alcance": {
       "tipo": "todos",
-      "valores": [],
-      "labels": []
+      "valores": []
     },
     "posicion": "top",
     "anchorSelector": "",
@@ -144,8 +142,7 @@
     ],
     "alcance": {
       "tipo": "todos",
-      "valores": [],
-      "labels": []
+      "valores": []
     },
     "posicion": "top",
     "anchorSelector": "",
@@ -181,6 +178,118 @@
     },
     "aclaracion": {
       "texto": "*No incluye Tierrra del fuego",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false,
+      "opacidad": 60
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-cyber-3x2-almohadones",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "producto",
+      "valores": [],
+      "auto": {
+        "ar": [
+          "319904286",
+          "319904864",
+          "320069196",
+          "320083875",
+          "320086285",
+          "320088232",
+          "320090728",
+          "320091004",
+          "320097254",
+          "320101605",
+          "320108175",
+          "320112275",
+          "320118872",
+          "320121331",
+          "320122325",
+          "320303374",
+          "320334354",
+          "320338318",
+          "320339938",
+          "320345413",
+          "320389043",
+          "320390696",
+          "320771801",
+          "320781377",
+          "320782265",
+          "320787415",
+          "320789491",
+          "320793280",
+          "320799344",
+          "320814794",
+          "320816514",
+          "320819556",
+          "320821736",
+          "320823630",
+          "320827452",
+          "320829337",
+          "326083635",
+          "326175973",
+          "359877431",
+          "360162003",
+          "367505513",
+          "367510618",
+          "367560311"
+        ],
+        "cl": []
+      }
+    },
+    "posicion": "anchor",
+    "anchorSelector": "#product_form",
+    "anchorPosition": "after",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 25,
+    "link": "",
+    "fechaInicio": "2026-11-01 21:40",
+    "fechaFin": "2026-11-05 00:00",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "3X2",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "aclaracion": {
+      "texto": "Combínalos como quieras",
       "color": "#f6f1e7",
       "tamano": 11,
       "negrita": false,
@@ -276,13 +385,19 @@
         if (window.LS.product.handle) productoIds.push(String(window.LS.product.handle).toLowerCase());
       }
     } catch (e) {}
-    return { template: tpl, path: location.pathname || "/", categoriaIds: categoriaIds, productoIds: productoIds };
+    return { template: tpl, path: location.pathname || "/", categoriaIds: categoriaIds, productoIds: productoIds, store: getStore() };
   }
 
   function matchesAlcance(cd, ctx) {
     var al = cd.alcance || { tipo: "todos", valores: [] };
     if (al.tipo === "todos") return true;
     var vals = (al.valores || []).map(function (v) { return String(v).toLowerCase().trim(); }).filter(Boolean);
+    // Alcance Producto: ademas de los productos elegidos a mano, los IDs que
+    // el panel resolvio de las categorias completas, separados por tienda
+    // (los IDs de producto de AR y CL son distintos).
+    if (al.tipo === "producto" && al.auto && ctx.store && al.auto[ctx.store]) {
+      vals = vals.concat(al.auto[ctx.store].map(function (v) { return String(v).toLowerCase().trim(); }));
+    }
     if (!vals.length) return false;
     if (al.tipo === "categoria") {
       return ctx.categoriaIds.some(function (id) { return vals.indexOf(id) !== -1; });
