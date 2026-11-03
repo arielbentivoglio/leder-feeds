@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-03 11:14:31
+ * Generado: 2026-11-03 11:16:24
  */
 (function () {
   "use strict";
@@ -289,7 +289,7 @@
       "cursiva": false
     },
     "aclaracion": {
-      "texto": "Combínalos como quieras",
+      "texto": "Combínalos como quieras!",
       "color": "#f6f1e7",
       "tamano": 11,
       "negrita": false,
