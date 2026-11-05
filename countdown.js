@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-05 11:48:54
+ * Generado: 2026-11-05 12:48:30
  */
 (function () {
   "use strict";
@@ -290,74 +290,6 @@
     },
     "aclaracion": {
       "texto": "Combínalos como quieras!",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false,
-      "opacidad": 60
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
-  {
-    "id": "countdown-oferta-bomba",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "producto",
-      "valores": [
-        "320087656",
-        "334964171",
-        "332901751"
-      ]
-    },
-    "posicion": "anchor",
-    "anchorSelector": "#product_form",
-    "anchorPosition": "after",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 25,
-    "link": "",
-    "fechaInicio": "",
-    "fechaFin": "2026-11-05 23:59",
-    "mostrarDias": false,
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "OFERTA BOMBA",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "aclaracion": {
-      "texto": "",
       "color": "#f6f1e7",
       "tamano": 11,
       "negrita": false,
