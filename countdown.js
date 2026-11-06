@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-06 10:51:19
+ * Generado: 2026-11-06 10:51:31
  */
 (function () {
   "use strict";
@@ -228,70 +228,6 @@
       "texto": "Combínalos como quieras!",
       "color": "#f6f1e7",
       "tamano": 11,
-      "negrita": false,
-      "cursiva": false,
-      "opacidad": 60
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
-  {
-    "id": "countdown-cyberweek",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "",
-    "fechaInicio": "",
-    "fechaFin": "2026-11-09 23:59",
-    "mostrarDias": true,
-    "textoChico": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "CYBERWEEK",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "Termina en",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "aclaracion": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 8,
       "negrita": false,
       "cursiva": false,
       "opacidad": 60
