@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-10 00:26:40
+ * Generado: 2026-11-10 00:27:04
  */
 (function () {
   "use strict";
@@ -24,26 +24,6 @@
     "mostrarAcento": true,
     "sticky": false,
     "negrita": false,
-    "cursiva": false
-  },
-  {
-    "id": "global-oferta-comercial",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "mensajes": [
-      "12 cuotas sin interés a partir de $ 249.990",
-      "Envíos gratis a CABA y GBA",
-      "Envíos a todo el país"
-    ],
-    "intervalMs": 2000,
-    "bgColor": "#000000",
-    "textColor": "#ffffff",
-    "accentColor": "#ffffff",
-    "mostrarAcento": true,
-    "sticky": false,
-    "negrita": true,
     "cursiva": false
   }
 ];
