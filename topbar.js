@@ -1,7 +1,7 @@
 /**
  * topbar.js — generado automaticamente por SyncPropio (panel de Top Bar)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-10 18:09:46
+ * Generado: 2026-11-11 13:19:48
  */
 (function () {
   "use strict";
@@ -33,9 +33,9 @@
       "ar"
     ],
     "mensajes": [
-      "12 cuotas sin interés a partir de $ 249.990",
       "Envíos gratis a CABA y GBA",
-      "Envíos a todo el país"
+      "Envíos a todo el país",
+      "12 cuotas sin interés a partir de $ 499.990"
     ],
     "intervalMs": 2000,
     "bgColor": "#000000",
