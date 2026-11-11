@@ -2,12 +2,12 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-09-15 14:53:55
+ * Generado: 2026-11-11 13:45:46
  */
 (function () {
   "use strict";
 
-  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "cuotasTexto": "Hasta {n} cuotas sin interés de {monto}", "cuotasUbicacion": "bajo_total", "tramos": [{"umbral": 249990.0, "cuotas": 12}, {"umbral": 149990.0, "cuotas": 9}, {"umbral": 99990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
+  var RUNTIME = {"transferenciaActivo": false, "transferenciaOrden": 1, "descuentoPct": 15.0, "cuotasActivo": true, "cuotasOrden": 2, "cuotasTexto": "Hasta {n} cuotas sin interés de {monto}", "cuotasUbicacion": "bajo_total", "tramos": [{"umbral": 499990.0, "cuotas": 12}, {"umbral": 399990.0, "cuotas": 9}, {"umbral": 149990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}], "envioActivo": true, "envioOrden": 3, "envioUmbral": 149990.0, "envioTexto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles"};
 
   // Punto de anclaje/posicion real en el DOM del carrito. Para reubicar el
   // bloque (ej. antes del boton en vez de despues) alcanza con cambiar estas
