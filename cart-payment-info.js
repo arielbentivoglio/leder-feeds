@@ -2,7 +2,7 @@
  * cart-payment-info.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > Carrito - Medios de Pago)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-11-11 13:45:46
+ * Generado: 2026-11-11 13:45:47
  */
 (function () {
   "use strict";
