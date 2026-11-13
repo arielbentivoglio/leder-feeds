@@ -1,7 +1,7 @@
 /**
  * pdp-sticky-atc.js — generado automaticamente por SyncPropio (Modulos Custom > Boton fijo + stock)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-13 11:20:17
+ * Generado: 2026-11-13 11:28:26
  *
  * Dos funciones independientes, cada una con su switch en el panel:
  *  1) barra: boton "Agregar al carrito" fijo abajo en mobile (<=767px) y,
@@ -10,6 +10,8 @@
  *     reemplaza el form nativo: al tocarla dispara el boton real de
  *     #product_form, asi siguen andando la validacion, el "Agregando..." y
  *     el carrito lateral del theme.
+ *  5) descripcion en acordeon (opcional, solo mobile), mismo look que el
+ *     acordeon "Medios de envio".
  *  4) SKU debajo de la descripcion (opcional, mobile o todos): copia que
  *     sigue al SKU original del theme, que queda oculto arriba.
  *  3) galeria mobile (opcional): sin miniaturas, con la foto siguiente
@@ -28,7 +30,7 @@
  */
 (function () {
   "use strict";
-  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "galeriaMobile": "puntos", "skuAbajo": "todos", "modo": "test", "stores": ["ar", "cl"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
+  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "galeriaMobile": "puntos", "skuAbajo": "todos", "descAcordeon": "mobile", "modo": "test", "stores": ["ar", "cl"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
 
   // ─── Tienda / modo prueba ─────────────────────────────────────────────
   function getStore() {
@@ -636,6 +638,8 @@
     // Despues de la descripcion y de cualquier bloque de nuestros modulos que
     // haya quedado pegado a ella (ej. PDP - Descripcion, prefijo ldr-)
     var ref = desc;
+    var acc = desc.closest && desc.closest(".ldr-desc-acc");
+    if (acc) ref = acc; // con acordeon el SKU queda afuera, siempre visible
     while (ref.nextElementSibling && /(^|\s|-)ldr-|^ldr-/.test((ref.nextElementSibling.className || "") + " " + (ref.nextElementSibling.id || ""))) {
       ref = ref.nextElementSibling;
     }
@@ -656,6 +660,86 @@
       if (!primera) primera = el;
     }
     return primera;
+  }
+
+  // ─── Descripcion en acordeon (solo mobile) ────────────────────────────
+  // Mismo look que el acordeon "Medios de envio" que ya esta en layout.tpl
+  // (.ldr-shipping-accordion: borde arriba, titulo en mayusculas, flecha que
+  // gira). El titulo nativo "Descripcion" (hermano anterior de .user-content)
+  // pasa a ser el boton; la descripcion queda adentro, cerrada al cargar.
+  // El texto sigue en el HTML (SEO), solo se oculta visualmente.
+  // No se aplica si el producto usa PDP - Descripcion (secciones full-width:
+  // ese modulo oculta el titulo nativo y agrega bloques ldr- pegados).
+  // CFG.descAcordeon: "off" | "mobile"
+  function iniciarAcordeon(intentos) {
+    if (CFG.descAcordeon !== "mobile" || !esMobile()) return;
+    intentos = intentos === undefined ? 40 : intentos;
+    var desc = buscarDescripcion();
+    if (!desc) {
+      if (intentos > 0) setTimeout(function () { iniciarAcordeon(intentos - 1); }, 150);
+      return;
+    }
+    if (desc.closest && desc.closest(".ldr-desc-acc")) return;
+    var titulo = desc.previousElementSibling;
+    var tituloOk = titulo && /descrip/i.test(titulo.textContent || "") && (titulo.textContent || "").length < 40;
+    if (tituloOk && window.getComputedStyle(titulo).display === "none") return; // PDP - Descripcion activo
+    var sig = desc.nextElementSibling;
+    if (sig && /(^|\s)ldr-pdesc|ldr-pdp-desc/.test((sig.className || "") + " " + (sig.id || ""))) return;
+    if (window.getComputedStyle(desc).display === "none") return;
+
+    injectAcordeonStyle();
+    var texto = tituloOk ? (titulo.textContent || "").replace(/\s+/g, " ").trim() : "Descripción";
+
+    var wrap = document.createElement("div");
+    wrap.className = "ldr-desc-acc";
+    var btn = document.createElement("a");
+    btn.href = "#";
+    btn.className = "ldr-desc-toggle";
+    btn.setAttribute("aria-expanded", "false");
+    btn.setAttribute("aria-controls", "ldr-desc-content");
+    btn.innerHTML =
+      '<span class="ldr-desc-title"></span>' +
+      '<svg class="ldr-desc-chevron" width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">' +
+      '<path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    btn.querySelector(".ldr-desc-title").textContent = texto;
+    var cont = document.createElement("div");
+    cont.className = "ldr-desc-content";
+    cont.id = "ldr-desc-content";
+    cont.style.display = "none";
+
+    var ref = tituloOk ? titulo : desc;
+    ref.parentNode.insertBefore(wrap, ref);
+    wrap.appendChild(btn);
+    wrap.appendChild(cont);
+    if (tituloOk) titulo.classList.add("ldr-desc-titulo-orig");
+    cont.appendChild(desc);
+
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      var abierto = wrap.classList.contains("is-open");
+      wrap.classList.toggle("is-open", !abierto);
+      btn.setAttribute("aria-expanded", String(!abierto));
+      cont.style.display = abierto ? "none" : "block";
+    });
+  }
+
+  function injectAcordeonStyle() {
+    if (document.getElementById("ldr-desc-style")) return;
+    var css =
+      "@media (max-width:767px){" +
+        ".ldr-desc-titulo-orig{display:none!important}" +
+        ".ldr-desc-acc{border-top:1px solid #e5e5e5;margin-bottom:12px}" +
+        ".ldr-desc-toggle{display:flex;align-items:center;justify-content:space-between;padding:14px 4px 14px 0;color:inherit;text-decoration:none;cursor:pointer}" +
+        ".ldr-desc-toggle:hover,.ldr-desc-toggle:focus{color:inherit;text-decoration:none}" +
+        ".ldr-desc-title{font-weight:600;text-transform:uppercase;font-size:.85rem}" +
+        ".ldr-desc-chevron{transition:transform .25s ease;flex-shrink:0}" +
+        ".ldr-desc-acc.is-open .ldr-desc-chevron{transform:rotate(180deg)}" +
+        ".ldr-desc-content{padding-bottom:12px}" +
+      "}";
+    var st = document.createElement("style");
+    st.id = "ldr-desc-style";
+    st.textContent = css;
+    document.head.appendChild(st);
   }
 
   // ─── Arranque ─────────────────────────────────────────────────────────
@@ -722,7 +806,8 @@
     intentos = intentos === undefined ? 40 : intentos;
     var conGaleria = CFG.galeriaMobile === "asoma" || CFG.galeriaMobile === "puntos";
     var conSku = CFG.skuAbajo === "mobile" || CFG.skuAbajo === "todos";
-    if (!CFG.barra && !CFG.saltoStock && !conGaleria && !conSku) return;
+    var conAcordeon = CFG.descAcordeon === "mobile";
+    if (!CFG.barra && !CFG.saltoStock && !conGaleria && !conSku && !conAcordeon) return;
     var store = getStore();
     if (!store || (CFG.stores || []).indexOf(store) === -1) return;
     if (CFG.modo !== "live" && !modoPruebaHabilitado()) return;
@@ -742,6 +827,7 @@
     iniciar();
     iniciarGaleria();
     iniciarSku();
+    iniciarAcordeon();
   }
 
   if (document.readyState === "loading") {
