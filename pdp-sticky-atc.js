@@ -1,7 +1,7 @@
 /**
  * pdp-sticky-atc.js — generado automaticamente por SyncPropio (Modulos Custom > Boton fijo + stock)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-13 11:09:04
+ * Generado: 2026-11-13 11:15:26
  *
  * Dos funciones independientes, cada una con su switch en el panel:
  *  1) barra: boton "Agregar al carrito" fijo abajo en mobile (<=767px) y,
@@ -10,6 +10,8 @@
  *     reemplaza el form nativo: al tocarla dispara el boton real de
  *     #product_form, asi siguen andando la validacion, el "Agregando..." y
  *     el carrito lateral del theme.
+ *  4) SKU debajo de la descripcion (opcional, mobile o todos): copia que
+ *     sigue al SKU original del theme, que queda oculto arriba.
  *  3) galeria mobile (opcional): sin miniaturas, con la foto siguiente
  *     asomando o con puntitos. Solo <=767px; escritorio no cambia.
  *  2) salto de stock: si la variante elegida no tiene stock, pasa sola a la
@@ -26,7 +28,7 @@
  */
 (function () {
   "use strict";
-  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "galeriaMobile": "puntos", "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
+  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "galeriaMobile": "puntos", "skuAbajo": "todos", "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
 
   // ─── Tienda / modo prueba ─────────────────────────────────────────────
   function getStore() {
@@ -593,6 +595,69 @@
     if (typeof sw.on === "function") sw.on("slideChange", marcar);
   }
 
+  // ─── SKU debajo de la descripcion ─────────────────────────────────────
+  // El SKU es guia para los vendedores: no se oculta, se baja. El original
+  // (.js-product-sku, que el theme actualiza solo al cambiar de variante) NO
+  // se mueve: se oculta en su lugar y se muestra una copia debajo de la
+  // descripcion (.user-content, selector confirmado en vivo en el modulo
+  // PDP - Descripcion) que copia el texto del original cada vez que cambia.
+  // CFG.skuAbajo: "off" | "mobile" (solo <=767px) | "todos"
+  function iniciarSku(intentos) {
+    var modo = CFG.skuAbajo;
+    if (modo !== "mobile" && modo !== "todos") return;
+    intentos = intentos === undefined ? 40 : intentos;
+    var orig = document.querySelector("#single-product .js-product-sku");
+    var desc = buscarDescripcion();
+    if (!orig || !desc) {
+      if (intentos > 0) setTimeout(function () { iniciarSku(intentos - 1); }, 150);
+      return; // producto sin SKU visible o sin descripcion: queda como esta
+    }
+    if (document.querySelector(".ldr-sku")) return;
+    var origCont = orig.parentElement;
+
+    var css = modo === "mobile"
+      ? "@media (max-width:767px){.ldr-sku-arriba{display:none!important}}@media (min-width:768px){.ldr-sku{display:none!important}}"
+      : ".ldr-sku-arriba{display:none!important}";
+    var st = document.createElement("style");
+    st.id = "ldr-sku-style";
+    st.textContent = ".ldr-sku{font-size:12px;opacity:.6;margin:16px 0 8px}" + css;
+    document.head.appendChild(st);
+
+    var copia = document.createElement("div");
+    copia.className = "ldr-sku";
+    var etiqueta = (origCont.textContent || "").replace(orig.textContent || "", "").replace(/\s+/g, " ").trim() || "SKU:";
+    copia.appendChild(document.createTextNode(etiqueta + " "));
+    var val = document.createElement("span");
+    copia.appendChild(val);
+    function copiar() { val.textContent = (orig.textContent || "").trim(); }
+    copiar();
+    new MutationObserver(copiar).observe(orig, { childList: true, characterData: true, subtree: true });
+
+    // Despues de la descripcion y de cualquier bloque de nuestros modulos que
+    // haya quedado pegado a ella (ej. PDP - Descripcion, prefijo ldr-)
+    var ref = desc;
+    while (ref.nextElementSibling && /(^|\s|-)ldr-|^ldr-/.test((ref.nextElementSibling.className || "") + " " + (ref.nextElementSibling.id || ""))) {
+      ref = ref.nextElementSibling;
+    }
+    ref.parentNode.insertBefore(copia, ref.nextSibling);
+    origCont.classList.add("ldr-sku-arriba");
+  }
+
+  // La descripcion es el .user-content de la ficha; se descartan los de
+  // modales (ej. guia de talles, que tambien usa .user-content).
+  function buscarDescripcion() {
+    var lista = document.querySelectorAll(".user-content");
+    var primera = null;
+    for (var i = 0; i < lista.length; i++) {
+      var el = lista[i];
+      if (el.closest && el.closest(".modal, .js-modal-private, [id*='modal']")) continue;
+      var prev = el.previousElementSibling;
+      if (prev && /descrip/i.test(prev.textContent || "") && (prev.textContent || "").length < 40) return el;
+      if (!primera) primera = el;
+    }
+    return primera;
+  }
+
   // ─── Arranque ─────────────────────────────────────────────────────────
   function iniciar() {
     variants = leerVariantes();
@@ -656,7 +721,8 @@
   function run(intentos) {
     intentos = intentos === undefined ? 40 : intentos;
     var conGaleria = CFG.galeriaMobile === "asoma" || CFG.galeriaMobile === "puntos";
-    if (!CFG.barra && !CFG.saltoStock && !conGaleria) return;
+    var conSku = CFG.skuAbajo === "mobile" || CFG.skuAbajo === "todos";
+    if (!CFG.barra && !CFG.saltoStock && !conGaleria && !conSku) return;
     var store = getStore();
     if (!store || (CFG.stores || []).indexOf(store) === -1) return;
     if (CFG.modo !== "live" && !modoPruebaHabilitado()) return;
@@ -675,6 +741,7 @@
     window.__ldrSatc = true;
     iniciar();
     iniciarGaleria();
+    iniciarSku();
   }
 
   if (document.readyState === "loading") {
