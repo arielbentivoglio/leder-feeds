@@ -1,7 +1,7 @@
 /**
  * pdp-sticky-atc.js — generado automaticamente por SyncPropio (Modulos Custom > Boton fijo + stock)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-13 10:39:14
+ * Generado: 2026-11-13 11:09:04
  *
  * Dos funciones independientes, cada una con su switch en el panel:
  *  1) barra: boton "Agregar al carrito" fijo abajo en mobile (<=767px) y,
@@ -10,6 +10,8 @@
  *     reemplaza el form nativo: al tocarla dispara el boton real de
  *     #product_form, asi siguen andando la validacion, el "Agregando..." y
  *     el carrito lateral del theme.
+ *  3) galeria mobile (opcional): sin miniaturas, con la foto siguiente
+ *     asomando o con puntitos. Solo <=767px; escritorio no cambia.
  *  2) salto de stock: si la variante elegida no tiene stock, pasa sola a la
  *     variante con stock mas parecida (mantiene las demas opciones, busca la
  *     opcion mas cercana en el orden de los botones). Corre en todos los
@@ -24,7 +26,7 @@
  */
 (function () {
   "use strict";
-  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
+  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "galeriaMobile": "puntos", "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
 
   // ─── Tienda / modo prueba ─────────────────────────────────────────────
   function getStore() {
@@ -488,6 +490,109 @@
     if (on) medirBarra();
   }
 
+  // ─── Galeria mobile (solo <=767px) ───────────────────────────────────
+  // El theme (store.js.tpl > productSliderNav) arma la galeria con Swiper
+  // sobre .js-swiper-product (slidesPerView 1, paginacion "fraction" en
+  // .js-swiper-product-pagination) y las miniaturas en otro Swiper aparte
+  // (.js-swiper-product-thumbs). Se toma la MISMA instancia del theme
+  // (elemento.swiper) y solo se le cambian parametros, asi el salto de imagen
+  // al cambiar de variante (productSwiper.slideTo del theme) sigue andando.
+  //   "asoma":  sin miniaturas, se ve ~13% de la foto siguiente
+  //   "puntos": sin miniaturas, puntitos debajo en vez del contador "1 / 7"
+  function iniciarGaleria(intentos) {
+    var modo = CFG.galeriaMobile;
+    if (modo !== "asoma" && modo !== "puntos") return;
+    if (!esMobile()) return;
+    intentos = intentos === undefined ? 40 : intentos;
+    var el = document.querySelector("#single-product .js-swiper-product") || document.querySelector(".js-swiper-product");
+    var sw = el && el.swiper;
+    if (!sw || !sw.slides) {
+      // el theme inicializa Swiper en LS.ready, puede ser despues que nosotros
+      if (intentos > 0) setTimeout(function () { iniciarGaleria(intentos - 1); }, 150);
+      else if (window.console) console.warn("[ldr-satc] galeria: no se encontro el Swiper de .js-swiper-product");
+      return;
+    }
+    if (el.getAttribute("data-ldr-gal")) return;
+    el.setAttribute("data-ldr-gal", modo);
+    injectGaleriaStyle();
+    ocultarMiniaturas();
+    if (sw.slides.length < 2) return; // una sola foto: solo se sacan las miniaturas
+
+    if (modo === "asoma") {
+      sw.params.slidesPerView = 1.15;
+      sw.params.spaceBetween = 8;
+      sw.params.centerInsufficientSlides = false;
+      if (sw.params.lazy && typeof sw.params.lazy === "object") sw.params.lazy.loadPrevNext = true;
+      sw.update();
+      cargarFotosCercanas(sw);
+      if (typeof sw.on === "function") sw.on("slideChange", function () { cargarFotosCercanas(sw); });
+    } else {
+      crearPuntitos(el, sw);
+    }
+  }
+
+  function injectGaleriaStyle() {
+    if (document.getElementById("ldr-gal-style")) return;
+    var css =
+      "@media (max-width:767px){" +
+        ".ldr-gal-oculto{display:none!important}" +
+        ".js-swiper-product[data-ldr-gal=puntos] ~ .js-swiper-product-pagination," +
+        ".js-swiper-product[data-ldr-gal=puntos] .js-swiper-product-pagination{display:none!important}" +
+        ".ldr-gal-dots{display:flex;justify-content:center;gap:7px;padding:10px 0 2px}" +
+        ".ldr-gal-dots span{width:6px;height:6px;border-radius:3px;background:#c9c9c9;transition:width .2s ease,background .2s ease}" +
+        ".ldr-gal-dots span.is-on{width:18px;background:#111}" +
+      "}";
+    var st = document.createElement("style");
+    st.id = "ldr-gal-style";
+    st.textContent = css;
+    document.head.appendChild(st);
+  }
+
+  // Oculta el carrusel de miniaturas y sus flechas. Si el contenedor que las
+  // envuelve no tiene otra cosa adentro, se oculta tambien (sino deja su margen).
+  function ocultarMiniaturas() {
+    var thumbs = document.querySelectorAll("#single-product .js-swiper-product-thumbs, #single-product .js-swiper-product-thumbs-prev, #single-product .js-swiper-product-thumbs-next");
+    Array.prototype.forEach.call(thumbs, function (t) { t.classList.add("ldr-gal-oculto"); });
+    var base = document.querySelector("#single-product .js-swiper-product-thumbs");
+    var padre = base && base.parentElement;
+    if (padre && !padre.querySelector(".js-swiper-product") && padre.id !== "single-product") {
+      var otros = Array.prototype.filter.call(padre.children, function (c) { return !c.classList.contains("ldr-gal-oculto"); });
+      if (!otros.length) padre.classList.add("ldr-gal-oculto");
+    }
+  }
+
+  // Con slidesPerView 1.15 la foto siguiente se ve desde el principio: si el
+  // theme la tiene en lazy (data-src / data-srcset) se carga ya.
+  function cargarFotosCercanas(sw) {
+    for (var i = sw.activeIndex; i <= sw.activeIndex + 2 && i < sw.slides.length; i++) {
+      var imgs = sw.slides[i].querySelectorAll("img");
+      Array.prototype.forEach.call(imgs, function (img) {
+        var ds = img.getAttribute("data-srcset"), d = img.getAttribute("data-src");
+        if (ds && !img.getAttribute("srcset")) img.setAttribute("srcset", ds);
+        if (d && (!img.getAttribute("src") || /^data:/.test(img.getAttribute("src")))) img.setAttribute("src", d);
+        img.classList.add("lazyloaded");
+      });
+    }
+  }
+
+  function crearPuntitos(el, sw) {
+    var n = sw.slides.length;
+    var cont = document.createElement("div");
+    cont.className = "ldr-gal-dots";
+    cont.setAttribute("aria-hidden", "true");
+    for (var i = 0; i < n; i++) cont.appendChild(document.createElement("span"));
+    // debajo del bloque de la galeria (despues de la flecha/paginacion del theme si estan afuera)
+    el.parentNode.insertBefore(cont, el.nextSibling);
+    var pag = document.querySelectorAll("#single-product .js-swiper-product-pagination");
+    Array.prototype.forEach.call(pag, function (p) { p.classList.add("ldr-gal-oculto"); });
+    function marcar() {
+      var idx = typeof sw.realIndex === "number" ? sw.realIndex : sw.activeIndex;
+      Array.prototype.forEach.call(cont.children, function (d, i) { d.classList.toggle("is-on", i === idx); });
+    }
+    marcar();
+    if (typeof sw.on === "function") sw.on("slideChange", marcar);
+  }
+
   // ─── Arranque ─────────────────────────────────────────────────────────
   function iniciar() {
     variants = leerVariantes();
@@ -550,7 +655,8 @@
 
   function run(intentos) {
     intentos = intentos === undefined ? 40 : intentos;
-    if (!CFG.barra && !CFG.saltoStock) return;
+    var conGaleria = CFG.galeriaMobile === "asoma" || CFG.galeriaMobile === "puntos";
+    if (!CFG.barra && !CFG.saltoStock && !conGaleria) return;
     var store = getStore();
     if (!store || (CFG.stores || []).indexOf(store) === -1) return;
     if (CFG.modo !== "live" && !modoPruebaHabilitado()) return;
@@ -568,6 +674,7 @@
     if (window.__ldrSatc) return; // ya inicializado
     window.__ldrSatc = true;
     iniciar();
+    iniciarGaleria();
   }
 
   if (document.readyState === "loading") {
