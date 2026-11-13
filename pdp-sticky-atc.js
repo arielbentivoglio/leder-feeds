@@ -1,7 +1,7 @@
 /**
  * pdp-sticky-atc.js — generado automaticamente por SyncPropio (Modulos Custom > Boton fijo + stock)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-13 10:15:52
+ * Generado: 2026-11-13 10:38:54
  *
  * Dos funciones independientes, cada una con su switch en el panel:
  *  1) barra: boton "Agregar al carrito" fijo abajo en mobile (<=767px) y,
@@ -24,7 +24,7 @@
  */
 (function () {
   "use strict";
-  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": true, "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
+  var CFG = {"barra": true, "escritorio": true, "saltoStock": true, "avisoCambio": false, "modo": "test", "stores": ["ar"], "aparece": "scroll", "mostrarPrecio": true, "mostrarVariante": true, "textoBoton": "Agregar al carrito", "colorBoton": "#000000", "colorTexto": "#ffffff", "excluirCategorias": []};
 
   // ─── Tienda / modo prueba ─────────────────────────────────────────────
   function getStore() {
