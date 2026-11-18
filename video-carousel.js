@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 10:05:28
+ * Generado: 2026-11-18 10:09:33
  */
 (function () {
   'use strict';
@@ -166,7 +166,7 @@
       {
         "page": "home",
         "anchor": ".section-instafeed-home[data-store=\"home-instagram-feed\"]",
-        "position": "after"
+        "position": "before"
       }
     ],
     "link": "",
