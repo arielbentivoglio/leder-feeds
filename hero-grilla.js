@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 14:43:19
+ * Generado: 2026-11-18 17:30:03
  */
 (function () {
   'use strict';
@@ -17,6 +17,10 @@
     if (h.indexOf('lederhd.com') !== -1) return 'ar';
     return null;
   })();
+
+  // Tienda cuyos datos de producto se usan (en la vista previa del panel se
+  // elige con el selector AR/CL).
+  var STORE_DATOS = PREVIEW ? (window.__LDR_PV_STORE || 'ar') : STORE;
 
   var RATIOS = { '1:1': [1, 1], '4:5': [4, 5], '3:4': [3, 4] };
 
@@ -200,6 +204,16 @@
       '.ldr-hg--hover .ldr-hg__m:hover .ldr-hg__media{transform:scale(1.05)}' +
       '@keyframes ldrHgBreath{0%,100%{box-shadow:0 0 40px rgba(var(--hg-glow),.26)}50%{box-shadow:0 0 62px rgba(var(--hg-glow),.42)}}' +
       '@keyframes ldrHgPulse{0%{box-shadow:0 0 0 0 rgba(var(--hg-btn-bg-rgb),.55)}100%{box-shadow:0 0 0 22px rgba(var(--hg-btn-bg-rgb),0)}}' +
+      // ─── Hero tipo "Solo imagen" (banner): suelto, con la proporcion natural
+      // de la imagen; dentro del slider ocupa todo el slide ("completa" =
+      // contain con el color de fondo, "llenar" = cover).
+      '.ldr-hg--banner{display:block}' +
+      '.ldr-hg__bn{display:block!important;width:100%;line-height:0;text-decoration:none!important}' +
+      '.ldr-hg__bn picture{display:block;width:100%}' +
+      '.ldr-hg__bn-img{display:block!important;width:100%!important;height:auto!important;max-width:none!important;margin:0!important;border:0!important;opacity:1!important}' +
+      '.ldr-hgs__slide > .ldr-hg--banner > .ldr-hg__bn,.ldr-hgs__slide > .ldr-hg--banner picture{height:100%}' +
+      '.ldr-hgs__slide > .ldr-hg--banner .ldr-hg__bn-img{height:100%!important;object-fit:contain;object-position:center}' +
+      '.ldr-hgs__slide > .ldr-hg--banner.ldr-hg--banner-llenar .ldr-hg__bn-img{object-fit:cover}' +
       // ─── Slider de heros: slides apilados en la misma celda de grid (el alto
       // es el del hero mas alto) y transicion fade + leve desplazamiento.
       '.ldr-hgs{position:relative;width:100%;overflow:hidden;background:var(--hgs-bg,#000)}' +
@@ -252,6 +266,12 @@
 
   // ─── HTML ────────────────────────────────────────────────────────────────
   function tileHtml(cfg, t, i) {
+    // Heros AR+CL: en leder.cl el tile de producto usa link/foto/precio del
+    // producto equivalente de Chile; si no tiene equivalente, no se muestra.
+    if (t.tipo === 'producto' && STORE_DATOS === 'cl') {
+      if (t.ocultar_cl) return '';
+      if (t.cl) t = Object.assign({}, t, t.cl);
+    }
     var link = safeUrl(t.link);
     var tag = link ? 'a' : 'div';
     var attrs = '';
@@ -289,7 +309,32 @@
            ' style="' + style + '">' + inner + label + precios + '</' + tag + '>';
   }
 
+  function bannerHtml(cfg) {
+    var d = cfg.banner_desktop || {}, m = cfg.banner_mobile || {};
+    var ds = safeUrl(d.src || ''), ms = safeUrl(m.src || '');
+    if (!ds && !ms) return '';
+    var principal = ds ? d : m;
+    var link = safeUrl(cfg.banner_link);
+    var tag = link ? 'a' : 'div';
+    var attrs = link ? ' href="' + esc(link) + '"' + (cfg.banner_nueva_pestana ? ' target="_blank" rel="noopener"' : '') : '';
+    var dims = (principal.width && principal.height) ? ' width="' + parseInt(principal.width, 10) + '" height="' + parseInt(principal.height, 10) + '"' : '';
+    var vars = '--hg-bg:' + color(cfg.banner_bg, '#000000') + ';margin-top:' + num(cfg.margin_top, 0, 0, 200) + 'px;margin-bottom:' + num(cfg.margin_bottom, 0, 0, 200) + 'px';
+    return (
+      '<section class="ldr-hg ldr-hg--banner' + (cfg.banner_ajuste === 'llenar' ? ' ldr-hg--banner-llenar' : '') + (cfg.ancho_completo ? ' ldr-hg--full' : '') + '"' +
+      ' id="ldr-hg-' + esc(cfg.id) + '" data-hero="' + esc(cfg.id) + '" style="' + esc(vars) + '">' +
+        '<' + tag + ' class="ldr-hg__bn"' + attrs + (link && cfg.banner_alt ? ' aria-label="' + esc(cfg.banner_alt) + '"' : '') + '>' +
+          '<picture>' +
+            (ds && ms ? '<source media="(max-width:767px)" srcset="' + esc(ms) + '"' +
+              (m.width && m.height ? ' width="' + parseInt(m.width, 10) + '" height="' + parseInt(m.height, 10) + '"' : '') + '>' : '') +
+            '<img class="ldr-hg__bn-img" src="' + esc(ds || ms) + '" alt="' + esc(cfg.banner_alt || '') + '" decoding="async"' + dims + '>' +
+          '</picture>' +
+        '</' + tag + '>' +
+      '</section>'
+    );
+  }
+
   function heroHtml(cfg) {
+    if (cfg.tipo === 'imagen') return bannerHtml(cfg);
     var bg = color(cfg.color_fondo, '#1B1815');
     var tx = color(cfg.color_texto, '#F4F0E9');
     var glow = color(cfg.color_resplandor, '#EE6A1F');
