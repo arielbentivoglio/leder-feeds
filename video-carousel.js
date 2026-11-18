@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 10:09:33
+ * Generado: 2026-11-18 10:20:32
  */
 (function () {
   'use strict';
@@ -198,6 +198,23 @@
     "cfAutoavance": 0,
     "cfFlechas": true,
     "videos": [
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://youtube.com/shorts/DULQ8_FbNyc?feature=share",
+        "src": "",
+        "poster": "",
+        "link": "https://youtube.com/shorts/DULQ8_FbNyc?feature=share",
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "CUEROS DE VACA",
+        "categoriaUrl": "https://lederhd.com/alfombras/cueros-de-vaca/"
+      },
       {
         "tipo": "youtube",
         "youtube_id": "https://www.youtube.com/shorts/73sJI3f1STs",
