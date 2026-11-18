@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 11:01:14
+ * Generado: 2026-11-18 11:02:05
  */
 (function () {
   'use strict';
@@ -241,8 +241,8 @@
         "linkTipo": "producto",
         "productoId": 353777968,
         "productoNombre": "Bolso De Cuero Vacuno Peak - Dark Brown",
-        "productoPrecio": "439990.00",
-        "productoPrecioTachado": "439990.00",
+        "productoPrecio": "499990.00",
+        "productoPrecioTachado": "499990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/bolso-peak-chocolate-1-planchar-d984489ea8e9e9ad3217830833620098-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/bolso-de-viaje-peak-de-cuero-vacuno-dark-brown-1cfko/",
         "productoCuotasTexto": "12 cuotas sin interés de $41.665,83",
@@ -258,9 +258,9 @@
         "linkTipo": "producto",
         "productoId": 310516921,
         "productoNombre": "Cuero De Oveja Pelo Largo Muflón Corderito - 80x45cm",
-        "productoPrecio": "99790.00",
-        "productoPrecioTachado": "99790.00",
-        "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_740623-mla107449749795_022026-f-1-d723a33d92fc6ad28317812686249719-1024-1024.jpg",
+        "productoPrecio": "89990.00",
+        "productoPrecioTachado": "112488.00",
+        "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/d_nq_np_2x_684830-mla107472903521_022026-f-86a33ed0b21035eb5917812686248661-1024-1024.jpg",
         "productoUrl": "https://lederhd.com/productos/cuero-de-oveja-muflon-corderito-colores-80x45cm/",
         "productoCuotasTexto": "3 cuotas sin interés de $29.996,67",
         "categoriaNombre": "",
@@ -275,8 +275,8 @@
         "linkTipo": "producto",
         "productoId": 317404072,
         "productoNombre": "Bota De Cuero Lanar - Balu",
-        "productoPrecio": "249988.00",
-        "productoPrecioTachado": "249988.00",
+        "productoPrecio": "199990.00",
+        "productoPrecioTachado": "199990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/balu1-moss-2-458d15db9cb4f375a117775747108515-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/bota-de-cuero-lanar-balu/",
         "productoCuotasTexto": "6 cuotas sin interés de $33.331,67",
@@ -292,8 +292,8 @@
         "linkTipo": "producto",
         "productoId": 333922132,
         "productoNombre": "Tapado De Cuero Bella - Black",
-        "productoPrecio": "799990.00",
-        "productoPrecioTachado": "799990.00",
+        "productoPrecio": "899990.00",
+        "productoPrecioTachado": "899990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/portada-c9a909b3904003770417783798454457-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/tapado-de-cuero-bella-black/",
         "productoCuotasTexto": "12 cuotas sin interés de $74.999,17",
@@ -309,8 +309,8 @@
         "linkTipo": "producto",
         "productoId": 353857136,
         "productoNombre": "Mochila De Cuero Vacuno Andina - Black",
-        "productoPrecio": "299990.00",
-        "productoPrecioTachado": "299990.00",
+        "productoPrecio": "329990.00",
+        "productoPrecioTachado": "329990.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-black-frente-e2111184bf5f1f9edb17831051827744-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-black/",
         "productoCuotasTexto": "6 cuotas sin interés de $54.998,33",
@@ -326,8 +326,8 @@
         "linkTipo": "producto",
         "productoId": 329583210,
         "productoNombre": "Sillón Reclinable Masajeador De Cuero - Toronto",
-        "productoPrecio": "3749988.00",
-        "productoPrecioTachado": "3749988.00",
+        "productoPrecio": "3199990.00",
+        "productoPrecioTachado": "3999988.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/chatgpt-image-12-mar-2026-10_56_52-a-m-194aeb9cc9a2f133c217733238462892-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/sillon-reclinable-masajeador-de-cuero-toronto/",
         "productoCuotasTexto": "12 cuotas sin interés de $266.665,83",
