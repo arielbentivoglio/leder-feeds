@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 13:55:45
+ * Generado: 2026-11-18 14:06:39
  */
 (function () {
   'use strict';
@@ -48,6 +48,36 @@
     var n = parseInt(v, 10);
     if (isNaN(n)) n = def;
     return Math.max(min, Math.min(max, n));
+  }
+
+  function precioNum(v) {
+    var n = parseFloat(v);
+    return isNaN(n) ? 0 : n;
+  }
+
+  // $ 499.990 / $ 1.234,50 (mismo formato que la tienda en AR y CL).
+  function fmtPrecio(n) {
+    var dec = Math.round(n * 100) % 100 !== 0;
+    try {
+      return '$' + n.toLocaleString('es-AR', { minimumFractionDigits: dec ? 2 : 0, maximumFractionDigits: dec ? 2 : 0 });
+    } catch (e) {
+      return '$' + (dec ? n.toFixed(2) : Math.round(n).toString()).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+    }
+  }
+
+  function preciosHtml(cfg, t) {
+    if (t.tipo !== 'producto' || !cfg.mostrar_precio) return '';
+    var p = precioNum(t.precio), tach = precioNum(t.tachado);
+    if (p <= 0) return '';
+    var hayOferta = tach > p;
+    var html = '<span class="ldr-hg__pr">' +
+      (hayOferta && cfg.mostrar_tachado !== false ? '<s>' + fmtPrecio(tach) + '</s>' : '') +
+      '<b>' + fmtPrecio(p) + '</b></span>';
+    if (hayOferta && cfg.mostrar_descuento !== false) {
+      var pct = Math.round((tach - p) / tach * 100);
+      if (pct >= 1) html += '<span class="ldr-hg__off">-' + pct + '%</span>';
+    }
+    return html;
   }
 
   function ytId(input) {
@@ -128,6 +158,20 @@
       '.ldr-hg__vid iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border:0;pointer-events:none}' +
       '.ldr-hg__lb{position:absolute;top:10px;left:10px;z-index:2;padding:5px 10px!important;border-radius:99px;background:var(--hg-chip-bg);color:var(--hg-chip-tx)!important;' +
         'font-family:inherit;font-weight:700;font-size:clamp(10px,.9vw,13px);line-height:1;transition:opacity .5s ease}' +
+      // Precios en tiles de producto: pastilla abajo a la izquierda + badge de % arriba a la derecha.
+      '.ldr-hg__lb{max-width:calc(100% - 20px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}' +
+      '.ldr-hg__m--off .ldr-hg__lb{max-width:calc(100% - 82px)}' +
+      '.ldr-hg__pr{position:absolute;left:10px;bottom:10px;z-index:2;display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 7px;max-width:calc(100% - 20px);padding:6px 10px!important;border-radius:12px;' +
+        'background:var(--hg-chip-bg);color:var(--hg-chip-tx)!important;font-family:inherit;line-height:1.1;transition:opacity .5s ease}' +
+      '.ldr-hg__pr b{font-weight:800;font-size:clamp(12px,1.15vw,17px);letter-spacing:-.01em}' +
+      '.ldr-hg__pr s{font-weight:500;font-size:clamp(10px,.85vw,13px);opacity:.6}' +
+      '.ldr-hg__off{position:absolute;top:10px;right:10px;z-index:3;padding:6px 9px!important;border-radius:99px;background:var(--hg-off-bg);color:var(--hg-off-tx)!important;' +
+        'font-family:inherit;font-weight:800;font-size:clamp(11px,1.05vw,15px);line-height:1;letter-spacing:-.01em;transition:opacity .5s ease,transform .5s cubic-bezier(.3,1.6,.5,1)}' +
+      '.ldr-hg--anim-prender .ldr-hg__m .ldr-hg__pr,.ldr-hg--anim-prender .ldr-hg__m .ldr-hg__off{opacity:.55}' +
+      '.ldr-hg--anim-prender .ldr-hg__m.is-on .ldr-hg__pr,.ldr-hg--anim-prender .ldr-hg__m:hover .ldr-hg__pr,' +
+        '.ldr-hg--anim-prender .ldr-hg__m.is-on .ldr-hg__off,.ldr-hg--anim-prender .ldr-hg__m:hover .ldr-hg__off{opacity:1}' +
+      '.ldr-hg__m.is-on .ldr-hg__off{animation:ldrHgPop .5s cubic-bezier(.3,1.6,.5,1) 1}' +
+      '@keyframes ldrHgPop{0%{transform:scale(.6)}100%{transform:scale(1)}}' +
       '.ldr-hg__m--cta{display:flex!important;flex-direction:column;justify-content:flex-end;padding:clamp(12px,1.4vw,22px)!important;background:var(--cta-bg)!important;color:var(--cta-tx)!important}' +
       '.ldr-hg__cta-t{font-family:inherit;font-weight:700;font-size:clamp(16px,1.7vw,28px);line-height:1.05;letter-spacing:-.03em}' +
       '.ldr-hg__cta-s{font-family:inherit;font-size:clamp(11px,.95vw,15px);line-height:1.3;opacity:.85;margin-top:6px!important}' +
@@ -185,6 +229,11 @@
         '.ldr-hg__btn{order:3;width:100%;justify-content:center;margin-top:0!important;padding:10px 24px 10px 10px!important}' +
         '.ldr-hg__btn.ldr-hg__btn--nosw{padding:13px 24px!important}' +
         '.ldr-hg__lb{top:6px;left:6px;font-size:10px;padding:4px 7px!important}' +
+        '.ldr-hg__pr{left:6px;bottom:6px;max-width:calc(100% - 12px);padding:4px 7px!important;border-radius:9px;flex-direction:column;align-items:flex-start;gap:1px}' +
+        '.ldr-hg__pr b{font-size:12px}.ldr-hg__pr s{font-size:9.5px}' +
+        '.ldr-hg__off{top:6px;right:6px;padding:4px 6px!important;font-size:10.5px}' +
+        '.ldr-hg__lb{max-width:calc(100% - 12px)}' +
+        '.ldr-hg__m--off .ldr-hg__lb{max-width:calc(100% - 56px)}' +
         '.ldr-hg__bg{background-image:var(--hg-bgi-m,var(--hg-bgi-d))}' +
         '.ldr-hg__glow{background:radial-gradient(90% 45% at 50% 58%,rgba(var(--hg-glow),.38) 0%,rgba(var(--hg-glow),.14) 45%,rgba(0,0,0,0) 80%)}' +
       '}' +
@@ -227,8 +276,10 @@
       inner = '<img class="ldr-hg__media" src="' + esc(t.img) + '" alt="' + esc(t.alt || t.etiqueta || '') + '" loading="lazy" decoding="async"' +
               (t.width && t.height ? ' width="' + parseInt(t.width, 10) + '" height="' + parseInt(t.height, 10) + '"' : '') + '>';
     }
+    var precios = preciosHtml(cfg, t);
+    if (precios.indexOf('ldr-hg__off') !== -1) cls += ' ldr-hg__m--off';
     return '<' + tag + ' class="' + cls + '"' + attrs + (link && aria ? ' aria-label="' + esc(aria) + '"' : '') +
-           ' style="' + style + '">' + inner + label + '</' + tag + '>';
+           ' style="' + style + '">' + inner + label + precios + '</' + tag + '>';
   }
 
   function heroHtml(cfg) {
@@ -249,6 +300,7 @@
       '--hg-g1:' + color(cfg.grad_1, '#F2BF1D'), '--hg-g2:' + color(cfg.grad_2, '#EE6A1F'), '--hg-g3:' + color(cfg.grad_3, '#E0452A'),
       '--hg-btn-bg:' + btnBg, '--hg-btn-bg-rgb:' + rgb(btnBg), '--hg-btn-tx:' + btnTx,
       '--hg-chip-bg:' + color(cfg.etiqueta_bg, '#FBF9F5'), '--hg-chip-tx:' + color(cfg.etiqueta_tx, '#221E1A'),
+      '--hg-off-bg:' + color(cfg.descuento_bg, '#E5484D'), '--hg-off-tx:' + color(cfg.descuento_tx, '#FFFFFF'),
       '--hg-cols:' + num(cfg.columnas, 3, 2, 4), '--hg-cols-m:' + num(cfg.columnas_mobile, 3, 2, 3),
       '--hg-ar:' + ar[0] + '/' + ar[1], '--hg-rad:' + num(cfg.radio, 16, 0, 40) + 'px',
       '--hg-tmax:' + num(cfg.titulo_tamano, 96, 32, 140) + 'px',
