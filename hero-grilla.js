@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 14:07:43
+ * Generado: 2026-11-18 14:43:19
  */
 (function () {
   'use strict';
@@ -170,6 +170,10 @@
       '.ldr-hg--anim-prender .ldr-hg__m .ldr-hg__pr,.ldr-hg--anim-prender .ldr-hg__m .ldr-hg__off{opacity:.55}' +
       '.ldr-hg--anim-prender .ldr-hg__m.is-on .ldr-hg__pr,.ldr-hg--anim-prender .ldr-hg__m:hover .ldr-hg__pr,' +
         '.ldr-hg--anim-prender .ldr-hg__m.is-on .ldr-hg__off,.ldr-hg--anim-prender .ldr-hg__m:hover .ldr-hg__off{opacity:1}' +
+      // Precio "debajo": franja al pie del tile; la foto se achica para no quedar tapada.
+      '.ldr-hg--precio-debajo .ldr-hg__m--pr .ldr-hg__media{height:calc(100% - var(--hg-pie,46px))!important}' +
+      '.ldr-hg--precio-debajo .ldr-hg__m--pr .ldr-hg__pr{left:0;right:0;bottom:0;max-width:none;height:var(--hg-pie,46px);border-radius:0;padding:0 12px!important;' +
+        'justify-content:center;align-items:center;flex-wrap:nowrap;gap:8px}' +
       '.ldr-hg__m.is-on .ldr-hg__off{animation:ldrHgPop .5s cubic-bezier(.3,1.6,.5,1) 1}' +
       '@keyframes ldrHgPop{0%{transform:scale(.6)}100%{transform:scale(1)}}' +
       '.ldr-hg__m--cta{display:flex!important;flex-direction:column;justify-content:flex-end;padding:clamp(12px,1.4vw,22px)!important;background:var(--cta-bg)!important;color:var(--cta-tx)!important}' +
@@ -232,6 +236,8 @@
         '.ldr-hg__pr{left:6px;bottom:6px;max-width:calc(100% - 12px);padding:4px 7px!important;border-radius:9px;flex-direction:column;align-items:flex-start;gap:1px}' +
         '.ldr-hg__pr b{font-size:12px}.ldr-hg__pr s{font-size:9.5px}' +
         '.ldr-hg__off{top:6px;right:6px;padding:4px 6px!important;font-size:10.5px}' +
+        '.ldr-hg--precio-debajo .ldr-hg__m--pr{--hg-pie:40px}' +
+        '.ldr-hg--precio-debajo .ldr-hg__m--pr .ldr-hg__pr{flex-direction:column;align-items:center;justify-content:center;gap:0;padding:0 6px!important}' +
         '.ldr-hg__lb{max-width:calc(100% - 12px)}' +
         '.ldr-hg__m--off .ldr-hg__lb{max-width:calc(100% - 56px)}' +
         '.ldr-hg__bg{background-image:var(--hg-bgi-m,var(--hg-bgi-d))}' +
@@ -278,6 +284,7 @@
     }
     var precios = preciosHtml(cfg, t);
     if (precios.indexOf('ldr-hg__off') !== -1) cls += ' ldr-hg__m--off';
+    if (precios.indexOf('ldr-hg__pr') !== -1) cls += ' ldr-hg__m--pr';
     return '<' + tag + ' class="' + cls + '"' + attrs + (link && aria ? ' aria-label="' + esc(aria) + '"' : '') +
            ' style="' + style + '">' + inner + label + precios + '</' + tag + '>';
   }
@@ -363,7 +370,8 @@
       (cfg.ancho_completo ? ' ldr-hg--full' : '') +
       (cfg.resplandor === false ? ' ldr-hg--noglow' : '') +
       (cfg.respiracion === false ? '' : ' ldr-hg--breath') +
-      (cfg.hover === false ? '' : ' ldr-hg--hover');
+      (cfg.hover === false ? '' : ' ldr-hg--hover') +
+      (cfg.precio_posicion === 'sobre' ? '' : ' ldr-hg--precio-debajo');
 
     return (
       '<section class="' + cls + '" id="ldr-hg-' + esc(cfg.id) + '" data-hero="' + esc(cfg.id) + '" style="' + esc(vars.join(';')) + '">' +
