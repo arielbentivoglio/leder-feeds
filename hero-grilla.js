@@ -1,13 +1,14 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 13:43:25
+ * Generado: 2026-11-18 13:55:45
  */
 (function () {
   'use strict';
 
   var PREVIEW = false;
   var HEROES = [];
+  var SLIDERS = [];
 
   var STORE = (function () {
     if (PREVIEW) return 'preview';
@@ -106,6 +107,7 @@
       '.ldr-hg__logo{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;margin:0!important;border:0!important;opacity:1!important;' +
         'filter:brightness(calc(.35 + var(--g,0) * .65));transition:filter .9s ease}' +
       '.ldr-hg__logo-w + .ldr-hg__t{margin-top:1.4vw!important}' +
+      '.ldr-hg__t.ldr-hg__t--fallback{display:none!important}' +
       '.ldr-hg__s{margin:1.8vw 0 0!important;padding:0!important;max-width:32ch;font-family:inherit!important;font-size:clamp(15px,1.5vw,23px)!important;line-height:1.35!important;opacity:.88;color:var(--hg-tx)!important}' +
       '.ldr-hg__btn{display:inline-flex!important;align-items:center;gap:14px;margin-top:2.8vw!important;padding:12px 30px 12px 12px!important;border:0!important;border-radius:999px!important;' +
         'background:var(--hg-btn-bg)!important;color:var(--hg-btn-tx)!important;font-family:inherit!important;font-weight:700!important;font-size:clamp(15px,1.35vw,21px)!important;line-height:1.2!important;text-decoration:none!important;' +
@@ -150,6 +152,26 @@
       '.ldr-hg--hover .ldr-hg__m:hover .ldr-hg__media{transform:scale(1.05)}' +
       '@keyframes ldrHgBreath{0%,100%{box-shadow:0 0 40px rgba(var(--hg-glow),.26)}50%{box-shadow:0 0 62px rgba(var(--hg-glow),.42)}}' +
       '@keyframes ldrHgPulse{0%{box-shadow:0 0 0 0 rgba(var(--hg-btn-bg-rgb),.55)}100%{box-shadow:0 0 0 22px rgba(var(--hg-btn-bg-rgb),0)}}' +
+      // ─── Slider de heros: slides apilados en la misma celda de grid (el alto
+      // es el del hero mas alto) y transicion fade + leve desplazamiento.
+      '.ldr-hgs{position:relative;width:100%;overflow:hidden;background:var(--hgs-bg,#000)}' +
+      '.ldr-hgs.ldr-hg--full{width:100vw!important;max-width:100vw!important;left:50%;right:50%;margin-left:-50vw!important;margin-right:-50vw!important}' +
+      '.ldr-hgs__track{display:grid!important;touch-action:pan-y}' +
+      '.ldr-hgs__slide{grid-area:1/1;display:flex;opacity:0;visibility:hidden;transform:translateX(3%);transition:opacity .7s ease,transform .7s ease,visibility 0s linear .7s}' +
+      '.ldr-hgs__slide.is-prev{transform:translateX(-3%)}' +
+      '.ldr-hgs__slide.is-active{opacity:1;visibility:visible;transform:none;transition:opacity .7s ease,transform .7s ease,visibility 0s}' +
+      '.ldr-hgs__slide > .ldr-hg{margin:0!important;flex:1;display:flex!important;align-items:center}' +
+      '.ldr-hgs__slide > .ldr-hg.ldr-hg--full{width:100%!important;max-width:100%!important;left:auto;right:auto}' +
+      '.ldr-hgs__slide > .ldr-hg > .ldr-hg__in{width:100%}' +
+      '.ldr-hgs__arr{position:absolute;top:50%;z-index:5;width:44px;height:44px;margin-top:-22px;border:0!important;border-radius:50%;cursor:pointer;padding:0!important;' +
+        'display:flex;align-items:center;justify-content:center;background:rgba(var(--hgs-ctl-rgb),.14);color:var(--hgs-ctl);font-size:22px;line-height:1;transition:background .2s ease}' +
+      '.ldr-hgs__arr:hover{background:rgba(var(--hgs-ctl-rgb),.28)}' +
+      '.ldr-hgs__arr--prev{left:14px}.ldr-hgs__arr--next{right:14px}' +
+      '.ldr-hgs__dots{position:absolute;left:0;right:0;bottom:14px;z-index:5;display:flex;justify-content:center;gap:8px;margin:0!important;padding:0!important}' +
+      '.ldr-hgs__dot{width:9px;height:9px;padding:0!important;border:0!important;border-radius:99px;cursor:pointer;background:rgba(var(--hgs-ctl-rgb),.35);transition:width .3s ease,background .3s ease}' +
+      '.ldr-hgs__dot.is-active{width:26px;background:var(--hgs-ctl)}' +
+      '@media (max-width:767px){.ldr-hgs__arr{display:none!important}.ldr-hgs__dots{bottom:12px}.ldr-hgs--dots .ldr-hg__in{padding-bottom:46px!important}}' +
+      '@media (prefers-reduced-motion:reduce){.ldr-hgs__slide{transition:none!important;transform:none!important}}' +
       '@media (max-width:767px){' +
         '.ldr-hg__in{grid-template-columns:1fr!important;gap:20px;padding:30px 20px 32px!important}' +
         '.ldr-hg__tx{display:contents}' +
@@ -267,7 +289,10 @@
           ? ' width="' + parseInt(cfg.logo_desktop.width, 10) + '" height="' + parseInt(cfg.logo_desktop.height, 10) + '"' : '') +
         '></picture>';
     }
-    var tituloHtml = t && !(logoHtml && cfg.logo_modo !== 'arriba') ? '<h2 class="ldr-hg__t">' + t + '</h2>' : '';
+    // Con logo en modo "reemplaza" el titulo igual se arma, oculto: si el logo
+    // no carga (404, bloqueo), se muestra el titulo en su lugar.
+    var tituloOculto = !!(logoHtml && cfg.logo_modo !== 'arriba');
+    var tituloHtml = t ? '<h2 class="ldr-hg__t' + (tituloOculto ? ' ldr-hg__t--fallback' : '') + '">' + t + '</h2>' : '';
     var subHtml = cfg.subtitulo ? '<p class="ldr-hg__s">' + esc(cfg.subtitulo).replace(/\r?\n/g, '<br>') + '</p>' : '';
     var btnHtml = '';
     if (cfg.boton_texto) {
@@ -320,38 +345,58 @@
     if (encendidas >= total) root.classList.add('is-lit');
   }
 
-  function animar(root, cfg) {
+  // Devuelve {play, reset}: el slider la reinicia cada vez que el slide
+  // vuelve a entrar; un hero suelto la reproduce una sola vez.
+  function crearAnimacion(root, cfg) {
     var tiles = [].slice.call(root.querySelectorAll('.ldr-hg__m'));
     var modo = (cfg.animacion === 'fade' || cfg.animacion === 'ninguna') ? cfg.animacion : 'prender';
-    if (modo === 'ninguna' || prefersReducedMotion() || !tiles.length) {
-      tiles.forEach(function (t) { t.classList.add('is-on'); });
-      nivel(root, tiles.length, tiles.length);
-      return;
-    }
+    var estatica = modo === 'ninguna' || prefersReducedMotion() || !tiles.length;
     var orden = modo === 'prender' ? ordenSalteado(tiles.length, cfg.id) : tiles.map(function (_, i) { return i; });
     var paso = num(cfg.intervalo, 420, 80, 2000);
-    var i = 0;
-    function step() {
-      if (!root.isConnected || i >= orden.length) return;
-      tiles[orden[i]].classList.add('is-on');
-      i++;
-      nivel(root, i, tiles.length);
-      if (i < orden.length) setTimeout(step, paso);
+    var timers = [];
+    function limpiar() { timers.forEach(clearTimeout); timers = []; }
+    function prenderTodo() {
+      tiles.forEach(function (t) { t.classList.add('is-on'); });
+      nivel(root, tiles.length, tiles.length);
     }
-    function start() { setTimeout(step, modo === 'prender' ? 600 : 150); }
+    function reset() {
+      limpiar();
+      if (estatica) { prenderTodo(); return; }
+      tiles.forEach(function (t) { t.classList.remove('is-on'); });
+      root.classList.remove('is-lit');
+      root.style.setProperty('--g', '0');
+    }
+    function play() {
+      reset();
+      if (estatica) return;
+      var i = 0;
+      function step() {
+        if (!root.isConnected || i >= orden.length) return;
+        tiles[orden[i]].classList.add('is-on');
+        i++;
+        nivel(root, i, tiles.length);
+        if (i < orden.length) timers.push(setTimeout(step, paso));
+      }
+      timers.push(setTimeout(step, modo === 'prender' ? 600 : 150));
+    }
+    if (estatica) prenderTodo();
+    return { play: play, reset: reset, duracion: estatica ? 0 : (600 + orden.length * paso) };
+  }
+
+  function alVerse(el, cb, opts) {
     if ('IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (entries) {
-        if (entries[0] && entries[0].isIntersecting) { io.disconnect(); start(); }
-      }, { threshold: 0.35 });
-      io.observe(root);
+        if (entries[0] && entries[0].isIntersecting) { io.disconnect(); cb(); }
+      }, opts || { threshold: 0.35 });
+      io.observe(el);
     } else {
-      start();
+      cb();
     }
   }
 
-  // ─── Videos de YouTube: se cargan recien cuando el hero se acerca a la
-  // pantalla (no suman peso a la carga inicial de la home). Muteados, en
-  // loop, sin controles y "cover" dentro del tile (sin franjas negras). ──
+  // ─── Videos de YouTube: se cargan recien cuando hacen falta (hero cerca
+  // de la pantalla, o slide activo). Muteados, en loop, sin controles y
+  // "cover" dentro del tile (sin franjas negras). ──────────────────────────
   function medirIframe(iframe, cfg, fmt) {
     var ar = RATIOS[cfg.proporcion] || RATIOS['1:1'];
     var rt = ar[0] / ar[1];
@@ -365,76 +410,217 @@
     }
   }
 
-  function cargarVideos(root, cfg) {
-    var vids = [].slice.call(root.querySelectorAll('.ldr-hg__vid[data-yt]'));
-    if (!vids.length) return;
-    function go() {
-      vids.forEach(function (v) {
-        if (v.querySelector('iframe')) return;
-        var id = v.getAttribute('data-yt');
-        var f = document.createElement('iframe');
-        f.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&mute=1&loop=1&playlist=' + id +
-                '&controls=0&modestbranding=1&playsinline=1&rel=0&iv_load_policy=3&disablekb=1&fs=0';
-        f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
-        f.setAttribute('tabindex', '-1');
-        f.setAttribute('title', 'Video');
-        f.setAttribute('aria-hidden', 'true');
-        medirIframe(f, cfg, v.getAttribute('data-fmt'));
-        v.appendChild(f);
+  function cargarVideosYa(root, cfg) {
+    [].slice.call(root.querySelectorAll('.ldr-hg__vid[data-yt]')).forEach(function (v) {
+      if (v.querySelector('iframe')) return;
+      var id = v.getAttribute('data-yt');
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&mute=1&loop=1&playlist=' + id +
+              '&controls=0&modestbranding=1&playsinline=1&rel=0&iv_load_policy=3&disablekb=1&fs=0';
+      f.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
+      f.setAttribute('tabindex', '-1');
+      f.setAttribute('title', 'Video');
+      f.setAttribute('aria-hidden', 'true');
+      medirIframe(f, cfg, v.getAttribute('data-fmt'));
+      v.appendChild(f);
+    });
+  }
+
+  // ─── Construccion de nodos ───────────────────────────────────────────────
+  function nodoDesdeHtml(html) {
+    var wrap = document.createElement('div');
+    wrap.innerHTML = html;
+    return wrap.firstElementChild;
+  }
+
+  function prepararLogo(node) {
+    var img = node.querySelector('.ldr-hg__logo');
+    if (!img) return;
+    function fallo() {
+      var pic = node.querySelector('.ldr-hg__logo-w');
+      var t = node.querySelector('.ldr-hg__t--fallback');
+      if (pic && pic.parentNode) pic.parentNode.removeChild(pic);
+      if (t) t.classList.remove('ldr-hg__t--fallback');
+    }
+    img.addEventListener('error', fallo);
+  }
+
+  function crearHero(cfg) {
+    var node = nodoDesdeHtml(heroHtml(cfg));
+    if (!node) return null;
+    prepararLogo(node);
+    var anim = crearAnimacion(node, cfg);
+    alVerse(node, anim.play);
+    alVerse(node, function () { cargarVideosYa(node, cfg); }, { rootMargin: '250px 0px' });
+    return node;
+  }
+
+  function crearSlider(sl, heroes) {
+    var ctl = color(sl.color_controles, '#FFFFFF');
+    var mt = num(sl.margin_top, 0, 0, 200), mb = num(sl.margin_bottom, 0, 0, 200);
+    var bg = color((heroes[0] || {}).color_fondo, '#000000');
+    var root = nodoDesdeHtml(
+      '<div class="ldr-hgs' + (sl.ancho_completo ? ' ldr-hg--full' : '') + (heroes.length > 1 && sl.puntos !== false ? ' ldr-hgs--dots' : '') + '" id="ldr-hgs-' + esc(sl.id) + '" role="region" aria-roledescription="carousel"' +
+      ' aria-label="' + esc(sl.nombre_publico || 'Destacados') + '"' +
+      ' style="' + esc('--hgs-ctl:' + ctl + ';--hgs-ctl-rgb:' + rgb(ctl) + ';--hgs-bg:' + bg + ';margin-top:' + mt + 'px;margin-bottom:' + mb + 'px') + '">' +
+        '<div class="ldr-hgs__track"></div>' +
+      '</div>');
+    var track = root.querySelector('.ldr-hgs__track');
+    var slides = [];
+    heroes.forEach(function (cfg, i) {
+      var slide = document.createElement('div');
+      slide.className = 'ldr-hgs__slide';
+      slide.setAttribute('role', 'group');
+      slide.setAttribute('aria-roledescription', 'slide');
+      slide.setAttribute('aria-label', (i + 1) + ' de ' + heroes.length);
+      var hero = nodoDesdeHtml(heroHtml(cfg));
+      prepararLogo(hero);
+      slide.appendChild(hero);
+      track.appendChild(slide);
+      slides.push({ el: slide, hero: hero, cfg: cfg, anim: crearAnimacion(hero, cfg) });
+    });
+
+    var n = slides.length;
+    var actual = 0, visible = false, pausado = false, timer = null;
+    var autoplay = sl.autoplay !== false && n > 1;
+    var espera = num(sl.segundos, 7, 3, 30) * 1000;
+
+    var dots = [];
+    if (n > 1 && sl.flechas !== false) {
+      root.insertAdjacentHTML('beforeend',
+        '<button type="button" class="ldr-hgs__arr ldr-hgs__arr--prev" aria-label="Anterior">&#8249;</button>' +
+        '<button type="button" class="ldr-hgs__arr ldr-hgs__arr--next" aria-label="Siguiente">&#8250;</button>');
+      root.querySelector('.ldr-hgs__arr--prev').addEventListener('click', function () { ir(actual - 1, true); });
+      root.querySelector('.ldr-hgs__arr--next').addEventListener('click', function () { ir(actual + 1, true); });
+    }
+    if (n > 1 && sl.puntos !== false) {
+      var dw = document.createElement('div');
+      dw.className = 'ldr-hgs__dots';
+      slides.forEach(function (_, i) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'ldr-hgs__dot';
+        b.setAttribute('aria-label', 'Ir al slide ' + (i + 1));
+        b.addEventListener('click', function () { ir(i, true); });
+        dw.appendChild(b);
+        dots.push(b);
       });
+      root.appendChild(dw);
     }
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        if (entries[0] && entries[0].isIntersecting) { io.disconnect(); go(); }
-      }, { rootMargin: '250px 0px' });
-      io.observe(root);
-    } else {
-      go();
+
+    function programar() {
+      clearTimeout(timer);
+      if (!autoplay || pausado || !visible || document.hidden) return;
+      // Le da tiempo a la animacion de entrada del slide antes de pasar al siguiente.
+      timer = setTimeout(function () { ir(actual + 1, false); }, Math.max(espera, slides[actual].anim.duracion + 2500));
     }
+
+    function activar(i, animar) {
+      slides.forEach(function (s, k) {
+        s.el.classList.toggle('is-active', k === i);
+        s.el.classList.toggle('is-prev', k !== i && k === (i - 1 + n) % n);
+        s.el.setAttribute('aria-hidden', k === i ? 'false' : 'true');
+      });
+      dots.forEach(function (d, k) { d.classList.toggle('is-active', k === i); d.setAttribute('aria-current', k === i ? 'true' : 'false'); });
+      var s = slides[i];
+      if (animar) { s.anim.play(); cargarVideosYa(s.hero, s.cfg); }
+      else s.anim.reset();
+    }
+
+    function ir(i, manual) {
+      var nuevo = ((i % n) + n) % n;
+      if (nuevo !== actual) slides[actual].anim.reset();
+      actual = nuevo;
+      activar(actual, visible);
+      if (manual) pausado = false;
+      programar();
+    }
+
+    // Swipe en mobile
+    var x0 = null, y0 = null;
+    track.addEventListener('touchstart', function (e) { var t = e.touches[0]; x0 = t.clientX; y0 = t.clientY; }, { passive: true });
+    track.addEventListener('touchend', function (e) {
+      if (x0 === null) return;
+      var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+      x0 = null;
+      if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) ir(actual + (dx < 0 ? 1 : -1), true);
+    }, { passive: true });
+
+    if (sl.pausa_hover !== false) {
+      root.addEventListener('mouseenter', function () { pausado = true; clearTimeout(timer); });
+      root.addEventListener('mouseleave', function () { pausado = false; programar(); });
+    }
+    document.addEventListener('visibilitychange', programar);
+
+    activar(0, false);
+    alVerse(root, function () { visible = true; activar(actual, true); programar(); });
+    return root;
   }
 
   // ─── Insercion (mismo patron de reintento 40 x 150ms que custom-modules) ─
-  function montar(cfg, anchor, position) {
-    var wrap = document.createElement('div');
-    wrap.innerHTML = heroHtml(cfg);
-    var node = wrap.firstElementChild;
-    if (!node) return null;
-    injectStyle();
+  function colocar(node, anchor, position) {
     switch (position) {
       case 'before': anchor.parentNode.insertBefore(node, anchor); break;
       case 'prepend': anchor.insertBefore(node, anchor.firstChild); break;
       case 'append': anchor.appendChild(node); break;
       case 'after': default: anchor.parentNode.insertBefore(node, anchor.nextSibling); break;
     }
-    animar(node, cfg);
-    cargarVideos(node, cfg);
-    return node;
   }
 
-  function insertar(cfg, attemptsLeft) {
+  function insertar(domId, selector, position, fabrica, attemptsLeft) {
     attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
-    if (document.getElementById('ldr-hg-' + cfg.id)) return; // ya insertado
-    var anchor = cfg.anchor ? document.querySelector(cfg.anchor) : null;
+    if (document.getElementById(domId)) return; // ya insertado
+    var anchor = selector ? document.querySelector(selector) : null;
     if (!anchor) {
       if (attemptsLeft <= 0) return;
-      setTimeout(function () { insertar(cfg, attemptsLeft - 1); }, 150);
+      setTimeout(function () { insertar(domId, selector, position, fabrica, attemptsLeft - 1); }, 150);
       return;
     }
-    montar(cfg, anchor, cfg.position);
+    var node = fabrica();
+    if (!node) return;
+    injectStyle();
+    colocar(node, anchor, position);
+  }
+
+  function aplica(cfg, page) {
+    if (PREVIEW) return true;
+    if (!cfg.stores || cfg.stores.indexOf(STORE) === -1) return false;
+    if (cfg.page && cfg.page !== page) return false;
+    return true;
   }
 
   function run() {
+    if (!PREVIEW && !STORE) return;
+    var page = PREVIEW ? null : currentTemplate();
+    var porId = {};
+    HEROES.forEach(function (h) { porId[h.id] = h; });
+
+    // Sliders: toman sus heros (en su orden) y esos heros no se montan sueltos.
+    var enSlider = {};
+    var sliders = [];
+    SLIDERS.forEach(function (sl) {
+      if (!aplica(sl, page)) return;
+      var hs = (sl.heroes || []).map(function (id) { return porId[id]; })
+        .filter(function (h) { return h && (PREVIEW || (h.stores || []).indexOf(STORE) !== -1); });
+      if (!hs.length) return;
+      hs.forEach(function (h) { enSlider[h.id] = true; });
+      sliders.push({ sl: sl, heroes: hs });
+    });
+
     if (PREVIEW) {
       var host = document.getElementById('ldr-preview-host') || document.body;
-      HEROES.forEach(function (cfg) { montar(cfg, host, 'append'); });
+      injectStyle();
+      sliders.forEach(function (x) { host.appendChild(crearSlider(x.sl, x.heroes)); });
+      HEROES.forEach(function (h) { if (!enSlider[h.id]) host.appendChild(crearHero(h)); });
       return;
     }
-    if (!STORE) return;
-    var page = currentTemplate();
-    HEROES.forEach(function (cfg) {
-      if (!cfg.stores || cfg.stores.indexOf(STORE) === -1) return;
-      if (cfg.page && cfg.page !== page) return;
-      insertar(cfg);
+
+    sliders.forEach(function (x) {
+      insertar('ldr-hgs-' + x.sl.id, x.sl.anchor, x.sl.position, function () { return crearSlider(x.sl, x.heroes); });
+    });
+    HEROES.forEach(function (h) {
+      if (enSlider[h.id] || !aplica(h, page)) return;
+      insertar('ldr-hg-' + h.id, h.anchor, h.position, function () { return crearHero(h); });
     });
   }
 
