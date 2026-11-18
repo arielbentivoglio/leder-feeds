@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 14:06:39
+ * Generado: 2026-11-18 14:07:43
  */
 (function () {
   'use strict';
