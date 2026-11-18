@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 10:33:41
+ * Generado: 2026-11-18 11:01:14
  */
 (function () {
   'use strict';
@@ -214,6 +214,23 @@
         "productoCuotasTexto": "",
         "categoriaNombre": "CUEROS DE VACA",
         "categoriaUrl": "https://lederhd.com/alfombras/cueros-de-vaca/"
+      },
+      {
+        "tipo": "youtube",
+        "youtube_id": "https://youtube.com/shorts/5-30uS_86ck",
+        "src": "",
+        "poster": "",
+        "link": "https://youtube.com/shorts/5-30uS_86ck",
+        "linkTipo": "categoria",
+        "productoId": "",
+        "productoNombre": "",
+        "productoPrecio": "",
+        "productoPrecioTachado": "",
+        "productoImagen": "",
+        "productoUrl": "",
+        "productoCuotasTexto": "",
+        "categoriaNombre": "SET X2 MUFLONES",
+        "categoriaUrl": "https://lederhd.com/set-x2-muflones/"
       },
       {
         "tipo": "youtube",
@@ -649,8 +666,10 @@
       nombre = video.productoNombre; url = video.productoUrl || '';
       img = video.productoImagen || '';
       var precio = parseFloat(video.productoPrecio) || 0;
+      var tachado = parseFloat(video.productoPrecioTachado) || 0;
       if (precio > 0) {
-        precioHtml = '<span class="js-vc-cf-chip-price" style="font-size:' + Math.max(10, fName - 1) + 'px;color:' + cPrice + '">' + formatearPrecio(precio) + '</span>';
+        precioHtml = '<span class="js-vc-cf-chip-price" style="font-size:' + Math.max(10, fName - 1) + 'px;color:' + cPrice + '">' + formatearPrecio(precio) +
+          (tachado > precio ? ' <s style="opacity:.6;font-size:.9em">' + formatearPrecio(tachado) + '</s>' : '') + '</span>';
       }
     }
     var tag = url ? 'a' : 'span';
