@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 13:19:42
+ * Generado: 2026-11-18 13:43:25
  */
 (function () {
   'use strict';
@@ -58,6 +58,14 @@
     return '';
   }
 
+  // URL segura para usar dentro de url('...') en un atributo style.
+  function cssUrl(u) {
+    u = safeUrl(u);
+    return u.replace(/["'()\\\s]/g, function (c) { return encodeURIComponent(c); });
+  }
+
+  var POS_FONDO = { arriba: 'center top', centro: 'center center', abajo: 'center bottom' };
+
   function currentTemplate() {
     return (window.LS && window.LS.template) ? window.LS.template : null;
   }
@@ -79,6 +87,8 @@
       '.ldr-hg__glow{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:var(--g,0);transition:opacity .9s ease;' +
         'background:radial-gradient(60% 75% at var(--hg-gx,74%) var(--hg-gy,52%),rgba(var(--hg-glow),.38) 0%,rgba(var(--hg-glow),.14) 40%,rgba(0,0,0,0) 75%)}' +
       '.ldr-hg--noglow .ldr-hg__glow{display:none}' +
+      '.ldr-hg__bg{position:absolute;inset:0;z-index:-2;pointer-events:none;background-image:var(--hg-bgi-d);background-size:cover;background-position:var(--hg-bgp,center center);background-repeat:no-repeat}' +
+      '.ldr-hg__bg:after{content:"";position:absolute;inset:0;background:var(--hg-bg);opacity:var(--hg-bgo,.4)}' +
       '.ldr-hg__in{display:grid!important;grid-template-columns:1fr 1.15fr;gap:4vw;align-items:center;max-width:1440px;margin:0 auto!important;padding:4.8vw 6vw!important}' +
       '.ldr-hg--txt-der .ldr-hg__in{grid-template-columns:1.15fr 1fr}' +
       '.ldr-hg--txt-der .ldr-hg__tx{order:2}' +
@@ -91,6 +101,11 @@
       '.ldr-hg__w:after{content:attr(data-t);position:absolute;left:0;top:0;right:0;' +
         'background:linear-gradient(95deg,var(--hg-g1) 0%,var(--hg-g2) 50%,var(--hg-g3) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;' +
         'opacity:var(--g,0);transition:opacity .9s ease;filter:drop-shadow(0 0 calc(var(--g,0) * 22px) rgba(var(--hg-glow),.45))}' +
+      '.ldr-hg__logo-w{display:block;width:100%;max-width:var(--hg-logo-w,480px);margin:0!important;padding:0!important;line-height:0}' +
+      '.ldr-hg--txt-arriba .ldr-hg__logo-w{margin:0 auto!important}' +
+      '.ldr-hg__logo{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;margin:0!important;border:0!important;opacity:1!important;' +
+        'filter:brightness(calc(.35 + var(--g,0) * .65));transition:filter .9s ease}' +
+      '.ldr-hg__logo-w + .ldr-hg__t{margin-top:1.4vw!important}' +
       '.ldr-hg__s{margin:1.8vw 0 0!important;padding:0!important;max-width:32ch;font-family:inherit!important;font-size:clamp(15px,1.5vw,23px)!important;line-height:1.35!important;opacity:.88;color:var(--hg-tx)!important}' +
       '.ldr-hg__btn{display:inline-flex!important;align-items:center;gap:14px;margin-top:2.8vw!important;padding:12px 30px 12px 12px!important;border:0!important;border-radius:999px!important;' +
         'background:var(--hg-btn-bg)!important;color:var(--hg-btn-tx)!important;font-family:inherit!important;font-weight:700!important;font-size:clamp(15px,1.35vw,21px)!important;line-height:1.2!important;text-decoration:none!important;' +
@@ -138,6 +153,8 @@
       '@media (max-width:767px){' +
         '.ldr-hg__in{grid-template-columns:1fr!important;gap:20px;padding:30px 20px 32px!important}' +
         '.ldr-hg__tx{display:contents}' +
+        '.ldr-hg__logo-w{order:0;max-width:var(--hg-logo-wm,80%);margin:0 auto!important}' +
+        '.ldr-hg__logo-w + .ldr-hg__t{margin-top:0!important}' +
         '.ldr-hg__t{order:0;font-size:clamp(34px,11vw,var(--hg-tmax,96px))!important}' +
         '.ldr-hg--txt-arriba .ldr-hg__t{text-align:center}' +
         '.ldr-hg__s{order:1;font-size:15px!important;margin-top:-8px!important}' +
@@ -146,6 +163,7 @@
         '.ldr-hg__btn{order:3;width:100%;justify-content:center;margin-top:0!important;padding:10px 24px 10px 10px!important}' +
         '.ldr-hg__btn.ldr-hg__btn--nosw{padding:13px 24px!important}' +
         '.ldr-hg__lb{top:6px;left:6px;font-size:10px;padding:4px 7px!important}' +
+        '.ldr-hg__bg{background-image:var(--hg-bgi-m,var(--hg-bgi-d))}' +
         '.ldr-hg__glow{background:radial-gradient(90% 45% at 50% 58%,rgba(var(--hg-glow),.38) 0%,rgba(var(--hg-glow),.14) 45%,rgba(0,0,0,0) 80%)}' +
       '}' +
       '@media (prefers-reduced-motion:reduce){.ldr-hg,.ldr-hg *,.ldr-hg *:after{animation:none!important;transition:none!important}}';
@@ -216,13 +234,40 @@
       'margin-top:' + num(cfg.margin_top, 0, 0, 200) + 'px', 'margin-bottom:' + num(cfg.margin_bottom, 0, 0, 200) + 'px'
     ];
 
+    // Imagen de fondo opcional: una para desktop y otra para mobile (si no
+    // hay de mobile, se usa la de desktop, y al reves).
+    var fd = cssUrl((cfg.fondo_desktop && cfg.fondo_desktop.src) || '');
+    var fm = cssUrl((cfg.fondo_mobile && cfg.fondo_mobile.src) || '');
+    var hayFondo = !!(fd || fm);
+    if (hayFondo) {
+      vars.push('--hg-bgi-d:url(\'' + (fd || fm) + '\')', '--hg-bgi-m:url(\'' + (fm || fd) + '\')',
+                '--hg-bgo:' + (num(cfg.fondo_oscurecer, 40, 0, 90) / 100).toFixed(2),
+                '--hg-bgp:' + (POS_FONDO[cfg.fondo_posicion] || POS_FONDO.centro));
+    }
+
     var dest = cfg.titulo_destacado || '';
     var resto = cfg.titulo_resto || '';
     var t = '';
     if (dest) t += '<span class="ldr-hg__w" data-t="' + esc(dest) + '">' + esc(dest) + '</span>';
     if (dest && resto) t += '<br>';
     if (resto) t += esc(resto).replace(/\r?\n/g, '<br>');
-    var tituloHtml = t ? '<h2 class="ldr-hg__t">' + t + '</h2>' : '';
+    // Logo / imagen en el bloque de texto (opcional): <picture> con version
+    // mobile. Modo "reemplaza": va en lugar del titulo (el texto del titulo
+    // queda como alt de la imagen); modo "arriba": logo y abajo el titulo.
+    var ld = safeUrl((cfg.logo_desktop && cfg.logo_desktop.src) || '');
+    var lm = safeUrl((cfg.logo_mobile && cfg.logo_mobile.src) || '');
+    var logoHtml = '';
+    var tituloPlano = (dest + ' ' + resto).replace(/\s+/g, ' ').trim();
+    if (ld || lm) {
+      vars.push('--hg-logo-w:' + num(cfg.logo_ancho, 480, 120, 900) + 'px', '--hg-logo-wm:' + num(cfg.logo_ancho_mobile, 80, 30, 100) + '%');
+      logoHtml = '<picture class="ldr-hg__logo-w">' +
+        (ld && lm ? '<source media="(max-width:767px)" srcset="' + esc(lm) + '">' : '') +
+        '<img class="ldr-hg__logo" src="' + esc(ld || lm) + '" alt="' + esc(cfg.logo_alt || tituloPlano || '') + '" decoding="async"' +
+        (cfg.logo_desktop && cfg.logo_desktop.width && cfg.logo_desktop.height && ld
+          ? ' width="' + parseInt(cfg.logo_desktop.width, 10) + '" height="' + parseInt(cfg.logo_desktop.height, 10) + '"' : '') +
+        '></picture>';
+    }
+    var tituloHtml = t && !(logoHtml && cfg.logo_modo !== 'arriba') ? '<h2 class="ldr-hg__t">' + t + '</h2>' : '';
     var subHtml = cfg.subtitulo ? '<p class="ldr-hg__s">' + esc(cfg.subtitulo).replace(/\r?\n/g, '<br>') + '</p>' : '';
     var btnHtml = '';
     if (cfg.boton_texto) {
@@ -232,7 +277,7 @@
       btnHtml = '<' + bTag + ' class="ldr-hg__btn' + (sw ? '' : ' ldr-hg__btn--nosw') + '"' + (bLink ? ' href="' + esc(bLink) + '"' : '') + '>' +
                 (sw ? '<span class="ldr-hg__sw" aria-hidden="true"><i></i></span>' : '') + esc(cfg.boton_texto) + '</' + bTag + '>';
     }
-    var hayTexto = !!(tituloHtml || subHtml || btnHtml);
+    var hayTexto = !!(logoHtml || tituloHtml || subHtml || btnHtml);
 
     var tiles = (cfg.tiles || []).map(function (tile, i) { return tileHtml(cfg, tile, i); }).join('');
 
@@ -244,10 +289,11 @@
       (cfg.hover === false ? '' : ' ldr-hg--hover');
 
     return (
-      '<section class="' + cls + '" id="ldr-hg-' + esc(cfg.id) + '" data-hero="' + esc(cfg.id) + '" style="' + vars.join(';') + '">' +
+      '<section class="' + cls + '" id="ldr-hg-' + esc(cfg.id) + '" data-hero="' + esc(cfg.id) + '" style="' + esc(vars.join(';')) + '">' +
+        (hayFondo ? '<div class="ldr-hg__bg"></div>' : '') +
         '<div class="ldr-hg__glow"></div>' +
         '<div class="ldr-hg__in">' +
-          (hayTexto ? '<div class="ldr-hg__tx">' + tituloHtml + subHtml + btnHtml + '</div>' : '') +
+          (hayTexto ? '<div class="ldr-hg__tx">' + logoHtml + tituloHtml + subHtml + btnHtml + '</div>' : '') +
           '<div class="ldr-hg__vis">' + tiles + '</div>' +
         '</div>' +
       '</section>'
