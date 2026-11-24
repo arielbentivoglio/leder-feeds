@@ -2,7 +2,7 @@
  * LEDER — PDP Bundle por cantidad (runtime)
  * Generado/publicado por bundle_cantidad_panel.py — NO editar a mano, lo pisa
  * cada guardado del panel.
- * Generado: 2026-11-24 11:53:58
+ * Generado: 2026-11-24 11:54:07
  *
  * Solo muestra precios. El descuento real lo aplica la promocion nativa
  * "Descuento progresivo" de Tiendanube, que tiene que tener los mismos
