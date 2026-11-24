@@ -2,7 +2,7 @@
  * LEDER — PDP Bundle por cantidad (runtime)
  * Generado/publicado por bundle_cantidad_panel.py — NO editar a mano, lo pisa
  * cada guardado del panel.
- * Generado: 2026-11-24 11:54:07
+ * Generado: 2026-11-24 11:57:19
  *
  * Solo muestra precios. El descuento real lo aplica la promocion nativa
  * "Descuento progresivo" de Tiendanube, que tiene que tener los mismos
@@ -155,18 +155,21 @@
   // carrito no cobra.
   var PROMO_TN = null;
 
+  // Tiendanube usa dos formatos segun la promo:
+  //  - tabla: <th>10% OFF</th><td>Comprando 4 unidades o más</td> (una fila por escalon)
+  //  - titulo: "¡10% OFF comprando 4 o más!" (promo de un solo escalon)
+  // Se lee el TEXTO del bloque con una sola regex que cubre los dos.
+  var RE_PROMO = /(\d+(?:[.,]\d+)?)\s*%[^%\d]*?comprando\D*?(\d+)/gi;
+
   function leerPromoTN() {
     var filas = [];
     var conts = document.querySelectorAll('[data-store="product-promotion-info"][data-promotion-type="quantity-discounts"]');
     for (var c = 0; c < conts.length; c++) {
-      var trs = conts[c].querySelectorAll("tr");
-      for (var i = 0; i < trs.length; i++) {
-        var th = trs[i].querySelector("th"), td = trs[i].querySelector("td");
-        if (!th || !td) continue;
-        var mp = (th.textContent || "").match(/(\d+(?:[.,]\d+)?)\s*%/);
-        var mq = (td.textContent || "").match(/(\d+)/);
-        if (!mp || !mq) continue;
-        filas.push({ min: parseInt(mq[1], 10), pct: parseFloat(mp[1].replace(",", ".")) });
+      var txt = (conts[c].textContent || "").replace(/\s+/g, " ");
+      var m;
+      RE_PROMO.lastIndex = 0;
+      while ((m = RE_PROMO.exec(txt)) !== null) {
+        filas.push({ min: parseInt(m[2], 10), pct: parseFloat(m[1].replace(",", ".")) });
       }
     }
     var porMin = {};
