@@ -2,7 +2,7 @@
  * LEDER — PDP Bundle por cantidad (runtime)
  * Generado/publicado por bundle_cantidad_panel.py — NO editar a mano, lo pisa
  * cada guardado del panel.
- * Generado: 2026-11-24 11:42:08
+ * Generado: 2026-11-24 11:50:29
  *
  * Solo muestra precios. El descuento real lo aplica la promocion nativa
  * "Descuento progresivo" de Tiendanube, que tiene que tener los mismos
@@ -11,7 +11,7 @@
 (function () {
   "use strict";
 
-  var SETS = /*__BUNDLE_SETS__*/ [{"id": "individuales", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["37062390"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 a 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "Ideal para regalar", "badges": [{"texto": "MÁS VENDIDO", "color": "#ef4444"}], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "anchor_selector": "", "anchor_position": "before"}] /*__END_SETS__*/;
+  var SETS = /*__BUNDLE_SETS__*/ [{"id": "individuales", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["37062390"], "productos": ["320847490", "320849117", "320851596", "320858418", "320860883", "320861265", "320863164", "320864136"], "handles": ["individuales"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 a 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "Ideal para regalar", "badges": [{"texto": "MÁS VENDIDO", "color": "#ef4444"}], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "anchor_selector": "", "anchor_position": "before"}] /*__END_SETS__*/;
   var TRAMOS_AR = /*__TRAMOS_AR__*/ [{"umbral": 499990.0, "cuotas": 12}, {"umbral": 399990.0, "cuotas": 9}, {"umbral": 149990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}] /*__END_TRAMOS__*/;
 
   var MOUNT_ID = "ldr-bundle-qty";
@@ -33,13 +33,36 @@
     } catch (e) { return []; }
   }
 
+  // Segmentos de las URLs del breadcrumb (ej. /deco/accesorios_de_mesa/individuales/
+  // -> deco, accesorios_de_mesa, individuales). En Brasilia LS.product NO trae
+  // categorias, asi que el breadcrumb es lo unico de categoria que hay en la ficha.
+  function breadcrumbHandles() {
+    var out = [];
+    var links = document.querySelectorAll('.breadcrumbs a, [class*="breadcrumb"] a');
+    for (var i = 0; i < links.length; i++) {
+      var path = (links[i].getAttribute("href") || "").replace(/^https?:\/\/[^\/]+/, "");
+      path.split("/").forEach(function (seg) { if (seg) out.push(seg.toLowerCase()); });
+    }
+    return out;
+  }
+
   function matches(set) {
     if (!set.activo) return false;
     if ((set.stores || []).indexOf(currentStore()) === -1) return false;
     var al = set.alcance || {};
     var vals = (al.valores || []).map(String);
-    if (al.tipo === "producto") return vals.indexOf(currentProductId()) !== -1;
+    var pid = currentProductId();
+    if (al.tipo === "producto") return vals.indexOf(pid) !== -1;
     if (al.tipo === "categoria") {
+      // 1) productos de la categoria resueltos por el panel al publicar
+      if ((al.productos || []).indexOf(pid) !== -1) return true;
+      // 2) productos agregados despues: handle de la categoria en el breadcrumb
+      var hs = al.handles || [];
+      if (hs.length) {
+        var bc = breadcrumbHandles();
+        if (hs.some(function (h) { return bc.indexOf(h) !== -1; })) return true;
+      }
+      // 3) por si algun theme expone LS.product.categories
       var cats = currentCategoryIds();
       return vals.some(function (v) { return cats.indexOf(v) !== -1; });
     }
