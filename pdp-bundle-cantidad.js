@@ -2,7 +2,7 @@
  * LEDER — PDP Bundle por cantidad (runtime)
  * Generado/publicado por bundle_cantidad_panel.py — NO editar a mano, lo pisa
  * cada guardado del panel.
- * Generado: 2026-11-24 15:07:29
+ * Generado: 2026-11-24 15:18:55
  *
  * Solo muestra precios. El descuento real lo aplica la promocion nativa
  * "Descuento progresivo" de Tiendanube, que tiene que tener los mismos
@@ -11,7 +11,7 @@
 (function () {
   "use strict";
 
-  var SETS = /*__BUNDLE_SETS__*/ [{"id": "individuales", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["37062390"], "productos": ["320847490", "320849117", "320851596", "320858418", "320860883", "320861265", "320863164", "320864136"], "handles": ["individuales"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 a 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "Ideal para regalar", "badges": [{"texto": "MÁS VENDIDO", "color": "#ef4444"}], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "anchor_selector": "", "anchor_position": "before"}, {"id": "zapatillas", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["41316327"], "productos": ["317430310", "317832360", "317836443", "317837973"], "handles": ["50-en-segunda-unidad"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 2, "descuento_pct": 10.0, "etiqueta": "Lleva 2", "subtitulo": "", "badges": [], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "anchor_selector": "", "anchor_position": "before"}, {"id": "descuento-en-chairpad-vacuno", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["36849743"], "productos": ["319908511", "320038540", "320040129", "320041338", "320124060", "320129714", "320132238", "320147154"], "handles": ["almohadones-para-sillas"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 A 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "", "badges": [], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "anchor_selector": "", "anchor_position": "before"}] /*__END_SETS__*/;
+  var SETS = /*__BUNDLE_SETS__*/ [{"id": "individuales", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["37062390"], "productos": ["320847490", "320849117", "320851596", "320858418", "320860883", "320861265", "320863164", "320864136"], "handles": ["individuales"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 a 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "Ideal para regalar", "badges": [{"texto": "MÁS VENDIDO", "color": "#ef4444"}], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "mostrar_transferencia": true, "color_transferencia": "#c8102e", "anchor_selector": "", "anchor_position": "before"}, {"id": "zapatillas", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["41316327"], "productos": ["317430310", "317832360", "317836443", "317837973"], "handles": ["50-en-segunda-unidad"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 2, "descuento_pct": 10.0, "etiqueta": "Lleva 2", "subtitulo": "", "badges": [], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "mostrar_transferencia": true, "color_transferencia": "#c8102e", "anchor_selector": "", "anchor_position": "before"}, {"id": "descuento-en-chairpad-vacuno", "activo": true, "stores": ["ar"], "alcance": {"tipo": "categoria", "valores": ["36849743"], "productos": ["319908511", "320038540", "320040129", "320041338", "320124060", "320129714", "320132238", "320147154"], "handles": ["almohadones-para-sillas"]}, "titulo": "Llevá más y ahorrá", "tiers": [{"cantidad": 1, "descuento_pct": 0, "etiqueta": "Lleva 1 A 3", "subtitulo": "", "badges": [], "preseleccionado": true, "permitir_mas": true}, {"cantidad": 4, "descuento_pct": 10.0, "etiqueta": "Lleva 4 o más", "subtitulo": "", "badges": [], "preseleccionado": false, "permitir_mas": true}], "color_acento": "#1a1a1a", "color_ahorro": "#0f8a5f", "mostrar_ahorro": true, "mostrar_tachado": true, "mostrar_cuotas": true, "ocultar_cantidad_nativa": true, "fuente_descuento": "promo_tn", "ocultar_promo_nativa": true, "mostrar_transferencia": true, "color_transferencia": "#c8102e", "anchor_selector": "", "anchor_position": "before"}] /*__END_SETS__*/;
   var TRAMOS_AR = /*__TRAMOS_AR__*/ [{"umbral": 499990.0, "cuotas": 12}, {"umbral": 399990.0, "cuotas": 9}, {"umbral": 149990.0, "cuotas": 6}, {"umbral": 0.0, "cuotas": 3}] /*__END_TRAMOS__*/;
 
   var MOUNT_ID = "ldr-bundle-qty";
@@ -137,6 +137,28 @@
     return (typeof p === "number" && p > 0) ? p : null;
   }
 
+  // --- Precio con transferencia (opcion A) ---
+  // Tiendanube ya calcula por variante el precio con el descuento por medio
+  // de pago (LS.variants[i].price_with_payment_discount_short, ej "$42.491,50"
+  // sobre price_number 49990 -> 15%). Se usa esa relacion para el total del
+  // bundle: no hay que configurar el % y vale para AR y CL. Si la variante no
+  // lo trae (null), no se muestra la linea.
+  function parsePrecio(str) {
+    if (!str) return null;
+    var cur = (window.LS && window.LS.currency) || {};
+    var th = cur.thousands_separator || ".", dc = cur.cents_separator || ",";
+    var limpio = String(str).replace(/[^\d.,]/g, "").split(th).join("").replace(dc, ".");
+    var n = parseFloat(limpio);
+    return isNaN(n) ? null : n;
+  }
+
+  function factorTransferencia(v) {
+    if (!v || !(v.price_number > 0)) return null;
+    var n = parsePrecio(v.price_with_payment_discount_short);
+    if (!(n > 0) || n >= v.price_number) return null;
+    return n / v.price_number;
+  }
+
   function hayStock(v, cantidad) {
     if (!v) return false;
     if (v.available === false) return false;
@@ -221,7 +243,10 @@
       ".ldr-bq__small{font-size:12px;opacity:.7}" +
       ".ldr-bq__badges{position:absolute;top:-11px;right:12px;display:flex;gap:6px}" +
       ".ldr-bq__badge{font-size:10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:#fff;border-radius:4px;padding:3px 8px;line-height:1.3}" +
-      ".ldr-bq__steprow{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #ececec;padding:10px 12px 12px 42px}" +
+      ".ldr-bq__extra{border-top:1px solid #ececec;padding:10px 12px 12px 42px;display:flex;flex-direction:column;gap:10px}" +
+      ".ldr-bq__steprow{display:flex;align-items:center;justify-content:space-between;gap:12px}" +
+      ".ldr-bq__transfer{display:flex;justify-content:space-between;align-items:baseline;gap:8px;background:#fafafa;border-radius:6px;padding:8px 10px;font-size:13px}" +
+      ".ldr-bq__transfer-note{font-size:11px;opacity:.7;white-space:nowrap}" +
       ".ldr-bq__range{font-size:13px;opacity:.75}" +
       ".ldr-bq__step{display:flex;align-items:center;border:1px solid #d0d0d0;border-radius:6px}" +
       ".ldr-bq__btn{width:40px;height:40px;background:none;border:0;font-size:20px;line-height:1;cursor:pointer;color:inherit;font-family:inherit;padding:0}" +
@@ -334,6 +359,17 @@
         "</div>";
     }
 
+    var transferHtml = "";
+    var ft = set.mostrar_transferencia ? factorTransferencia(v) : null;
+    if (sel && !off && ft && total != null) {
+      transferHtml =
+        '<div class="ldr-bq__transfer">' +
+          "<span><strong>" + fmt(Math.round(total * ft * 100) / 100) + '</strong> con <span style="color:' + esc(set.color_transferencia || "#c8102e") + '">Transferencia</span></span>' +
+          (q > 1 ? '<span class="ldr-bq__transfer-note">por ' + q + " unidades</span>" : "") +
+        "</div>";
+    }
+    var extraHtml = (stepHtml || transferHtml) ? '<div class="ldr-bq__extra">' + stepHtml + transferHtml + "</div>" : "";
+
     return (
       '<div class="ldr-bq__opt' + (badges.length ? " has-badges" : "") + (sel ? " is-sel" : "") + (off ? " is-off" : "") +
         '" role="radio" tabindex="0" aria-checked="' + sel + '" data-i="' + i + '">' +
@@ -343,7 +379,7 @@
           '<span class="ldr-bq__info"><span class="ldr-bq__name">' + esc(t.etiqueta || ("Lleva " + t.cantidad)) + "</span>" + subHtml + saveHtml + "</span>" +
           priceHtml +
         "</div>" +
-        stepHtml +
+        extraHtml +
       "</div>"
     );
   }
