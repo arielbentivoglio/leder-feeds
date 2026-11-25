@@ -1,7 +1,7 @@
 /**
  * custom-modules.js — generado automaticamente por SyncPropio (panel de Modulos Custom)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-08-18 14:51:12
+ * Generado: 2026-11-25 11:22:49
  */
 (function () {
   'use strict';
@@ -76,13 +76,22 @@
   }
 ];
 
+  // Breakpoint "md" del theme (mismo corte que d-md-none / d-none d-md-block).
+  // Solo se cargan las imagenes/videos del breakpoint visible; el otro queda
+  // en espera (data-ldr-src) y se activa si la pantalla cruza el corte.
+  var MQ_DESKTOP = (window.matchMedia ? window.matchMedia('(min-width: 768px)') : null);
+  function breakpointActual() {
+    return (MQ_DESKTOP && MQ_DESKTOP.matches) ? 'desktop' : 'mobile';
+  }
+  var PIXEL = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
+
   function escHtml(s) {
     return (s || '').toString().replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
   }
 
-  function slideHtml(cfg, img) {
+  function slideHtml(cfg, img, diferido) {
     var link = img.link || cfg.link || '';
     var openTag = link ? ('<a href="' + link + '" class="gallery-link" aria-label="">') : '<div class="gallery-link">';
     var closeTag = link ? '</a>' : '</div>';
@@ -94,7 +103,7 @@
             '<img class="textbanner-image transition-soft img-fluid d-block w-100 fade-in lazyloaded" ' +
                  'width="' + img.width + '" height="' + img.height + '" ' +
                  'style="aspect-ratio:' + img.width + '/' + img.height + '" ' +
-                 'src="' + img.src + '" ' +
+                 (diferido ? ('src="' + PIXEL + '" data-ldr-src="' + img.src + '" ') : ('src="' + img.src + '" ')) +
                  'alt="' + (cfg.alt || '') + '">' +
           closeTag +
         '</div>' +
@@ -133,7 +142,8 @@
     var visibility = breakpoint === 'mobile' ? 'd-md-none' : 'd-none d-md-block';
     var isSlider = data.images.length > 1;
 
-    var slides = data.images.map(function (img) { return slideHtml(cfg, img); }).join('');
+    var diferido = breakpoint !== breakpointActual();
+    var slides = data.images.map(function (img) { return slideHtml(cfg, img, diferido); }).join('');
 
     var controls = isSlider
       ? (
@@ -317,6 +327,61 @@
     });
   }
 
+  // Pasa a src real las imagenes en espera del breakpoint pedido (incluye los
+  // clones que Swiper arma en modo loop, porque copian el data-ldr-src).
+  function activarImagenes(root, breakpoint) {
+    var imgs = root.querySelectorAll('.js-banner-custom-' + breakpoint + ' img[data-ldr-src]');
+    for (var i = 0; i < imgs.length; i++) {
+      imgs[i].src = imgs[i].getAttribute('data-ldr-src');
+      imgs[i].removeAttribute('data-ldr-src');
+    }
+  }
+
+  // Videos con version distinta por breakpoint: se crea solo el reproductor
+  // del breakpoint visible; el otro se crea si la pantalla cruza el corte.
+  function iniciarPlayers(players) {
+    if (!players.length) return;
+    ensureYoutubeApi();
+    players.forEach(function (p) {
+      if (p._iniciado) return;
+      p._iniciado = true;
+      if (window.YT && window.YT.Player) {
+        crearReproductorYoutube(p.elementId, p.videoId);
+      } else {
+        _ytPendingPlayers.push(p);
+      }
+    });
+  }
+
+  function playersDelBreakpoint(players, breakpoint) {
+    return players.filter(function (p) {
+      if (/-desktop$/.test(p.elementId)) return breakpoint === 'desktop';
+      if (/-mobile$/.test(p.elementId)) return breakpoint === 'mobile';
+      return true; // mismo video para ambos breakpoints
+    });
+  }
+
+  // Avisa cuando la pantalla cruza el corte desktop/mobile (girar el celular,
+  // achicar la ventana). Escucha el cambio de media query y, de respaldo,
+  // el resize de la ventana (algunos navegadores viejos no avisan el cambio).
+  function onCambioBreakpoint(fn) {
+    if (!MQ_DESKTOP) return;
+    var ultimo = breakpointActual();
+    function revisar() {
+      var bp = breakpointActual();
+      if (bp === ultimo) return;
+      ultimo = bp;
+      fn();
+    }
+    if (MQ_DESKTOP.addEventListener) MQ_DESKTOP.addEventListener('change', revisar);
+    else if (MQ_DESKTOP.addListener) MQ_DESKTOP.addListener(revisar);
+    var t = null;
+    window.addEventListener('resize', function () {
+      clearTimeout(t);
+      t = setTimeout(revisar, 150);
+    });
+  }
+
   function insertModule(cfg, attemptsLeft) {
     attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
     var anchor = document.querySelector(cfg.anchor);
@@ -340,20 +405,17 @@
 
     if (cfg.tipo === 'video') {
       var players = videoPlayersToInit(cfg);
-      if (players.length) {
-        ensureYoutubeApi();
-        players.forEach(function (p) {
-          if (window.YT && window.YT.Player) {
-            crearReproductorYoutube(p.elementId, p.videoId);
-          } else {
-            _ytPendingPlayers.push(p);
-          }
-        });
-      }
+      iniciarPlayers(playersDelBreakpoint(players, breakpointActual()));
+      onCambioBreakpoint(function () {
+        iniciarPlayers(playersDelBreakpoint(players, breakpointActual()));
+      });
     } else {
       initSwiper(cfg, 'desktop');
       initSwiper(cfg, 'mobile');
       fallbackShowFirstSlide(node);
+      onCambioBreakpoint(function () {
+        activarImagenes(node, breakpointActual());
+      });
     }
   }
 
