@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-26 12:36:02
+ * Generado: 2026-11-26 13:05:35
  */
 (function () {
   'use strict';
@@ -32,7 +32,7 @@
     "columnas_mobile": 3,
     "proporcion": "3:4",
     "radio": 16,
-    "animacion": "fade",
+    "animacion": "ninguna",
     "intervalo": 420,
     "resplandor": true,
     "respiracion": true,
