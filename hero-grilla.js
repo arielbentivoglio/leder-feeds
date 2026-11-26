@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-26 12:07:45
+ * Generado: 2026-11-26 12:12:10
  */
 (function () {
   'use strict';
@@ -16,6 +16,7 @@
     "page": "home",
     "anchor": "section[data-store=\"home-slider\"]",
     "position": "before",
+    "reemplazar": true,
     "margin_top": 0,
     "margin_bottom": 0,
     "ancho_completo": true,
@@ -258,6 +259,8 @@
     var css =
       '.ldr-hg{position:relative;isolation:isolate;overflow:hidden;width:100%;background:var(--hg-bg)!important;color:var(--hg-tx);font-family:inherit}' +
       '.ldr-hg *{box-sizing:border-box!important}' +
+      // "Reemplazar el modulo donde se engancha": el modulo nativo se oculta (el hero va justo antes, como hermano).
+      '.ldr-hg-reemplazado{display:none!important}' +
       '.ldr-hg.ldr-hg--full{width:100vw!important;max-width:100vw!important;left:50%;right:50%;margin-left:-50vw!important;margin-right:-50vw!important}' +
       '.ldr-hg__glow{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:var(--g,0);transition:opacity .9s ease;' +
         'background:radial-gradient(60% 75% at var(--hg-gx,74%) var(--hg-gy,52%),rgba(var(--hg-glow),.38) 0%,rgba(var(--hg-glow),.14) 40%,rgba(0,0,0,0) 75%)}' +
@@ -812,19 +815,27 @@
     }
   }
 
-  function insertar(domId, selector, position, fabrica, attemptsLeft) {
+  // reemplazar = true: el hero va JUSTO ANTES del modulo (como hermano, no
+  // adentro) y el modulo nativo se oculta. Asi el slider original no empuja
+  // al hero, y ocultarlo no oculta al hero.
+  function insertar(domId, selector, position, fabrica, reemplazar, attemptsLeft) {
     attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
     if (document.getElementById(domId)) return; // ya insertado
     var anchor = selector ? document.querySelector(selector) : null;
     if (!anchor) {
       if (attemptsLeft <= 0) return;
-      setTimeout(function () { insertar(domId, selector, position, fabrica, attemptsLeft - 1); }, 150);
+      setTimeout(function () { insertar(domId, selector, position, fabrica, reemplazar, attemptsLeft - 1); }, 150);
       return;
     }
     var node = fabrica();
     if (!node) return;
     injectStyle();
-    colocar(node, anchor, position);
+    if (reemplazar) {
+      colocar(node, anchor, 'before');
+      anchor.classList.add('ldr-hg-reemplazado');
+    } else {
+      colocar(node, anchor, position);
+    }
   }
 
   function aplica(cfg, page) {
@@ -861,11 +872,11 @@
     }
 
     sliders.forEach(function (x) {
-      insertar('ldr-hgs-' + x.sl.id, x.sl.anchor, x.sl.position, function () { return crearSlider(x.sl, x.heroes); });
+      insertar('ldr-hgs-' + x.sl.id, x.sl.anchor, x.sl.position, function () { return crearSlider(x.sl, x.heroes); }, !!x.sl.reemplazar);
     });
     HEROES.forEach(function (h) {
       if (enSlider[h.id] || !aplica(h, page)) return;
-      insertar('ldr-hg-' + h.id, h.anchor, h.position, function () { return crearHero(h); });
+      insertar('ldr-hg-' + h.id, h.anchor, h.position, function () { return crearHero(h); }, !!h.reemplazar);
     });
   }
 
