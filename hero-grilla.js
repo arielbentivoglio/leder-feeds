@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-26 12:00:28
+ * Generado: 2026-11-26 12:07:45
  */
 (function () {
   'use strict';
@@ -15,7 +15,7 @@
     ],
     "page": "home",
     "anchor": "section[data-store=\"home-slider\"]",
-    "position": "prepend",
+    "position": "before",
     "margin_top": 0,
     "margin_bottom": 0,
     "ancho_completo": true,
