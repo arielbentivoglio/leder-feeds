@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-26 12:31:54
+ * Generado: 2026-11-26 12:36:02
  */
 (function () {
   'use strict';
@@ -26,7 +26,7 @@
     "titulo_tamano": 96,
     "texto_posicion": "izq",
     "boton_texto": "Ver Ofertas",
-    "boton_link": "/carteras-de-cuero/",
+    "boton_link": "/black-friday/",
     "boton_interruptor": true,
     "columnas": 3,
     "columnas_mobile": 3,
