@@ -539,6 +539,8 @@
       <brand>LEDER</brand>
       <mpn>LR-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -563,6 +565,8 @@
       <brand>LEDER</brand>
       <mpn>LR-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -587,6 +591,8 @@
       <brand>LEDER</brand>
       <mpn>LR-4000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -605,12 +611,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lr-1000-75e64f12078e78936917671156341352-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lr-4000-d621fbedefb16d5a0e17671156341913-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>4</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>109990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LR-11000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -629,12 +637,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lr-1000-75e64f12078e78936917671156341352-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/lr-4000-d621fbedefb16d5a0e17671156341913-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>25</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>26</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>109990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LR-3000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -659,6 +669,8 @@
       <brand>LEDER</brand>
       <mpn>LR-1000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_cueroslanares</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -6888,6 +6900,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ASJACK</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -6907,6 +6921,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ASTONY</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -7224,6 +7240,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7252,6 +7270,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-18000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7280,6 +7300,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-N55</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7308,6 +7330,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7336,6 +7360,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-17000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7364,6 +7390,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-21000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7392,6 +7420,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-15000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7420,6 +7450,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-3000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -7448,6 +7480,8 @@
       <brand>LEDER</brand>
       <mpn>ALD-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -8671,6 +8705,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8698,6 +8734,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-6000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8725,6 +8763,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8752,6 +8792,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-O22</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8779,6 +8821,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-11000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8806,6 +8850,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-3000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -8833,6 +8879,8 @@
       <brand>LEDER</brand>
       <mpn>ALQ-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9531,6 +9579,8 @@
       <mpn>ALPNC90-N55</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9559,6 +9609,8 @@
       <mpn>ALPNC90-O21</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9587,6 +9639,8 @@
       <mpn>ALPNC90-BCO</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9615,6 +9669,8 @@
       <mpn>ALPNC90-Q14-D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9643,6 +9699,8 @@
       <mpn>ALPNC90-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -9669,6 +9727,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9696,6 +9756,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9723,6 +9785,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV05</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9750,6 +9814,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9777,6 +9843,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV15</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9804,6 +9872,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-VL</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9831,6 +9901,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9858,6 +9930,8 @@
       <sale_price>89990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -9886,6 +9960,8 @@
       <mpn>ALRS-O22</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417878393</id>
@@ -9911,6 +9987,8 @@
       <mpn>ALRS-N55</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417878395</id>
@@ -9936,6 +10014,8 @@
       <mpn>ALRS-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417878398</id>
@@ -9961,6 +10041,8 @@
       <mpn>ALRS-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417878403</id>
@@ -9986,6 +10068,8 @@
       <mpn>ALRS-P83</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417878405</id>
@@ -10011,6 +10095,8 @@
       <mpn>ALRS-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888052</id>
@@ -10036,6 +10122,8 @@
       <mpn>ALRM-O22</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888057</id>
@@ -10061,6 +10149,8 @@
       <mpn>ALRM-N55</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888058</id>
@@ -10086,6 +10176,8 @@
       <mpn>ALRM-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888062</id>
@@ -10111,6 +10203,8 @@
       <mpn>ALRM-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888068</id>
@@ -10136,6 +10230,8 @@
       <mpn>ALRM-6000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888072</id>
@@ -10161,6 +10257,8 @@
       <mpn>ALRM-Q14</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417888074</id>
@@ -10186,6 +10284,8 @@
       <mpn>ALRM-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898482</id>
@@ -10211,6 +10311,8 @@
       <mpn>ALRL-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898488</id>
@@ -10236,6 +10338,8 @@
       <mpn>ALRL-N55</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898492</id>
@@ -10261,6 +10365,8 @@
       <mpn>ALRL-5000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898497</id>
@@ -10286,6 +10392,8 @@
       <mpn>ALRL-2000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898504</id>
@@ -10311,6 +10419,8 @@
       <mpn>ALRL-3000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417898508</id>
@@ -10336,6 +10446,8 @@
       <mpn>ALRL-N40</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1417924227</id>
@@ -10457,6 +10569,8 @@
       <mpn>AV60110-10MRON</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -10485,6 +10599,8 @@
       <mpn>AV60110-10BEIGE</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -10513,6 +10629,8 @@
       <mpn>AV60110-10BCO</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -10541,6 +10659,8 @@
       <mpn>AV60110-10NEGRO</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -10569,6 +10689,8 @@
       <mpn>AV60110-10MIX</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -10617,6 +10739,8 @@
       <mpn>VC10-2000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10643,6 +10767,8 @@
       <mpn>VC10-5000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10669,6 +10795,8 @@
       <mpn>VC10-3000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10695,6 +10823,8 @@
       <mpn>VC10-4000</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10721,6 +10851,8 @@
       <mpn>VC10-4001</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10747,6 +10879,8 @@
       <mpn>VC10-4002D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10773,6 +10907,8 @@
       <mpn>VC10-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -10799,6 +10935,8 @@
       <mpn>VC10-6000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>winter_sale</internal_label>
     </item>
     <item>
@@ -11063,6 +11201,8 @@
       <mpn>VCT-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -11101,6 +11241,8 @@
       <mpn>AVCMIX-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -11124,6 +11266,8 @@
       <mpn>AVCV-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -11148,6 +11292,8 @@
       <mpn>AVCV-2000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -11263,6 +11409,8 @@
       <mpn>VC5-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -11285,6 +11433,8 @@
       <mpn>VC5-2000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_alfombras</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -11984,6 +12134,8 @@
       <mpn>VCI-MARROND</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1418110539</id>
@@ -12005,6 +12157,8 @@
       <mpn>VCI-3000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1418110551</id>
@@ -12026,6 +12180,8 @@
       <mpn>VCI-1000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1418110558</id>
@@ -12047,6 +12203,8 @@
       <mpn>VCI-2000D</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1418110567</id>
@@ -12068,6 +12226,8 @@
       <mpn>VCI-NEGROD</mpn>
       <internal_label>alfombras_cat_tn</internal_label>
       <internal_label>alfombras_patchwork</internal_label>
+      <internal_label>blackf_alfombras</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1418114221</id>
@@ -13361,6 +13521,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-4000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13385,6 +13547,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-6000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13409,6 +13573,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-5000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13433,6 +13599,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-2000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13457,6 +13625,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-3000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13481,6 +13651,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-1000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13505,6 +13677,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-8000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13529,6 +13703,8 @@
       <price>89990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR30-7000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13554,6 +13730,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V21</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13581,6 +13759,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V06</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13608,6 +13788,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13635,6 +13817,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13662,6 +13846,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13689,6 +13875,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V42</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -13764,6 +13952,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-2000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13786,6 +13976,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-6000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13808,6 +14000,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-5000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13830,6 +14024,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-4000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13852,6 +14048,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-3000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13874,6 +14072,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-1000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13896,6 +14096,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-8000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -13918,6 +14120,8 @@
       <price>129990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LAR50-7000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14175,6 +14379,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>ASP50-2</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14192,6 +14398,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>ASP50-1</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14596,6 +14804,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-2000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14616,6 +14826,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-6000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14636,6 +14848,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-5000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14656,6 +14870,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-3000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14676,6 +14892,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-Q14</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -14696,6 +14914,8 @@
       <price>179990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>ESFERA-R-9000</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15406,6 +15626,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15433,6 +15655,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15460,6 +15684,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15487,6 +15713,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>VMATC-T4</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15514,6 +15742,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>VMATC-T2</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15541,6 +15771,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V21</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15568,6 +15800,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>VMATC-T6</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15595,6 +15829,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V42</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -15771,6 +16007,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50FUN-CV15/PMB</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15795,6 +16033,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50FUN-CV15/PMO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15819,6 +16059,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50FUN-CV81/PMB</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15843,6 +16085,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50SAL-CV05/PB</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15867,6 +16111,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50SAL-CV05/PMO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -15891,6 +16137,8 @@
       <price>119990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>A50SAL-CV62/PH</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -16845,6 +17093,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16870,6 +17120,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V21</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16895,6 +17147,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16920,6 +17174,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16945,6 +17201,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V42</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16970,6 +17228,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-VL</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -16995,6 +17255,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-VD</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -17020,6 +17282,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECEC-V06</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
     </item>
     <item>
@@ -18534,6 +18798,8 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>1-CUB-ALPACA-1</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18555,6 +18821,8 @@
       <price>299990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>1-CUB-ALPACA-2</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18580,6 +18848,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>2-CUB-HUE-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18605,6 +18875,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>2-CUB-MAD-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18630,6 +18902,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>2-CUB-3TAP-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18655,6 +18929,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>2-CUB-MAD-N-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -18676,6 +18952,8 @@
       <price>1199990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>6-CUB-HUE-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -18696,6 +18974,8 @@
       <price>1199990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>6-CUB-MAD-ALP</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -20431,6 +20711,8 @@
       <price>429990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LEÑERO-36</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
       <internal_label>home_deco</internal_label>
@@ -20453,6 +20735,8 @@
       <price>439990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LEÑERO-39</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
       <internal_label>home_deco</internal_label>
@@ -20475,6 +20759,8 @@
       <price>444990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LEÑERO-42</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
       <internal_label>home_deco</internal_label>
@@ -20496,6 +20782,8 @@
       <price>5799990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-2-CV14</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422780796</id>
@@ -20514,6 +20802,8 @@
       <price>5799990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-2-CV05</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422780811</id>
@@ -20532,6 +20822,8 @@
       <price>5799990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-2-CV15</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422780807</id>
@@ -20550,6 +20842,8 @@
       <price>5799990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-2-CV81</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422780801</id>
@@ -20568,6 +20862,8 @@
       <price>5799990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-2-CV62</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422793961</id>
@@ -20676,6 +20972,8 @@
       <price>6499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-3-CV14</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422820669</id>
@@ -20694,6 +20992,8 @@
       <price>6499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-3-CV05</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422820690</id>
@@ -20712,6 +21012,8 @@
       <price>6499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-3-CV15</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422820684</id>
@@ -20730,6 +21032,8 @@
       <price>6499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-3-CV81</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422820677</id>
@@ -20748,6 +21052,8 @@
       <price>6499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SCHESTER-3-CV62</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1422837613</id>
@@ -23226,6 +23532,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-CV05</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23249,6 +23557,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-CV14</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23272,6 +23582,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-CV81</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23295,6 +23607,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-CV15</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23318,6 +23632,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-CV62</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23337,6 +23653,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-VG</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23356,6 +23674,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-VL</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23375,6 +23695,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-VD</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23395,6 +23717,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-EXOTICO</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23415,6 +23739,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-HEREFORD</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23435,6 +23761,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>BKF-HOLANDO</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -23976,6 +24304,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-V30</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423443113</id>
@@ -23994,6 +24324,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-VL</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423443127</id>
@@ -24012,6 +24344,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-VD</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423449844</id>
@@ -24049,6 +24383,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-10CV14</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423458849</id>
@@ -24070,6 +24406,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-10CV05</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423458889</id>
@@ -24091,6 +24429,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-10CV15</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423458878</id>
@@ -24112,6 +24452,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-10CV81</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423458866</id>
@@ -24133,6 +24475,8 @@
       <sale_price>599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PUFF-V-10CV62</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423458902</id>
@@ -24153,6 +24497,8 @@
       <price>346490.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>EP-1000</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1423469630</id>
@@ -24683,6 +25029,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-CV14</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424501118</id>
@@ -24706,6 +25054,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-CV05</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424501128</id>
@@ -24729,6 +25079,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-CV15</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424501124</id>
@@ -24752,6 +25104,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-CV81</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424501122</id>
@@ -24775,6 +25129,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-CV62</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424510866</id>
@@ -24798,6 +25154,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-R-CT</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424510877</id>
@@ -24821,6 +25179,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PCILIND50-R-M</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1424512754</id>
@@ -24841,6 +25201,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>DELANTAL-V05V14</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
@@ -24863,6 +25225,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>DELANTAL-V14V62</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
@@ -24885,6 +25249,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>DELANTAL-V62V81</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
@@ -24907,6 +25273,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>DELANTAL-V62V14</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
@@ -24929,6 +25297,8 @@
       <price>239990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>DELANTAL-VLV14</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
@@ -25728,6 +26098,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -25756,6 +26128,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-V05</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -25784,6 +26158,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-V62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -25812,6 +26188,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -25836,6 +26214,8 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>YERBERA-CV14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -25859,6 +26239,8 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>YERBERA-CV05</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -25882,6 +26264,8 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>YERBERA-CV15</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -25905,6 +26289,8 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>YERBERA-CV81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -25928,6 +26314,8 @@
       <price>54990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>YERBERA-CV62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -26601,6 +26989,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-BCO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26628,6 +27018,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-N55</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26655,6 +27047,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-O21</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26682,6 +27076,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-Q14</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26709,6 +27105,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-O26</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26736,6 +27134,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-O22</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26763,6 +27163,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-N40</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26790,6 +27192,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-P28</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26817,6 +27221,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-P29</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26844,6 +27250,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LA40N-P19</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26870,6 +27278,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-O22</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26896,6 +27306,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-N55</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26922,6 +27334,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-O21</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26948,6 +27362,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-BCO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -26974,6 +27390,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-Q14</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -27000,6 +27418,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LAR40-N40</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -28176,6 +28596,8 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>RINONERA-V21</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -28202,6 +28624,8 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>RINONERA-V14</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -28228,6 +28652,8 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>RINONERA-V81</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -28254,6 +28680,8 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>RINONERA-V62</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -28280,6 +28708,8 @@
       <sale_price>159990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>RINONERA-V55</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -28336,6 +28766,8 @@
       <price>6999990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SALBANY-BEIGE</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1466522821</id>
@@ -28354,6 +28786,8 @@
       <price>6999990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>SALBANY-MARRON</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1466546399</id>
@@ -28431,6 +28865,8 @@
       <sale_price>2599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>SMONTANA-NOMAD</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28453,6 +28889,8 @@
       <sale_price>2599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>SMONTANA-NEGRO</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28469,12 +28907,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/montana-marron-1c337c61dd9779e2ab17732466096808-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/montana-negro-cac81954ac079288fa17732466191823-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>3058812.00 ARS</price>
       <sale_price>2599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>SMONTANA-MARRON</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28557,6 +28997,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>STORONTO-BEIGE</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28582,6 +29024,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>STORONTO-GRIS</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28607,6 +29051,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>STORONTO-BCO</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28632,6 +29078,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>STORONTO-NEGRO</mpn>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -28889,6 +29337,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-TAN-S</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -28910,6 +29360,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-TAN-M</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -28931,6 +29383,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-TAN-L</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -28952,6 +29406,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-TAN-XL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -28973,6 +29429,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-TAN-XXL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -28995,6 +29453,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>TOTE-LEOPARDO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -29018,6 +29479,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>TOTE-SPLIT</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -29039,6 +29503,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>TOTE-HEREFORD</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -29064,6 +29531,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>TOTE-HOLANDO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -29091,6 +29561,8 @@
       <price>419990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-02</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -29114,6 +29586,8 @@
       <price>419990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-01</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -29385,6 +29859,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29407,6 +29883,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29429,6 +29907,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29451,6 +29931,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29473,6 +29955,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29493,6 +29977,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29513,6 +29999,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29533,6 +30021,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29553,6 +30043,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29573,6 +30065,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29593,6 +30087,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XXL-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29616,6 +30112,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29639,6 +30137,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29662,6 +30162,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29685,6 +30187,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29708,6 +30212,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29728,6 +30234,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29748,6 +30256,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29768,6 +30278,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29788,6 +30300,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29808,6 +30322,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29829,6 +30345,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V37</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29850,6 +30368,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V37</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29871,6 +30391,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V37</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29892,6 +30414,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V37</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29913,6 +30437,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V37</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29933,6 +30459,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V78</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29953,6 +30481,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V78</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29973,6 +30503,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V78</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -29993,6 +30525,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V78</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30013,6 +30547,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V78</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30032,6 +30568,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XS-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30051,6 +30589,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-S-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30070,6 +30610,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-M-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30089,6 +30631,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-L-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30108,6 +30652,8 @@
       <sale_price>549990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJENNY-XL-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30767,6 +31313,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XS-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30788,6 +31336,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30809,6 +31359,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-M-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30830,6 +31382,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-L-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30851,6 +31405,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XL-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30871,6 +31427,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XS-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30891,6 +31449,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-S-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30911,6 +31471,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-M-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30931,6 +31493,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-L-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30951,6 +31515,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XL-V57</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30970,6 +31536,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XS-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -30989,6 +31557,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-S-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31008,6 +31578,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-M-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31027,6 +31599,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-L-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31046,6 +31620,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XL-V58</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31066,6 +31642,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XS-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31086,6 +31664,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-S-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31106,6 +31686,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-M-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31126,6 +31708,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-L-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -31146,6 +31730,8 @@
       <sale_price>629990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CLILY-XL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>winter_sale</internal_label>
@@ -32551,6 +33137,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32574,6 +33162,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-M-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32597,6 +33187,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-L-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32620,6 +33212,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-XL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32643,6 +33237,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-XXL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32663,6 +33259,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32683,6 +33281,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32703,6 +33303,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32723,6 +33325,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32743,6 +33347,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32764,6 +33370,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-S-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32785,6 +33393,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-M-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32806,6 +33416,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-L-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32827,6 +33439,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XL-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32848,6 +33462,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XXL-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32870,6 +33486,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-S-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32892,6 +33510,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-M-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32914,6 +33534,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-L-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32936,6 +33558,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32958,6 +33582,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XXL-V81</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -32980,6 +33606,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-S-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -33002,6 +33630,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-M-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -33024,6 +33654,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-L-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -33046,6 +33678,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XL-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -33068,6 +33702,8 @@
       <sale_price>649990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CJIMMY-XXL-V62</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34548,6 +35184,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-S-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34569,6 +35207,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-M-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34590,6 +35230,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-L-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34611,6 +35253,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-XL-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34632,6 +35276,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CSTEVEN-XXL-V14</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34722,6 +35368,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>VMAT-02</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34747,6 +35395,8 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>VMAT-05</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34771,6 +35421,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-VL</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34795,6 +35447,8 @@
       <sale_price>259990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-VD</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -34816,6 +35470,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-V14</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34838,6 +35495,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-V62</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34858,6 +35518,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-V81</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34878,6 +35541,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-V37</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34898,6 +35564,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-V42</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34935,6 +35604,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-VL</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34952,6 +35624,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-VD</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -34972,6 +35647,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-CV14</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -34990,6 +35668,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-CV15</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -35009,6 +35690,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-CV81</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35029,6 +35713,9 @@
       <price>219990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXS-CV62</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35577,6 +36264,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-V62</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35600,6 +36290,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-V14</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -35619,6 +36312,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-V81</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
     </item>
@@ -35638,6 +36334,9 @@
       <sale_price>269990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-VL</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35684,6 +36383,9 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-HERV14</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35707,6 +36409,9 @@
       <sale_price>279990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-HOL-V62</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -35947,7 +36652,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-13cd618f3f51556f6017757395582811-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>54</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>56</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>87488.00 ARS</price>
       <sale_price>69990.00 ARS</sale_price>
@@ -35974,7 +36679,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-13cd618f3f51556f6017757395582811-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>87488.00 ARS</price>
       <sale_price>69990.00 ARS</sale_price>
@@ -36000,7 +36705,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mano-sobre-lanar-e08210ae7991274cc417882132213912-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-2000-3b45b746f46cba863e17882121055968-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>54</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>52</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>129990.00 ARS</price>
       <sale_price>117635.00 ARS</sale_price>
@@ -37052,6 +37757,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXSRCV14</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -37076,6 +37784,9 @@
       <price>229990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARTLILYXSSPMB</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -37098,6 +37809,8 @@
       <price>79990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PELOTAB-NARANJA</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1528030721</id>
@@ -37115,6 +37828,8 @@
       <price>69990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>AGL-7000</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1528030718</id>
@@ -37132,6 +37847,8 @@
       <price>69990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>AGL-8000</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1528030725</id>
@@ -37149,6 +37866,8 @@
       <price>69990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>AGL-9000-1</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1528045961</id>
@@ -37164,6 +37883,8 @@
       <price>79990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PELOTAFA-Q26</mpn>
+      <internal_label>blackf_accesorios</internal_label>
+      <internal_label>blackfriday</internal_label>
     </item>
     <item>
       <id>1528747400</id>
@@ -37394,6 +38115,8 @@
       <sale_price>349990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V42</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -37416,6 +38139,8 @@
       <sale_price>369990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V21</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -37504,6 +38229,8 @@
       <sale_price>349990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V06</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -41014,6 +41741,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V21+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41031,6 +41760,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V21+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41048,6 +41779,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V21+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41065,6 +41798,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V21+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41082,6 +41817,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V14+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41099,6 +41836,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V14+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41116,6 +41855,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V14+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41133,6 +41874,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V14+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41150,6 +41893,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V81+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41167,6 +41912,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V81+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41184,6 +41931,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V81+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41201,6 +41950,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V81+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41218,6 +41969,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-06+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41235,6 +41988,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-06+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41252,6 +42007,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-06+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41269,6 +42026,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-06+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41286,6 +42045,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V06+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41303,6 +42064,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V06+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41320,6 +42083,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V06+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41337,6 +42102,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V06+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41354,6 +42121,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V62+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41371,6 +42140,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V62+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41388,6 +42159,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V62+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41405,6 +42178,8 @@
       <sale_price>512990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V62+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41422,6 +42197,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V42+MORRALTR-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41439,6 +42216,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V42+MORRALTR-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41456,6 +42235,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V42+MORRALTR-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -41473,6 +42254,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V42+MORRALTR-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42372,6 +43155,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42389,6 +43174,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-V05</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42406,6 +43193,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42423,6 +43212,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42440,6 +43231,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42457,6 +43250,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-VD</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42474,6 +43269,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V14+NECECUB-VL</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42491,6 +43288,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42508,6 +43307,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-V05</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42525,6 +43326,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42542,6 +43345,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42559,6 +43364,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42576,6 +43383,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-VD</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42593,6 +43402,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V62+NECECUB-VL</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42610,6 +43421,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42627,6 +43440,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-V05</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42644,6 +43459,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42661,6 +43478,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42678,6 +43497,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42695,6 +43516,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-VD</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42712,6 +43535,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V81+NECECUB-VL</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42729,6 +43554,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-V14</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42746,6 +43573,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-V05</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42763,6 +43592,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-V62</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42780,6 +43611,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-V81</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42797,6 +43630,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-V42</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42814,6 +43649,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-VD</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -42831,6 +43668,8 @@
       <sale_price>287990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>MORRALTR-V42+NECECUB-VL</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
     </item>
     <item>
@@ -44084,6 +44923,9 @@
       <sale_price>239990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-LUNA-NEGRO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44112,6 +44954,9 @@
       <sale_price>239990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-LUNA-BEIGE</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44144,6 +44989,9 @@
       <sale_price>229990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-MILA-NEGRO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44176,6 +45024,9 @@
       <sale_price>229990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-MILA-TAUPE</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44204,6 +45055,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-INDI-TAUPE</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44233,6 +45087,9 @@
       <sale_price>199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-INDI-BEIGE</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44261,6 +45118,9 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-CLEO-CHOCO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44289,6 +45149,9 @@
       <sale_price>219990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-CLEO-GRIS</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44319,6 +45182,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-VERA-GRIS</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44346,6 +45212,9 @@
       <sale_price>209990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CART-VERA-CHOCO</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44375,6 +45244,9 @@
       <sale_price>249990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-CLARA-TAUP</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44405,6 +45277,9 @@
       <sale_price>249990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-CLARA-NEGR</mpn>
+      <internal_label>blackf_carteras</internal_label>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>carteras_tn_cat</internal_label>
       <internal_label>cyber_carteras</internal_label>
@@ -44434,6 +45309,8 @@
       <price>499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -44462,6 +45339,8 @@
       <sale_price>399990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-MAIPO-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -44490,6 +45369,8 @@
       <price>499990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -44514,6 +45395,8 @@
       <price>319990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>MORRAL-DAILY-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>new_in</internal_label>
     </item>
@@ -44535,6 +45418,8 @@
       <price>319990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>MORRAL-DAILY-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>dia_del_padre</internal_label>
       <internal_label>new_in</internal_label>
     </item>
@@ -44558,6 +45443,8 @@
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIO-A-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -44583,6 +45470,8 @@
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIO-A-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -44608,6 +45497,8 @@
       <price>399990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIODS-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -44635,6 +45526,8 @@
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>MOCHI-ANDINA-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>new_in</internal_label>
@@ -44656,11 +45549,13 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-ch-carry-on-f115240636aced7fb117870748322961-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/moch-andina-ch-modelo-c33eaad6810d559f6117875824102982-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>10</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>329990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>MOCHI-ANDINA-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>new_in</internal_label>
@@ -44682,6 +45577,8 @@
       <price>169990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CARPETA-ROMA-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>ddm_general</internal_label>
       <internal_label>ddm_marro</internal_label>
       <internal_label>new_in</internal_label>
@@ -44704,6 +45601,8 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -44728,6 +45627,8 @@
       <price>139990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>bolsos_y_carteras</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
@@ -44757,6 +45658,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-MA</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44786,6 +45689,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-CHO</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44815,6 +45720,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-NE</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44844,6 +45751,8 @@
       <sale_price>99990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-AZ</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44873,6 +45782,8 @@
       <sale_price>74990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLARC-MA</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44902,6 +45813,8 @@
       <sale_price>74990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLARC-CH</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44931,6 +45844,8 @@
       <sale_price>74990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLARC-NE</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44960,6 +45875,8 @@
       <sale_price>74990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLARC-AZ</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -44989,6 +45906,8 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLAR-CHO</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>new_in</internal_label>
@@ -45016,6 +45935,8 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLAR-MA</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>new_in</internal_label>
@@ -45043,6 +45964,8 @@
       <sale_price>64990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETDOLAR-NE</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>new_in</internal_label>
@@ -45286,6 +46209,8 @@
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-PM</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -45314,6 +46239,8 @@
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-PB</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -45342,6 +46269,8 @@
       <sale_price>109990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>CANASTOMAT-PMB</mpn>
+      <internal_label>blackf_marroquineria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_deco</internal_label>
@@ -48664,6 +49593,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-CH-S</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -48684,6 +49615,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-CH-M</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -48704,6 +49637,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-CH-L</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -48724,6 +49659,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-CH-XL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -48744,6 +49681,8 @@
       <price>669990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CTAYLOR-CH-XXL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>ddm_general</internal_label>
@@ -48766,6 +49705,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CLOGAN-CH-S</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -48787,6 +49728,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CLOGAN-CH-M</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -48808,6 +49751,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CLOGAN-CH-L</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -48829,6 +49774,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CLOGAN-CH-XL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -48850,6 +49797,8 @@
       <price>699990.00 ARS</price>
       <brand>LEDER</brand>
       <mpn>CLOGAN-CH-XXL</mpn>
+      <internal_label>blackf_indumentaria</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_camperas</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>dia_del_padre</internal_label>
@@ -48892,6 +49841,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-CV05</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -48915,6 +49866,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-C05-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -48938,6 +49891,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-CV14</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -48961,6 +49916,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-C14-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -48984,6 +49941,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-CV15</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49007,6 +49966,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-C15-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49030,6 +49991,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-CV81</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49053,6 +50016,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-C81-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49076,6 +50041,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-CV62</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49099,6 +50066,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-C62-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
     <item>
@@ -49121,6 +50090,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-BCO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49144,6 +50115,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-BCO-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49167,6 +50140,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-BEIG</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49190,6 +50165,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-BEI-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49213,6 +50190,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-MAR</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49236,6 +50215,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-MAR-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49259,6 +50240,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-MBCO</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49282,6 +50265,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-MB-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49305,6 +50290,8 @@
       <sale_price>84990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-GRIS</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -49328,6 +50315,8 @@
       <sale_price>79990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>EA40-1010-GRI-F</mpn>
+      <internal_label>blackf_almohadones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>home_deco</internal_label>
     </item>
@@ -61413,6 +62402,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-MAIPO-N+NECE-VALLE-N</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61438,6 +62429,8 @@
       <sale_price>494990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-MAIPO-N+NECE-VALLE-CH</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61464,6 +62457,8 @@
       <sale_price>709990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-N+MOCHI-ANDINA-N</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61484,12 +62479,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-18-5-dc651bed0abe97ca9517889586841204-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-carry-on-7a9ffaab83599c806117889586810758-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>10</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>855580.00 ARS</price>
       <sale_price>709990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-N+MOCHI-ANDINA-CH</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61516,6 +62513,8 @@
       <sale_price>709990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-CH+MOCHI-ANDINA-N</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61536,12 +62535,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/product_1_2026-08-18-5-dc651bed0abe97ca9517889586841204-1024-1024.png</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-carry-on-7a9ffaab83599c806117889586810758-1024-1024.png</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>10</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>855580.00 ARS</price>
       <sale_price>709990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIOGP-CH+MOCHI-ANDINA-CH</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61761,6 +62762,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-CHO</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61787,6 +62790,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-MA</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61813,6 +62818,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-NE</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61839,6 +62846,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-CHO</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61865,6 +62874,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-MA</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -61891,6 +62902,8 @@
       <sale_price>206990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <mpn>NECE-VALLE-N+BILLETDOLAR-NE</mpn>
+      <internal_label>blackf_combotravel</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_marroquineria</internal_label>
       <internal_label>cyber_monday</internal_label>
     </item>
@@ -62008,7 +63021,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62133,7 +63146,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62258,7 +63271,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62383,7 +63396,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62408,7 +63421,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62433,7 +63446,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62458,7 +63471,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62483,7 +63496,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
@@ -62508,7 +63521,7 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-3000-bd47f83807e1d3f4a617757395573543-1024-1024-ca0866f2ce0f3ef90c17896604348832-1024-1024-1534f470f534f8845117896630470569-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/l-9000-6d09295f7d460a211d17757395592409-1024-1024-36aa01aac2bd82787d17896604025993-1024-1024-7a47c1506837a2557117896630478569-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139980.00 ARS</price>
       <sale_price>125990.00 ARS</sale_price>
