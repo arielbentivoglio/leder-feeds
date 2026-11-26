@@ -64,6 +64,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -83,6 +85,8 @@
       <price>599990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -103,6 +107,8 @@
       <price>649990.00 ARS</price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -180,12 +186,14 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/montana-marron-1c337c61dd9779e2ab17732466096808-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/006/872/288/products/montana-negro-cac81954ac079288fa17732466191823-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>8</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>3058812.00 ARS</price>
       <sale_price>2599990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
@@ -211,6 +219,8 @@
       <sale_price>3199990.00 ARS</sale_price>
       <brand>LEDER</brand>
       <custom_label_0>cyber_muebles</custom_label_0>
+      <internal_label>blackf_sillones</internal_label>
+      <internal_label>blackfriday</internal_label>
       <internal_label>cyber_monday</internal_label>
       <internal_label>cyber_muebles</internal_label>
     </item>
