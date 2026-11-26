@@ -1,7 +1,7 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-26 12:12:10
+ * Generado: 2026-11-26 12:31:54
  */
 (function () {
   'use strict';
@@ -81,7 +81,7 @@
         "etiqueta": "Set X2 Cueros De Oveja Natural 70x45 cm",
         "link": "https://lederhd.com/productos/set-x2-cueros-de-oveja-natural-70x45-cm/",
         "nueva_pestana": false,
-        "precio": 117635.0,
+        "precio": 109990.0,
         "tachado": 129990.0,
         "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/muflon-70x45-x-2-jpg-4a4dd96c7e2e6d16d817758353864569-1024-1024.jpg",
         "alt": "Set X2 Cueros De Oveja Natural 70x45 cm",
