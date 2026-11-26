@@ -1,13 +1,153 @@
 /**
  * hero-grilla.js — generado automaticamente por SyncPropio (Modulos Custom > Hero Grilla)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-24 14:58:07
+ * Generado: 2026-11-26 11:56:03
  */
 (function () {
   'use strict';
 
   var PREVIEW = false;
-  var HEROES = [];
+  var HEROES = [
+  {
+    "id": "carteras-de-cuero",
+    "stores": [
+      "ar"
+    ],
+    "page": "home",
+    "anchor": "section[data-store=\"home-slider\"]",
+    "position": "after",
+    "margin_top": 0,
+    "margin_bottom": 0,
+    "ancho_completo": true,
+    "titulo_destacado": "Carteras de Cuero",
+    "titulo_resto": "que duran toda la vida",
+    "subtitulo": "Cuero que dura toda la vida.\nOfertas solo por 4 días.",
+    "titulo_tamano": 96,
+    "texto_posicion": "izq",
+    "boton_texto": "Ver Ofertas",
+    "boton_link": "/carteras-de-cuero/",
+    "boton_interruptor": true,
+    "columnas": 3,
+    "columnas_mobile": 3,
+    "proporcion": "3:4",
+    "radio": 16,
+    "animacion": "fade",
+    "intervalo": 420,
+    "resplandor": true,
+    "respiracion": true,
+    "hover": true,
+    "fondo_oscurecer": 40,
+    "fondo_posicion": "centro",
+    "logo_ancho": 480,
+    "logo_ancho_mobile": 80,
+    "logo_modo": "reemplaza",
+    "logo_alt": "",
+    "mostrar_precio": true,
+    "mostrar_tachado": true,
+    "mostrar_descuento": true,
+    "precio_posicion": "debajo",
+    "tipo": "grilla",
+    "banner_link": "",
+    "banner_nueva_pestana": false,
+    "banner_alt": "",
+    "banner_ajuste": "completa",
+    "color_fondo": "#000000",
+    "color_texto": "#ffffff",
+    "color_resplandor": "#ffffff",
+    "grad_1": "#f2f2f2",
+    "grad_2": "#ffffff",
+    "grad_3": "#ffffff",
+    "boton_bg": "#ffffff",
+    "boton_tx": "#000000",
+    "etiqueta_bg": "#fbf9f5",
+    "etiqueta_tx": "#000000",
+    "descuento_bg": "#e5484d",
+    "descuento_tx": "#ffffff",
+    "banner_bg": "#000000",
+    "fondo_desktop": null,
+    "fondo_mobile": null,
+    "logo_desktop": {
+      "src": "https://cdn.jsdelivr.net/gh/arielbentivoglio/leder-feeds@main/modules/hero-grilla-carteras-de-cuero/logo-desktop/20261118134322566239-black-friday-logo-desktop.webp"
+    },
+    "logo_mobile": {
+      "src": "https://cdn.jsdelivr.net/gh/arielbentivoglio/leder-feeds@main/modules/hero-grilla-carteras-de-cuero/logo-mobile/20261118134324222442-black-friday-logo-mobile.webp"
+    },
+    "banner_desktop": null,
+    "banner_mobile": null,
+    "tiles": [
+      {
+        "tipo": "producto",
+        "etiqueta": "Set X2 Cueros De Oveja Natural 70x45 cm",
+        "link": "https://lederhd.com/productos/set-x2-cueros-de-oveja-natural-70x45-cm/",
+        "nueva_pestana": false,
+        "precio": 117635.0,
+        "tachado": 129990.0,
+        "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/muflon-70x45-x-2-jpg-4a4dd96c7e2e6d16d817758353864569-1024-1024.jpg",
+        "alt": "Set X2 Cueros De Oveja Natural 70x45 cm",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "tipo": "producto",
+        "etiqueta": "Silla BKF Cuero Vacuno Crash Desarmable",
+        "link": "https://lederhd.com/productos/silla-bkf-cuero-vacuno-crash-desarmable/",
+        "nueva_pestana": false,
+        "precio": 599990.0,
+        "tachado": 666655.0,
+        "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/sillon-bkf_3017-6da2d969dc10aa23d317695421023745-1024-1024.jpg",
+        "alt": "Silla BKF Cuero Vacuno Crash Desarmable",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "tipo": "producto",
+        "etiqueta": "Canasta Matera De Cuero Vacuno",
+        "link": "https://lederhd.com/productos/canasta-matera-de-cuero-vacuno/",
+        "nueva_pestana": false,
+        "precio": 89990.0,
+        "tachado": 112487.0,
+        "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/ambientada_matera_canasta_1_2026-10-20-9ab93aec1f662f5b4e17925012293925-1024-1024.webp",
+        "alt": "Canasta Matera De Cuero Vacuno",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "tipo": "producto",
+        "etiqueta": "Cartera Tote Luna De Cuero Vacuno - Blac",
+        "link": "https://lederhd.com/productos/cartera-tote-luna-de-cuero-vacuno-black/",
+        "nueva_pestana": false,
+        "precio": 249990.0,
+        "tachado": 357128.0,
+        "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/tote-luna-black-1-e1de36f17bb409546217832155096378-1024-1024.webp",
+        "alt": "Cartera Tote Luna De Cuero Vacuno - Black",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "tipo": "producto",
+        "etiqueta": "Mochila De Cuero Vacuno Andina - Dark Br",
+        "link": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-dark-brown/",
+        "nueva_pestana": false,
+        "precio": 319990.0,
+        "tachado": 355544.0,
+        "img": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochi-andina-ch-front-590058dc1294ca6f7d17831050688037-1024-1024.webp",
+        "alt": "Mochila De Cuero Vacuno Andina - Dark Brown",
+        "width": 0,
+        "height": 0
+      },
+      {
+        "tipo": "cta",
+        "etiqueta": "Cartera Tote Luna De Cuero Vacuno - Beig",
+        "link": "/black-friday/",
+        "nueva_pestana": false,
+        "cta_texto": "Ver todas las ofertas",
+        "cta_sub": "Hasta 40% OFF",
+        "cta_bg": "#F2BF1D",
+        "cta_tx": "#1B1815"
+      }
+    ]
+  }
+];
   var SLIDERS = [];
 
   var STORE = (function () {
