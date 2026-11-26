@@ -1,7 +1,7 @@
 /**
  * video-carousel.js — generado automaticamente por SyncPropio (panel de Carrusel de Videos)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-18 11:02:05
+ * Generado: 2026-11-26 12:06:11
  */
 (function () {
   'use strict';
@@ -241,11 +241,11 @@
         "linkTipo": "producto",
         "productoId": 353777968,
         "productoNombre": "Bolso De Cuero Vacuno Peak - Dark Brown",
-        "productoPrecio": "499990.00",
-        "productoPrecioTachado": "499990.00",
+        "productoPrecio": "429990.00",
+        "productoPrecioTachado": "537487.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/bolso-peak-chocolate-1-planchar-d984489ea8e9e9ad3217830833620098-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/bolso-de-viaje-peak-de-cuero-vacuno-dark-brown-1cfko/",
-        "productoCuotasTexto": "12 cuotas sin interés de $41.665,83",
+        "productoCuotasTexto": "9 cuotas sin interés de $47.776,67",
         "categoriaNombre": "",
         "categoriaUrl": ""
       },
@@ -309,11 +309,11 @@
         "linkTipo": "producto",
         "productoId": 353857136,
         "productoNombre": "Mochila De Cuero Vacuno Andina - Black",
-        "productoPrecio": "329990.00",
-        "productoPrecioTachado": "329990.00",
+        "productoPrecio": "319990.00",
+        "productoPrecioTachado": "355544.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/mochila-andina-black-frente-e2111184bf5f1f9edb17831051827744-1024-1024.webp",
         "productoUrl": "https://lederhd.com/productos/mochila-andina-de-cuero-vacuno-black/",
-        "productoCuotasTexto": "6 cuotas sin interés de $54.998,33",
+        "productoCuotasTexto": "6 cuotas sin interés de $53.331,67",
         "categoriaNombre": "",
         "categoriaUrl": ""
       },
@@ -326,11 +326,11 @@
         "linkTipo": "producto",
         "productoId": 329583210,
         "productoNombre": "Sillón Reclinable Masajeador De Cuero - Toronto",
-        "productoPrecio": "3199990.00",
-        "productoPrecioTachado": "3999988.00",
+        "productoPrecio": "2999990.00",
+        "productoPrecioTachado": "3999986.00",
         "productoImagen": "https://acdn-us.mitiendanube.com/stores/006/872/288/products/chatgpt-image-12-mar-2026-10_56_52-a-m-194aeb9cc9a2f133c217733238462892-1024-1024.png",
         "productoUrl": "https://lederhd.com/productos/sillon-reclinable-masajeador-de-cuero-toronto/",
-        "productoCuotasTexto": "12 cuotas sin interés de $266.665,83",
+        "productoCuotasTexto": "12 cuotas sin interés de $249.999,17",
         "categoriaNombre": "",
         "categoriaUrl": ""
       }
