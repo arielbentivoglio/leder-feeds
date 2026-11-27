@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:13:42
+ * Generado: 2026-11-27 14:15:28
  */
 (function () {
   "use strict";
@@ -821,7 +821,7 @@
     "mostrarDias": false,
     "textoChico": {
       "texto": "SOLO POR HOY 15% OFF EN CUEROS DE VACA - CUPÓN",
-      "color": "#f6f1e7",
+      "color": "#ff0000",
       "tamano": 11,
       "negrita": true,
       "cursiva": false
