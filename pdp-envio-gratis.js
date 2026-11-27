@@ -2,7 +2,7 @@
  * pdp-envio-gratis.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > PDP - Envio gratis)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:44:40
+ * Generado: 2026-11-27 14:44:47
  */
 (function () {
   "use strict";
