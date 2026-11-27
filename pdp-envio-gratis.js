@@ -2,7 +2,7 @@
  * pdp-envio-gratis.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > PDP - Envio gratis)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:44:47
+ * Generado: 2026-11-27 14:55:54
  */
 (function () {
   "use strict";
@@ -16,6 +16,7 @@
     "excepciones": [
       {
         "categoria": "muebles",
+        "tag": "",
         "ocultar": false,
         "texto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $99.990",
         "bg": "#f0f4e8",
@@ -33,6 +34,7 @@
     "excepciones": [
       {
         "categoria": "producto-con-plazo-de-entrega",
+        "tag": "",
         "ocultar": false,
         "texto": "⚠️  Producto a pedido vía importación. Entrega estimada: 30 a 45 días desde la compra",
         "bg": "#fdf6e3",
@@ -81,13 +83,31 @@
     return out;
   }
 
+  // Tags del producto (LS.product.tags), como string o como {name: ...}.
+  function tagsActuales() {
+    try {
+      return ((window.LS && window.LS.product && window.LS.product.tags) || []).map(function (t) {
+        return String(typeof t === "string" ? t : (t && t.name) || "").toLowerCase().trim();
+      });
+    } catch (e) { return []; }
+  }
+
   function elegirMensaje() {
     var cats = categoriasActuales();
+    var tags = tagsActuales();
     var exs = c.excepciones || [];
     for (var i = 0; i < exs.length; i++) {
-      if (exs[i].categoria && cats.indexOf(exs[i].categoria) !== -1) return exs[i];
+      var e = exs[i];
+      if (e.categoria && cats.indexOf(e.categoria) !== -1) return e;
+      if (e.tag && tags.indexOf(e.tag) !== -1) return e;
     }
     return c;
+  }
+
+  // Si hay excepciones por tag, se espera a que LS.product este disponible.
+  var usaTags = (c.excepciones || []).some(function (e) { return !!e.tag; });
+  function productoListo() {
+    return !usaTags || !!(window.LS && window.LS.product);
   }
 
   function insertar(form) {
@@ -110,7 +130,7 @@
   // todavia no lo hidrato, mismo reintento que el resto (40 x 150ms).
   function intentar(n) {
     var form = document.querySelector(FORM_SELECTOR);
-    if (form) { insertar(form); return; }
+    if (form && (productoListo() || n <= 0)) { insertar(form); return; }
     if (n > 0) setTimeout(function () { intentar(n - 1); }, 150);
   }
   intentar(40);
