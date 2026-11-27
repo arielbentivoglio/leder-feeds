@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 15:11:59
+ * Generado: 2026-11-27 15:27:25
  */
 (function () {
   "use strict";
@@ -263,7 +263,15 @@
   // theme hidrata el DOM de producto despues del DOMContentLoaded.
   function insertar(set, attemptsLeft) {
     attemptsLeft = attemptsLeft === undefined ? 40 : attemptsLeft;
-    if (document.getElementById("ldr-pdp-faq-mod")) return; // ya insertado
+    // Si ya existe un #ldr-pdp-faq-mod: si tiene data-set es nuestro (ya
+    // insertado, no duplicar). Si no lo tiene, es el placeholder vacio que
+    // dejo el FAQ viejo de Ecomclub en la plantilla de producto (mismo id,
+    // display:none) — se quita para que no bloquee la insercion.
+    var existente = document.getElementById("ldr-pdp-faq-mod");
+    if (existente) {
+      if (existente.getAttribute("data-set")) return; // ya insertado
+      existente.parentNode.removeChild(existente);
+    }
     var selector = set.anchorSelector || "#product_form";
     var anchor = document.querySelector(selector);
     if (!anchor) {
