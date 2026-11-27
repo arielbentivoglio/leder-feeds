@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 13:44:39
+ * Generado: 2026-11-27 13:45:49
  */
 (function () {
   "use strict";
@@ -566,7 +566,7 @@
     "alto": "",
     "marginTop": 0,
     "marginBottom": 0,
-    "link": "https://lederhd.com/discount/LEDERBLACK?redirect_to=/cueros-de-vaca/",
+    "link": "https://lederhd.com/cueros-de-vaca/",
     "fechaInicio": "2026-11-28 12:00",
     "fechaFin": "2026-11-29 00:00",
     "mostrarDias": false,
