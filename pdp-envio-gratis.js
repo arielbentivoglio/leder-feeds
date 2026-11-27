@@ -2,14 +2,14 @@
  * pdp-envio-gratis.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > PDP - Envio gratis)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:43:42
+ * Generado: 2026-11-27 14:44:40
  */
 (function () {
   "use strict";
   var CFG = {
   "ar": {
     "activo": true,
-    "texto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990 · Llega en 24hs hábiles",
+    "texto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $99.990 · Llega en 24hs hábiles",
     "bg": "#f0f4e8",
     "borde": "#c8d9a0",
     "color": "#555555",
@@ -17,7 +17,7 @@
       {
         "categoria": "muebles",
         "ocultar": false,
-        "texto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $149.990",
+        "texto": "🚚  Envío GRATIS a CABA y GBA En compras superiores a $99.990",
         "bg": "#f0f4e8",
         "borde": "#c8d9a0",
         "color": "#555555"
