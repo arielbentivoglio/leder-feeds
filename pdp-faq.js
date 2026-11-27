@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 15:34:17
+ * Generado: 2026-11-27 15:36:16
  */
 (function () {
   "use strict";
@@ -41,6 +41,7 @@
     "bgColor": "#ffffff",
     "accentColor": "#a87c4f",
     "textColor": "#1a1a1a",
+    "answerColor": "#564E44",
     "textSizeEyebrow": 13,
     "textSizePregunta": 16,
     "textSizeRespuesta": 15,
@@ -85,6 +86,7 @@
     "bgColor": "#ffffff",
     "accentColor": "#a87c4f",
     "textColor": "#1a1a1a",
+    "answerColor": "#564e44",
     "textSizeEyebrow": 13,
     "textSizePregunta": 16,
     "textSizeRespuesta": 15,
@@ -175,22 +177,32 @@
     return candidatos[0];
   }
 
+  // Diseno = calco exacto del CSS de Ecomclub (tomado del <style> que sigue
+  // en la plantilla de producto). Todo va prefijado con #ldr-pdp-faq-mod
+  // para ganarle en especificidad a esa hoja vieja (mismas clases
+  // .ldr-pfaq*), y cada propiedad que la vieja define se redefine aca, asi
+  // las dos hojas nunca se mezclan (antes el icono +/- quedaba roto: la
+  // vieja ponia top:6px;left:0 y la nuestra le sumaba translate(-50%,-50%)).
   function injectStyle() {
     if (document.getElementById("ldr-pfaq-style")) return;
+    var R = "#ldr-pdp-faq-mod ";
     var css =
-      ".ldr-pfaq{width:100%;font-family:inherit}" +
-      ".ldr-pfaq__wrap{max-width:800px;margin:0 auto;padding:32px 20px}" +
-      ".ldr-pfaq__head{margin-bottom:16px;text-align:center}" +
-      ".ldr-pfaq__eyebrow{margin:0;letter-spacing:.12em;text-transform:uppercase;font-weight:600;font-family:inherit}" +
-      ".ldr-pfaq__item{border-bottom:1px solid rgba(0,0,0,.12)}" +
-      ".ldr-pfaq__q{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:14px 2px;background:none;border:0;cursor:pointer;text-align:left;font-family:inherit}" +
-      ".ldr-pfaq__ic{position:relative;flex:0 0 16px;width:16px;height:16px}" +
-      ".ldr-pfaq__ic::before,.ldr-pfaq__ic::after{content:\"\";position:absolute;top:50%;left:50%;background:currentColor;transform:translate(-50%,-50%)}" +
-      ".ldr-pfaq__ic::before{width:12px;height:2px}" +
-      ".ldr-pfaq__ic::after{width:2px;height:12px;transition:transform .25s ease}" +
-      ".ldr-pfaq__item.is-open .ldr-pfaq__ic::after{transform:translate(-50%,-50%) rotate(90deg) scaleY(0)}" +
-      ".ldr-pfaq__a{max-height:0;overflow:hidden;transition:max-height .3s ease}" +
-      ".ldr-pfaq__a-in{padding:0 2px 14px;font-family:inherit}";
+      R + ".ldr-pfaq{box-sizing:border-box;width:100%;padding:72px 24px;font-family:var(--body-font,inherit)}" +
+      R + ".ldr-pfaq *," + R + ".ldr-pfaq *::before," + R + ".ldr-pfaq *::after{box-sizing:border-box}" +
+      R + ".ldr-pfaq__wrap{max-width:760px;margin:0 auto;padding:0;background:transparent}" +
+      R + ".ldr-pfaq__head{text-align:center;margin:0 0 36px}" +
+      R + ".ldr-pfaq__eyebrow{margin:0 0 12px;font-family:var(--body-font,inherit);font-weight:500;letter-spacing:.26em;text-transform:uppercase}" +
+      R + ".ldr-pfaq__item{border-top:1px solid #D8CDBA;border-bottom:0}" +
+      R + ".ldr-pfaq__item:last-child{border-bottom:1px solid #D8CDBA}" +
+      R + ".ldr-pfaq__q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 4px;margin:0;background:none;border:0;border-radius:0;cursor:pointer;text-align:left;line-height:1.4;font-family:var(--body-font,inherit)}" +
+      R + ".ldr-pfaq__ic{position:relative;display:block;flex:0 0 14px;width:14px;height:14px}" +
+      R + ".ldr-pfaq__ic::before," + R + ".ldr-pfaq__ic::after{content:\"\";position:absolute;background:currentColor;transform:none;transition:transform .3s}" +
+      R + ".ldr-pfaq__ic::before{top:6px;left:0;width:14px;height:1.5px}" +
+      R + ".ldr-pfaq__ic::after{top:0;left:6px;width:1.5px;height:14px}" +
+      R + ".ldr-pfaq__item.is-open .ldr-pfaq__ic::after{transform:scaleY(0)}" +
+      R + ".ldr-pfaq__a{overflow:hidden;max-height:0;transition:max-height .35s ease}" +
+      R + ".ldr-pfaq__a-in{padding:0 4px 24px;font-family:var(--body-font,inherit);font-weight:300;line-height:1.75}" +
+      "@media (max-width:768px){" + R + ".ldr-pfaq{padding:50px 18px}}";
     var st = document.createElement("style");
     st.id = "ldr-pfaq-style";
     st.textContent = css;
@@ -199,9 +211,12 @@
 
   function itemHtml(set, item, idx) {
     var color = set.textColor || "#1a1a1a";
-    var qSize = (parseInt(set.textSizePregunta, 10) || 16) + "px";
-    var aSize = (parseInt(set.textSizeRespuesta, 10) || 15) + "px";
-    var qWeight = set.textBold === false ? "400" : "600";
+    var qSize = (parseInt(set.textSizePregunta, 10) || 15) + "px";
+    var aSize = (parseInt(set.textSizeRespuesta, 10) || 14) + "px";
+    // Sin negrita = 500, el peso que usa Ecomclub (se ve "normal" con la
+    // tipografia del theme). Con negrita = 600.
+    var qWeight = set.textBold === false ? "500" : "600";
+    var aColor = set.answerColor || "#564E44";
     return (
       '<div class="ldr-pfaq__item" data-idx="' + idx + '">' +
         '<button type="button" class="ldr-pfaq__q" style="color:' + color + ';font-size:' + qSize + ";font-weight:" + qWeight + '">' +
@@ -209,7 +224,7 @@
           '<span class="ldr-pfaq__ic" style="color:' + (set.accentColor || "#a87c4f") + '"></span>' +
         "</button>" +
         '<div class="ldr-pfaq__a">' +
-          '<div class="ldr-pfaq__a-in" style="color:' + color + ";font-size:" + aSize + '">' + esc(item.respuesta) + "</div>" +
+          '<div class="ldr-pfaq__a-in" style="color:' + aColor + ";font-size:" + aSize + '">' + esc(item.respuesta) + "</div>" +
         "</div>" +
       "</div>"
     );
@@ -218,15 +233,15 @@
   function buildHtml(set) {
     var items = (set.items || []).filter(function (it) { return it && it.pregunta && it.respuesta; });
     if (!items.length) return "";
-    var eyebrowSize = (parseInt(set.textSizeEyebrow, 10) || 13) + "px";
+    var eyebrowSize = (parseInt(set.textSizeEyebrow, 10) || 10) + "px";
     var eyebrowHtml = set.eyebrow
       ? '<p class="ldr-pfaq__eyebrow" style="color:' + (set.accentColor || "#a87c4f") + ";font-size:" + eyebrowSize + '">' + esc(set.eyebrow) + "</p>"
       : "";
     var itemsHtml = items.map(function (it, i) { return itemHtml(set, it, i); }).join("");
     return (
       '<div id="ldr-pdp-faq-mod" data-set="' + esc(set.id) + '">' +
-        '<section class="ldr-pfaq">' +
-          '<div class="ldr-pfaq__wrap" style="background:' + (set.bgColor || "#ffffff") + '">' +
+        '<section class="ldr-pfaq" style="background:' + (set.bgColor || "#ffffff") + '">' +
+          '<div class="ldr-pfaq__wrap">' +
             '<div class="ldr-pfaq__head">' + eyebrowHtml + "</div>" +
             itemsHtml +
           "</div>" +
