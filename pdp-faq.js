@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 15:29:02
+ * Generado: 2026-11-27 15:30:23
  */
 (function () {
   "use strict";
@@ -45,6 +45,50 @@
     "textSizePregunta": 16,
     "textSizeRespuesta": 15,
     "textBold": false
+  },
+  {
+    "id": "faq-ar",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": [],
+      "labels": []
+    },
+    "anchorSelector": "[data-store=\"footer\"]",
+    "anchorPosition": "before",
+    "eyebrow": "Preguntas frecuentes",
+    "items": [
+      {
+        "pregunta": "¿Hacen envíos a todo el país?",
+        "respuesta": "Sí, enviamos a todo el país."
+      },
+      {
+        "pregunta": "¿En cuántas cuotas puedo pagar?",
+        "respuesta": "Podés pagar en 3 sin interes, 6 a partir de $ 149.990, 9 a partir de $399990 y 12 a partir de $ 499.990"
+      },
+      {
+        "pregunta": "¿Tienen descuento por transferencia?",
+        "respuesta": "Sí, pagando por transferencia tenés 15% de descuento. Aclaración: El cuit/dni de la persona que realiza el pedido es el que debe transferir, sino la operación se rechaza de forma automática"
+      },
+      {
+        "pregunta": "¿Puedo cambiar o devolver el producto?",
+        "respuesta": "Sí, aceptamos cambios y devoluciones. No mas de 30 días. Cambios en locales únicamente con Factura. El estado del producto debe ser el mismo que el entregado."
+      },
+      {
+        "pregunta": "¿De qué material es?",
+        "respuesta": "Cuero de origen argentino, con fabricación propia y terminación artesanal."
+      }
+    ],
+    "bgColor": "#ffffff",
+    "accentColor": "#a87c4f",
+    "textColor": "#1a1a1a",
+    "textSizeEyebrow": 13,
+    "textSizePregunta": 16,
+    "textSizeRespuesta": 15,
+    "textBold": true
   }
 ];
 
