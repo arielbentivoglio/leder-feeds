@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 13:52:55
+ * Generado: 2026-11-27 14:12:23
  */
 (function () {
   "use strict";
@@ -856,8 +856,8 @@
       "border_color": "#c6a875",
       "border_width": 1
     },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
+    "bgColor": "#000000",
+    "textColor": "#ffffff",
     "accentColor": "#211913",
     "borderColor": "#c6a875",
     "borderWidth": 0
