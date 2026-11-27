@@ -1,7 +1,7 @@
 /**
  * pdp-faq.js — generado automaticamente por SyncPropio (panel de Modulos Custom > PDP - FAQ)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 15:30:23
+ * Generado: 2026-11-27 15:34:17
  */
 (function () {
   "use strict";
@@ -67,7 +67,7 @@
       },
       {
         "pregunta": "¿En cuántas cuotas puedo pagar?",
-        "respuesta": "Podés pagar en 3 sin interes, 6 a partir de $ 149.990, 9 a partir de $399990 y 12 a partir de $ 499.990"
+        "respuesta": "Podés pagar en 3 sin interés, 6 sin interés a partir de $ 149.990, 9 sin interés a partir de $399990 y 12 sin interés a partir de $ 499.990"
       },
       {
         "pregunta": "¿Tienen descuento por transferencia?",
