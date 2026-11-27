@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 13:45:49
+ * Generado: 2026-11-27 13:49:21
  */
 (function () {
   "use strict";
@@ -579,6 +579,70 @@
     },
     "titulo": {
       "texto": "ENVIO GRATIS A TODO EL PAIS EN CUEROS DE VACA",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "aclaracion": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false,
+      "opacidad": 60
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#211913",
+    "textColor": "#f6f1e7",
+    "accentColor": "#211913",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-bf-cupon-carteras",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "https://lederhd.com/discount/BLACKLEDER?redirect_to=/cueros-de-vaca/",
+    "fechaInicio": "2026-11-29 12:00",
+    "fechaFin": "2026-11-30 00:00",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "CUPON - EXTRA 10% EN BOLSOS Y CARTERAS",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "LEDERBLACK",
       "color": "#f6f1e7",
       "tamano": 15,
       "negrita": true,
