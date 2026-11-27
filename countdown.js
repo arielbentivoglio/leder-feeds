@@ -1,7 +1,7 @@
 /**
  * countdown.js — generado automaticamente por SyncPropio (panel de Countdown)
  * No editar a mano: los cambios se pisan en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:13:09
+ * Generado: 2026-11-27 14:13:31
  */
 (function () {
   "use strict";
@@ -356,70 +356,6 @@
       "texto": "",
       "color": "#f6f1e7",
       "tamano": 8,
-      "negrita": false,
-      "cursiva": false,
-      "opacidad": 60
-    },
-    "digitos": {
-      "color": "#f6f1e7",
-      "tamano": 18,
-      "negrita": true,
-      "cursiva": false,
-      "border_color": "#c6a875",
-      "border_width": 1
-    },
-    "bgColor": "#211913",
-    "textColor": "#f6f1e7",
-    "accentColor": "#211913",
-    "borderColor": "#c6a875",
-    "borderWidth": 0
-  },
-  {
-    "id": "countdown-bf-cupon-cueros-de-vaca",
-    "activo": true,
-    "stores": [
-      "ar"
-    ],
-    "alcance": {
-      "tipo": "todos",
-      "valores": []
-    },
-    "posicion": "top",
-    "anchorSelector": "",
-    "anchorPosition": "before",
-    "sticky": false,
-    "alto": "",
-    "marginTop": 0,
-    "marginBottom": 0,
-    "link": "https://lederhd.com/discount/LEDERBLACK?redirect_to=/cueros-de-vaca/",
-    "fechaInicio": "2026-11-27 12:00",
-    "fechaFin": "2026-11-28 00:00",
-    "mostrarDias": false,
-    "textoChico": {
-      "texto": "SOLO POR HOY 15% OFF EN CUEROS DE VACA - CUPÓN",
-      "color": "#f6f1e7",
-      "tamano": 11,
-      "negrita": false,
-      "cursiva": false
-    },
-    "titulo": {
-      "texto": "LEDERBLACK",
-      "color": "#f6f1e7",
-      "tamano": 15,
-      "negrita": true,
-      "cursiva": false
-    },
-    "etiqueta": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 12,
-      "negrita": false,
-      "cursiva": false
-    },
-    "aclaracion": {
-      "texto": "",
-      "color": "#f6f1e7",
-      "tamano": 11,
       "negrita": false,
       "cursiva": false,
       "opacidad": 60
@@ -816,6 +752,70 @@
     "marginTop": 0,
     "marginBottom": 0,
     "link": "",
+    "fechaInicio": "2026-11-27 12:00",
+    "fechaFin": "2026-11-28 00:00",
+    "mostrarDias": false,
+    "textoChico": {
+      "texto": "SOLO POR HOY 15% OFF EN CUEROS DE VACA - CUPÓN",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false
+    },
+    "titulo": {
+      "texto": "LEDERBLACK",
+      "color": "#f6f1e7",
+      "tamano": 15,
+      "negrita": true,
+      "cursiva": false
+    },
+    "etiqueta": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 12,
+      "negrita": false,
+      "cursiva": false
+    },
+    "aclaracion": {
+      "texto": "",
+      "color": "#f6f1e7",
+      "tamano": 11,
+      "negrita": false,
+      "cursiva": false,
+      "opacidad": 60
+    },
+    "digitos": {
+      "color": "#f6f1e7",
+      "tamano": 18,
+      "negrita": true,
+      "cursiva": false,
+      "border_color": "#c6a875",
+      "border_width": 1
+    },
+    "bgColor": "#000000",
+    "textColor": "#ffffff",
+    "accentColor": "#000000",
+    "borderColor": "#c6a875",
+    "borderWidth": 0
+  },
+  {
+    "id": "countdown-bf-cupon-cueros-de-vaca",
+    "activo": true,
+    "stores": [
+      "ar"
+    ],
+    "alcance": {
+      "tipo": "todos",
+      "valores": []
+    },
+    "posicion": "top",
+    "anchorSelector": "",
+    "anchorPosition": "before",
+    "sticky": false,
+    "alto": "",
+    "marginTop": 0,
+    "marginBottom": 0,
+    "link": "https://lederhd.com/discount/LEDERBLACK?redirect_to=/cueros-de-vaca/",
     "fechaInicio": "2026-11-27 12:00",
     "fechaFin": "2026-11-28 00:00",
     "mostrarDias": false,
