@@ -2,7 +2,7 @@
  * pdp-envio-gratis.js -- generado automaticamente por SyncPropio
  * (panel Modulos Custom > PDP - Envio gratis)
  * No editar a mano: se pisa en la proxima publicacion desde el panel.
- * Generado: 2026-11-27 14:55:54
+ * Generado: 2026-11-27 14:56:13
  */
 (function () {
   "use strict";
@@ -34,7 +34,7 @@
     "excepciones": [
       {
         "categoria": "producto-con-plazo-de-entrega",
-        "tag": "",
+        "tag": "plazo-entrega",
         "ocultar": false,
         "texto": "⚠️  Producto a pedido vía importación. Entrega estimada: 30 a 45 días desde la compra",
         "bg": "#fdf6e3",
