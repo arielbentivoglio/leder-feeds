@@ -16,8 +16,10 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>239990.00 CLP</price>
+      <sale_price>189990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-01</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1511409060</id>
@@ -31,8 +33,10 @@
       <quantity_to_sell_on_facebook>5</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>239990.00 CLP</price>
+      <sale_price>189990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>LBOLSO-02</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1641348267</id>
@@ -45,7 +49,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>299990.00 CLP</price>
-      <sale_price>249990.00 CLP</sale_price>
+      <sale_price>229990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-3001</mpn>
     </item>
@@ -60,7 +64,7 @@
       <quantity_to_sell_on_facebook>11</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>169990.00 CLP</sale_price>
+      <sale_price>149990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-ATIGRADOCLARO</mpn>
     </item>
@@ -97,7 +101,7 @@
       <quantity_to_sell_on_facebook>7</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>259990.00 CLP</price>
-      <sale_price>219990.00 CLP</sale_price>
+      <sale_price>209990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-3000</mpn>
     </item>
@@ -117,7 +121,7 @@
       <quantity_to_sell_on_facebook>5</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>159990.00 CLP</sale_price>
+      <sale_price>139990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-ATIGRADO</mpn>
     </item>
@@ -135,7 +139,7 @@
       <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>259990.00 CLP</price>
-      <sale_price>219990.00 CLP</sale_price>
+      <sale_price>200990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-5000</mpn>
     </item>
@@ -153,7 +157,7 @@
       <quantity_to_sell_on_facebook>14</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>159990.00 CLP</sale_price>
+      <sale_price>139990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-HOLANDO</mpn>
     </item>
@@ -870,8 +874,10 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149990.00 CLP</price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIO-V14</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1511412566</id>
@@ -888,8 +894,10 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149990.00 CLP</price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIO-V81</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1511412563</id>
@@ -906,8 +914,10 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>149990.00 CLP</price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>PORTAFOLIO-V62</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1511412623</id>
@@ -970,6 +980,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>179990.00 CLP</price>
+      <sale_price>159990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MOCHI-V62</mpn>
     </item>
@@ -986,6 +997,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>179990.00 CLP</price>
+      <sale_price>159990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MOCHI-V81</mpn>
     </item>
@@ -1006,7 +1018,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>174990.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V21</mpn>
     </item>
@@ -1027,7 +1039,7 @@
       <quantity_to_sell_on_facebook>7</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>174990.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V81</mpn>
     </item>
@@ -1045,10 +1057,10 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/matera-v81-b1f256292cd496853617804030902238-1024-1024.webp</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/matera-v62_-b11b1e595d4cde777e17804030902427-1024-1024.webp</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>7</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>174990.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-V62</mpn>
     </item>
@@ -1424,6 +1436,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>49990.00 CLP</price>
+      <sale_price>39000.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV05</mpn>
     </item>
@@ -1443,6 +1456,7 @@
       <quantity_to_sell_on_facebook>4</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>49990.00 CLP</price>
+      <sale_price>39000.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV81</mpn>
     </item>
@@ -1462,6 +1476,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>49990.00 CLP</price>
+      <sale_price>39000.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MINIB-CV62</mpn>
     </item>
@@ -2093,7 +2108,7 @@
       <quantity_to_sell_on_facebook>7</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>144433.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>ALD-2000</mpn>
     </item>
@@ -2113,7 +2128,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>144433.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>ALD-N55</mpn>
     </item>
@@ -2133,7 +2148,7 @@
       <quantity_to_sell_on_facebook>4</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>144433.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>ALD-5000</mpn>
     </item>
@@ -2150,10 +2165,10 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/ald-n55-8291d837df96b2f21817688479835134-1024-1024-c9a805754b9c09561f17867146500226-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/ald-2000-36dc664fa002751d8f17688480854372-1024-1024-1fda2d1e039f18fdb517867146513504-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>4</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>144433.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>109990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>ALD-15000</mpn>
     </item>
@@ -2319,7 +2334,7 @@
       <quantity_to_sell_on_facebook>15</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>259990.00 CLP</price>
-      <sale_price>199990.00 CLP</sale_price>
+      <sale_price>179990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-4000</mpn>
     </item>
@@ -2342,7 +2357,7 @@
       <quantity_to_sell_on_facebook>15</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>149990.00 CLP</sale_price>
+      <sale_price>129990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-MARRON</mpn>
     </item>
@@ -2360,7 +2375,7 @@
       <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>259990.00 CLP</price>
-      <sale_price>199990.00 CLP</sale_price>
+      <sale_price>179990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-2000</mpn>
     </item>
@@ -2378,7 +2393,7 @@
       <quantity_to_sell_on_facebook>13</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>149990.00 CLP</sale_price>
+      <sale_price>129990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-NEGRO</mpn>
     </item>
@@ -2395,7 +2410,7 @@
       <quantity_to_sell_on_facebook>5</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>299990.00 CLP</price>
-      <sale_price>239990.00 CLP</sale_price>
+      <sale_price>209990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-7000</mpn>
     </item>
@@ -2412,7 +2427,7 @@
       <quantity_to_sell_on_facebook>16</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>179990.00 CLP</sale_price>
+      <sale_price>159990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-BEIGE</mpn>
     </item>
@@ -2501,7 +2516,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>162490.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-VL</mpn>
     </item>
@@ -2518,7 +2533,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>162490.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERA-VD</mpn>
     </item>
@@ -3799,6 +3814,7 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139990.00 CLP</price>
+      <sale_price>111990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-HEREFORD</mpn>
     </item>
@@ -3818,6 +3834,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139990.00 CLP</price>
+      <sale_price>111990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-HOLANDO</mpn>
     </item>
@@ -3835,6 +3852,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139990.00 CLP</price>
+      <sale_price>111990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-LEOPARDO</mpn>
     </item>
@@ -3853,6 +3871,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>139990.00 CLP</price>
+      <sale_price>111990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTE-SPLIT</mpn>
     </item>
@@ -3869,9 +3888,10 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>244433.00 CLP</price>
-      <sale_price>199990.00 CLP</sale_price>
+      <sale_price>173390.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V81</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1579784167</id>
@@ -3886,9 +3906,10 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>244433.00 CLP</price>
-      <sale_price>199990.00 CLP</sale_price>
+      <sale_price>173390.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>BOLSO-V62</mpn>
+      <internal_label>bolsos_de_cuero</internal_label>
     </item>
     <item>
       <id>1587416723</id>
@@ -3905,6 +3926,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>159990.00 CLP</price>
+      <sale_price>127990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILY-VL</mpn>
     </item>
@@ -3922,6 +3944,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>159990.00 CLP</price>
+      <sale_price>127990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILY-VD</mpn>
     </item>
@@ -3973,6 +3996,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>159990.00 CLP</price>
+      <sale_price>127990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILY-V81</mpn>
     </item>
@@ -3990,6 +4014,7 @@
       <quantity_to_sell_on_facebook>2</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>159990.00 CLP</price>
+      <sale_price>127990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILY-CV62</mpn>
     </item>
@@ -4007,6 +4032,7 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>159990.00 CLP</price>
+      <sale_price>127990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>CARTLILY-CV14</mpn>
     </item>
@@ -4043,6 +4069,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>144990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-V62</mpn>
     </item>
@@ -4061,6 +4088,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>144990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-V81</mpn>
     </item>
@@ -4079,6 +4107,7 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>144990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-VD</mpn>
     </item>
@@ -4097,6 +4126,7 @@
       <quantity_to_sell_on_facebook>4</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>144990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-VL</mpn>
     </item>
@@ -4112,7 +4142,7 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>162490.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V81</mpn>
     </item>
@@ -4129,7 +4159,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>162490.00 CLP</price>
-      <sale_price>129990.00 CLP</sale_price>
+      <sale_price>122490.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>MATERAC-V62</mpn>
     </item>
@@ -4145,7 +4175,7 @@
       <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>93320.00 CLP</price>
-      <sale_price>69990.00 CLP</sale_price>
+      <sale_price>44990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-T3</mpn>
     </item>
@@ -4175,7 +4205,7 @@
       <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>93320.00 CLP</price>
-      <sale_price>69990.00 CLP</sale_price>
+      <sale_price>44990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-T7</mpn>
     </item>
@@ -4189,7 +4219,7 @@
       <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>93320.00 CLP</price>
-      <sale_price>69990.00 CLP</sale_price>
+      <sale_price>44990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>BILLETGRD-T1</mpn>
     </item>
@@ -4206,10 +4236,10 @@
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/e-1000-cuero-vacuno-marron-y-blanco-reverso-e39011c76b8517a91d17718529418092-1024-1024-270c76a3b1a5dc31fc17909784253480-1024-1024.jpg</additional_image_link>
       <additional_image_link>https://acdn-us.mitiendanube.com/stores/007/542/985/products/mano-hereford-2-b2ca2c47c5903955e617718529541298-1024-1024-7dbf85b5f8908cafd717909784252610-1024-1024.jpg</additional_image_link>
       <availability>in stock</availability>
-      <quantity_to_sell_on_facebook>12</quantity_to_sell_on_facebook>
+      <quantity_to_sell_on_facebook>11</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>259990.00 CLP</price>
-      <sale_price>219990.00 CLP</sale_price>
+      <sale_price>199990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>E-1000</mpn>
     </item>
@@ -4229,7 +4259,7 @@
       <quantity_to_sell_on_facebook>6</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>159990.00 CLP</sale_price>
+      <sale_price>139990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-MARBCO</mpn>
     </item>
@@ -4250,6 +4280,7 @@
       <quantity_to_sell_on_facebook>0</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>152990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-HERV14</mpn>
     </item>
@@ -4279,6 +4310,7 @@
       <quantity_to_sell_on_facebook>1</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>169990.00 CLP</price>
+      <sale_price>152990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>TOTEMIA-HOL-V62</mpn>
     </item>
@@ -4360,7 +4392,7 @@
       <quantity_to_sell_on_facebook>8</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>249990.00 CLP</price>
-      <sale_price>169990.00 CLP</sale_price>
+      <sale_price>159990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-ATIGRADOOSCURO</mpn>
     </item>
@@ -4376,7 +4408,7 @@
       <quantity_to_sell_on_facebook>3</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>199990.00 CLP</price>
-      <sale_price>189990.00 CLP</sale_price>
+      <sale_price>169990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-SYP</mpn>
     </item>
@@ -4392,7 +4424,7 @@
       <quantity_to_sell_on_facebook>9</quantity_to_sell_on_facebook>
       <condition>new</condition>
       <price>249990.00 CLP</price>
-      <sale_price>169990.00 CLP</sale_price>
+      <sale_price>149990.00 CLP</sale_price>
       <brand>LEDER</brand>
       <mpn>XS-ATIGRADOM</mpn>
     </item>
